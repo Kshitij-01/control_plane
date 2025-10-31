@@ -1,0 +1,464 @@
+{
+  "dataset_summary": {
+    "row_count": 18,
+    "column_count": 30,
+    "columns": [
+      "invoice_id",
+      "purchase_order_id",
+      "client_txn_id",
+      "distributor_name",
+      "distributor_tax_id_digits",
+      "distributor_phone_e164",
+      "distributor_email",
+      "retailer_name",
+      "retailer_tax_id_digits",
+      "retailer_phone_e164",
+      "retailer_email",
+      "bill_to_line1",
+      "bill_to_city",
+      "bill_to_state",
+      "bill_to_postal",
+      "bill_to_country_code",
+      "ship_to_line1",
+      "ship_to_city",
+      "ship_to_state",
+      "ship_to_postal",
+      "ship_to_country_code",
+      "invoice_date_iso",
+      "due_date_iso",
+      "ship_date_iso",
+      "subtotal_usd",
+      "discount_usd",
+      "tax_usd",
+      "total_usd",
+      "currency_alpha",
+      "shipment_weight_lb"
+    ]
+  },
+  "columns": [
+    {
+      "column_name": "invoice_id",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "INV-2025-7000",
+        "INV-2025-7001",
+        "INV-2025-7002",
+        "INV-2025-7003",
+        "INV-2025-7004"
+      ]
+    },
+    {
+      "column_name": "purchase_order_id",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "PO-RET-9500",
+        "PO-MFG-9501",
+        "PO-MFG-9502",
+        "PO-OPS-9503",
+        "PO-OPS-9504"
+      ]
+    },
+    {
+      "column_name": "client_txn_id",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "TXN005000",
+        "TXN005001",
+        "TXN005002",
+        "TXN005003",
+        "TXN005004"
+      ]
+    },
+    {
+      "column_name": "distributor_name",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 8,
+      "sample_values": [
+        "ABC Supplies",
+        "XYZ Corp",
+        "DEF Imports",
+        "GHI Logistics",
+        "JKL Metals"
+      ]
+    },
+    {
+      "column_name": "distributor_tax_id_digits",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 8,
+      "sample_values": [
+        "123456789",
+        "987654321",
+        "112233445",
+        "223344556",
+        "334455667"
+      ]
+    },
+    {
+      "column_name": "distributor_phone_e164",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "+19575166824",
+        "+13057037383",
+        "+15623403251",
+        "+19414142709",
+        "+13034299549"
+      ]
+    },
+    {
+      "column_name": "distributor_email",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 8,
+      "sample_values": [
+        "sales@abcdistributors.com",
+        "sales@xyzwholesale.com",
+        "sales@deftradingco.com",
+        "sales@ghilogistics.com",
+        "sales@jklmetals.com"
+      ]
+    },
+    {
+      "column_name": "retailer_name",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 1,
+      "sample_values": [
+        "XYZ Retail Store",
+        "XYZ Retail Store",
+        "XYZ Retail Store",
+        "XYZ Retail Store",
+        "XYZ Retail Store"
+      ]
+    },
+    {
+      "column_name": "retailer_tax_id_digits",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 1,
+      "sample_values": [
+        "778899001",
+        "778899001",
+        "778899001",
+        "778899001",
+        "778899001"
+      ]
+    },
+    {
+      "column_name": "retailer_phone_e164",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "+13102055573",
+        "+14647744748",
+        "+16638647820",
+        "+15866021239",
+        "+14448754279"
+      ]
+    },
+    {
+      "column_name": "retailer_email",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 1,
+      "sample_values": [
+        "ap@xyzretail.com",
+        "ap@xyzretail.com",
+        "ap@xyzretail.com",
+        "ap@xyzretail.com",
+        "ap@xyzretail.com"
+      ]
+    },
+    {
+      "column_name": "bill_to_line1",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "149 Maple Ave",
+        "5175 Maple Ave",
+        "3875 Maple Ave",
+        "6336 Maple Ave",
+        "2374 Maple Ave"
+      ]
+    },
+    {
+      "column_name": "bill_to_city",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 8,
+      "sample_values": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Houston",
+        "Phoenix"
+      ]
+    },
+    {
+      "column_name": "bill_to_state",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 7,
+      "sample_values": [
+        "NY",
+        "CA",
+        "IL",
+        "TX",
+        "AZ"
+      ]
+    },
+    {
+      "column_name": "bill_to_postal",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 8,
+      "sample_values": [
+        "10001",
+        "90012",
+        "60601",
+        "77002",
+        "85004"
+      ]
+    },
+    {
+      "column_name": "bill_to_country_code",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 1,
+      "sample_values": [
+        "US",
+        "US",
+        "US",
+        "US",
+        "US"
+      ]
+    },
+    {
+      "column_name": "ship_to_line1",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "9822 Main St",
+        "3456 Market St",
+        "2646 Broadway St",
+        "6751 Market St",
+        "7197 Broadway St"
+      ]
+    },
+    {
+      "column_name": "ship_to_city",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 8,
+      "sample_values": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Houston",
+        "Phoenix"
+      ]
+    },
+    {
+      "column_name": "ship_to_state",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 7,
+      "sample_values": [
+        "NY",
+        "CA",
+        "IL",
+        "TX",
+        "AZ"
+      ]
+    },
+    {
+      "column_name": "ship_to_postal",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "63619",
+        "10436",
+        "16686",
+        "72942",
+        "77557"
+      ]
+    },
+    {
+      "column_name": "ship_to_country_code",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 1,
+      "sample_values": [
+        "US",
+        "US",
+        "US",
+        "US",
+        "US"
+      ]
+    },
+    {
+      "column_name": "invoice_date_iso",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "2025-09-01",
+        "2025-09-03",
+        "2025-09-05",
+        "2025-09-07",
+        "2025-09-09"
+      ]
+    },
+    {
+      "column_name": "due_date_iso",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "2025-10-31",
+        "2025-10-03",
+        "2025-11-04",
+        "2025-10-07",
+        "2025-10-09"
+      ]
+    },
+    {
+      "column_name": "ship_date_iso",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 17,
+      "sample_values": [
+        "2025-09-05",
+        "2025-09-04",
+        "2025-09-07",
+        "2025-09-11",
+        "2025-09-13"
+      ]
+    },
+    {
+      "column_name": "subtotal_usd",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "$3,075.83",
+        "$18,745.61",
+        "$23,361.79",
+        "$30,795.21",
+        "$29,283.80"
+      ]
+    },
+    {
+      "column_name": "discount_usd",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 14,
+      "sample_values": [
+        "-$61.52",
+        "-$374.91",
+        "-$467.24",
+        "-$615.90",
+        "-$585.68"
+      ]
+    },
+    {
+      "column_name": "tax_usd",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "$150.72",
+        "$918.54",
+        "$1,144.73",
+        "$1,508.97",
+        "$1,434.91"
+      ]
+    },
+    {
+      "column_name": "total_usd",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "$3,165.03",
+        "$19,289.24",
+        "$24,039.28",
+        "$31,688.28",
+        "$30,133.03"
+      ]
+    },
+    {
+      "column_name": "currency_alpha",
+      "dtype": "object",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 1,
+      "sample_values": [
+        "USD",
+        "USD",
+        "USD",
+        "USD",
+        "USD"
+      ]
+    },
+    {
+      "column_name": "shipment_weight_lb",
+      "dtype": "float64",
+      "null_count": 0,
+      "non_null_count": 18,
+      "distinct_count": 18,
+      "sample_values": [
+        "227.08",
+        "934.76",
+        "343.92",
+        "1053.81",
+        "665.8"
+      ]
+    }
+  ],
+  "data_quality": {
+    "issues_found": 0,
+    "issues": []
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "task_id": "brca_unknown_archive_analysis",
+  "description": "COMPLEX AND COMPLETE analysis job: This is a LARGE dataset (~390MB compressed, ~1.3GB uncompressed). Comprehensive discovery, structure analysis, and exploratory data analysis (EDA) of unknown compressed archive (brca_tcga.tar.gz). No assumptions about contents - system must discover and adapt analysis based on what is found inside. CRITICAL: This is a BIG dataset - DO NOT MISS ANYTHING. EVERY file, EVERY operation, EVERY insight must be covered. This is a complete, thorough job that requires attention to detail.",
+  "task_type": "exploratory_data_analysis",
+  "priority": 1,
+  "phase_config": {
+    "skip_phase_0": false,
+    "skip_phase_1": false,
+    "enable_phase_2": true
+  },
+  "input_data": {
+    "source_type": "compressed_archive",
+    "source_path": "brca_tcga.tar.gz",
+    "description": "Unknown compressed archive - contents must be discovered and analyzed systematically"
+  },
+  "user_uploads": [
+    {
+      "source": "New folder/brca_tcga.tar.gz",
+      "filename": "brca_tcga.tar.gz"
+    }
+  ],
+  "transformation_config": {
+    "skip_side_tasks": true
+  },
+  "execution_preferences": {
+    "max_retries": 7,
+    "worker_model": "claude-sonnet-4",
+    "boss_model": "gpt-5-turbo-preview",
+    "enable_verification": true,
+    "batch_mode": "adaptive_discovery",
+    "worker_instructions": "You are performing a COMPLEX AND COMPLETE exploratory analysis of a LARGE UNKNOWN dataset (~390MB compressed, ~1.3GB uncompressed with 57+ files). This is a BIG dataset - DO NOT MISS ANYTHING. Make NO assumptions about what's inside. Your job is to: (1) Extract and inventory EVERYTHING - every file, every directory, every data type, (2) Discover what types of data exist - analyze ALL files, not just a sample, (3) Understand the structure and relationships COMPLETELY - map all connections, (4) Perform appropriate EDA based on what you find - be thorough and comprehensive, (5) Generate insights and visualizations that match the data types discovered. Be systematic, thorough, and adaptive. Let the data guide your analysis approach, but ensure 100% coverage. CRITICAL REQUIREMENTS: (a) This is a COMPLETE job - analyze EVERY file, document EVERY operation, cover EVERY aspect, (b) When generating the final comprehensive report, it MUST document EVERYTHING from initial data structure through all operations with explanations of WHY each operation was performed, (c) The report must also explain what the data means in biological/domain context, not just what technical operations were done, (d) Think of it as a complete research narrative that tells the FULL story of the analysis with NO gaps, (e) Do not skip files or operations - this dataset is large and complex, requiring complete coverage, (f) MOST IMPORTANT FOR FINAL REPORT: The report MUST contain A LOT of EDA plots (dozens, not just a few), A LOT of explanations (detailed explanations for every plot, summary, and finding), A LOT of data summaries (comprehensive summaries for all variables), and A LOT of interpretation (deep interpretation of what everything means in context). The final report should be visualization-rich and explanation-heavy."
+  },
+  "high_level_goal": "COMPLEX AND COMPLETE analysis job: Perform a COMPREHENSIVE discovery and analysis of this LARGE archive (~390MB compressed, ~1.3GB uncompressed, 57+ files). The system should intelligently determine what types of analyses are appropriate based on the actual data found, not on predefined assumptions. CRITICAL: This is a BIG dataset - ensure 100% coverage. Every file must be analyzed, every data type must be understood, every operation must be documented, every insight must be captured. This is not a quick analysis - it's a complete, thorough, complex job that requires comprehensive attention to detail.",
+  "discovery_and_analysis_workflow": [
+    "STEP 1: Extract archive and perform complete structural inventory",
+    "STEP 2: Identify and catalog all file types, formats, and structures",
+    "STEP 3: Discover data schemas, relationships, and hierarchies",
+    "STEP 4: Perform format-specific parsing and initial data profiling",
+    "STEP 5: Conduct comprehensive EDA appropriate to discovered data types",
+    "STEP 6: Perform cross-file integration and relationship analysis",
+    "STEP 7: Generate statistical insights and advanced analytics",
+    "STEP 8: Create comprehensive report with all findings and visualizations"
+  ],
+  "required_deliverables": {
+    "phase_1_discovery": [
+      "archive_extraction_log.txt - Detailed extraction log",
+      "complete_directory_tree.txt - Full directory structure with all nested levels",
+      "file_inventory.csv - Complete inventory (filename, path, size, extension, modified_date)",
+      "file_type_summary.json - Grouping of files by extension and inferred type"
+    ],
+    "phase_2_structure_analysis": [
+      "file_format_catalog.json - All unique file formats found with sample content",
+      "data_schemas/ - Directory containing schema analysis for each data file type discovered",
+      "relationship_map.json - Discovered relationships between files (shared IDs, keys, etc.)",
+      "content_samples/ - Sample data from each unique file type for quick reference"
+    ],
+    "phase_3_data_profiling": [
+      "data_profile_summary.json - Summary statistics for all discovered datasets",
+      "column_catalog.csv - All columns found across all files with metadata",
+      "data_types_analysis.json - Data type analysis for all fields",
+      "missing_data_report.csv - Missing data patterns across all files",
+      "duplicate_analysis.json - Duplicate records or entries found"
+    ],
+    "phase_4_exploratory_analysis": [
+      "eda_reports/ - Individual EDA reports for each major data file",
+      "distributions/ - Distribution plots for numerical and categorical variables",
+      "correlations/ - Correlation analysis and heatmaps where applicable",
+      "outliers/ - Outlier detection results and visualizations",
+      "time_series/ - Time series analysis if temporal data is found",
+      "text_analysis/ - Text mining results if text data is found"
+    ],
+    "phase_5_integrative_insights": [
+      "cross_file_analysis.html - How different files relate and connect",
+      "sample_coverage_matrix.png - Which samples/entities appear in which files",
+      "integrated_dataset.csv - Merged dataset if relationships allow integration",
+      "network_graph.png - Relationship network between data entities if applicable"
+    ],
+    "phase_6_advanced_analytics": [
+      "clustering/ - Clustering analysis results and visualizations (if applicable)",
+      "dimensionality_reduction/ - PCA, t-SNE results (if high-dimensional data found)",
+      "statistical_tests/ - Results from appropriate statistical tests",
+      "pattern_discovery/ - Discovered patterns, associations, anomalies",
+      "predictive_insights/ - Any predictive patterns or trends identified"
+    ],
+    "phase_7_final_report": [
+      "COMPREHENSIVE_ANALYSIS_REPORT.html - Extremely detailed interactive HTML report documenting the ENTIRE journey from initial discovery through all operations to final insights",
+      "EXECUTIVE_SUMMARY.txt - High-level summary of what was found and key insights",
+      "VISUALIZATION_GALLERY/ - All generated plots organized by category",
+      "ANALYSIS_NOTEBOOK.ipynb - Jupyter notebook with all analysis code (reproducible)",
+      "DATA_DICTIONARY.csv - Complete data dictionary for all discovered fields",
+      "RECOMMENDATIONS.txt - Recommendations for further analysis or data usage",
+      "TECHNICAL_NOTES.txt - Notes on data quality, issues, limitations discovered"
+    ]
+  },
+  "analysis_guidelines": {
+    "discovery_first": "Always discover what exists before deciding what analysis to perform",
+    "adaptive_methods": "Choose analysis methods appropriate to the discovered data types (numerical, categorical, text, temporal, spatial, etc.)",
+    "comprehensive_coverage": "CRITICAL - This is a BIG dataset (~390MB compressed, ~1.3GB uncompressed, 57+ files): Analyze ALL files found, not just a subset. Every single file must be examined, cataloged, and analyzed. Do not skip any files, no matter how small or seemingly insignificant. Complete coverage is mandatory for this complex job.",
+    "quality_focus": "Document data quality issues, missing values, anomalies",
+    "visual_richness": "Generate informative visualizations - plots should tell a story",
+    "statistical_rigor": "Use appropriate statistical methods - document assumptions and limitations",
+    "integration_awareness": "Look for connections between files - shared identifiers, hierarchies, relationships",
+    "insight_generation": "Go beyond description - generate actionable insights and findings"
+  },
+  "final_report_requirements": {
+    "must_be_comprehensive": true,
+    "report_structure": [
+      "1. INITIAL DATA STRUCTURE SECTION: Document the original archive structure, file types discovered, directory hierarchy, file sizes, and formats. Show exactly what was found before any processing.",
+      "2. OPERATIONS DOCUMENTATION SECTION: For EVERY operation performed, document: (a) WHAT was done, (b) WHY it was done (rationale and reasoning), (c) HOW it was implemented (method/approach), (d) WHAT the results were. Include: extraction, inventory, schema inference, data cleaning, standardization, EDA, statistical tests, visualizations, etc.",
+      "3. DATA MEANING SECTION: Explain what the data represents: (a) Biological/domain context (e.g., what TCGA BRCA data means in cancer research), (b) What each major data type represents (mutations, expression, clinical data, etc.), (c) How different data types relate to each other, (d) What insights can be derived from each data type",
+      "4. DATA STRUCTURE EVOLUTION: Show how data structures changed from raw input through cleaning to final analyzed form, with before/after comparisons",
+      "5. OPERATIONS LOG: Chronological list of all operations with timestamps, inputs, outputs, and decisions made",
+      "6. METHODOLOGY: Explain why specific analytical methods were chosen based on data characteristics",
+      "7. EXTENSIVE DATA SUMMARY SECTION: Provide A LOT of data summaries - not just basic stats. Include: (a) Summary statistics for ALL numerical columns, (b) Frequency tables for ALL categorical columns, (c) Missing data summaries with patterns, (d) Data quality assessments per variable, (e) Range and distribution characteristics, (f) Relationship summaries between variables, (g) Sample/entity coverage summaries, (h) Data completeness matrices, (i) Outlier summaries, (j) Any other relevant data summaries. Each summary must have detailed explanations.",
+      "8. COMPREHENSIVE DATA INTERPRETATION SECTION: Provide A LOT of interpretation - this is critical. For EVERY finding, pattern, plot, and summary: (a) Explain what it means in biological/domain context, (b) Explain why it's important, (c) Explain what it tells us about the data, (d) Explain connections to other findings, (e) Explain real-world implications, (f) Explain potential research applications. Do not just present findings - INTERPRET them deeply. Think of this as explaining the data to someone who needs to understand what it all means.",
+      "9. EXTENSIVE EDA VISUALIZATIONS SECTION: CRITICAL - The report MUST include and reference ALL 343+ EDA plots that were already generated in the extensive_eda_visualizations task. You MUST NOT create new plots - instead you MUST: (a) Load the EDA reports JSON (outputs/eda/eda_reports.json) to get the list of all plots, (b) Load the images manifest (outputs/eda/images_manifest.json) to get paths to all 343 PNG plots, (c) Embed or link to ALL these plots in the HTML report with detailed explanations, (d) For each plot file: explain what it shows, why it matters, what patterns are visible, what insights can be drawn, and interpret it in biological/domain context, (e) Organize plots by data file type and analysis category. The report is INCOMPLETE if it has fewer than 50+ embedded/linked visualizations from the existing EDA output. Do NOT generate only 4-5 new plots - you MUST incorporate the hundreds of plots already created.",
+      "10. CODE DOCUMENTATION: Well-documented code with comments explaining business logic, not just technical implementation"
+    ],
+    "detail_level": "EXTREMELY detailed - This is a BIG, COMPLEX dataset (~390MB compressed, ~1.3GB uncompressed, 57+ files) and a COMPLETE job. Think of this as a comprehensive research paper that someone reading 6 months later should understand EVERYTHING that was done and why. Every file, every operation, every decision must be documented. Nothing should be missed or glossed over.",
+    "audience": "Assume the reader has no prior knowledge of this specific dataset but understands data analysis concepts. The report should be self-contained and educational.",
+    "must_include": [
+      "Complete archive structure at discovery",
+      "Every transformation step with rationale",
+      "Data quality decisions and their impact",
+      "Choice of statistical methods and why",
+      "Biological/domain context for all data types",
+      "What each finding means in real-world context",
+      "Challenges encountered and how they were addressed",
+      "Alternative approaches considered but not used (and why)",
+      "Validation steps performed",
+      "Assumptions made and their validity",
+      "A LOT of EDA plots - MUST incorporate ALL 343+ plots from extensive_eda_visualizations task outputs. Report must have 50+ embedded/linked visualizations from existing EDA outputs. Do not create only a few new plots - use the hundreds already generated",
+      "A LOT of explanations - every plot, every summary, every finding must have detailed explanatory text",
+      "A LOT of data summaries - comprehensive summaries for all variables and relationships",
+      "A LOT of interpretation - deep interpretation of every finding in biological/domain context, not just presentation of results"
+    ],
+    "eda_plot_requirements": {
+      "quantity": "CRITICAL: Do NOT generate new plots. Instead, incorporate ALL 343+ plots from existing extensive_eda_visualizations outputs. Load outputs/eda/images_manifest.json to get all plot paths. Embed/link 50+ plots in the final report. The report is INCOMPLETE with fewer than 50 visualizations.",
+      "source": "MUST use existing plots from outputs/eda/images/ directory and outputs/eda/reports/ directory. Do not create new plots - use the hundreds already generated.",
+      "coverage": "Every major data file should have multiple plots. Every significant variable should have distribution plots, relationship plots, and analysis plots. Missing data should have visualizations. Correlations should be visualized. Outliers should be visualized. Every statistical finding should have supporting visualizations.",
+      "explanations_per_plot": "Each plot MUST have: (1) Title explaining what is shown, (2) Detailed explanation paragraph (3-5 sentences) of what patterns are visible, (3) Interpretation paragraph explaining what this means in context, (4) Why this plot is important for understanding the data",
+      "types_required": [
+        "Distribution plots (histograms, density plots, box plots) for all numerical variables",
+        "Frequency/count plots for all categorical variables",
+        "Correlation heatmaps for related variables",
+        "Missing data heatmaps and patterns",
+        "Outlier visualizations (box plots, scatter plots, z-score plots)",
+        "Relationship plots (scatter plots, pair plots, correlation plots)",
+        "Sample/entity coverage visualizations",
+        "Time-based patterns if temporal data exists",
+        "Statistical test result visualizations",
+        "Comparative plots between different data types",
+        "Any other relevant exploratory visualizations"
+      ]
+    },
+    "explanation_requirements": {
+      "level_of_detail": "VERY detailed - assume the reader needs thorough explanations. Do not assume prior knowledge of this specific dataset.",
+      "required_for": [
+        "Every plot - what it shows, why it matters, what patterns are visible, what insights can be drawn",
+        "Every data summary - what the numbers mean, why they're important",
+        "Every operation - why it was performed, what it achieved",
+        "Every finding - what it means in context, why it's significant",
+        "Every interpretation - connect findings to real-world meaning"
+      ],
+      "style": "Educational and narrative - tell the story of the data. Explain not just what was done, but why and what it reveals."
+    },
+    "summary_requirements": {
+      "scope": "Comprehensive summaries for ALL data types, ALL variables, ALL relationships. Leave nothing unsummarized.",
+      "detail_level": "Detailed summaries with statistics, patterns, and key characteristics clearly explained",
+      "required_summaries": [
+        "Overall dataset characteristics",
+        "Per-file summaries with key statistics",
+        "Per-variable summaries (all numerical and categorical)",
+        "Missing data summaries",
+        "Data quality summaries",
+        "Relationship summaries",
+        "Pattern summaries",
+        "Anomaly summaries"
+      ]
+    },
+    "interpretation_requirements": {
+      "depth": "Deep interpretation - go beyond surface-level description. Explain what findings mean in biological/domain context.",
+      "coverage": "Interpret EVERY finding, EVERY pattern, EVERY plot, EVERY summary. Nothing should be left uninterpreted.",
+      "context": "Always connect interpretations to: (a) Biological/domain meaning, (b) Real-world implications, (c) Research applications, (d) Relationships to other findings",
+      "style": "Make interpretations accessible but thorough. Explain both statistical/technical meaning and domain/biological meaning."
+    }
+  },
+  "technical_requirements": {
+    "required_libraries": [
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "seaborn",
+      "plotly",
+      "scipy",
+      "scikit-learn",
+      "tarfile",
+      "pathlib",
+      "json"
+    ],
+    "adaptive_libraries": "Install additional libraries as needed based on discovered data formats (e.g., openpyxl for Excel, Pillow for images, etc.)",
+    "memory_efficient": "Use chunked processing for large files. Profile memory usage.",
+    "visualization_quality": "High-resolution plots (300 DPI), colorblind-friendly palettes, clear labels and legends"
+  },
+  "output_directory": "outputs/brca_discovery_analysis",
+  "credentials": {},
+  "expected_outputs": [
+    "COMPREHENSIVE_ANALYSIS_REPORT.html",
+    "EXECUTIVE_SUMMARY.txt",
+    "complete_directory_tree.txt",
+    "file_inventory.csv",
+    "data_profile_summary.json",
+    "VISUALIZATION_GALLERY/",
+    "ANALYSIS_NOTEBOOK.ipynb",
+    "DATA_DICTIONARY.csv"
+  ]
+}

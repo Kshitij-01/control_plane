@@ -1,0 +1,17 @@
+{
+  "azure_openai": {
+    "endpoint": "https://your-endpoint.openai.azure.com/",
+    "api_key": "your-azure-openai-api-key",
+    "api_version": "2024-02-15-preview",
+    "deployments": {
+      "gpt4": "gpt-4-turbo",
+      "gpt5": "o1-preview",
+      "claude_sonnet": "claude-sonnet-4-5"
+    }
+  },
+  "anthropic": {
+    "api_key": "your-anthropic-api-key"
+  }
+}
+
+

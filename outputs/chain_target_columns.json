@@ -1,0 +1,10 @@
+{
+  "map_invoice_id_to_invoice_number": "invoice_number",
+  "build_distributor_contact_string": "distributor_contact",
+  "retailer_contact_compose": "retailer_contact",
+  "build_bill_to_full_address": "bill_to_full",
+  "build_ship_to_full_address_v2": "ship_to_full",
+  "invoice_date_iso_to_text_format": "invoice_date_text",
+  "total_usd_to_total_cents_with_validation": "total_cents",
+  "currency_code_standardization": "currency"
+}

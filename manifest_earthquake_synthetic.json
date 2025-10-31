@@ -1,0 +1,75 @@
+{
+  "task_name": "Earthquake Synthetic Data Generation",
+  "task_description": "Generate 1 million synthetic earthquake records based on real earthquake data patterns, preserving statistical distributions and relationships between magnitude, depth, location, and tsunami occurrence.",
+  "input_data": {
+    "primary_file": "earthquake_data_tsunami.csv"
+  },
+  "transformation_config": {
+    "skip_side_tasks": true
+  },
+  "user_uploads": [
+    {
+      "source": "New folder/earthquake_data_tsunami.csv",
+      "filename": "earthquake_data_tsunami.csv"
+    }
+  ],
+  "output_requirements": {
+    "format": "parquet",
+    "quality_level": "high",
+    "target_rows": 1000000,
+    "include_visualizations": true,
+    "include_analysis_report": true
+  },
+  "synthetic_generation_specs": {
+    "method": "statistical_modeling",
+    "preserve_distributions": true,
+    "preserve_correlations": true,
+    "target_columns": [
+      "magnitude",
+      "cdi",
+      "mmi", 
+      "sig",
+      "nst",
+      "dmin",
+      "gap",
+      "depth",
+      "latitude",
+      "longitude",
+      "Year",
+      "Month",
+      "tsunami"
+    ],
+    "generation_strategy": {
+      "magnitude": "normal_distribution_with_bounds",
+      "depth": "exponential_distribution", 
+      "latitude": "bounded_uniform_global",
+      "longitude": "bounded_uniform_global",
+      "tsunami": "conditional_based_on_magnitude",
+      "temporal": "preserve_seasonal_patterns"
+    },
+    "validation_requirements": [
+      "Verify target row count (1,000,000)",
+      "Check data type consistency",
+      "Validate magnitude ranges (realistic earthquake magnitudes)",
+      "Validate coordinate bounds (valid lat/lng ranges)",
+      "Check tsunami probability correlation with magnitude",
+      "Verify no null values in critical columns"
+    ]
+  },
+  "analysis_requirements": {
+    "statistical_comparison": true,
+    "distribution_analysis": true,
+    "correlation_preservation": true,
+    "generate_visualizations": [
+      "magnitude_distribution_comparison",
+      "depth_distribution_comparison", 
+      "geographic_distribution_map",
+      "tsunami_probability_by_magnitude",
+      "temporal_patterns_analysis",
+      "correlation_heatmap_comparison"
+    ],
+    "output_report": "comprehensive_synthetic_data_analysis.html"
+  }
+}
+
+

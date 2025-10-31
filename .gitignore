@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+venv/
+venv1/
+spark_env/
+ENV/
+env/
+
+# Runs and outputs
+runs/
+output/
+*.log
+
+# Cache directories
+.embed_cache/
+.tabular_cache/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+env_info.json
+
+# Data files (large datasets)
+*.zip
+*.tar
+*.tar.gz
+*.csv
+New folder/
+
+# Temporary files
+*.tmp
+temp/
+tmp/

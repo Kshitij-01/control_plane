@@ -1,0 +1,6 @@
+{
+  "primary_key_columns": [
+    "invoice_id"
+  ],
+  "source_table": "lhs_invoices"
+}

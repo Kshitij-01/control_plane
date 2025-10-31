@@ -1,0 +1,96 @@
+{
+  "task_id": "eda_and_synthetic_5m",
+  "task_type": "data_analysis_and_generation",
+  "description": "Part 1: Perform extensive EDA on Final_data.csv with comprehensive visualizations and statistical analysis. Part 2: Generate 5 million rows of synthetic data and verify only row count and null values.",
+  "skip_side_tasks": true,
+  
+  "source": {
+    "file_info": {
+      "path": "Final_data.csv",
+      "location": "user_uploads",
+      "format": "csv",
+      "description": "Source CSV file for analysis and synthetic data generation"
+    }
+  },
+  
+  "part_1_extensive_eda": {
+    "priority": "high",
+    "description": "Comprehensive exploratory data analysis with extensive visualizations and professional web report",
+    "requirements": [
+      "Load Final_data.csv from user_uploads directory",
+      "Perform extensive EDA on ALL columns with thorough statistical analysis",
+      "Generate ALL possible plots and save them in an 'eda_plots' folder",
+      "Create individual plot files for: distributions, correlations, outliers, relationships, patterns, trends",
+      "Include univariate analysis (histograms, box plots, violin plots, KDE plots for numeric columns)",
+      "Include bivariate analysis (scatter plots, correlation heatmaps, pair plots for top correlations)",
+      "Include categorical analysis (bar charts, pie charts, count plots, cross-tabulations)",
+      "Include advanced visualizations (3D plots if applicable, interactive plots, cluster visualizations)",
+      "Perform statistical tests and save results",
+      "Create a staging data file 'report_data.json' containing ALL analysis results, statistics, and plot references",
+      "Build a professional HTML report with separate files: 'eda_report.html', 'eda_report.css', 'eda_report.js'",
+      "The HTML file should load data from 'report_data.json' using JavaScript",
+      "CSS should provide modern, responsive styling with good UX (cards, tabs, collapsible sections, smooth animations)",
+      "JavaScript should handle data loading, dynamic content generation, interactive features, and plot embedding",
+      "The report should be fully functional as a standalone web application",
+      "Make the analysis as thorough and detailed as possible - explore every aspect of the data"
+    ],
+    "workflow": "Step 1: Create 'eda_plots' folder. Step 2: Generate and save ALL individual plots (PNG/SVG). Step 3: Perform statistical analysis. Step 4: Create 'report_data.json' with all analysis results and plot paths. Step 5: Create 'eda_report.css' with modern styling. Step 6: Create 'eda_report.js' to load data and generate content. Step 7: Create 'eda_report.html' that ties everything together.",
+    "output": "Professional web-based EDA report with separate HTML/CSS/JS files, 'report_data.json' staging file, and 'eda_plots' folder with all visualizations"
+  },
+  
+  "part_2_synthetic_generation": {
+    "priority": "medium",
+    "description": "Generate 5M synthetic rows with minimal validation",
+    "target_rows": 5000000,
+    "method": "simple_sequential_batches",
+    "include_all_columns": true,
+    "instructions": [
+      "Use the analysis from Part 1 to understand data structure",
+      "Generate 5,000,000 synthetic rows preserving distributions",
+      "Use simple sequential batch generation (100k rows per batch)",
+      "NO multiprocessing, NO multithreading to avoid timeouts",
+      "Save as Parquet file"
+    ],
+    "validation": {
+      "type": "minimal",
+      "checks_only": [
+        "Verify row count is exactly 5,000,000",
+        "Check for null values in each column",
+        "Report null counts per column"
+      ],
+      "no_extensive_validation": true,
+      "no_statistical_comparison": true,
+      "no_distribution_analysis": true
+    },
+    "output": "synthetic_data_5m.parquet and simple validation report (row count + null check only)"
+  },
+
+  "execution_preferences": {
+    "task_organization": "sequential",
+    "reasoning": "Part 1 (EDA) must complete first. Part 2 (generation) uses Part 1 results. Simple sequential processing to avoid timeouts.",
+    "max_tasks": 3,
+    "prefer_simple_plan": true,
+    "generation_approach": "simple_sequential_batches",
+    "no_multiprocessing": true,
+    "no_multithreading": true
+  },
+  
+  "output_requirements": {
+    "part_1_outputs": [
+      "eda_report.html - Main HTML report file",
+      "eda_report.css - Styling for the report (modern, responsive design)",
+      "eda_report.js - JavaScript for data loading and interactivity",
+      "report_data.json - Staging file with all analysis results, statistics, and plot paths",
+      "eda_plots/ - Folder containing all individual plot files (PNG/SVG)"
+    ],
+    "part_2_outputs": [
+      "synthetic_data_5m.parquet - 5 million synthetic rows",
+      "validation_summary.json - Simple validation (row count and null values only)"
+    ]
+  },
+  
+  "critical_instructions": {
+    "for_eda": "WORKFLOW: Step 1: Create 'eda_plots' folder and generate ALL plots incrementally (PNG/SVG format). Step 2: Perform statistical analysis. Step 3: Create 'report_data.json' with all results (dataset overview, column stats, plot paths, correlations, insights). Step 4: Create 'eda_report.css' with modern responsive design (use CSS Grid/Flexbox, cards, tabs, smooth animations). Step 5: Create 'eda_report.js' to fetch report_data.json and dynamically generate content (handle data loading, plot embedding, interactive features). Step 6: Create 'eda_report.html' as a clean shell that loads CSS and JS. The report should work as a standalone web app with professional UX.",
+    "for_validation": "Keep validation MINIMAL - only check row count (must be 5M) and null values. Do NOT perform distribution comparisons, correlation analysis, or statistical tests."
+  }
+}

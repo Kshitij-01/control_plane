@@ -1,0 +1,45 @@
+{
+  "llm_config": {
+    "azure": {
+      "endpoint": "https://your-openai-endpoint.openai.azure.com/",
+      "api_key": "YOUR_AZURE_OPENAI_API_KEY",
+      "api_version": "2024-12-01-preview",
+      "gpt4o_model": "gpt-4o",
+      "gpt41_model": "gpt-4.1",
+      "gpt5_model": "gpt-5",
+      "embeddings": {
+        "deployment_name": "text-embedding-3-small",
+        "model": "text-embedding-3-small"
+      }
+    },
+    "bedrock": {
+      "aws_access_key_id": "YOUR_AWS_ACCESS_KEY_ID",
+      "aws_secret_access_key": "YOUR_AWS_SECRET_ACCESS_KEY",
+      "region": "us-east-1",
+      "claude_3_5_model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "claude_4_5_model_id": "arn:aws:bedrock:us-east-1:YOUR_ACCOUNT:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "claude_haiku_model_id": "anthropic.claude-3-haiku-20240307-v1:0"
+    }
+  },
+  "database_config": {
+    "postgres": {
+      "host": "your-postgres-host",
+      "port": 5432,
+      "database": "your-database",
+      "username": "your-username",
+      "password": "your-password"
+    },
+    "azure_sql": {
+      "server": "your-server.database.windows.net",
+      "database": "your-database",
+      "username": "your-username",
+      "password": "your-password",
+      "driver": "{ODBC Driver 18 for SQL Server}",
+      "encrypt": "yes",
+      "trust_server_certificate": "no"
+    }
+  },
+  "external_apis": {
+    "tavily_api_key": "YOUR_TAVILY_API_KEY"
+  }
+}
