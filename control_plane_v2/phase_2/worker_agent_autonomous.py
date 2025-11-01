@@ -679,11 +679,35 @@ You have {25 - attempt} attempts remaining.
                         conversation_history.append(UserMessage(content=verification_review_feedback, source="system"))
                         continue
                     
-                    # Check if files were created (delta from baseline)
-                    created_files = self._scan_created_files(baseline_files)
+                    # Check if expected outputs exist (new OR modified)
+                    if expected_outputs:
+                        # EXPLICIT CHECK: Look for expected files specifically
+                        files_found, files_new, files_modified = self._check_expected_outputs(
+                            expected_outputs, baseline_files
+                        )
+                        
+                        # Combine new and modified files
+                        created_or_updated_files = files_new + files_modified
+                        
+                        if created_or_updated_files:
+                            logger.info(f"[FILES] Found {len(files_new)} new, {len(files_modified)} modified")
+                            logger.info(f"[FILES] Total expected outputs satisfied: {len(files_found)}/{len(expected_outputs)}")
+                            
+                            # Use files_found for verification (includes all expected files)
+                            created_files = files_found
+                        else:
+                            # Expected files missing
+                            logger.warning(f"[VERIFY_FAIL] Expected {len(expected_outputs)} files but found {len(files_found)}")
+                            created_files = []
+                    else:
+                        # No expected outputs specified - fall back to delta scan
+                        created_files = self._scan_created_files(baseline_files)
+                        
+                        if created_files:
+                            logger.info(f"[FILES_CREATED] Found {len(created_files)} file(s) (delta scan)")
                     
                     if created_files:
-                        # Files were created! Claude must EXPLICITLY verify and claim success
+                        # Files were created/updated! Claude must EXPLICITLY verify and claim success
                         logger.info(f"[FILES_CREATED] Found {len(created_files)} file(s): {created_files}")
                         
                         # Auto-correct file locations (move from root to subdirectories if needed)
@@ -691,7 +715,13 @@ You have {25 - attempt} attempts remaining.
                         if relocated_count > 0:
                             logger.info(f"[AUTO_CORRECT] Relocated {relocated_count} file(s) to correct locations")
                             # Rescan after relocation
-                            created_files = self._scan_created_files(baseline_files)
+                            if expected_outputs:
+                                files_found, files_new, files_modified = self._check_expected_outputs(
+                                    expected_outputs, baseline_files
+                                )
+                                created_files = files_found
+                            else:
+                                created_files = self._scan_created_files(baseline_files)
                         
                         # Tell Claude to verify the files and claim success explicitly
                         created_files_list = [f.get("filename", str(f)) if isinstance(f, dict) else str(f.relative_to(self.workspace_path)) for f in created_files]
@@ -1027,9 +1057,32 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
         logger.info(f"[CONTINUE_LOOP] Conversation history has {len(conversation_history)} messages")
         logger.info(f"[CONTINUE_LOOP] Previous attempts: {len(all_attempts)}")
         
+        # CRITICAL: Add maximum attempt limit for continue mode to prevent infinite loops
+        MAX_CONTINUE_ATTEMPTS = 20
+        
         # Continue the retry loop
         while True:
             attempt += 1
+            
+            # SAFETY CHECK: Prevent infinite continue loops
+            if attempt > MAX_CONTINUE_ATTEMPTS:
+                logger.error(f"[GIVE_UP] Reached maximum continue attempts ({MAX_CONTINUE_ATTEMPTS})")
+                logger.error(f"[GIVE_UP] Worker has tried {attempt} times but cannot satisfy requirements")
+                await self._report_gave_up(
+                    message, 
+                    all_attempts, 
+                    {
+                        "explanation": f"Reached maximum continue attempts ({MAX_CONTINUE_ATTEMPTS}). "
+                                       f"Despite Boss's feedback, Worker cannot create valid outputs. "
+                                       f"This may indicate a fundamental issue with the task requirements "
+                                       f"or file detection logic.",
+                        "gave_up": True,
+                        "gave_up_reason": f"Maximum continue attempts exceeded ({MAX_CONTINUE_ATTEMPTS})"
+                    },
+                    ctx
+                )
+                return
+            
             logger.info(f"[ATTEMPT] #{attempt} for subtask {message.subtask_id} (CONTINUE mode)")
             worker_detail_logger.info(f"\n{'='*80}\nATTEMPT #{attempt} (CONTINUE)\n{'='*80}")
             
@@ -1094,9 +1147,17 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                     
                     logger.info(f"[SUCCESS] Code executed successfully (attempt #{attempt})")
                 
-                # Check for created files
-                created_files = self._scan_created_files(baseline_files)
-                logger.info(f"[FILES] Detected {len(created_files)} new/modified files")
+                # Check if expected outputs exist (new OR modified)
+                if expected_outputs:
+                    files_found, files_new, files_modified = self._check_expected_outputs(
+                        expected_outputs, baseline_files
+                    )
+                    created_files = files_found  # Use all found expected files
+                    logger.info(f"[FILES] Found {len(files_new)} new, {len(files_modified)} modified expected files")
+                else:
+                    # Fall back to delta scan if no expected outputs
+                    created_files = self._scan_created_files(baseline_files)
+                    logger.info(f"[FILES] Detected {len(created_files)} new/modified files (delta scan)")
                 
                 # Verify outputs
                 if created_files:
@@ -1109,7 +1170,7 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                         ))
                         continue
                 elif expected_outputs:
-                    logger.warning(f"[VERIFY_FAIL] No files created but {len(expected_outputs)} expected")
+                    logger.warning(f"[VERIFY_FAIL] Expected {len(expected_outputs)} files but found 0")
                     conversation_history.append(UserMessage(
                         content=f"No output files detected. Please create the required files: {expected_outputs}",
                         source="system"
@@ -1226,6 +1287,47 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                     })
         
         return created_files
+    
+    def _check_expected_outputs(self, expected_outputs: list, baseline_files: set) -> tuple:
+        """
+        Check if expected output files exist and were created/modified.
+        Returns: (files_found, files_new, files_modified)
+        
+        This is MORE RELIABLE than delta-based scanning because:
+        - Explicitly checks for expected files (not just any new files)
+        - Detects MODIFIED files (not just new ones)
+        - Handles cases where file existed in baseline but was updated
+        """
+        files_found = []
+        files_new = []
+        files_modified = []
+        
+        for expected_path in expected_outputs:
+            # Normalize path
+            expected_path = str(expected_path).replace('\\', '/')
+            full_path = self.workspace_path / expected_path
+            
+            # Check if file exists
+            if full_path.exists() and full_path.is_file():
+                rel_path = str(full_path.relative_to(self.workspace_path))
+                file_info = {
+                    "filename": rel_path,
+                    "absolute_path": str(full_path.resolve())
+                }
+                
+                files_found.append(file_info)
+                
+                # Determine if new or modified
+                if rel_path in baseline_files:
+                    files_modified.append(file_info)
+                    logger.info(f"[EXPECTED_OUTPUT] Found MODIFIED file: {rel_path}")
+                else:
+                    files_new.append(file_info)
+                    logger.info(f"[EXPECTED_OUTPUT] Found NEW file: {rel_path}")
+            else:
+                logger.warning(f"[EXPECTED_OUTPUT] Missing expected file: {expected_path}")
+        
+        return files_found, files_new, files_modified
     
     def _scan_all_files(self) -> list:
         """Scan workspace for ALL files (regardless of when they were created)"""
