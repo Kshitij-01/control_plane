@@ -79,33 +79,65 @@ class WorkerAgent(RoutedAgent):
         self.system_prompt = SystemMessage(
             content="""You are Claude 4.5, an autonomous problem solver with 25 attempts per subtask.
 
-=== MANDATORY: TODO LIST (FIRST ACTION) ===
+=== MANDATORY: INTERACTIVE TODO LIST (LIVE TRACKING) ===
 
-⚠️ CRITICAL: In attempt #1, you MUST call todo_write_function BEFORE writing any Python code!
-⚠️ DO NOT say "I will create the TODO list" - CALL THE TOOL NOW!
-⚠️ DO NOT write Python code first - CALL THE TOOL FIRST!
+⚠️ CRITICAL: TODO list must be ACTIVELY MANAGED throughout execution!
 
-STEP-BY-STEP for Attempt #1:
+🎯 ATTEMPT #1 - CREATE TODO LIST (BEFORE ANY CODE):
 1. Find "MANDATORY TODO LIST (Boss-Created)" section in instructions
 2. Extract the JSON array from Boss's instructions
 3. IMMEDIATELY call todo_write_function with:
    - workspace_path: (from Boss's instructions)
-   - merge: false
-   - todos: (Boss's JSON array)
+   - merge: false (creates new list)
+   - todos: (Boss's JSON array, all status="pending")
 4. Wait for tool result
-5. THEN write your Python code in the "code" field
+5. THEN write exploration code
 
-TOOL CALLING SYNTAX:
-- Just invoke the tool directly - no special syntax needed
-- Claude will automatically format it as a tool_use block
-- After tool executes, you'll get the result
-- Then return your JSON response with code/explanation/retry
+📋 ATTEMPT #2+ - UPDATE TODO LIST INTERACTIVELY:
 
-Management:
-- Attempt #1: CREATE list (merge=false) - MUST BE FIRST ACTION
-- Attempt #2+: UPDATE status (merge=true) as you complete tasks
-- System BLOCKS success if ANY TODO incomplete
-- Mark: pending -> in_progress -> completed
+BEFORE starting a task:
+→ Call todo_write_function(merge=true, todos=[{id: "task_1", status: "in_progress", ...}])
+→ This shows you're actively working on it
+
+AFTER completing a task:
+→ Call todo_write_function(merge=true, todos=[{id: "task_1", status: "completed", ...}])
+→ This tracks your progress
+
+IF you discover new subtasks:
+→ Call todo_write_function(merge=true, todos=[{id: "task_4_new", status: "pending", content: "New task", ...}])
+→ This adds to the list
+
+🔄 INTERACTIVE WORKFLOW EXAMPLE:
+
+Attempt #1:
+- Call todo_write_function(merge=false, todos=[task1, task2, task3]) ← CREATE
+- Explore data, print samples
+
+Attempt #2:
+- Call todo_write_function(merge=true, todos=[{id: "task1", status: "in_progress"}]) ← START
+- Work on task 1
+- Call todo_write_function(merge=true, todos=[{id: "task1", status: "completed"}]) ← FINISH
+
+Attempt #3:
+- Call todo_write_function(merge=true, todos=[{id: "task2", status: "in_progress"}]) ← START
+- Work on task 2
+- Discover task 2 needs subtasks
+- Call todo_write_function(merge=true, todos=[{id: "task2a", status: "pending", content: "Subtask A"}]) ← ADD NEW
+
+Attempt #4:
+- Call todo_write_function(merge=true, todos=[{id: "task2", status: "completed"}]) ← FINISH
+- Continue...
+
+⚠️ CRITICAL RULES:
+- System BLOCKS success if ANY TODO is "pending" or "in_progress"
+- You MUST mark ALL tasks "completed" before claiming success
+- Update the list MULTIPLE times per attempt if needed
+- The TODO list is your PROGRESS TRACKER - keep it current!
+
+TOOL SYNTAX:
+- Just call the tool - no special syntax needed
+- You can call it MULTIPLE times in one attempt
+- Each call updates the workspace TODO list file
 
 === CORE RULES ===
 
@@ -179,7 +211,14 @@ CRITICAL: Valid JSON only. No markdown, no extra text. Start with { end with }.
 
 === CHECKLIST BEFORE EVERY RESPONSE ===
 
-- Attempt #1? Set retry=true (explore first)
+📋 TODO LIST:
+- Attempt #1? Called todo_write_function(merge=false) to CREATE the list?
+- Attempt #2+? Called todo_write_function(merge=true) to UPDATE task status?
+- Starting a new task? Marked it "in_progress" BEFORE working on it?
+- Finished a task? Marked it "completed" AFTER finishing?
+- Discovered new subtasks? Added them with "pending" status?
+
+📁 FILE CREATION:
 - Created ALL files Boss requested?
 - LOADED actual data samples and checked if they MAKE SENSE for the task?
 - Printed samples showing ACTUAL values from inside the files?
@@ -187,7 +226,11 @@ CRITICAL: Valid JSON only. No markdown, no extra text. Start with { end with }.
 - For text: Checked variety (not all identical generic text)?
 - For numbers: Checked distribution (not all zeros or one value)?
 - For HTML: Verified actual content is populated (not just templates)?
-- If retry=false: Included verification_summary? Used 2+ attempts? ALL TODOs completed?
+
+✅ BEFORE CLAIMING SUCCESS (retry=false):
+- Used 2+ attempts? (Attempt #1 is always exploration)
+- ALL TODOs marked "completed"? (No "pending" or "in_progress")
+- Included verification_summary? (3+ sentences about ACTUAL data observed)
 - If data doesn't make sense or is mostly empty: Set retry=true and FIX the logic
 
 Remember: 25 attempts. Read inputs first. Stay in scope. Complete fully.
@@ -245,6 +288,9 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
         logger.info(f"[WORKER] {self.agent_id} received subtask: {message.subtask_id}")
         logger.info(f"[TASK] {message.subtask_description}")
         
+        # Store subtask message for potential continue operations
+        self._current_subtask_message = message
+        
         # Wrap ALL initialization in try-except for robustness
         try:
             # Initialize or restart Jupyter kernel for new subtask
@@ -282,19 +328,11 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
         conversation_history = [self.system_prompt]
         all_attempts = []
         
+        # Store state for potential continue operations
+        self._conversation_history = conversation_history
+        self._all_attempts = all_attempts
+        
         while True:
-            # Check if Boss sent continue feedback (preserve state)
-            if hasattr(self, '_continue_feedback') and self._continue_feedback:
-                logger.info(f"[CONTINUE] Applying Boss's continue feedback")
-                conversation_history.append(UserMessage(content=self._continue_feedback, source="boss"))
-                # Update attempt counter to continue from where we left off
-                if hasattr(self, '_continue_from_attempt'):
-                    attempt = self._continue_from_attempt
-                    logger.info(f"[CONTINUE] Resuming from attempt {attempt}")
-                # Clear continue state
-                self._continue_feedback = None
-                self._continue_from_attempt = None
-            
             attempt += 1
             logger.info(f"[ATTEMPT] #{attempt} for subtask {message.subtask_id}")
             worker_detail_logger.info(f"\n{'='*80}\nATTEMPT #{attempt}\n{'='*80}")
@@ -869,6 +907,7 @@ Analyze the error and fix it incrementally. You have {25 - attempt} attempts rem
         """
         Handle continue message from Boss - preserve state and apply feedback
         DO NOT restart kernel, DO NOT clear conversation history
+        CRITICAL: This must RESTART the retry loop, not just store feedback
         """
         
         logger.info(f"[CONTINUE] Worker received continue message for: {message.subtask_id}")
@@ -921,13 +960,185 @@ You do NOT need to redo work that was already correct.
 Focus ONLY on fixing the specific issues mentioned in feedback.
 """
         
-        # Store continue feedback in instance variable
-        # The retry loop in handle_subtask will check for this
-        self._continue_feedback = continue_prompt
-        self._continue_from_attempt = message.continue_from_attempt
+        logger.info(f"[CONTINUE] Restarting retry loop with preserved state")
         
-        logger.info(f"[CONTINUE] Continue state stored, triggering continuation")
-        logger.info(f"[CONTINUE] Worker will apply feedback in next iteration")
+        # CRITICAL FIX: Actually restart the execution loop
+        # We need to continue the retry loop that already exited
+        # Do this by calling the continuation logic directly
+        await self._continue_execution_loop(
+            message.subtask_id,
+            continue_prompt,
+            message.continue_from_attempt,
+            message.preserve_kernel,
+            ctx
+        )
+    
+    async def _continue_execution_loop(
+        self,
+        subtask_id: str,
+        continue_prompt: str,
+        continue_from_attempt: int,
+        preserve_kernel: bool,
+        ctx: MessageContext
+    ) -> None:
+        """
+        Continue the execution loop after receiving continue message from Boss.
+        This restarts the retry loop with preserved state.
+        """
+        logger.info(f"[CONTINUE_LOOP] Starting continuation for subtask {subtask_id}")
+        logger.info(f"[CONTINUE_LOOP] Resuming from attempt {continue_from_attempt}")
+        
+        # Retrieve the original SubtaskMessage from stored state
+        # We need this to access task details, expected outputs, etc.
+        if not hasattr(self, '_current_subtask_message'):
+            logger.error(f"[CONTINUE_LOOP] No stored subtask message - cannot continue")
+            from control_plane_v2.phase_2.task_agent_messages import SubtaskCompletionMessage
+            completion_msg = SubtaskCompletionMessage(
+                subtask_id=subtask_id,
+                status="gave_up",
+                files_created=[],
+                summary="Cannot continue - no stored subtask state",
+                gave_up=True,
+                gave_up_reason="Worker lost subtask state - cannot continue execution",
+                attempts_made=continue_from_attempt
+            )
+            await self.publish_message(
+                completion_msg,
+                topic_id=TopicId(self.boss_topic_type, source=ctx.topic_id.source)
+            )
+            return
+        
+        message = self._current_subtask_message
+        
+        # Get file paths (should be cached)
+        file_paths = await self._get_file_paths(message.input_files)
+        expected_outputs = message.expected_outputs or []
+        
+        # Retrieve conversation history and attempt data
+        # CRITICAL: Make COPIES to avoid mutating stored state
+        conversation_history = list(getattr(self, '_conversation_history', [self.system_prompt]))
+        all_attempts = list(getattr(self, '_all_attempts', []))
+        
+        # Add continue feedback to conversation
+        conversation_history.append(UserMessage(content=continue_prompt, source="boss"))
+        
+        # Start from the specified attempt number
+        attempt = continue_from_attempt
+        logger.info(f"[CONTINUE_LOOP] Conversation history has {len(conversation_history)} messages")
+        logger.info(f"[CONTINUE_LOOP] Previous attempts: {len(all_attempts)}")
+        
+        # Continue the retry loop
+        while True:
+            attempt += 1
+            logger.info(f"[ATTEMPT] #{attempt} for subtask {message.subtask_id} (CONTINUE mode)")
+            worker_detail_logger.info(f"\n{'='*80}\nATTEMPT #{attempt} (CONTINUE)\n{'='*80}")
+            
+            # Get baseline of existing files
+            baseline_files = self._get_baseline_files()
+            logger.info(f"[BASELINE] {len(baseline_files)} files exist before attempt #{attempt}")
+            
+            # Initialize parsed to avoid reference errors in exception handler
+            parsed = {"explanation": "Attempt failed before parsing response"}
+            
+            # Execute the same retry logic as handle_subtask
+            # (Copy the core retry loop logic here)
+            try:
+                # Get response from Claude with tools
+                max_tool_iterations = 5
+                tool_iteration = 0
+                current_messages = conversation_history.copy()
+                
+                while tool_iteration < max_tool_iterations:
+                    tool_iteration += 1
+                    
+                    response = await self.model_client.create(
+                        messages=current_messages,
+                        tools=self.tools.get_all_tools(),
+                        cancellation_token=ctx.cancellation_token
+                    )
+                    
+                    # Handle tool calls if present
+                    if response.content and isinstance(response.content, list):
+                        tool_calls = [item for item in response.content if hasattr(item, 'id') and hasattr(item, 'name')]
+                        if tool_calls:
+                            logger.info(f"[TOOLS] Worker calling {len(tool_calls)} tool(s)")
+                            current_messages.append(AssistantMessage(content=response.content, source="worker"))
+                            tool_results = await self._execute_tool_calls(tool_calls, ctx.cancellation_token)
+                            current_messages.append(UserMessage(content=tool_results, source="tool"))
+                            continue
+                    
+                    # No more tool calls - save response and break
+                    conversation_history.append(AssistantMessage(content=response.content, source="worker"))
+                    break
+                
+                # Parse response
+                parsed = self._parse_response(response.content)
+                all_attempts.append(parsed)
+                
+                # Execute code if present
+                if parsed.get("code"):
+                    logger.info(f"[EXECUTE] Executing code (attempt #{attempt})...")
+                    exec_result = await self._execute_code_with_proxy(
+                        parsed["code"],
+                        ctx.cancellation_token
+                    )
+                    
+                    if not exec_result["success"]:
+                        error_msg = exec_result.get("error", "Unknown error")
+                        logger.warning(f"[EXEC_ERROR] Attempt #{attempt} failed: {error_msg}")
+                        conversation_history.append(UserMessage(
+                            content=f"Code execution failed:\n{error_msg}\n\nPlease fix the error and try again.",
+                            source="system"
+                        ))
+                        continue
+                    
+                    logger.info(f"[SUCCESS] Code executed successfully (attempt #{attempt})")
+                
+                # Check for created files
+                created_files = self._scan_created_files(baseline_files)
+                logger.info(f"[FILES] Detected {len(created_files)} new/modified files")
+                
+                # Verify outputs
+                if created_files:
+                    verification_ok, verification_msg = await self._verify_created_files(created_files, expected_outputs)
+                    if not verification_ok:
+                        logger.warning(f"[VERIFY_FAIL] {verification_msg}")
+                        conversation_history.append(UserMessage(
+                            content=f"Output verification failed:\n{verification_msg}\n\nPlease fix the issues and try again.",
+                            source="system"
+                        ))
+                        continue
+                elif expected_outputs:
+                    logger.warning(f"[VERIFY_FAIL] No files created but {len(expected_outputs)} expected")
+                    conversation_history.append(UserMessage(
+                        content=f"No output files detected. Please create the required files: {expected_outputs}",
+                        source="system"
+                    ))
+                    continue
+                
+                # Success - report completion
+                logger.info(f"[COMPLETE] Subtask completed successfully after {attempt} attempts (CONTINUE mode)")
+                await self._report_success(message, all_attempts, parsed, ctx, baseline_files)
+                
+                # Store state for potential future continues
+                self._conversation_history = conversation_history
+                self._all_attempts = all_attempts
+                return
+                
+            except Exception as e:
+                logger.error(f"[ERROR] Attempt #{attempt} failed with exception: {e}", exc_info=True)
+                conversation_history.append(UserMessage(
+                    content=f"System error occurred: {str(e)}. Please try a different approach.",
+                    source="system"
+                ))
+                
+                # Check if we should give up
+                if attempt >= 20:
+                    logger.warning(f"[GIVE_UP] Reached maximum attempts in continue mode")
+                    await self._report_gave_up(message, all_attempts, parsed, ctx)
+                    return
+                
+                continue
     
     async def _execute_code_with_proxy(self, code: str, cancellation_token=None) -> Dict[str, Any]:
         """Execute code using CodeExecutorAgent for reliable execution"""
