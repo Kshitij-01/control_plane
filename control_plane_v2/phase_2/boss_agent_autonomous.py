@@ -95,6 +95,80 @@ KEY CONSTRAINTS:
 - Check file catalog before planning - don't recreate existing files
 - You can clean up duplicate/intermediate files after subtasks complete
 
+CRITICAL - NO UNICODE IN INSTRUCTIONS TO WORKER:
+- Worker runs on Windows - Unicode characters cause UnicodeEncodeError crashes
+- In your instructions to Worker: Use ONLY ASCII characters (a-z, A-Z, 0-9, basic punctuation)
+- Replace: ✓→[OK], ✗→[FAIL], •→*, —→--, …→..., any emoji→plain text
+- This prevents Worker code execution crashes on Windows console
+
+🎯 CRITICAL - PRECISE INPUT/OUTPUT SPECIFICATION:
+
+For EVERY subtask delegation, you MUST provide:
+
+1. **EXACT INPUT FILES with ABSOLUTE/RELATIVE PATHS:**
+   - Good: "input_files": ["outputs/inventory/source_list.csv", "configs/schema.json"]
+   - Bad: "input_files": ["the source list", "schema file"]
+   
+2. **EXACT EXPECTED OUTPUTS with FULL PATHS:**
+   - Good: "expected_outputs": ["outputs/data/item_1.json", "outputs/data/item_2.json", "outputs/data/process_log.json"]
+   - Bad: "expected_outputs": ["JSON files", "processing results"]
+   
+3. **PRECISE INSTRUCTIONS WITH FILE REFERENCES:**
+   - Good: "Load the source inventory from outputs/inventory/source_list.csv (contains EXACTLY N rows). Read the file_path column from each row."
+   - Bad: "Load the source list and process them"
+   
+4. **FILE COUNTS AND ASSERTIONS:**
+   - Include exact counts: "The CSV has EXACTLY N items"
+   - Tell Worker to validate: "Assert len(item_list) == N before proceeding"
+   - Specify output count: "Create EXACTLY N data files (1 per item) + 1 log file = (N+1) total outputs"
+
+5. **QUERY CATALOG FOR PATHS:**
+   - Use query_catalog(basename) to get absolute paths
+   - Include discovered paths in instructions
+   - Example: "The inventory file is at {catalog_path}"
+
+[WHY CRITICAL] Vague instructions lead to Worker hallucination, missing files, and wasted retries.
+
+🔗 CRITICAL - CROSS-TASK FILE ACCESS (WORKER MUST USE CATALOG OR ABSOLUTE PATHS):
+
+When Worker needs to access files from PREVIOUS tasks:
+
+1. **WORKER HAS query_catalog() TOOL:**
+   - Worker can query catalog by filename: `query_catalog("data.json")`
+   - Returns absolute path or None
+   - This is the PRIMARY method for finding files from previous tasks
+
+2. **TELL WORKER TO USE CATALOG IN INSTRUCTIONS:**
+   ```
+   "To find the PDF files from the previous task:
+   - Use query_catalog(basename) for each PDF filename
+   - Example: abs_path = query_catalog('report.pdf')
+   - This returns the absolute path from the previous task's workspace"
+   ```
+
+3. **IF USING MANIFEST/INVENTORY FILES WITH PATHS:**
+   - If manifest has `absolute_path` field: "Use entry['absolute_path'] directly"
+   - If manifest has only `relative_path`: "Use query_catalog(basename) for each file"
+   - **NEVER** tell Worker to use `relative_path` in a different workspace!
+
+4. **EXAMPLE GOOD INSTRUCTION:**
+   ```
+   "Load the manifest from {abs_manifest_path}.
+   For each entry in manifest['files']:
+     - Extract the PDF basename (filename only)
+     - Use query_catalog(basename) to get the absolute path
+     - OR if entry has 'absolute_path' field, use that directly
+   Build pdf_paths list with these absolute paths."
+   ```
+
+5. **EXAMPLE BAD INSTRUCTION (CAUSES FILE NOT FOUND):**
+   ```
+   "Use entry['relative_path'] and join with manifest directory"  ← WRONG!
+   "PDFs are at data/raw/..."  ← WRONG! (relative to different workspace)
+   ```
+
+[WHY CRITICAL] Each task has its own workspace. Relative paths from Task 1 don't work in Task 2's workspace!
+
 WORKER CAPABILITIES (Tools Available to Worker Agent):
 Boss, when planning subtasks, remember that Worker has access to these powerful tools:
 
@@ -103,7 +177,13 @@ Boss, when planning subtasks, remember that Worker has access to these powerful 
    - extract_multiple_pdfs: Batch extract from MULTIPLE PDFs in parallel (up to dozens at once!)
    - Features: Automatic translation (Spanish/Portuguese -> English), table extraction, complex layouts
    - NO OCR/image conversion needed - Claude reads PDFs directly
-   - Example: Worker can process 14 Pemex PDFs in ONE tool call (parallel processing)
+   - **CRITICAL - CUSTOM SCHEMA REQUIRED:**
+     * Worker MUST provide json_schema parameter defining output structure
+     * YOU must specify the exact schema in your instructions to Worker
+     * Schema defines fields: metadata, costs, events, operations, tables, etc.
+     * Check manifest for required schema - pass it to Worker verbatim
+     * Example: "Use json_schema={\"metadata\": {\"date\": \"\", \"name\": \"\"}, \"costs\": {\"daily\": \"\", \"cumulative\": \"\"}, \"events\": []}"
+   - Example: Worker can process multiple similar documents in ONE tool call with custom schema
 
 2. FILE EDITING TOOLS (Universal file editor):
    - search_replace_in_file: Edit any file type (.py, .json, .html, .yaml, .md, .csv)
@@ -170,6 +250,43 @@ For EVERY subtask, you MUST specify "expected_outputs" with EXACT filenames Work
 - Use specific paths with appropriate file extensions, not vague descriptions
 - Worker verifies it created exactly these files before claiming success
 - Include subdirectory paths if needed
+
+🚨 CRITICAL - PREVENT HALLUCINATION IN WORKER INSTRUCTIONS:
+
+When delegating PDF extraction or batch processing tasks:
+
+1. **EXPLICITLY TELL WORKER TO USE INVENTORY FILES:**
+   - "Load the PDF list from {inventory_file_path}"
+   - "Read EXACTLY {N} entries from the CSV/JSON"
+   - "Process ONLY the files listed in the inventory - DO NOT infer additional files"
+   - "Count the rows in inventory: assert len(pdf_list) == {expected_count}"
+
+2. **PROVIDE EXACT COUNTS:**
+   - Include in instructions: "The inventory contains EXACTLY N items"
+   - Tell Worker: "Process EXACTLY N files - verify your list has exactly N entries before calling the tool"
+   - Emphasize: "If your list has more/fewer than N files, you made an error - fix it!"
+
+3. **WARN AGAINST PATTERN INFERENCE:**
+   - Add to instructions: "DO NOT infer missing files from patterns (e.g., seeing files 01-04, don't assume 05-31 exist)"
+   - "Use ONLY the filenames explicitly listed in the inventory file"
+   - "Do NOT complete sequences or fill in gaps"
+
+4. **EXAMPLE GOOD INSTRUCTION:**
+   ```
+   "Load outputs/inventory/source_list.csv which contains EXACTLY N items.
+   Read all N rows from the CSV.
+   Use the EXACT file_path column from each row.
+   Before calling the batch tool, verify len(file_paths) == N.
+   If you have more than N paths, you hallucinated - delete the extras!"
+   ```
+
+5. **EXAMPLE BAD INSTRUCTION (DON'T DO THIS):**
+   ```
+   "Extract data from all files in the workspace"  ← Too vague!
+   "Process the documents in folder X"  ← No count specified!
+   ```
+
+[WHY CRITICAL] Worker will hallucinate if instructions don't explicitly enforce using EXACT inventory.
 
 RESPONSE FORMATS:
 
@@ -386,9 +503,64 @@ Make intelligent decisions to ensure high-quality results.
                             description=description
                         )
                         logger.info(f"[CATALOG] Added {catalog_key} -> {abs_path}")
+                        
+                        # VERIFY the catalog entry was created
+                        verify_result = await self.tools.access_catalog("get", file_name=catalog_key)
+                        if verify_result["success"] and verify_result["data"]:
+                            logger.info(f"[CATALOG] Verified catalog entry exists for {catalog_key}")
+                        else:
+                            logger.error(f"[CATALOG] Failed to verify catalog entry for {catalog_key}")
+                            
                     except Exception as catalog_error:
                         logger.warning(f"[CATALOG] Failed to add {catalog_key}: {catalog_error}")
                         # Continue anyway - file exists, catalog update is non-critical
+                
+                # 🔥 FALLBACK: Auto-catalog any files Worker didn't report
+                # Primary: Worker should report all files via files_created
+                # Fallback: Boss scans workspace and adds missing files
+                try:
+                    logger.info(f"[CATALOG_FALLBACK] Scanning Worker's workspace for unreported files...")
+                    
+                    # Get all files Worker reported
+                    reported_paths = {f.get('absolute_path') if isinstance(f, dict) else str(f) 
+                                     for f in message.files_created}
+                    
+                    # Scan Worker's entire workspace
+                    fallback_added = 0
+                    for file_path in self.workspace_path.rglob("*"):
+                        if not file_path.is_file():
+                            continue
+                        
+                        # Skip system files
+                        if file_path.name.startswith(".") or "__pycache__" in file_path.parts:
+                            continue
+                        
+                        abs_path_str = str(file_path.absolute())
+                        
+                        # Only add if Worker didn't report it
+                        if abs_path_str not in reported_paths:
+                            catalog_key = file_path.name
+                            
+                            # Check if already in catalog
+                            existing = await self.tools.access_catalog("get", file_name=catalog_key)
+                            if not (existing["success"] and existing["data"]):
+                                # Add to catalog
+                                await self.tools.access_catalog(
+                                    "add",
+                                    file_name=catalog_key,
+                                    absolute_path=abs_path_str,
+                                    description=f"Auto-discovered from {message.subtask_id} workspace (not reported by Worker)"
+                                )
+                                fallback_added += 1
+                                logger.info(f"[CATALOG_FALLBACK] Added unreported file: {catalog_key}")
+                    
+                    if fallback_added > 0:
+                        logger.warning(f"[CATALOG_FALLBACK] Added {fallback_added} files Worker didn't report")
+                    else:
+                        logger.info(f"[CATALOG_FALLBACK] No unreported files found - Worker reported everything")
+                        
+                except Exception as e:
+                    logger.warning(f"[CATALOG_FALLBACK] Fallback scan failed (non-critical): {e}")
                 
                 # Update knowledge base (non-critical operation)
                 try:
@@ -896,69 +1068,52 @@ ORIGINAL INSTRUCTIONS (truncated):
 
 {directory_info}
 
-CRITICAL INSTRUCTIONS FOR VERIFICATION CODE:
+CRITICAL - FILE CATALOG QUERY FUNCTION AVAILABLE:
+A query_catalog(basename) function is available in your Python environment.
+Usage: path = query_catalog("data.json")  # Returns absolute path or None
+This queries the file catalog for instant lookups without filesystem search.
 
-1. RECURSIVE FILENAME SEARCH (NOT EXACT PATHS):
-   - For each expected_output, extract ONLY the base filename (e.g., "batch_1_raw.parquet" from "outputs/intermediate/batch_1_raw.parquet")
-   - Use os.walk() or Path.rglob() to RECURSIVELY search the entire WORKING_DIR for files matching that filename
-   - Verify by FILENAME ONLY - do NOT check exact paths or subdirectory locations
-   - Worker might create files in subdirectories - that's OK as long as the filename matches
-   - Example: If expected_output is "outputs/data.json", search recursively for any file named "data.json" anywhere in the workspace
+Generate Python verification code that:
 
-2. VERIFY ONLY EXPECTED_OUTPUTS:
-   - ONLY verify the files listed in "expected_outputs" that you specified when delegating the subtask
-   - DO NOT verify "discovered" files from directory scans - those are informational only
-   - IGNORE any files that Worker created but weren't in your expected_outputs list
-   - The directory scan is provided for context, but ONLY check expected_outputs files
+1. SEARCH FOR FILES (use catalog first, then filesystem):
+   - Extract basename from each expected_output: os.path.basename(expected)
+   - FIRST: Try catalog = query_catalog(basename) - if found, use that path (instant!)
+   - FALLBACK: If catalog returns None, search recursively: Path(WORKING_DIR).rglob(basename)
+   - Files can be in ANY subdirectory - just match the filename
 
-3. FILE EXISTENCE AND SIZE:
-   - For each filename in expected_outputs, search recursively and verify at least one matching file exists
-   - Check file size is greater than 0 bytes
-   - Report missing or empty files clearly
-   - If multiple files with same name exist, verify the first one found
+2. CHECK EXISTENCE & SIZE:
+   - File exists? size > 0 bytes?
+   - Report: [MISSING] if not found, [EMPTY] if 0 bytes
 
-4. CONTENT VALIDATION - CRITICAL (CHECK ACTUAL DATA QUALITY):
-   - For JSON files: Load with json.load() and verify structure is not empty ({{}}, [], or null)
-   - For JSON files: If YOUR INSTRUCTIONS specified specific keys/fields, CHECK THOSE EXIST and contain real values (not null/"")
-   - For Parquet/CSV files containing TRANSFORMED/PROCESSED data: MANDATORY DEEP CHECK:
-     * Install pandas/pyarrow if needed: subprocess.run([sys.executable, '-m', 'pip', 'install', 'pandas', 'pyarrow'], capture_output=True)
-     * Load the data: df = pd.read_parquet(file_path) or df = pd.read_csv(file_path)
-     * Check shape: print(f"Shape: {{len(df)}} rows, {{len(df.columns)}} columns")
-     * CRITICAL COLUMN COUNT CHECK: If task was to transform/process data, output should have MORE than just the ID column
-       - If only 1 column exists (likely just the ID), print "[FAIL] Only 1 column found - transformation did not produce any output columns"
-       - Transformation outputs should have ID column PLUS transformed columns (minimum 2 columns, usually more)
-     * For EVERY column, check for ACTUAL MEANINGFUL VALUES (not just .notna()):
-       - Calculate non-null: non_null_pct = (df[col].notna().sum() / len(df)) * 100
-       - For string columns, also calculate meaningful values: meaningful = df[col].apply(lambda x: str(x).strip() not in ['', 'None', 'N/A', 'TODO'] and pd.notna(x)).sum()
-       - Print: "[DATA_QUALITY] column_name: X/Y non-null (Z%), Y/Y meaningful (W%)"
-       - Print first 3 unique values: unique_vals = df[col].unique()[:3]; print(f"[SAMPLE] column_name values: {{unique_vals}}")
-     * CRITICAL: If verification shows "18/18 non-null" but sample values are ["", "", ""] or ["None", "None", "None"], this is FAILED DATA - the transformation produced empty results
-     * If ANY column that should have transformed data shows all empty strings or string "None": Print "[FAIL] column_name has NO MEANINGFUL DATA - all values are empty/placeholder"
-     * Identify which columns were supposed to be populated based on the task and check those specifically
-   - For Parquet/CSV files that are RAW EXTRACTS (not transformed): Just check rows > 0
-   - For text/HTML reports: Read content and check for actual values, not placeholders like "TODO", "N/A", "0 rows processed"
-   - For binary files: Read first few bytes to confirm not empty
+3. VALIDATE CONTENT (adapt to file type):
+   - JSON: json.load(), verify not empty (not {{}}/[]/null), check keys if YOU specified them
+   - CSV/Parquet: load with pandas if available, check rows > 0, print shape
+   - Text/HTML: read content, check length > 0, not just whitespace
+   - Binary: check size, read first 16 bytes
+   - **CRITICAL: Don't assume field names/schemas - inspect actual structure dynamically**
 
-5. INSTRUCTION-BASED VALIDATION:
-   - Review the instructions YOU gave to Worker for this subtask
-   - Identify what specific data/fields/sections you requested
-   - Verify those specific requirements are present in the files
-   - DO NOT check for fields you didn't explicitly request
-   - DO NOT assume generic templates - check what YOU asked for
+4. BATCH TASK SMART VERIFICATION (CRITICAL):
+   - If task is BATCH PROCESSING (extract N PDFs, process N files, etc.):
+     * Load index.json/manifest and COUNT entries (e.g., 8 PDFs listed)
+     * Scan output directory for per-item files (e.g., json/ folder)
+     * Verify COUNT of actual files matches index count
+     * Example: index.json lists 8 PDFs → verify 8 JSON files in json/ directory
+   - Don't rely only on expected_outputs sample - verify FULL BATCH completed
+   - Print: "Index lists N items, found M output files" - if N != M, something is wrong
 
-6. REPORT RESULTS CLEARLY:
-   - Print [OK] for files that exist (anywhere in workspace), are non-empty, and contain expected content
-   - Print [MISSING] for filenames that don't exist anywhere in the workspace
-   - Print [EMPTY] for files with 0 bytes or empty content
-   - Print [INCOMPLETE] for files missing required fields/sections you requested
+5. VERIFY YOUR REQUIREMENTS:
+   - Read YOUR INSTRUCTIONS above
+   - Check ONLY what YOU asked for (counts, formats, specific fields YOU mentioned)
+   - Don't check unrequested features or assume generic templates
+   - If YOU asked for N outputs → verify N exist
 
-7. CODE STRUCTURE:
-   - Handle both dict format {{'filename': ..., 'absolute_path': ...}} and string format
-   - Extract base filename using os.path.basename() or Path().name
-   - Use Path(WORKING_DIR).rglob(filename) to search recursively
-   - Use try/except blocks to handle file read errors gracefully
-   - Return clear verification results for each file
-   - ONLY iterate over expected_outputs files, NOT discovered files
+6. REPORT:
+   - [OK] = exists, non-empty, contains expected content
+   - [MISSING] = file not found anywhere
+   - [EMPTY] = 0 bytes or empty structure
+   - [INCOMPLETE] = missing YOUR specific requirements
+
+Code structure: Use try/except, ONLY verify expected_outputs (not discovered files), search by basename only.
 
 Return JSON with "verification_code" field containing Python code."""
         
@@ -1119,8 +1274,45 @@ Double-check:
                 logger.info(f"[VERIFY_STEP_4] Executing verification code (timeout=300s)...")
                 logger.info(f"[VERIFY_STEP_4] Code size: {len(verification_code)} chars")
                 
+                # Prepare catalog query helper function for verification code
+                # Instead of injecting entire catalog, provide a query function
+                import os
+                # Compute catalog path once
+                catalog_path_str = str(self.workspace_path.parent / "file_catalog.json").replace("\\", "/")
+                catalog_helper = f"""
+# FILE CATALOG QUERY HELPER
+# Query catalog by basename - returns absolute path or None
+import json
+from pathlib import Path
+
+_CATALOG_PATH = Path(r"{catalog_path_str}")
+
+def query_catalog(basename: str) -> str:
+    '''Query file catalog for absolute path by basename. Returns path or None.'''
+    try:
+        if not _CATALOG_PATH.exists():
+            return None
+        with open(_CATALOG_PATH, 'r', encoding='utf-8') as f:
+            catalog_data = json.load(f)
+        files = catalog_data.get('files', {{}})
+        for key, file_info in files.items():
+            if isinstance(file_info, dict) and 'absolute_path' in file_info:
+                if Path(file_info['absolute_path']).name == basename:
+                    return file_info['absolute_path']
+    except Exception:
+        pass
+    return None
+
+"""
+                
+                logger.info(f"[VERIFY_STEP_4] Injecting catalog query helper function (lightweight)")
+                
+                # Inject helper function instead of entire catalog
+                verification_code_with_catalog = f"""{catalog_helper}
+{verification_code}"""
+                
                 exec_result = await asyncio.wait_for(
-                    self.tools.execute_python_code(verification_code, ctx.cancellation_token),
+                    self.tools.execute_python_code(verification_code_with_catalog, ctx.cancellation_token),
                     timeout=300  # 5 minutes max
                 )
                 
@@ -1334,6 +1526,11 @@ Use "reject" when:
                         todo_reminder += "- Update TODO status using todo_write_function (merge=True) as you complete each task\n"
                         todo_reminder += "- If you discover additional work needed, ADD it to the TODO list (merge=True)\n"
                         todo_reminder += "- You CANNOT declare success (retry=false) until ALL TODOs are completed\n"
+                        todo_reminder += "\n🔗 FILE CREATION → TODO COMPLETION:\n"
+                        todo_reminder += "- If you created a file required by a TODO, IMMEDIATELY mark that TODO as 'completed'\n"
+                        todo_reminder += "- Don't wait - if the file exists and is non-empty, the task is DONE\n"
+                        todo_reminder += "- Example: After creating outputs/inventory/pdf_file_list.json:\n"
+                        todo_reminder += "  → Call: todo_write_function(merge=True, todos=[{'id': 'task_2', 'status': 'completed'}])\n"
                         todo_reminder += "="*80 + "\n"
                         logger.info(f"[REDELEGATE] Reminding Worker of {len(pending_todos)} pending TODOs")
             except Exception as e:

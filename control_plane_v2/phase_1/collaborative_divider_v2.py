@@ -60,7 +60,10 @@ READ a file, UNDERSTAND its structure deeply, THEN save your analysis.
 GUIDANCE (use your best judgment):
 1. Prefer ASCII in print statements if possible (Windows console compatibility)
 2. Write code however works best for you (single block or multiple)
-3. **CRITICAL: Each code block runs in a NEW Python process - include ALL imports at the top of EVERY block**
+3. **CRITICAL: Each code block runs in a NEW Python process - variables do NOT persist between blocks!**
+   - Include ALL imports at the top of EVERY block
+   - If you need data from a previous block, save it to a file and load it in the next block
+   - OR better yet: do everything in ONE code block to avoid this issue
 4. Analyze the data thoroughly and save what you discover
 5. Use real data from actual analysis, avoid placeholder/stub values
 6. Discover field names dynamically rather than hardcoding assumptions
@@ -88,10 +91,13 @@ STEP 3: Build structure analysis from samples
 STEP 4: Save findings to 'structure_analysis.json'
 - "analysis_complete": true (REQUIRED FLAG)
 - Real data from your sampling
+- **IMPORTANT: Save the analysis in the SAME code block where you create it!**
+  (Variables don't persist between blocks, so if you create 'analysis' dict in one block,
+   you MUST save it to JSON in that SAME block, not a separate block)
 
-⚠️ GO SLOW: Break work into multiple small code blocks
+⚠️ GO SLOW: Break work into multiple small code blocks for exploration
 ⚠️ SAMPLE ONLY: Don't read entire large files
-⚠️ EACH BLOCK: Include imports at the top
+⚠️ FINAL STEP: Combine analysis creation + JSON save in ONE block
 
 If you encounter errors, they will be shown to you. Fix and retry.
 
@@ -115,7 +121,12 @@ Worker agents executing your tasks have access to these powerful tools:
    - extract_multiple_pdfs: Batch process MULTIPLE PDFs in parallel (can handle dozens at once!)
    - Auto-translates Spanish/Portuguese to English
    - Handles complex layouts, tables, multi-column formats
-   - IMPLICATION: Don't create separate tasks per PDF! Worker can process many PDFs in one task.
+   - **CRITICAL - CUSTOM SCHEMA SUPPORT:**
+     * Tools accept json_schema parameter to define output structure
+     * Boss must provide schema in task instructions
+     * Check manifest's "additional_instructions" for required schema
+     * If manifest specifies output fields (metadata, costs, events, operations), include that EXACT schema in task instructions
+   - IMPLICATION: Don't create separate tasks per PDF! Worker can process many PDFs in one task with custom schema.
    
 2. FILE EDITING TOOLS:
    - Can edit ANY file type without regenerating (HTML, JSON, Python, YAML, CSV, etc.)

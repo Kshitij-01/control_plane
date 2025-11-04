@@ -1,0 +1,47 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_014202\\phase2\\unzip_and_inventory\\inputs\\halliburton_ddr\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "layout_notes": {
+        "language": "Spanish",
+        "has_tables": true,
+        "has_multi_column": true,
+        "header_info": "Contains PEMEX corporate header with report title 'REPORTE DIARIO DE OPERACIONES' dated 01-feb-2015, project name 'Alianza', equipment number IPC-776, and well name NAVEGANTE 0001DL",
+        "general_structure": "Standard drilling operations daily report form with structured multi-column layout. Contains: (1) Time-stamped operational activities log in upper section, (2) Left column with BHA (Bottom Hole Assembly) component table, bit information, and lithology description, (3) Right column with well casing data, directional survey table, and mud properties table, (4) Center sections with drilling parameters, safety statistics (QHSE), pump information, and BOP test data, (5) Footer with personnel signatures and summary sections. Form includes pre-printed fields and sections filled with handwritten and typed data."
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_014202\\phase2\\unzip_and_inventory\\inputs\\halliburton_ddr\\Petrobras\\BDP 016_8-MRO-14D-RJS_10-06-2021_Parceiros (1).pdf",
+    "pdf_name": "BDP 016_8-MRO-14D-RJS_10-06-2021_Parceiros (1).pdf",
+    "data": {
+      "layout_notes": {
+        "language": "Portuguese (with English technical terminology)",
+        "has_tables": true,
+        "has_multi_column": false,
+        "header_info": "Contains Petrobras logo, report title 'Daily Drilling Report (LIBRA)', well identification (8-MRO-14D-RJS), report number 16, date (10/06/2021), rig name (DEEPWATER MYKONOS/39), project details (LIBRA-NW), and water depth information (25.00m / 1,900.00m)",
+        "general_structure": "Standard daily drilling report with a structured format consisting of: (1) Header with well and rig identification, (2) Well status and progress metrics, (3) Current operations summary and 24-hour forecast, (4) Cost tracking section, (5) Time-based operations log tables (Critical Path and Parallel Operations), (6) Technical sections including hole section details, BHA assembly information with component listings, (7) Materials usage tracking, (8) Safety statistics and HSE activities, (9) Equipment detection tests section. The document spans 5 pages with consistent header formatting on each page and uses multiple detailed tables for operational data presentation."
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_014202\\phase2\\unzip_and_inventory\\inputs\\halliburton_ddr\\Petroecuador\\01-11-2023_VHRJ-028_DDR 05_RIG CCDC 69.pdf",
+    "pdf_name": "01-11-2023_VHRJ-028_DDR 05_RIG CCDC 69.pdf",
+    "data": {
+      "layout_notes": {
+        "language": "Spanish",
+        "has_tables": true,
+        "has_multi_column": false,
+        "header_info": "Contains company branding (EP PETROECUADOR), document title (DAILY OPERATIONS SHORT REPORT), well identification (VHRJ-028), report metadata (date, report number, event type), and key operational parameters (MD depths, costs, rig information, current operations summary)",
+        "general_structure": "Standard daily drilling report format with: (1) Header section containing well identification and key metrics in a grid layout, (2) 24-hour summary and forecast text sections, (3) Main operations table with time-based entries showing detailed activities with columns for time ranges, hours, operation codes, operation types, and detailed descriptions, (4) Footer section with 'OTHER REMARKS' containing solids control information, safety records, risk assessments, observations, and permits/inspections data. The document spans 2 pages with the operations table continuing across both pages."
+      }
+    },
+    "success": true,
+    "error": null
+  }
+]

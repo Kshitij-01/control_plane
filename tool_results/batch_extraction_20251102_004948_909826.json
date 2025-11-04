@@ -1,0 +1,3962 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\01-11-2023_VHRJ-028_DDR 05_RIG CCDC 69.pdf",
+    "pdf_name": "01-11-2023_VHRJ-028_DDR 05_RIG CCDC 69.pdf",
+    "data": {
+      "document_metadata": {
+        "date": "11/01/2023",
+        "report_number": "5",
+        "well_name": "VHRJ-028",
+        "operator": "EP PETROECUADOR",
+        "rig": "CCDC-069",
+        "detected_language": "Spanish",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "Event",
+          "content": "DEV DRILLING (Development Drilling)"
+        },
+        {
+          "section_title": "Primary Reason",
+          "content": "DEEPEN DIR (Directional Deepening)"
+        },
+        {
+          "section_title": "Description",
+          "content": "Perforacion del pozo VHRJ-028 (Drilling of well VHRJ-028)"
+        },
+        {
+          "section_title": "Current Ops",
+          "content": "SACANDO BHA DIR. DE 12 1/4\" CON BROCA PDC, MOTOR DE FONDO Y MWD, CON DP DE 5 1/2\" EN ELEVADORES @ 5,200 ft MD (PULLING OUT DIRECTIONAL BHA 12 1/4\" WITH PDC BIT, MUD MOTOR AND MWD, WITH 5 1/2\" DRILL PIPE IN ELEVATORS @ 5,200 ft MD)"
+        },
+        {
+          "section_title": "24-Hr Summary",
+          "content": "CONT. PERFORANDO SECCION DE 12 1/4\" CON BROCA PDC, MOTOR DE FONDO Y MWD HASTA PUNTO DE CSG DE 9 5/8\" @ 6,315 ft MD + CIRCULA HOYO + REALIZA VIAJE CORTO DE CONTROL A TOPE DE ORTEGUAZA (5200 ft MD) + REGRESA A FONDO + CIRCULA HOYO + SACA BHA#2 (CONTINUED DRILLING 12 1/4\" SECTION WITH PDC BIT, MUD MOTOR AND MWD TO 9 5/8\" CASING POINT @ 6,315 ft MD + CIRCULATE HOLE + SHORT TRIP FOR CONTROL TO TOP OF ORTEGUAZA (5200 ft MD) + RETURN TO BOTTOM + CIRCULATE HOLE + PULL BHA#2)"
+        },
+        {
+          "section_title": "24-Hr Forecast",
+          "content": "CONT. SACANDO DIR. DE 12 1/4\" CON BROCA PDC, MOTOR DE FONDO Y MWD (BHA #2) A SUPERFICIE + DESARMAR BHA DIR. DE 12 1/4\" + ARMAR HTAS. DE CORRIDA DE TUBULARES DE 95/8\" CON CDS + ARMAR Y CORRER EL REVESTIMIENTO DE 9 5/8\" (CONTINUE PULLING OUT 12 1/4\" DIRECTIONAL BHA WITH PDC BIT, MUD MOTOR AND MWD (BHA #2) TO SURFACE + RIG DOWN 12 1/4\" DIRECTIONAL BHA + RIG UP CASING RUNNING TOOLS FOR 9 5/8\" WITH CDS + RIG UP AND RUN 9 5/8\" CASING)"
+        },
+        {
+          "section_title": "Control de Solidos (Solids Control)",
+          "content": "Se trabajo con floculacion selectiva y Dewatering al sistema con 2 Centrifugas por un total 20 hrs. Se realiza LGS en un total de 4hrs con 2 Centrifugas Decantadoras. Se realiza Dewatering de fluido descartado a tanuqes verticales por un total de 7hrs. Se envia al gestor ambiental 130m3 de cortes y ripios de perforaciom. Se tiene un acumulado enviado al gestor ambiental de 319 m3 de cortes (Worked with selective flocculation and Dewatering to the system with 2 Centrifuges for a total of 20 hrs. LGS was performed for a total of 4hrs with 2 Decanting Centrifuges. Dewatering of discarded fluid to vertical tanks was performed for a total of 7hrs. 130m3 of cuttings and drill cuttings were sent to the environmental manager. There is an accumulated 319 m3 of cuttings sent to the environmental manager)"
+        },
+        {
+          "section_title": "Accidentes / Incidentes (Accidents / Incidents)",
+          "content": "NO"
+        },
+        {
+          "section_title": "Días sin accidentes en el Proyecto (Days without accidents in the Project)",
+          "content": "69"
+        },
+        {
+          "section_title": "Momento de Seguridad (Safety Moment)",
+          "content": "Caídas al mismo nivel. / Difusión alerta de seguridad: Prohibición de izaje de tanques de combustible lleno. (Falls at the same level. / Safety alert dissemination: Prohibition of lifting full fuel tanks.)"
+        },
+        {
+          "section_title": "Riesgos asociados / Recomendaciones para la operación (Associated risks / Recommendations for the operation)",
+          "content": "• Perforar sección de 12 1/4\" (Rotación de sarta, caída de objetos, daño de equipos, arremetida de pozo, Línea de fuego, atrapamientos / EPP/ certificación de equipos de izaje/ coordinación y comunicación efectiva, apagados de emergencia probados). • Mezclando química para fluido de perforación (Riesgo químicos, atrapamientos, caída de objetos / Línea de fuego / EPP) • Movilización de herramientas con montacargas (Caída objetos / daño de equipos / Línea de fuego / Operador certificado / accesorios de izaje certificados / Límites de velocidad / Difundir JSA / Aseguramiento). • Manipulación de cargas (Caída objetos / Cuidado de manos / Manipulación de cargas / Línea de fuego / Difundir JSA / Aseguramiento). (• Drilling 12 1/4\" section (String rotation, falling objects, equipment damage, well kick, Line of fire, entrapments / PPE/ certification of lifting equipment/ coordination and effective communication, tested emergency shutdowns). • Mixing chemicals for drilling fluid (Chemical risks, entrapments, falling objects / Line of fire / PPE) • Mobilization of tools with forklift (Falling objects / equipment damage / Line of fire / Certified operator / certified lifting accessories / Speed limits / Disseminate JSA / Assurance). • Load handling (Falling objects / Hand care / Load handling / Line of fire / Disseminate JSA / Assurance).)"
+        },
+        {
+          "section_title": "Observaciones (Observations)",
+          "content": "• Observaciones de día: HSE: 3 SQ: 0 • Observaciones acumuladas VHRJ-028: HSE: 10 SQ: 0 (• Observations of the day: HSE: 3 SQ: 0 • Accumulated observations VHRJ-028: HSE: 10 SQ: 0)"
+        },
+        {
+          "section_title": "Permisos de trabajo (Work permits)",
+          "content": "10"
+        },
+        {
+          "section_title": "Análisis de riesgos (Risk analysis)",
+          "content": "10"
+        },
+        {
+          "section_title": "Inspecciones (Inspections)",
+          "content": "1 (Botiquines de primeros auxilios). (1 (First aid kits).)"
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "Well Summary Data",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Wellbore",
+              "00"
+            ],
+            [
+              "Today's MD",
+              "6,315.00 ft"
+            ],
+            [
+              "Prev MD",
+              "5,278.00 ft"
+            ],
+            [
+              "PBMD",
+              "830.92 ft"
+            ],
+            [
+              "Ref Datum",
+              "ORIGINAL KB @868.02ft"
+            ],
+            [
+              "Ground Elev",
+              "830.92 ft"
+            ],
+            [
+              "AFE MD/Days",
+              "/ 15.8 days"
+            ],
+            [
+              "AFE Number",
+              "AFE C. IGAPO"
+            ],
+            [
+              "Daily Cost",
+              "$0"
+            ],
+            [
+              "Cum Cost",
+              "$0"
+            ],
+            [
+              "AFE Cost",
+              ""
+            ],
+            [
+              "Rig",
+              "CCDC-069"
+            ],
+            [
+              "Inicio OPR",
+              "10/27/2023 12:00:00AM"
+            ]
+          ]
+        },
+        {
+          "table_title": "OPERATIONS - Detailed Time Log",
+          "headers": [
+            "From",
+            "To",
+            "Hrs",
+            "Op Code",
+            "Op Sub",
+            "Op Type",
+            "Operation Details"
+          ],
+          "rows": [
+            [
+              "6:00",
+              "10:00",
+              "4.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "CONT. PERFORANDO SECCION DE 12 ¼\" CON BHA DIR. CON BROCA PDC, MOTOR Y MWD (BHA #2), TUMBANDO ANGULO PARA VERTICALIZAR SECCION, DESDE 5,278 ft HASTA 5,565 ft MD - ROP PROM: 71.75 ft/hr – MW: 10.0 ppg. PARAMETROS ROTANDO: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-30 KLBS, 3200 PSI (On), TQ: 12-16 KLBS-FT. PARAMETROS DESLIZANDO: 1200 GPM, WOB:10-12 KLBS, 1750 PSI (On). P/U WT: 240 KLBS, S/O WT: 165 KLBS, ROT WT: 180 KLBS. LITOLOGIA @ 5,550 ft MD = 80% LUTITA, 10% ARCILLOLITA, 10% CARBON (CONTINUED DRILLING 12 ¼\" SECTION WITH DIRECTIONAL BHA WITH PDC BIT, MOTOR AND MWD (BHA #2), DROPPING ANGLE TO VERTICALIZE SECTION, FROM 5,278 ft TO 5,565 ft MD - AVG ROP: 71.75 ft/hr – MW: 10.0 ppg. ROTATING PARAMETERS: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-30 KLBS, 3200 PSI (On), TQ: 12-16 KLBS-FT. SLIDING PARAMETERS: 1200 GPM, WOB:10-12 KLBS, 1750 PSI (On). P/U WT: 240 KLBS, S/O WT: 165 KLBS, ROT WT: 180 KLBS. LITHOLOGY @ 5,550 ft MD = 80% SHALE, 10% CLAYSTONE, 10% COAL)"
+            ],
+            [
+              "10:00",
+              "10:30",
+              "0.50",
+              "RIG MAINTENANCE",
+              "Service Rig and Equi",
+              "P",
+              "REALIZA SERVICIO AL EQUIPO = ENGRASA TOP DRIVE, WASH PIPE, MALACATE (PERFORMS SERVICE TO EQUIPMENT = GREASE TOP DRIVE, WASH PIPE, DRAWWORKS)"
+            ],
+            [
+              "10:30",
+              "14:30",
+              "4.00",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. PERFORANDO SECCION VERTICAL DE 12 ¼\" CON BHA DIR. CON BROCA PDC, MOTOR Y MWD (BHA #2), DESDE 5,565 ft HASTA 5,942 ft MD - ROP PROM: 94.25 ft/hr – MW: 10.0 ppg. PARAMETROS ROTANDO: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-28 KLBS, 2600 PSI (On), TQ: 13-18 KLBS-FT. P/U WT: 255 KLBS, S/O WT: 165 KLBS, ROT WT: 190 KLBS. LITOLOGIA @ 5,900 ft MD = 70% LUTITA, 20% ARCILLOLITA, 10% LIMOLITA (CONTINUED DRILLING VERTICAL SECTION 12 ¼\" WITH DIRECTIONAL BHA WITH PDC BIT, MOTOR AND MWD (BHA #2), FROM 5,565 ft TO 5,942 ft MD - AVG ROP: 94.25 ft/hr – MW: 10.0 ppg. ROTATING PARAMETERS: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-28 KLBS, 2600 PSI (On), TQ: 13-18 KLBS-FT. P/U WT: 255 KLBS, S/O WT: 165 KLBS, ROT WT: 190 KLBS. LITHOLOGY @ 5,900 ft MD = 70% SHALE, 20% CLAYSTONE, 10% SILTSTONE)"
+            ],
+            [
+              "14:30",
+              "18:30",
+              "4.00",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. PERFORANDO SECCION VERTICAL DE 12 ¼\" CON BHA DIR. CON BROCA PDC, MOTOR Y MWD (BHA #2) CONTROLANDO PARAMETROS PARA ATRAVEZAR EL CONGLOMERADO INFERIOR DE TIYUYACU, DESDE 5,942 ft HASTA 6,165 ft MD - ROP PROM: 55.75 ft/hr – MW: 10.0 ppg. PARAMETROS ROTANDO: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-28 KLBS, 2600 PSI (On), TQ: 13-18 KLBS-FT. P/U WT: 280 KLBS, S/O WT: 160 KLBS, ROT WT: 220 KLBS. LITOLOGIA @ 6,315 ft MD = 70% LIMOLITA, 30% ARCILLOLITA (CONTINUED DRILLING VERTICAL SECTION 12 ¼\" WITH DIRECTIONAL BHA WITH PDC BIT, MOTOR AND MWD (BHA #2) CONTROLLING PARAMETERS TO CROSS THE LOWER CONGLOMERATE OF TIYUYACU, FROM 5,942 ft TO 6,165 ft MD - AVG ROP: 55.75 ft/hr – MW: 10.0 ppg. ROTATING PARAMETERS: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-28 KLBS, 2600 PSI (On), TQ: 13-18 KLBS-FT. P/U WT: 280 KLBS, S/O WT: 160 KLBS, ROT WT: 220 KLBS. LITHOLOGY @ 6,315 ft MD = 70% SILTSTONE, 30% CLAYSTONE)"
+            ],
+            [
+              "18:30",
+              "21:00",
+              "2.50",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. PERFORANDO SECCION VERTICAL DE 12 ¼\" CON BHA DIR. CON BROCA PDC, MOTOR Y MWD (BHA #2) CONTROLANDO PARAMETROS DESDE 6,165 ft HASTA PROFUNDIDAD FINAL DE SECCION @ 6,315 ft MD - ROP PROM: 60.0 ft/hr – MW: 10.1 ppg. PARAMETROS ROTANDO: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-28 KLBS, 3200 PSI (On), TQ: 14-18 KLBS-FT. P/U WT: 215 KLBS, S/O WT: 160 KLBS, ROT WT: 180 KLBS. LITOLOGIA @ 6,315 ft MD = 80% ARCILLOLITA, 20% LIMOLITA. ULTIMO SURVEY @ 6,260 ft MD = Inc. 0.58 grd, Azi. 148.22 grd. PROYECCION A FONDO @ 6,315 ft MD = Inc. 0.54 grd, Azi. 148.22 grd (CONTINUED DRILLING VERTICAL SECTION 12 ¼\" WITH DIRECTIONAL BHA WITH PDC BIT, MOTOR AND MWD (BHA #2) CONTROLLING PARAMETERS FROM 6,165 ft TO FINAL SECTION DEPTH @ 6,315 ft MD - AVG ROP: 60.0 ft/hr – MW: 10.1 ppg. ROTATING PARAMETERS: 1200 GPM, 80 RPM, 2600 PSI (Off), WOB: 25-28 KLBS, 3200 PSI (On), TQ: 14-18 KLBS-FT. P/U WT: 215 KLBS, S/O WT: 160 KLBS, ROT WT: 180 KLBS. LITHOLOGY @ 6,315 ft MD = 80% CLAYSTONE, 20% SILTSTONE. LAST SURVEY @ 6,260 ft MD = Inc. 0.58 deg, Azi. 148.22 deg. PROJECTION TO BOTTOM @ 6,315 ft MD = Inc. 0.54 deg, Azi. 148.22 deg)"
+            ],
+            [
+              "21:00",
+              "23:30",
+              "2.50",
+              "CIRCULATING",
+              "Tripping",
+              "P",
+              "BOMBEA Y CIRCULA FUERA DEL POZO TANDEM DE PILDORAS VISCO-PESADAS DE 50 BLS C/ UNA DE 11.4 ppg X 120 seg, ESPACIADAS EN 1500 STKS + CONT. CIRCULANDO POZO HASTA RETORNOS LIMPIOS EN ZARANDAS ACONDICIONANDO DENSIDAD DEL FLUIDO EN 10.3 ppg PREVIO A VIAJE CORTO DE CONTROL (PUMPS AND CIRCULATES OUT OF WELL TANDEM OF HEAVY-VISCOUS PILLS OF 50 BBL EACH OF 11.4 ppg X 120 sec, SPACED AT 1500 STKS + CONTINUES CIRCULATING WELL UNTIL CLEAN RETURNS AT SHAKERS CONDITIONING FLUID DENSITY AT 10.3 ppg PRIOR TO SHORT TRIP FOR CONTROL)"
+            ],
+            [
+              "23:30",
+              "1:00",
+              "1.50",
+              "BHA",
+              "Tripping",
+              "P",
+              "SACA BHA DIR. DE 12 1/4\" (BHA #2) CON DP DE 5 1/2\" EN ELEVADORES DESDE 6,315 ft HASTA 5,200 ft MD, NORMAL (PULLS OUT DIRECTIONAL BHA 12 1/4\" (BHA #2) WITH 5 1/2\" DRILL PIPE IN ELEVATORS FROM 6,315 ft TO 5,200 ft MD, NORMAL)"
+            ],
+            [
+              "1:00",
+              "2:00",
+              "1.00",
+              "CIRCULATING",
+              "Condition Hole",
+              "P",
+              "BOMBEA Y CIRCULA FUERA DEL HOYO UN TANDEM DE PILDORAS DE LIMPIEZA DE 50 BBL DE BAJA REOLOGIA + 60 BBL DE PILDORA VISCO-PESADA DE 11.4 ppg X 120 seg (PUMPS AND CIRCULATES OUT OF HOLE A TANDEM OF CLEANING PILLS OF 50 BBL OF LOW RHEOLOGY + 60 BBL OF HEAVY-VISCOUS PILL OF 11.4 ppg X 120 sec)"
+            ],
+            [
+              "2:00",
+              "3:30",
+              "1.50",
+              "BHA",
+              "Tripping",
+              "P",
+              "REGRESA A FONDO CON BHA DIR. DE 12 1/4\" (BHA #2) CON DP DE 5 1/2\" EN ELEVADORES DESDE 5,200 ft HASTA 6,315 ft MD, NORMAL - BAJA LAVANDO CON LAS DOS ULTIMAS PARADAS POR PRECAUCION CON 800 GPM, 1300 PSI, 40 RPM, TQ: 8-9 KLBS-FT (RETURNS TO BOTTOM WITH DIRECTIONAL BHA 12 1/4\" (BHA #2) WITH 5 1/2\" DRILL PIPE IN ELEVATORS FROM 5,200 ft TO 6,315 ft MD, NORMAL - RUNS IN HOLE WASHING WITH THE LAST TWO STANDS AS PRECAUTION WITH 800 GPM, 1300 PSI, 40 RPM, TQ: 8-9 KLBS-FT)"
+            ],
+            [
+              "3:30",
+              "5:00",
+              "1.50",
+              "CIRCULATING",
+              "Condition Hole",
+              "P",
+              "BOMBEA Y CIRCULA FUERA DEL POZO TANDEM DE PILDORAS VISCO-PESADAS DE 60 BLS DE 11.4 ppg X 120 seg, ESPACIADAS EN 1500 STKS + CONT. CIRCULANDO POZO HASTA RETORNOS LIMPIOS EN ZARANDAS (PUMPS AND CIRCULATES OUT OF WELL TANDEM OF HEAVY-VISCOUS PILLS OF 60 BBL OF 11.4 ppg X 120 sec, SPACED AT 1500 STKS + CONTINUES CIRCULATING WELL UNTIL CLEAN RETURNS AT SHAKERS)"
+            ],
+            [
+              "5:00",
+              "5:30",
+              "0.50",
+              "BHA",
+              "Tripping",
+              "P",
+              "SACA BHA DIR. DE 12 1/4\" (BHA #2) CON DP DE 51/2\" EN ELEVADORES DESDE 6,315 ft HASTA 5925 ft MD + BOMBEA Y DESPLAZA AL ESPACIO ANULAR 100 BBL DE PILDORA SELLANTE DE 10.4 ppg X 40 seg PARA CUBRIR ORTEGUAZA (PULLS OUT DIRECTIONAL BHA 12 1/4\" (BHA #2) WITH 5 1/2\" DRILL PIPE IN ELEVATORS FROM 6,315 ft TO 5925 ft MD + PUMPS AND DISPLACES TO ANNULAR SPACE 100 BBL OF SEALING PILL OF 10.4 ppg X 40 sec TO COVER ORTEGUAZA)"
+            ],
+            [
+              "5:30",
+              "6:00",
+              "0.50",
+              "BHA",
+              "Tripping",
+              "P",
+              "CONT. SACANDO BHA DIR. DE 12 1/4\" (BHA #2) CON DP DE 51/2\" EN ELEVADORES DESDE 5,925 ft HASTA 5,200 ft MD (CONTINUES PULLING OUT DIRECTIONAL BHA 12 1/4\" (BHA #2) WITH 5 1/2\" DRILL PIPE IN ELEVATORS FROM 5,925 ft TO 5,200 ft MD)"
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\03-11-2023_VHRJ-028_DDR 07_RIG CCDC 69.pdf",
+    "pdf_name": "03-11-2023_VHRJ-028_DDR 07_RIG CCDC 69.pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 120 seconds"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\06-11-2023_VHRJ-028_DDR 10_RIG CCDC 69.pdf",
+    "pdf_name": "06-11-2023_VHRJ-028_DDR 10_RIG CCDC 69.pdf",
+    "data": {
+      "document_metadata": {
+        "date": "11/06/2023",
+        "report_number": "10",
+        "well_name": "VHRJ-028",
+        "operator": "EP PETROECUADOR",
+        "rig": "CCDC-069",
+        "detected_language": "Spanish/English mixed",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "Event",
+          "content": "DEV DRILLING"
+        },
+        {
+          "section_title": "Primary Reason",
+          "content": "DEEPEN DIR"
+        },
+        {
+          "section_title": "Wellbore",
+          "content": "VHRJ-028"
+        },
+        {
+          "section_title": "Rig",
+          "content": "CCDC-069"
+        },
+        {
+          "section_title": "Reference Datum",
+          "content": "ORIGINAL KB @868.02ft"
+        },
+        {
+          "section_title": "AFE",
+          "content": "AFE C. IGAPO"
+        },
+        {
+          "section_title": "Today's MD",
+          "content": "8,500.00 ft"
+        },
+        {
+          "section_title": "Previous MD",
+          "content": "7,670.00 ft"
+        },
+        {
+          "section_title": "Progress",
+          "content": "830.00 ft"
+        },
+        {
+          "section_title": "Ground Elevation",
+          "content": "830.92 ft"
+        },
+        {
+          "section_title": "Rotary Hours Today",
+          "content": "21.50 hr"
+        },
+        {
+          "section_title": "AFE MD/Days",
+          "content": "/ 15.8 days"
+        },
+        {
+          "section_title": "Avg ROP Slide (ft/hr)",
+          "content": "0.00"
+        },
+        {
+          "section_title": "Avg ROP Rot (ft/hr)",
+          "content": "38.60"
+        },
+        {
+          "section_title": "DFS",
+          "content": "9.50"
+        },
+        {
+          "section_title": "Daily Cost",
+          "content": "$0"
+        },
+        {
+          "section_title": "Cumulative Cost",
+          "content": "$0"
+        },
+        {
+          "section_title": "AFE Cost",
+          "content": "$0"
+        },
+        {
+          "section_title": "Current Operations",
+          "content": "DRILLING 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) @ 8,500 ft MD [Original Spanish: PERFORANDO SECCION DE 8 1/2\" CON BHA DIR. CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) @ 8,500 ft MD]"
+        },
+        {
+          "section_title": "24-Hr Summary",
+          "content": "CONTINUED DRILLING VERTICAL 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) IN ROTATION FROM 7,670 ft TO 8,500 ft MD - AVG ROP: 38.6 ft/hr - PERFORMED CIRCULATION STATION @ 7,768 ft MD [Original Spanish: CONT. PERFORANDO SECCION VERTICAL DE 8 1/2\" CON BHA DIR. CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) EN ROTACION DESDE 7,670 ft HASTA 8,500 ft MD - ROP PROM: 38.6 ft/hr - REALIZA ESTACION DE CIRCULACION @ 7,768 ft MD]"
+        },
+        {
+          "section_title": "24-Hr Forecast",
+          "content": "CONTINUE DRILLING 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) ACCORDING TO DIRECTIONAL PLAN TO TD OF WELL @ +/- 8,704 ft MD - PRIMARY OBJECTIVE SANDSTONE \"U\" INF + CIRCULATE HOLE + PERFORM CONTROL TRIP TO 9 5/8\" SHOE [Original Spanish: CONT. PERFORANDO SECCION DE 8 1/2\" CON BHA DIR. CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CONFORME PLAN DIRECCIONAL HASTA TD DE POZO @ +/- 8,704 ft MD - OBJETIVO PRINCIPAL ARENISCA \"U\" INF + CIRCULAR HOYO + REALIZAR VIAJE DE CONTROL A ZAPATA DE 9 5/8\"]"
+        },
+        {
+          "section_title": "Last Casing",
+          "content": "9.625in @ 6,315ft"
+        },
+        {
+          "section_title": "Next Casing",
+          "content": "7.000in @ 8,704ft"
+        },
+        {
+          "section_title": "Last BOP Press Test",
+          "content": "11/03/2023"
+        },
+        {
+          "section_title": "Form Test/EMW",
+          "content": "FIT / 11.50 ppg"
+        },
+        {
+          "section_title": "Mud Type",
+          "content": "POLIMERO (POLYMER)"
+        },
+        {
+          "section_title": "Mud Engineer",
+          "content": "D. CASTELLANOS / C. VASQUEZ"
+        },
+        {
+          "section_title": "Sample From",
+          "content": "IN"
+        },
+        {
+          "section_title": "Time / MD",
+          "content": "6:01 / 8,500.0"
+        },
+        {
+          "section_title": "BHA Purpose",
+          "content": "DRILL 8 1/2\" HOLE SECTION TO 8704 ft MD"
+        },
+        {
+          "section_title": "Total BHA Length",
+          "content": "1,032.89 ft"
+        },
+        {
+          "section_title": "Weight below Jars",
+          "content": "90.0 kip"
+        },
+        {
+          "section_title": "BHA MD In",
+          "content": "6,315.00 ft"
+        },
+        {
+          "section_title": "Safety Incident",
+          "content": "N"
+        },
+        {
+          "section_title": "Environmental Incident",
+          "content": "N"
+        },
+        {
+          "section_title": "Days since Last RI",
+          "content": "null"
+        },
+        {
+          "section_title": "Days since Last LTA",
+          "content": "74.00"
+        },
+        {
+          "section_title": "Incident Comments",
+          "content": "NO INCIDENTS TO REPORT IN THE LAST 24 HOURS. [Original Spanish: INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS.]"
+        },
+        {
+          "section_title": "Other Remarks - SOLIDS CONTROL",
+          "content": "RECEIVED 250 BBL OF INHIBITED POLYMER MUD IN VERTICAL TANK. PROCESSED 600 BBL OF DISCARDED FLUIDS THROUGH DEWATERING. TREATED 450 BBL OF DEWATERING WATER. SENT TO VHR STATION 800 BBL OF TREATED WATER UNDER PARAMETERS. SENT 75M3 OF CUTTINGS TO ENVIRONMENTAL MANAGER. ACCUMULATED 721M3. PERFORMED 12 DUMP TRUCK TRIPS. ACCUMULATED 113 TRIPS. CHANGED SCREEN MESH API CONFIGURATION ON SHAKERS AT 7800 FT. [Original Spanish: RECIBE 250 BBL DE LODO PLIMERICO INHIBYDO EN TANQUE VERTICAL. SE PROCESA 600 BBL DE FLUIDOS DESCARTADOS MEDIANTE DEWATERING. SE TRATA 450 BBL DE AGUA DE DEWATERING. SE ENVIA A LA ESTACION VHR 800 BBL DE AGUA TRATADA BAJO PARAMETROS. SE ENVIA 75M3 DE CORTES AL GESTOR AMBIENTAL. ACUMULADO 721M3. SE REALIZAN 12 VIAJES DEVOLQUETAS. ACUMULADO 113 VIAJES. SE CAMBIA CONFIGURACION DE MALLAS API EN ZARANDAS A LOS 7800 FT.]"
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "Survey Data (Last 6)",
+          "headers": [
+            "MD",
+            "Incl",
+            "Azi",
+            "TVD",
+            "N/-S",
+            "E/-W",
+            "VS",
+            "DLS",
+            "Build"
+          ],
+          "rows": [
+            [
+              "8,328.0",
+              "0.67",
+              "77.77",
+              "7,829.50",
+              "1,679.6",
+              "854.2",
+              "1,883.8",
+              "0.13",
+              "0.12"
+            ],
+            [
+              "8,233.0",
+              "0.56",
+              "82.19",
+              "7,734.50",
+              "1,679.4",
+              "853.2",
+              "1,883.2",
+              "0.10",
+              "0.03"
+            ],
+            [
+              "8,138.0",
+              "0.53",
+              "91.26",
+              "7,639.51",
+              "1,679.3",
+              "852.3",
+              "1,882.8",
+              "0.22",
+              "-0.21"
+            ],
+            [
+              "8,043.0",
+              "0.73",
+              "86.70",
+              "7,544.51",
+              "1,679.3",
+              "851.2",
+              "1,882.3",
+              "0.45",
+              "0.42"
+            ],
+            [
+              "7,948.0",
+              "0.33",
+              "70.20",
+              "7,449.52",
+              "1,679.2",
+              "850.4",
+              "1,881.8",
+              "0.17",
+              "0.14"
+            ],
+            [
+              "7,854.0",
+              "0.20",
+              "91.04",
+              "7,355.52",
+              "1,679.1",
+              "850.0",
+              "1,881.5",
+              "0.28",
+              "0.05"
+            ]
+          ]
+        },
+        {
+          "table_title": "Personnel",
+          "headers": [
+            "Role",
+            "Name"
+          ],
+          "rows": [
+            [
+              "Supervisor 1",
+              "GIOVANNY CARRILLO (IGAPO)"
+            ],
+            [
+              "Supervisor 2",
+              ""
+            ],
+            [
+              "Engineer",
+              "EDGAR ESPINOSA"
+            ],
+            [
+              "Geologist",
+              ""
+            ],
+            [
+              "Engineer PAM",
+              ""
+            ],
+            [
+              "Total on Site",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Hookload & Torque",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Str Wt Up/Dn",
+              "360.0 / 185.0 kip"
+            ],
+            [
+              "Str Wt Rot",
+              "240.0 kip"
+            ],
+            [
+              "Torq Off Btm",
+              "21,000.0 ft-lbf"
+            ],
+            [
+              "Torq On Btm",
+              "24,000.0 ft-lbf"
+            ]
+          ]
+        },
+        {
+          "table_title": "Hydraulics",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Pump Rate",
+              "416.5"
+            ],
+            [
+              "Pump Press",
+              "1,900.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "Mud Gas",
+          "headers": [
+            "Type",
+            "Avg",
+            "Max"
+          ],
+          "rows": [
+            [
+              "Backgr",
+              "",
+              ""
+            ],
+            [
+              "Trip",
+              "",
+              ""
+            ],
+            [
+              "Conn",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Bit Record",
+          "headers": [
+            "Bit No",
+            "Size",
+            "Manufacturer",
+            "Model",
+            "Serial No",
+            "IADC Code",
+            "Nozzles",
+            "MD In",
+            "MD Out",
+            "I-O-D-L",
+            "B-G-O-R"
+          ],
+          "rows": [
+            [
+              "03",
+              "8.500",
+              "PRF-HALLIBURTON LATIN AMERICA S.R.L",
+              "GT65DO",
+              "13687998",
+              "M323",
+              "2x14, 4x13",
+              "6,315.00",
+              "-",
+              "-",
+              "- - -"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bit Operating Parameters Today",
+          "headers": [
+            "Bit No",
+            "Rot Hrs",
+            "Cum Rot Hrs",
+            "Prog",
+            "Cum Prog",
+            "ROP",
+            "Cum ROP",
+            "WOB min/max",
+            "RPM min/max",
+            "TFA",
+            "P Drop Bit",
+            "Noz Vel",
+            "HHPSI"
+          ],
+          "rows": [
+            [
+              "03",
+              "21.50",
+              "40.50",
+              "830.00",
+              "2,185.00",
+              "38.6",
+              "54.0",
+              "10.0/25.0",
+              "40/80",
+              "0.819",
+              "240.53",
+              "163.1",
+              "1.0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Mud Data - PRF-HALLIBURTON LATIN AMERICA S.R.L",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Rheology Temp",
+              "130"
+            ],
+            [
+              "Engineer",
+              "D. CASTELLANOS / C. VASQUEZ"
+            ],
+            [
+              "Sample From",
+              "IN"
+            ],
+            [
+              "Mud Type",
+              "POLIMERO"
+            ],
+            [
+              "Time / MD",
+              "6:01 / 8,500.0"
+            ],
+            [
+              "Density @ Temp",
+              "10.10 / 130"
+            ],
+            [
+              "Viscosity",
+              "120"
+            ],
+            [
+              "PV / YP",
+              "62.00 / 24"
+            ],
+            [
+              "Gels 10s/10m/30m",
+              "6 / 9 / 11"
+            ],
+            [
+              "API WL",
+              "3.80"
+            ],
+            [
+              "HTHP WL",
+              "0.00"
+            ],
+            [
+              "Cake API / HTHP",
+              "1.0 / .0"
+            ],
+            [
+              "Solids / Sol Corr",
+              "9.20 / 9.20"
+            ],
+            [
+              "Oil / Water",
+              "0.0 / 91.5"
+            ],
+            [
+              "Sand",
+              "0.10"
+            ],
+            [
+              "Water Added",
+              "0.0 bbl"
+            ],
+            [
+              "Oil Added",
+              "0.0 bbl"
+            ],
+            [
+              "LGS",
+              "1.40 / 12.59"
+            ],
+            [
+              "MBT",
+              "7.5 lbm/bbl"
+            ],
+            [
+              "pH",
+              "10.1"
+            ],
+            [
+              "Pf / Mf",
+              "0.00 / 0.0"
+            ],
+            [
+              "Pm / Pom",
+              "0.7 / 1.8"
+            ],
+            [
+              "Chlorides",
+              "1,300"
+            ],
+            [
+              "Ca+ / K+",
+              "120 / 0"
+            ],
+            [
+              "CaCl2",
+              "0.00"
+            ],
+            [
+              "Clom",
+              "0.00"
+            ],
+            [
+              "Lime",
+              "0.00"
+            ],
+            [
+              "ES",
+              "0.00"
+            ],
+            [
+              "ECD",
+              "0.00"
+            ],
+            [
+              "n / K",
+              "0.64 / 0.430"
+            ],
+            [
+              "Carbonate",
+              "0 ppm"
+            ],
+            [
+              "Bicarbonate",
+              "0 ppm"
+            ],
+            [
+              "Form Loss",
+              "/ 0.0"
+            ],
+            [
+              "Fluid Disch",
+              "/"
+            ],
+            [
+              "Daily Mud Cost",
+              "$0"
+            ],
+            [
+              "Cum Mud Cost",
+              "$0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Last or Current BHA",
+          "headers": [
+            "Component",
+            "OD",
+            "ID",
+            "Jts",
+            "Length"
+          ],
+          "rows": [
+            [
+              "Polycrystalline Diamond Bit",
+              "6.750",
+              "3.000",
+              "1",
+              "0.94"
+            ],
+            [
+              "SperryDrill Lobe 6/7 - 5.0 stg",
+              "6.750",
+              "4.498",
+              "1",
+              "24.29"
+            ],
+            [
+              "Float Sub",
+              "6.610",
+              "3.750",
+              "1",
+              "2.97"
+            ],
+            [
+              "Logging While Drilling",
+              "6.750",
+              "3.000",
+              "1",
+              "1.78"
+            ],
+            [
+              "Cross Over",
+              "6.750",
+              "3.000",
+              "1",
+              "2.01"
+            ],
+            [
+              "Logging While Drilling",
+              "6.750",
+              "1.905",
+              "1",
+              "4.43"
+            ],
+            [
+              "DGR Collar",
+              "6.750",
+              "1.920",
+              "1",
+              "4.56"
+            ],
+            [
+              "Logging While Drilling",
+              "6.740",
+              "2.890",
+              "1",
+              "2.03"
+            ],
+            [
+              "Logging While Drilling",
+              "6.750",
+              "1.920",
+              "1",
+              "24.14"
+            ],
+            [
+              "Cross Over",
+              "6.750",
+              "3.000",
+              "1",
+              "3.36"
+            ],
+            [
+              "ALD Collar",
+              "6.705",
+              "1.920",
+              "1",
+              "12.85"
+            ],
+            [
+              "CTN Collar",
+              "6.750",
+              "1.905",
+              "1",
+              "15.61"
+            ],
+            [
+              "SHOC",
+              "6.900",
+              "3.250",
+              "1",
+              "15.79"
+            ]
+          ]
+        },
+        {
+          "table_title": "Fluid Losses",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Injected Volume",
+              "1,066.9(bbl)"
+            ],
+            [
+              "Returned Volume",
+              "1,066.9(bbl)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bulks",
+          "headers": [
+            "Item",
+            "Qty Start",
+            "Qty End",
+            "Qty Used"
+          ],
+          "rows": [
+            [
+              "DIESEL - RIG",
+              "13,023.00",
+              "11,923.00",
+              "1,100.00"
+            ],
+            [
+              "DIESEL - CAMP",
+              "5,015.00",
+              "4,820.00",
+              "195.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "Daily Costs (Top 15)",
+          "headers": [
+            "Cost Description",
+            "Vendor",
+            "Amount"
+          ],
+          "rows": []
+        },
+        {
+          "table_title": "Mud Products (Adicional)",
+          "headers": [
+            "Product",
+            "Units",
+            "Qty Used"
+          ],
+          "rows": []
+        },
+        {
+          "table_title": "Operations Details",
+          "headers": [
+            "From",
+            "To",
+            "Hrs",
+            "Op Code",
+            "Op Sub",
+            "Op Type",
+            "Operation Details"
+          ],
+          "rows": [
+            [
+              "6:00",
+              "9:30",
+              "3.50",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. DRILLING VERTICAL 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) IN ROTATION, IN TENA FORMATION, FROM 7,670 ft TO 7,768 ft MD - AVG ROP: 28.3 ft/hr, MW: 10.0 ppg - PWD ECD 10.8 ppg. PARAMETERS: 450 GPM, 60 RPM, 1300 PSI (Off), WOB: 10-25 KLBS, 1600 PSI (On), TQ: 18-22 KLBS-FT. LITHOLOGY @ 7,760 ft MD = 100% SHALE"
+            ],
+            [
+              "9:30",
+              "10:30",
+              "1.00",
+              "CIRCULATING",
+              "Condition Hole",
+              "P",
+              "PERFORMED CIRCULATION STATION FOR CLEANING 8-1/2\" HOLE @ 7,768 ft MD = PUMPED AND CIRCULATED OUT OF HOLE A TANDEM OF PILLS OF 30 BBL LOW RHEOLOGY + 30 BBL VISCO-HEAVY 10.8 ppg X 120 sec, RECIPROCATING STRING 90 FEET, WITH 450 GPM, 1100 PSI, 80 RPM, TQ: 18-23 KLBS-FT - OBSERVED SLIGHT INCREASE IN CUTTINGS AT BOTTOM UP THROUGH SHAKERS. P/U WT: 355 KLBS, S/O WT: 175 KLBS, ROT. WT: 235 KLBS"
+            ],
+            [
+              "10:30",
+              "12:00",
+              "1.50",
+              "CIRCULATING",
+              "Condition Fluid",
+              "P",
+              "PERFORMED REFRESHING OF INHIBITED POLYMER FLUID WITH 400 BBL OF NEW POLYMER FLUID WITH BARASHALE MAX 10.0 ppg, CIRCULATING HOLE WITH 450 GPM, 60 RPM, 1100 PSI, TQ: 18-23 KLBS-FT"
+            ],
+            [
+              "12:00",
+              "14:30",
+              "2.50",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. DRILLING VERTICAL 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) IN ROTATION, IN TENA FORMATION, FROM 7,768 ft TO 7,863 ft MD - AVG ROP: 38 ft/hr, MW: 10.0 ppg - PWD ECD 10.9 ppg. LITHOLOGY @ 7,860 ft MD = 100% SHALE"
+            ],
+            [
+              "14:30",
+              "18:00",
+              "3.50",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "DRILLING VERTICAL 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) IN ROTATION, CONTROLLING PARAMETERS PRIOR TO ENTERING BASAL TENA, FROM 7,863 ft TO 7,975 ft MD - AVG ROP: 32 ft/hr, MW: 10.0 ppg - PWD ECD 10.9 ppg. PARAMETERS: 400 GPM, 40 RPM, 1300 PSI (Off), WOB: 15 KLBS, 1600 PSI (On), TQ: 20-21 KLBS-FT. LITHOLOGY @ 7,970 ft MD = 80% SHALE, 20% LIMESTONE. TOP BASAL TENA @ 7,912 ft MD / 7,414 ft TVD - 45 FEET BELOW PROGNOSIS. TOP NAPO FORMATION @ 7,936 ft MD / 7,438 ft TVD - 19 FEET BELOW PROGNOSIS"
+            ],
+            [
+              "18:00",
+              "3:00",
+              "9.00",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. DRILLING VERTICAL 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) IN ROTATION, IN NAPO FORMATION, FROM 7,975 ft TO 8,367 ft MD - AVG ROP: 43.55 ft/hr, MW: 10.1 ppg - PWD ECD 11.0 ppg. PARAMETERS: 400 GPM, 80 RPM, 1700 PSI (Off), WOB: 10-25 KLBS, 1900 PSI (On), TQ: 22-24 KLBS-FT. LITHOLOGY @ 8,360 ft MD = 90% LIMESTONE, 10% SHALE. TOP LIMESTONE \"M-1\" @ 8,114 ft MD / 7,616 ft TVD - 13 FEET BELOW PROGNOSIS. BASE LIMESTONE \"M-1\" @ 8,140 ft MD / 7,642 ft TVD - 14 FEET BELOW PROGNOSIS. TOP LIMESTONE \"M-2\" @ 8,222 ft MD / 7,724 ft TVD - 15 FEET BELOW PROGNOSIS. TOP SANDSTONE \"M-2\" @ 8,259 ft MD / 7,761 ft TVD - 14 FEET BELOW PROGNOSIS. TOP LIMESTONE \"A\" @ 8,341 ft MD / 7,843 ft TVD - 17 FEET BELOW PROGNOSIS"
+            ],
+            [
+              "3:00",
+              "6:00",
+              "3.00",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "CONT. DRILLING VERTICAL 8 1/2\" SECTION WITH DIR. BHA WITH PDC BIT, MOTOR AND M/LWD TOOLS (BHA #3) IN ROTATION, IN NAPO FORMATION, FROM 8,367 ft TO 8,500 ft MD - AVG ROP: 44.30 ft/hr, MW: 10.1 ppg - PWD ECD 11.0 ppg. PARAMETERS: 400 GPM, 80 RPM, 1700 PSI (Off), WOB: 10-25 KLBS, 1900 PSI (On), TQ: 22-24 KLBS-FT. P/U WT: 360 KLBS, S/O WT: 185 KLBS, ROT. WT: 240 KLBS. LITHOLOGY @ 8,420 ft MD = 90% SANDSTONE, 10% SHALE"
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\08-11-2023_VHRJ-028_DDR 12_RIG CCDC 69.pdf",
+    "pdf_name": "08-11-2023_VHRJ-028_DDR 12_RIG CCDC 69.pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 120 seconds"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\2018_10_06_Daily Drilling Report_02_VHRH-027.pdf",
+    "pdf_name": "2018_10_06_Daily Drilling Report_02_VHRH-027.pdf",
+    "data": {
+      "document_metadata": {
+        "date": "10/06/2018",
+        "report_number": "2",
+        "well_name": "VHRH-027",
+        "operator": "PETROAMAZONAS EP",
+        "rig": "PETREX-20",
+        "detected_language": "Spanish",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "Event",
+          "content": "DEV DRILLING"
+        },
+        {
+          "section_title": "Primary Reason",
+          "content": "DEEPEN DIR"
+        },
+        {
+          "section_title": "Current Ops",
+          "content": "PERFORANDO CON BHA#2 DIRECCIONAL SECCIÓN DE 16\" @ 1000' | DRILLING WITH BHA#2 DIRECTIONAL 16\" SECTION @ 1000'"
+        },
+        {
+          "section_title": "24-Hr Summary",
+          "content": "PERFORÓ CON BHA#1 CONVENCIONAL SECCIÓN DE 16\" HASTA 382'. SACÓ BHA#1 HASTA SUPERFICIE. ARMÓ BHA#2 DIRECCIONAL Y CONTINUÓ PERFORANDO DESDE 382' HASTA 1000'. TOMÓ SURVEY CON GYRO @ 382' Y 715' | DRILLED WITH BHA#1 CONVENTIONAL 16\" SECTION TO 382'. PULLED BHA#1 TO SURFACE. RAN BHA#2 DIRECTIONAL AND CONTINUED DRILLING FROM 382' TO 1000'. TOOK GYRO SURVEY @ 382' AND 715'"
+        },
+        {
+          "section_title": "24-Hr Forecast",
+          "content": "CONTINUAR PERFORANDO SECCIÓN DE 16\" CON BHA#2 DIRECCIONAL SEGÚN PROGRAMA | CONTINUE DRILLING 16\" SECTION WITH BHA#2 DIRECTIONAL AS PER PROGRAM"
+        },
+        {
+          "section_title": "Safety Incident",
+          "content": "N"
+        },
+        {
+          "section_title": "Environmental Incident",
+          "content": "N"
+        },
+        {
+          "section_title": "Incident Comments",
+          "content": "INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS. | NO INCIDENTS TO REPORT IN THE LAST 24 HOURS."
+        },
+        {
+          "section_title": "Safety Moment",
+          "content": "MOMENTO DE SEGURIDAD: DIVULGACIÓN DE LA VISIÓN DE SALUD Y SEGURIDAD DE SAIPEM | SAFETY MOMENT: DISCLOSURE OF SAIPEM'S HEALTH AND SAFETY VISION"
+        },
+        {
+          "section_title": "Daily Cards",
+          "content": "TARJETAS DEL DÍA: STOP: 6 ECO: 0 | DAILY CARDS: STOP: 6 ECO: 0"
+        },
+        {
+          "section_title": "Safety Record",
+          "content": "SE CUMPLIERON 94 DÍAS SIN ACCIDENTES EN EL RIG. | 94 DAYS WITHOUT ACCIDENTS ON THE RIG COMPLETED."
+        },
+        {
+          "section_title": "Other Remarks",
+          "content": "- PENDIENTE INGRESO DE SILO DE CEMENTACIÓN PARA EL 04/10/2018 (NO LLEGA)\n- PERSONAL DE SPERRY, BAROID, HDBS EN LOCACIÓN\n- UNIDAD DE GYRO Y PERSONAL EN LOCACIÓN\n- MARTILLOS DE PERFORACION BAKER EN LOCACIÓN\n- ARRIBÓ 4 PLATAFORMAS CON CASING DE 13 3/8\" (TENARIS)\n- POR INGRESAR PERSONAL DE ENGIPETROL PARA INSPECCIÓN DE CASING. PARA EL 06/10/2018\n- POR INGRESAR MONTACARGA Y PLATAFORMA PARA APOYAR CON LA MOVILIZACION DE MATERIALES DESDE VHR 23 HACIA VHR 04. PARA EL 07/10/2018 | - PENDING ARRIVAL OF CEMENTING SILO FOR 04/10/2018 (NOT ARRIVING)\n- SPERRY, BAROID, HDBS PERSONNEL ON LOCATION\n- GYRO UNIT AND PERSONNEL ON LOCATION\n- BAKER DRILLING JARS ON LOCATION\n- 4 PLATFORMS WITH 13 3/8\" CASING ARRIVED (TENARIS)\n- ENGIPETROL PERSONNEL TO ARRIVE FOR CASING INSPECTION. FOR 06/10/2018\n- FORKLIFT AND PLATFORM TO ARRIVE TO SUPPORT MATERIAL MOBILIZATION FROM VHR 23 TO VHR 04. FOR 07/10/2018"
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "Well Progress Data",
+          "headers": [
+            "Parameter",
+            "Value",
+            "Unit"
+          ],
+          "rows": [
+            [
+              "Today's MD",
+              "1,000.00",
+              "ft"
+            ],
+            [
+              "Prev MD",
+              "925.00",
+              "ft"
+            ],
+            [
+              "Progress",
+              "75.00",
+              "ft"
+            ],
+            [
+              "Rot Hrs Today",
+              "5.00",
+              "hr"
+            ],
+            [
+              "Avg ROP Slide",
+              "94.00",
+              "ft/hr"
+            ],
+            [
+              "Avg ROP Rot",
+              "175.60",
+              "ft/hr"
+            ],
+            [
+              "Ref Datum",
+              "ORIGINAL KB @856.08ft",
+              ""
+            ],
+            [
+              "Ground Elev",
+              "823.68",
+              "ft"
+            ],
+            [
+              "AFE MD/Days",
+              "/ 19.9",
+              "days"
+            ],
+            [
+              "DFS",
+              "1.69",
+              ""
+            ],
+            [
+              "Daily Cost",
+              "$0",
+              ""
+            ],
+            [
+              "Cum Cost",
+              "$0",
+              ""
+            ],
+            [
+              "AFE Cost",
+              "$0",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Casing/Well Control",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Last Casing",
+              "20.000in @ 58ft"
+            ],
+            [
+              "Next Casing",
+              "13.375in @ 5,642ft"
+            ],
+            [
+              "Last BOP Press Test",
+              ""
+            ],
+            [
+              "Form Test/EMW",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Hookload & Torque",
+          "headers": [
+            "Parameter",
+            "Value",
+            "Unit"
+          ],
+          "rows": [
+            [
+              "Str Wt Up/Dn",
+              "/",
+              ""
+            ],
+            [
+              "Str Wt Rot",
+              "",
+              ""
+            ],
+            [
+              "Torq Off Btm",
+              "5,000.0",
+              "ft-lbf"
+            ],
+            [
+              "Torq On Btm",
+              "8,000.0",
+              "ft-lbf"
+            ]
+          ]
+        },
+        {
+          "table_title": "Hydraulics",
+          "headers": [
+            "Parameter",
+            "Value",
+            "Unit"
+          ],
+          "rows": [
+            [
+              "Pump Rate",
+              "0.0",
+              "gpm"
+            ],
+            [
+              "Pump Press",
+              "0.00",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Mud Gas",
+          "headers": [
+            "Parameter",
+            "Avg",
+            "Max"
+          ],
+          "rows": [
+            [
+              "Backgr",
+              "",
+              ""
+            ],
+            [
+              "Trip",
+              "",
+              ""
+            ],
+            [
+              "Conn",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Survey Data (Last 6)",
+          "headers": [
+            "MD",
+            "Incl",
+            "Azi",
+            "TVD",
+            "N/-S",
+            "E/-W",
+            "VS",
+            "DLS",
+            "Build"
+          ],
+          "rows": [
+            [
+              "365.0",
+              "0.29",
+              "65.92",
+              "365.00",
+              "0.4",
+              "1.3",
+              "0.4",
+              "0.02",
+              "-0.02"
+            ],
+            [
+              "300.0",
+              "0.30",
+              "65.56",
+              "300.00",
+              "0.2",
+              "1.0",
+              "0.2",
+              "0.09",
+              "0.09"
+            ],
+            [
+              "200.0",
+              "0.21",
+              "70.86",
+              "200.00",
+              "0.1",
+              "0.5",
+              "0.1",
+              "0.07",
+              "0.00"
+            ],
+            [
+              "100.0",
+              "0.21",
+              "90.40",
+              "100.00",
+              "0.0",
+              "0.2",
+              "0.0",
+              "0.21",
+              "0.21"
+            ],
+            [
+              "0.0",
+              "0.00",
+              "0.00",
+              "0.00",
+              "0.0",
+              "0.0",
+              "0.0",
+              "0.00",
+              "0.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "Personnel",
+          "headers": [
+            "Role",
+            "Name"
+          ],
+          "rows": [
+            [
+              "Supervisor 1",
+              "OSCAR INTRIAGO (IGAPO)"
+            ],
+            [
+              "Supervisor 2",
+              ""
+            ],
+            [
+              "Engineer",
+              "EDGAR ESPINOSA"
+            ],
+            [
+              "Geologist",
+              ""
+            ],
+            [
+              "Engineer PAM",
+              ""
+            ],
+            [
+              "Total on Site",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bit Record",
+          "headers": [
+            "Bit No",
+            "Size",
+            "Manufacturer",
+            "Model",
+            "Serial No",
+            "IADC Code",
+            "Nozzles",
+            "MD In",
+            "MD Out",
+            "I-O-D-L",
+            "B-G-O-R"
+          ],
+          "rows": [
+            [
+              "02",
+              "16.000",
+              "HALLIBURTON SECURITY DBS",
+              "SF56CH",
+              "12892052",
+              "",
+              "4x13, 3x12",
+              "382.00",
+              "",
+              "- -",
+              "- -"
+            ],
+            [
+              "01",
+              "16.000",
+              "HALLIBURTON SECURITY DBS",
+              "XT1GSC",
+              "12403684",
+              "",
+              "4x16",
+              "58.00",
+              "382.00",
+              "1-1-FC-A",
+              "E-I-NO-BHA"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bit Operating Parameters Today",
+          "headers": [
+            "Bit No",
+            "Rot Hrs",
+            "Cum Rot Hrs",
+            "Prog",
+            "Cum Prog",
+            "ROP",
+            "Cum ROP",
+            "WOB min/max",
+            "RPM min/max",
+            "TFA",
+            "P Drop Bit",
+            "Noz Vel",
+            "HHPSI"
+          ],
+          "rows": [
+            [
+              "02",
+              "5.50",
+              "5.50",
+              "618.00",
+              "618.00",
+              "112.4",
+              "112.4",
+              "25.0/30.0",
+              "50/60",
+              "0.850",
+              "1,012.79",
+              "358.7",
+              "2.8"
+            ],
+            [
+              "01",
+              "10.00",
+              "11.00",
+              "307.00",
+              "324.00",
+              "30.7",
+              "29.5",
+              "10.0/15.0",
+              "90/120",
+              "0.785",
+              "321.00",
+              "204.3",
+              "0.5"
+            ]
+          ]
+        },
+        {
+          "table_title": "Mud Data - Baroid Fluid Services",
+          "headers": [
+            "Parameter",
+            "Value",
+            "Unit"
+          ],
+          "rows": [
+            [
+              "Engineer",
+              "GAVILANES GAIBOR, ANDRES SANTIAGO",
+              ""
+            ],
+            [
+              "Sample From",
+              "Intermedio 2",
+              ""
+            ],
+            [
+              "Mud Type",
+              "Spud Mud",
+              ""
+            ],
+            [
+              "Time / MD",
+              "16:00 / 382.0",
+              ""
+            ],
+            [
+              "Density @ Temp",
+              "9.20 / 100",
+              ""
+            ],
+            [
+              "Rheology Temp",
+              "90",
+              ""
+            ],
+            [
+              "Viscosity",
+              "29.00",
+              ""
+            ],
+            [
+              "PV / YP",
+              "6 / 13",
+              ""
+            ],
+            [
+              "Gels 10s/10m/30m",
+              "8 / 15 / 18",
+              ""
+            ],
+            [
+              "API WL",
+              "49.00",
+              ""
+            ],
+            [
+              "HTHP WL",
+              "/",
+              ""
+            ],
+            [
+              "Cake API / HTHP",
+              "/",
+              ""
+            ],
+            [
+              "Solids / Sol Corr",
+              "6.74 / 6.51",
+              ""
+            ],
+            [
+              "Oil / Water",
+              "/ 93.3",
+              ""
+            ],
+            [
+              "Sand",
+              "0.50",
+              ""
+            ],
+            [
+              "Water Added",
+              "",
+              ""
+            ],
+            [
+              "Oil Added",
+              "",
+              ""
+            ],
+            [
+              "LGS",
+              "2.92 / 26.46",
+              ""
+            ],
+            [
+              "VG Meter",
+              "",
+              ""
+            ],
+            [
+              "MBT",
+              "25.0",
+              "lbm/bbl"
+            ],
+            [
+              "pH",
+              "7.9",
+              ""
+            ],
+            [
+              "Pf / Mf",
+              "/",
+              ""
+            ],
+            [
+              "Pm / Pom",
+              "/",
+              ""
+            ],
+            [
+              "Chlorides",
+              "30",
+              ""
+            ],
+            [
+              "Ca+ / K+",
+              "/",
+              ""
+            ],
+            [
+              "CaCl2",
+              "",
+              ""
+            ],
+            [
+              "Clom",
+              "",
+              ""
+            ],
+            [
+              "Lime",
+              "",
+              ""
+            ],
+            [
+              "ES",
+              "",
+              ""
+            ],
+            [
+              "ECD",
+              "9.26",
+              ""
+            ],
+            [
+              "n / K",
+              "/",
+              ""
+            ],
+            [
+              "Carbonate",
+              "/",
+              ""
+            ],
+            [
+              "Bicarbonate",
+              "",
+              ""
+            ],
+            [
+              "Form Loss",
+              "/ 0.0",
+              ""
+            ],
+            [
+              "Fluid Disch",
+              "/",
+              ""
+            ],
+            [
+              "Daily Mud Cost",
+              "$0",
+              ""
+            ],
+            [
+              "Cum Mud Cost",
+              "$0",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Last or Current BHA",
+          "headers": [
+            "Component",
+            "OD",
+            "ID",
+            "Jts",
+            "Length"
+          ],
+          "rows": [
+            [
+              "Polycrystalline Diamond Bit",
+              "16.000",
+              "3.250",
+              "1",
+              "1.40"
+            ],
+            [
+              "Positive Displacement Motor",
+              "9.625",
+              "6.537",
+              "1",
+              "27.30"
+            ],
+            [
+              "Float Sub",
+              "8.010",
+              "3.000",
+              "1",
+              "2.92"
+            ],
+            [
+              "Integral Blade Stabilizer",
+              "8.010",
+              "3.000",
+              "1",
+              "6.21"
+            ],
+            [
+              "Non-Magnetic Drill Collar (MWD)",
+              "8.000",
+              "4.015",
+              "1",
+              "32.24"
+            ],
+            [
+              "UBHO SUB",
+              "7.940",
+              "2.970",
+              "1",
+              "2.18"
+            ],
+            [
+              "Spiral Drill Collar",
+              "8.000",
+              "2.813",
+              "1",
+              "30.39"
+            ],
+            [
+              "Cross Over",
+              "8.000",
+              "2.875",
+              "1",
+              "2.16"
+            ],
+            [
+              "Spiral Drill Collar",
+              "6.500",
+              "2.813",
+              "2",
+              "60.58"
+            ],
+            [
+              "Cross Over",
+              "6.500",
+              "2.800",
+              "1",
+              "1.90"
+            ],
+            [
+              "Heavy Weight Drill Pipe",
+              "5.000",
+              "3.000",
+              "15",
+              "455.10"
+            ],
+            [
+              "Heavy Weight Drill Pipe",
+              "5.000",
+              "3.000",
+              "11",
+              "319.27"
+            ],
+            [
+              "Drilling Jar",
+              "6.500",
+              "2.750",
+              "1",
+              "21.02"
+            ]
+          ]
+        },
+        {
+          "table_title": "BHA Summary",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "BHA No",
+              "02"
+            ],
+            [
+              "Bit No",
+              "02"
+            ],
+            [
+              "MD In",
+              "382.00 ft"
+            ],
+            [
+              "MD Out",
+              ""
+            ],
+            [
+              "Purpose",
+              "DRILL DIRECTIONALLY 16\" HOLE"
+            ],
+            [
+              "Total Length",
+              "1,144.23 ft"
+            ],
+            [
+              "Wt below Jars",
+              "60.1 kip"
+            ]
+          ]
+        },
+        {
+          "table_title": "Fluid Losses",
+          "headers": [
+            "Parameter",
+            "Value",
+            "Unit"
+          ],
+          "rows": [
+            [
+              "Injected Volume",
+              "0.0",
+              "(bbl)"
+            ],
+            [
+              "Returned Volume",
+              "187.0",
+              "(bbl)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bulks",
+          "headers": [
+            "Item",
+            "Qty Start",
+            "Qty End",
+            "Qty Used"
+          ],
+          "rows": [
+            [
+              "DIESEL - CAMP",
+              "2,290.00",
+              "2,142.00",
+              "148.00"
+            ],
+            [
+              "DIESEL - RIG",
+              "17,518.00",
+              "16,234.00",
+              "1,284.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "Operations Detailed Time Log",
+          "headers": [
+            "From",
+            "To",
+            "Hrs",
+            "Op Code",
+            "Op Sub",
+            "Op Type",
+            "Operation Details"
+          ],
+          "rows": [
+            [
+              "6:00",
+              "15:00",
+              "9.00",
+              "DRILLING",
+              "Rotary - Vertical Ho",
+              "P",
+              "CONTINUÓ PERFORANDO SECCIÓN DE 16\" CON BHA#1 CONVENCIONAL DESDE 75' HASTA 382' ROTANDO CON 200 GPM, 60 PSI, 80-90 RPM, 2-3 KLBS-FT TQ, 5-10 KLBS WOB; INCREMENTANDO PARÁMETROS PAULATINAMENTE HASTA 500 GPM, 600 PSI, 120 RPM, 5-8 KLBS-FT TQ, 10-15 KLBS WOB. PESO DEL LODO 8.6 PPG. | CONTINUED DRILLING 16\" SECTION WITH BHA#1 CONVENTIONAL FROM 75' TO 382' ROTATING WITH 200 GPM, 60 PSI, 80-90 RPM, 2-3 KLBS-FT TQ, 5-10 KLBS WOB; GRADUALLY INCREASING PARAMETERS TO 500 GPM, 600 PSI, 120 RPM, 5-8 KLBS-FT TQ, 10-15 KLBS WOB. MUD WEIGHT 8.6 PPG."
+            ],
+            [
+              "15:00",
+              "15:30",
+              "0.50",
+              "CIRCULATING",
+              "Pump pill",
+              "P",
+              "BOMBEÓ 50 BLS DE PILDORA DISPERSA DE 8.4 PPG, 28 SEG DE VISCOSIDAD Y CIRCULÓ CON 500 GPM, 570 PSI; RECIPROCANDO LA SARTA. BOMBA #3 ALINEADA A JETS DEL TUBO CONDUCTOR, FLOW LINE Y BOLSILLO POR PRECAUCIÓN PRESENCIA DE GUMBO. | PUMPED 50 BBLS OF DISPERSED PILL 8.4 PPG, 28 SEC VISCOSITY AND CIRCULATED WITH 500 GPM, 570 PSI; RECIPROCATING STRING. PUMP #3 LINED UP TO CONDUCTOR JETS, FLOW LINE AND POCKET AS PRECAUTION FOR GUMBO PRESENCE."
+            ],
+            [
+              "15:30",
+              "16:00",
+              "0.50",
+              "GYRO",
+              "Gyro Multishot",
+              "P",
+              "ARMÓ EQUIPOS DE CORRIDA DE GYRO Y REGISTRÓ CADA 100': DEPTH (FT) INCL AZM: 0 0 0, 100 0.21 90.40, 200 0.21 70.86, 300 0.30 65.56, 365 0.29 65.92 | RIGGED UP GYRO EQUIPMENT AND SURVEYED EVERY 100': DEPTH (FT) INCL AZM: 0 0 0, 100 0.21 90.40, 200 0.21 70.86, 300 0.30 65.56, 365 0.29 65.92"
+            ],
+            [
+              "16:00",
+              "16:30",
+              "0.50",
+              "BHA",
+              "POOH Bit / BHA / Oth",
+              "P",
+              "SACÓ TUBERIA DESDE 379' HASTA 108'. NOTA: SE UTILIZÓ LLAVES DE LAGARTO Y LLAVE DE CADENA PARA DESCONEXIÓN | PULLED PIPE FROM 379' TO 108'. NOTE: USED ALLIGATOR WRENCHES AND CHAIN TONGS FOR DISCONNECTION"
+            ],
+            [
+              "16:30",
+              "17:00",
+              "0.50",
+              "BHA",
+              "Pre job safety meeti",
+              "P",
+              "REALIZÓ REUNIÓN DE SEGURIDAD PREVIO A DESARMAR BHA#1 CONVENCIONAL | HELD SAFETY MEETING PRIOR TO RIGGING DOWN BHA#1 CONVENTIONAL"
+            ],
+            [
+              "17:00",
+              "18:00",
+              "1.00",
+              "BHA",
+              "R/D Tricone Bit / BH",
+              "P",
+              "QUEBRÓ BHA#1 CONVENCIONAL HASTA SUPERFICIE; 1 X 8\" DC, X-OVER SUB 6 5/8\" REG (P) X 4 1/2\" IF, 1 X 8\" DC, 15 1/2\" INTEGRAL BLAD STB, 1 X 8\" DC, 15\" INTEGRAL BLADE STB, 1 X 8\" DC, 8\" BIT SUB W/FLOAT VALVE, 16\" TRICONE BIT. DULL GRADE: 1-1-FC-A-E-I-NO-BHA. | BROKE DOWN BHA#1 CONVENTIONAL TO SURFACE; 1 X 8\" DC, X-OVER SUB 6 5/8\" REG (P) X 4 1/2\" IF, 1 X 8\" DC, 15 1/2\" INTEGRAL BLADE STB, 1 X 8\" DC, 15\" INTEGRAL BLADE STB, 1 X 8\" DC, 8\" BIT SUB W/FLOAT VALVE, 16\" TRICONE BIT. DULL GRADE: 1-1-FC-A-E-I-NO-BHA."
+            ],
+            [
+              "18:00",
+              "18:30",
+              "0.50",
+              "BHA",
+              "Pre job safety meeti",
+              "P",
+              "REALIZÓ REUNIÓN DE SEGUIRAD PREVIO AL ARMADO DEL BHA #2 DIRECCIONAL CON TODO EL PERSONAL INVOLUCRADO | HELD SAFETY MEETING PRIOR TO RUNNING BHA #2 DIRECTIONAL WITH ALL INVOLVED PERSONNEL"
+            ],
+            [
+              "18:30",
+              "23:00",
+              "4.50",
+              "BHA",
+              "RIH PDC Bit / BHA",
+              "P",
+              "ARMÓ BHA #2 DIRECCIONAL COMO SIGUE: - 16\" PDC BIT - 9 5/8\" GEOFORCE LOBE 6/7 - 3.5 STG W/ BTM SLEEVE STABILIZER - 8\" FLEX SUB W/FLOAT VALVE - 15\" INTEGRAL BLADE STABILIZER - 8\" HOC W/1200 MWD SYSTEM - ORIENTING SUB UBHO - 1 X 8\" DRILL COLLAR - X-OVER SUB 6 5/8\" REG (P) X 4 1/2\" XH (B) - 2 X 6 1/2\" DRILL COLLAR - X-OVER SUB 4 1/2\" XH (P) X 4 1/2\" IF (B) | RAN BHA #2 DIRECTIONAL AS FOLLOWS: - 16\" PDC BIT - 9 5/8\" GEOFORCE LOBE 6/7 - 3.5 STG W/ BTM SLEEVE STABILIZER - 8\" FLEX SUB W/FLOAT VALVE - 15\" INTEGRAL BLADE STABILIZER - 8\" HOC W/1200 MWD SYSTEM - ORIENTING SUB UBHO - 1 X 8\" DRILL COLLAR - X-OVER SUB 6 5/8\" REG (P) X 4 1/2\" XH (B) - 2 X 6 1/2\" DRILL COLLAR - X-OVER SUB 4 1/2\" XH (P) X 4 1/2\" IF (B)"
+            ],
+            [
+              "23:00",
+              "0:00",
+              "1.00",
+              "DRILLING",
+              "Rotary - Directional",
+              "P",
+              "BAJÓ BHA#2 DIRECCIONAL CON 5\" HWDP HASTA 382'. TOMÓ PARÁMETROS Y PROBÓ HERRAMIENTA DIRECCIONAL XON 550 GPM, 850 PSI X 10 MIN, OK. PERFORÓ SECCIÓN DE 16\" DESDE 382' HASTA 440' CON 550 GP, 860 PSI, 50 RPM, 5 KLBS WOB, 5 KLBS-FT TQ, 95 FT/HR. PESO DE LODO 8.8 PPG, 27 SEG DE VISCOSIDAD. PESO SUBIENDO, BAJANDO, ROTANDO: 60 KLBS. | RAN BHA#2 DIRECTIONAL WITH 5\" HWDP TO 382'. TOOK PARAMETERS AND TESTED DIRECTIONAL TOOL ON 550 GPM, 850 PSI X 10 MIN, OK. DRILLED 16\" SECTION FROM 382' TO 440' WITH 550 GP, 860 PSI, 50 RPM, 5 KLBS WOB, 5 KLBS-FT TQ, 95 FT/HR. MUD WEIGHT 8.8 PPG, 27 SEC VISCOSITY. WEIGHT PULLING, RUNNING, ROTATING: 60 KLBS."
+            ],
+            [
+              "0:00",
+              "3:00",
+              "3.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "CONTINUÓ PERFORANDO ROTANDO Y DESLIZANDO DESDE 440' HASTA 800' CON 650 GPM, 1180 PSI, 50 RPM, 5 KLBS-FT TQ, 6 KLBS WOB, 136 FT/HR; INCREMENTANDO CAUDAL A 850 GPM, 1980 PSI, 25-35 WOB, 340 FT/HR, REPASANDO UNA VEZ Y TOMANDO SURVEY ANTES DE CADA CONEXIÓN. PESO DE LODO 8.8 PPG, 27 SEG DE VISCOSIDAD. INTERVALOS DESLIZADOS: 440'- 458' (8'); 530'-545' (15'); 621'-637' (6'); 710'-728' (18') | CONTINUED DRILLING ROTATING AND SLIDING FROM 440' TO 800' WITH 650 GPM, 1180 PSI, 50 RPM, 5 KLBS-FT TQ, 6 KLBS WOB, 136 FT/HR; INCREASING FLOW RATE TO 850 GPM, 1980 PSI, 25-35 WOB, 340 FT/HR, REAMING ONCE AND TAKING SURVEY BEFORE EACH CONNECTION. MUD WEIGHT 8.8 PPG, 27 SEC VISCOSITY. SLIDING INTERVALS: 440'- 458' (8'); 530'-545' (15'); 621'-637' (6'); 710'-728' (18')"
+            ],
+            [
+              "3:00",
+              "4:00",
+              "1.00",
+              "GYRO",
+              "Gyro Multishot",
+              "P",
+              "ARMÓ EQUIPOS DE CORRIDA DE GYRO Y REGISTRÓ CADA 100': DEPTH (FT) INCL AZM: 400 0.56 113.80, 500 1.54 140.76, 600 2.61 148.01, 700 4.28 152.52, 715 4.52 152.30 | RIGGED UP GYRO EQUIPMENT AND SURVEYED EVERY 100': DEPTH (FT) INCL AZM: 400 0.56 113.80, 500 1.54 140.76, 600 2.61 148.01, 700 4.28 152.52, 715 4.52 152.30"
+            ],
+            [
+              "4:00",
+              "6:00",
+              "2.00",
+              "DRILLING",
+              "DRILL",
+              "P",
+              "CONTINUA PERFORANDO ROTANDO CON BHA#2 DIRECCIONAL DESDE 800' HASTA 1000' CON 950 GPM, 2620 PSI, 50 RPM, 30 KLBS WOB, 5-21 KLBS-FT TQ, 450 FT/HR. | CONTINUED DRILLING ROTATING WITH BHA#2 DIRECTIONAL FROM 800' TO 1000' WITH 950 GPM, 2620 PSI, 50 RPM, 30 KLBS WOB, 5-21 KLBS-FT TQ, 450 FT/HR."
+            ]
+          ]
+        },
+        {
+          "table_title": "Safety Performance",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Days since Last RI",
+              "94.00"
+            ],
+            [
+              "Days since Last LTA",
+              "94.00"
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\2018_10_07_Daily Drilling Report_03_VHRH-027.pdf",
+    "pdf_name": "2018_10_07_Daily Drilling Report_03_VHRH-027.pdf",
+    "data": {
+      "document_metadata": {
+        "date": "10/07/2018",
+        "report_number": "3",
+        "well_name": "VHRH-027",
+        "operator": "PETROAMAZONAS EP",
+        "rig": "PETREX-20",
+        "detected_language": "Spanish/English (Mixed)",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "Event",
+          "content": "DEV DRILLING"
+        },
+        {
+          "section_title": "Primary Reason",
+          "content": "DEEPEN DIR"
+        },
+        {
+          "section_title": "Wellbore",
+          "content": "00"
+        },
+        {
+          "section_title": "Current Ops (Original Spanish)",
+          "content": "PERFORANDO CON BHA#2 DIRECCIONAL SECCIÓN DE 16\" @ 3272'"
+        },
+        {
+          "section_title": "Current Ops (English Translation)",
+          "content": "DRILLING WITH BHA#2 DIRECTIONAL 16\" SECTION @ 3272'"
+        },
+        {
+          "section_title": "24-Hr Summary (Original Spanish)",
+          "content": "PERFORÓ DE 1000' HASTA 1152', CIRCULÓ POZO, CAMBIÓ SABER SUB DEL T/D, PERFORÓ SECCIÓN DE 16\" DE 1152' HASTA 1336', CIRCULÓ Y BOMBEÓ PILDORA DE LIMPIEZA, GYRO CORRIÓ SURVEY, PERFORÓ DE 1336' HASTA 1798', REPARA STAND PIPE, PERFORÓ DE 1798' HASTA 3272'"
+        },
+        {
+          "section_title": "24-Hr Summary (English Translation)",
+          "content": "DRILLED FROM 1000' TO 1152', CIRCULATED WELL, CHANGED SABER SUB OF T/D, DRILLED 16\" SECTION FROM 1152' TO 1336', CIRCULATED AND PUMPED CLEANING PILL, GYRO RAN SURVEY, DRILLED FROM 1336' TO 1798', REPAIRED STAND PIPE, DRILLED FROM 1798' TO 3272'"
+        },
+        {
+          "section_title": "24-Hr Forecast (Original Spanish)",
+          "content": "CONTINUAR PERFORANDO SECCIÓN DE 16\" CON BHA#2 DIRECCIONAL SEGÚN PROGRAMA"
+        },
+        {
+          "section_title": "24-Hr Forecast (English Translation)",
+          "content": "CONTINUE DRILLING 16\" SECTION WITH BHA#2 DIRECTIONAL AS PER PROGRAM"
+        },
+        {
+          "section_title": "Mud Data Comments (Original Spanish)",
+          "content": "Trabaja con equipo de control de solidos completo 4 zarandas vibradoras, equipo 3 en 1 desander y desilter para el control de arena, centrifugas decantadoras en modo Floculacion Selectiva utilizando CLAY GRABBER."
+        },
+        {
+          "section_title": "Mud Data Comments (English Translation)",
+          "content": "Working with complete solids control equipment 4 shale shakers, 3 in 1 desander and desilter equipment for sand control, decanter centrifuges in Selective Flocculation mode using CLAY GRABBER."
+        },
+        {
+          "section_title": "Safety Moment (Original Spanish)",
+          "content": "MOMENTO DE SEGURIDAD: ESPACIOS CONFINADOS, PELIGROS Y CONTROLES"
+        },
+        {
+          "section_title": "Safety Moment (English Translation)",
+          "content": "SAFETY MOMENT: CONFINED SPACES, HAZARDS AND CONTROLS"
+        },
+        {
+          "section_title": "Incident Comments (Original Spanish)",
+          "content": "INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS."
+        },
+        {
+          "section_title": "Incident Comments (English Translation)",
+          "content": "NO INCIDENTS TO REPORT IN THE LAST 24 HOURS."
+        },
+        {
+          "section_title": "Other Remarks (Original Spanish)",
+          "content": "- PERSONAL DE SPERRY, BAROID, HDBS EN LOCACIÓN\n- UNIDAD DE GYRO Y PERSONAL SALE DE LOCACIÓN\n- MARTILLOS DE PERFORACION BAKER EN LOCACIÓN\n- ARRIBÓ 1 PLATAFORMA CON CASING DE 13 3/8\" (TENARIS)\n- INGRESA PERSONAL DE ENGIPETROL PARA INSPECCIÓN DE CASING EL 06/10/2018\n- POR INGRESAR MONTACARGA Y PLATAFORMA PARA APOYAR CON LA MOVILIZACION DE MATERIALES DESDE VHR 23 HACIA VHR 04. PARA EL 07/10/2018"
+        },
+        {
+          "section_title": "Other Remarks (English Translation)",
+          "content": "- SPERRY, BAROID, HDBS PERSONNEL ON LOCATION\n- GYRO UNIT AND PERSONNEL LEFT LOCATION\n- BAKER DRILLING JARS ON LOCATION\n- 1 PLATFORM WITH 13 3/8\" CASING ARRIVED (TENARIS)\n- ENGIPETROL PERSONNEL ENTERED FOR CASING INSPECTION ON 06/10/2018\n- FORKLIFT AND PLATFORM TO ENTER TO SUPPORT MATERIAL MOBILIZATION FROM VHR 23 TO VHR 04. FOR 07/10/2018"
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "Well Header Data",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Today's MD",
+              "3,272.00 ft"
+            ],
+            [
+              "Prev MD",
+              "1,000.00 ft"
+            ],
+            [
+              "Progress",
+              "2,272.00 ft"
+            ],
+            [
+              "Rot Hrs Today",
+              "18.00 hr"
+            ],
+            [
+              "Avg ROP Slide (ft/hr)",
+              "82.40"
+            ],
+            [
+              "Avg ROP Rot (ft/hr)",
+              "114.78"
+            ],
+            [
+              "Ref Datum",
+              "ORIGINAL KB @856.08ft"
+            ],
+            [
+              "Ground Elev",
+              "823.68 ft"
+            ],
+            [
+              "AFE MD/Days",
+              "1,000.00 ft / 19.9 days"
+            ],
+            [
+              "DFS",
+              "2.69"
+            ],
+            [
+              "Daily Cost",
+              "$0"
+            ],
+            [
+              "Cum Cost",
+              "$0"
+            ],
+            [
+              "AFE Cost",
+              "$0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Casing/Well Control",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Last Casing",
+              "20.000in @ 58ft"
+            ],
+            [
+              "Next Casing",
+              "13.375in @ 5,642ft"
+            ],
+            [
+              "Last BOP Press Test",
+              ""
+            ],
+            [
+              "Form Test/EMW",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "Hookload & Torque",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Str Wt Up/Dn",
+              "140.0 / 120.0 kip"
+            ],
+            [
+              "Str Wt Rot",
+              "130.0 kip"
+            ],
+            [
+              "Torq Off Btm",
+              "10,000.0 ft-lbf"
+            ],
+            [
+              "Torq On Btm",
+              "18,000.0 ft-lbf"
+            ]
+          ]
+        },
+        {
+          "table_title": "Hydraulics",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Pump Rate",
+              "0.0 gpm"
+            ],
+            [
+              "Pump Press",
+              "0.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "Survey Data (Last 6)",
+          "headers": [
+            "MD",
+            "Incl",
+            "Azi",
+            "TVD",
+            "N/-S",
+            "E/-W",
+            "VS",
+            "DLS",
+            "Build"
+          ],
+          "rows": [
+            [
+              "3,117.0",
+              "23.60",
+              "162.46",
+              "3,009.46",
+              "-626.9",
+              "213.0",
+              "-626.9",
+              "0.88",
+              "0.82"
+            ],
+            [
+              "3,025.0",
+              "22.85",
+              "163.21",
+              "2,924.92",
+              "-592.2",
+              "202.3",
+              "-592.2",
+              "0.35",
+              "-0.10"
+            ],
+            [
+              "2,933.0",
+              "22.94",
+              "162.42",
+              "2,840.16",
+              "-558.0",
+              "191.8",
+              "-558.0",
+              "1.17",
+              "-1.09"
+            ],
+            [
+              "2,841.0",
+              "23.94",
+              "161.44",
+              "2,755.76",
+              "-523.2",
+              "180.4",
+              "-523.2",
+              "0.88",
+              "0.82"
+            ],
+            [
+              "2,749.0",
+              "23.19",
+              "160.68",
+              "2,671.43",
+              "-488.4",
+              "168.5",
+              "-488.4",
+              "0.52",
+              "0.09"
+            ],
+            [
+              "2,657.0",
+              "23.11",
+              "161.89",
+              "2,586.84",
+              "-454.2",
+              "156.9",
+              "-454.2",
+              "0.77",
+              "0.44"
+            ]
+          ]
+        },
+        {
+          "table_title": "Personnel",
+          "headers": [
+            "Position",
+            "Name"
+          ],
+          "rows": [
+            [
+              "Supervisor 1",
+              "OSCAR INTRIAGO (IGAPO)"
+            ],
+            [
+              "Supervisor 2",
+              ""
+            ],
+            [
+              "Engineer",
+              "EDGAR ESPINOSA"
+            ],
+            [
+              "Geologist",
+              ""
+            ],
+            [
+              "Engineer PAM",
+              ""
+            ],
+            [
+              "Total on Site",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bit Record",
+          "headers": [
+            "Bit No",
+            "Size",
+            "Manufacturer",
+            "Model",
+            "Serial No",
+            "IADC Code",
+            "Nozzles",
+            "MD In",
+            "MD Out",
+            "I-O-D-L",
+            "B-G-O-R"
+          ],
+          "rows": [
+            [
+              "02",
+              "16.000",
+              "HALLIBURTON SECURITY",
+              "DBS SF56CH",
+              "12892052",
+              "",
+              "4x13, 3x12",
+              "382.00",
+              "",
+              "- -",
+              "- -"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bit Operating Parameters Today",
+          "headers": [
+            "Bit No",
+            "Rot Hrs",
+            "Cum Rot Hrs",
+            "Prog",
+            "Cum Prog",
+            "ROP",
+            "Cum ROP",
+            "WOB min/max",
+            "RPM min/max",
+            "TFA",
+            "P Drop Bit",
+            "Noz Vel",
+            "HHPSI"
+          ],
+          "rows": [
+            [
+              "02",
+              "20.50",
+              "26.00",
+              "2,272.00",
+              "2,890.00",
+              "110.8",
+              "111.2",
+              "10.0/15.0",
+              "50/55",
+              "0.850",
+              "1,116.37",
+              "358.7",
+              "3.1"
+            ]
+          ]
+        },
+        {
+          "table_title": "Mud Data - Baroid Fluid Services",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Engineer",
+              "GAVILANES GAIBOR, ANDRES SANTIAGO"
+            ],
+            [
+              "Sample From",
+              "Flowline"
+            ],
+            [
+              "Mud Type",
+              "Spud Mud"
+            ],
+            [
+              "Time / MD",
+              "4:00 / 3,235.0"
+            ],
+            [
+              "Density @ Temp",
+              "9.70 / 136"
+            ],
+            [
+              "Rheology Temp",
+              "130"
+            ],
+            [
+              "Viscosity",
+              "28.00"
+            ],
+            [
+              "PV / YP",
+              "2 / 11"
+            ],
+            [
+              "Gels 10s/10m/30m",
+              "7 / 15 / 19"
+            ],
+            [
+              "API WL",
+              "46.00"
+            ],
+            [
+              "HTHP WL",
+              "/"
+            ],
+            [
+              "Cake API / HTHP",
+              "/"
+            ],
+            [
+              "Solids / Sol Corr",
+              "10.41 / 10.19"
+            ],
+            [
+              "Oil / Water",
+              "/ 89.6"
+            ],
+            [
+              "Sand",
+              "0.40"
+            ],
+            [
+              "Water Added",
+              "3.50 / 31.92"
+            ],
+            [
+              "Oil Added",
+              ""
+            ],
+            [
+              "LGS",
+              ""
+            ],
+            [
+              "VG Meter",
+              "6@3 / 7@6 / 10@100 / 12@200 / 13@300 / 15@600"
+            ],
+            [
+              "MBT",
+              "25.0 lbm/bbl"
+            ],
+            [
+              "pH",
+              "8.2"
+            ],
+            [
+              "Pf / Mf",
+              "/"
+            ],
+            [
+              "Pm / Pom",
+              "/"
+            ],
+            [
+              "Chlorides",
+              "40"
+            ],
+            [
+              "Ca+ / K+",
+              "80 /"
+            ],
+            [
+              "CaCl2",
+              ""
+            ],
+            [
+              "Clom",
+              ""
+            ],
+            [
+              "Lime",
+              ""
+            ],
+            [
+              "ES",
+              ""
+            ],
+            [
+              "ECD",
+              "10.30"
+            ],
+            [
+              "n / K",
+              "/ 0.0"
+            ],
+            [
+              "Carbonate",
+              "/"
+            ],
+            [
+              "Bicarbonate",
+              ""
+            ],
+            [
+              "Form Loss",
+              "/ 0.0"
+            ],
+            [
+              "Fluid Disch",
+              "/"
+            ],
+            [
+              "Daily Mud Cost",
+              "$0"
+            ],
+            [
+              "Cum Mud Cost",
+              "$0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Last or Current BHA",
+          "headers": [
+            "Component",
+            "OD",
+            "ID",
+            "Jts",
+            "Length"
+          ],
+          "rows": [
+            [
+              "Polycrystalline Diamond Bit",
+              "16.000",
+              "3.250",
+              "1",
+              "1.40"
+            ],
+            [
+              "Positive Displacement Motor",
+              "9.625",
+              "6.537",
+              "1",
+              "27.30"
+            ],
+            [
+              "Float Sub",
+              "8.010",
+              "3.000",
+              "1",
+              "2.92"
+            ],
+            [
+              "Integral Blade Stabilizer",
+              "8.010",
+              "3.000",
+              "1",
+              "6.21"
+            ],
+            [
+              "Non-Magnetic Drill Collar (MWD)",
+              "8.000",
+              "4.015",
+              "1",
+              "32.24"
+            ],
+            [
+              "UBHO SUB",
+              "7.940",
+              "2.970",
+              "1",
+              "2.18"
+            ],
+            [
+              "Spiral Drill Collar",
+              "8.000",
+              "2.813",
+              "1",
+              "30.39"
+            ],
+            [
+              "Cross Over",
+              "8.000",
+              "2.875",
+              "1",
+              "2.16"
+            ],
+            [
+              "Spiral Drill Collar",
+              "6.500",
+              "2.813",
+              "2",
+              "60.58"
+            ],
+            [
+              "Cross Over",
+              "6.500",
+              "2.800",
+              "1",
+              "1.90"
+            ],
+            [
+              "Heavy Weight Drill Pipe",
+              "5.000",
+              "3.000",
+              "15",
+              "455.10"
+            ],
+            [
+              "Heavy Weight Drill Pipe",
+              "5.000",
+              "3.000",
+              "11",
+              "328.27"
+            ],
+            [
+              "Drilling Jar",
+              "6.500",
+              "2.750",
+              "1",
+              "21.02"
+            ]
+          ]
+        },
+        {
+          "table_title": "BHA Header Info",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "BHA No",
+              "02"
+            ],
+            [
+              "Bit No",
+              "02"
+            ],
+            [
+              "MD In",
+              "382.00 ft"
+            ],
+            [
+              "MD Out",
+              ""
+            ],
+            [
+              "Purpose",
+              "DRILL DIRECTIONALLY 16\" HOLE"
+            ],
+            [
+              "Total Length",
+              "1,153.23 ft"
+            ],
+            [
+              "Wt below Jars",
+              "60.1 kip"
+            ]
+          ]
+        },
+        {
+          "table_title": "Fluid Losses",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Injected Volume",
+              "187.0(bbl)"
+            ],
+            [
+              "Returned Volume",
+              "868.0(bbl)"
+            ]
+          ]
+        },
+        {
+          "table_title": "Bulks",
+          "headers": [
+            "Product",
+            "Qty Start",
+            "Qty End",
+            "Qty Used"
+          ],
+          "rows": [
+            [
+              "DIESEL - CAMP",
+              "2,142.00",
+              "1,994.00",
+              "148.00"
+            ],
+            [
+              "DIESEL - RIG",
+              "16,234.00",
+              "13,811.00",
+              "2,423.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "Operations Time Log",
+          "headers": [
+            "From",
+            "To",
+            "Hrs",
+            "Op Code",
+            "Op Sub",
+            "Op Type",
+            "Operation Details (Original Spanish)",
+            "Operation Details (English Translation)"
+          ],
+          "rows": [
+            [
+              "6:00",
+              "7:00",
+              "1.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA SECCION 16\" DESLIZANDO Y ROTANDO CON BHA #2 DIRECCIONAL DESDE 1000' HASTA 1152' CON 950 GPM, 2620 PSI, 50 RPM, 30 KLBS WOB, 5-21 KLBS-FT TQ,",
+              "DRILLING 16\" SECTION SLIDING AND ROTATING WITH BHA #2 DIRECTIONAL FROM 1000' TO 1152' WITH 950 GPM, 2620 PSI, 50 RPM, 30 KLBS WOB, 5-21 KLBS-FT TQ"
+            ],
+            [
+              "7:00",
+              "7:30",
+              "0.50",
+              "CIRCULATING",
+              "Condition Hole",
+              "P",
+              "CIRCULA POZO RECIPROCANDO SARTA CON 1050 GPM, 3000 PSI, 40 RPM, 5/10 TQ.",
+              "CIRCULATING WELL RECIPROCATING STRING WITH 1050 GPM, 3000 PSI, 40 RPM, 5/10 TQ."
+            ],
+            [
+              "7:30",
+              "8:00",
+              "0.50",
+              "SURFACE EQUIPMENT",
+              "Service Company Equi",
+              "P",
+              "PETREX CAMBIA SABER SUB DEL TOP DRIVE 4 ½\"IF X 5 7/8\" XT 57.",
+              "PETREX CHANGES SABER SUB OF TOP DRIVE 4 ½\"IF X 5 7/8\" XT 57."
+            ],
+            [
+              "8:00",
+              "9:30",
+              "1.50",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA CON BHA #2 DIRECCIONAL SECCION 16\" DESLIZANDO Y ROTANDO DE 1152´ A 1336´. PARAMETROS: 1050 GPM, 3300 PSI, 70 RPM, 10/14 TQ, 20/25 WOB.",
+              "DRILLING WITH BHA #2 DIRECTIONAL 16\" SECTION SLIDING AND ROTATING FROM 1152' TO 1336'. PARAMETERS: 1050 GPM, 3300 PSI, 70 RPM, 10/14 TQ, 20/25 WOB."
+            ],
+            [
+              "9:30",
+              "10:00",
+              "0.50",
+              "CIRCULATING",
+              "Condition Hole",
+              "P",
+              "BOMBEA 50 BBLS PILDORA DISPERSA @ 8.4 LPG, 26 VIS, CIRCULO RECIPROCANDO SARTA CON 1050 GPM, 3050 PSI, 40 RPM, 5/10 TQ.",
+              "PUMPED 50 BBLS DISPERSED PILL @ 8.4 PPG, 26 VIS, CIRCULATED RECIPROCATING STRING WITH 1050 GPM, 3050 PSI, 40 RPM, 5/10 TQ."
+            ],
+            [
+              "10:00",
+              "10:30",
+              "0.50",
+              "GYRO",
+              "Inclination Only",
+              "P",
+              "TERCERA CORRIDA DE GYRO, ORIENTACION DE MOTOR Y SENSOR GYRO @ 900´. DEPTH (FT) INCL AZM 800 5.01 154.89 900 5.34 156.08",
+              "THIRD GYRO RUN, MOTOR ORIENTATION AND GYRO SENSOR @ 900'. DEPTH (FT) INCL AZM 800 5.01 154.89 900 5.34 156.08"
+            ],
+            [
+              "10:30",
+              "12:30",
+              "2.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA CON BHA #2 DIRECCIONAL SECCION 16\" DESLIZANDO Y ROTANDO DE 1336´ A 1520´. PARAMETROS: 1050 GPM, 3350 PSI, 70 RPM, 10/14 TQ, 20/25 WOB.",
+              "DRILLING WITH BHA #2 DIRECTIONAL 16\" SECTION SLIDING AND ROTATING FROM 1336' TO 1520'. PARAMETERS: 1050 GPM, 3350 PSI, 70 RPM, 10/14 TQ, 20/25 WOB."
+            ],
+            [
+              "12:30",
+              "13:30",
+              "1.00",
+              "NPT",
+              "Repairs",
+              "NPT",
+              "NPT A CARGO DE PETREX, SOLDADOR REPARA LINEA 2\" EN MANIFOLD DEL STAND PIPE.",
+              "NPT CHARGEABLE TO PETREX, WELDER REPAIRS 2\" LINE IN STAND PIPE MANIFOLD."
+            ],
+            [
+              "13:30",
+              "15:30",
+              "2.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA CON BHA #2 DIRECCIONAL SECCION 16\" DESLIZANDO Y ROTANDO DE 1520´ A 1798´. PARAMETROS: 1050 GPM, 3350 PSI, 70 RPM, 10/14 TQ, 20/25 WOB. @ 1700' BOMBEA 50 BLS DE PILDORA VISCOSA DE 9.2 PPG, 60 SEG",
+              "DRILLING WITH BHA #2 DIRECTIONAL 16\" SECTION SLIDING AND ROTATING FROM 1520' TO 1798'. PARAMETERS: 1050 GPM, 3350 PSI, 70 RPM, 10/14 TQ, 20/25 WOB. @ 1700' PUMPED 50 BBLS VISCOUS PILL 9.2 PPG, 60 SEC"
+            ],
+            [
+              "15:30",
+              "16:00",
+              "0.50",
+              "RIG MAINTAINANCE",
+              "Service Rig and Equi",
+              "P",
+              "PETREX REALIZA SERVICIO AL EQUIPO.",
+              "PETREX PERFORMS EQUIPMENT SERVICE."
+            ],
+            [
+              "16:00",
+              "23:00",
+              "7.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA CON BHA #2 DIRECCIONAL SECCIÓN 16\" DESLIZANDO Y ROTANDO DE 1798´ A 2744´. PARAMETROS: 1050 GPM, 3250/3350 PSI, 70 RPM, 10/15 KLBS-FT TQ, 10/25 KLBS WOB, ROP: 250 FT/HR, MW: 9.1 PPG; 28 SEG. REPASANDO UNA VEZ Y TOMANDO SURVEY DESPUES DE CADA CONEXIÓN. @ 2430' BOMBEA 50 BLS DE PILDORA DISPERSA. - SE REALIZA SIMULACROS DE INCENDIO Y EMERGENCIA MEDICA.",
+              "DRILLING WITH BHA #2 DIRECTIONAL 16\" SECTION SLIDING AND ROTATING FROM 1798' TO 2744'. PARAMETERS: 1050 GPM, 3250/3350 PSI, 70 RPM, 10/15 KLBS-FT TQ, 10/25 KLBS WOB, ROP: 250 FT/HR, MW: 9.1 PPG; 28 SEC. REAMING ONCE AND TAKING SURVEY AFTER EACH CONNECTION. @ 2430' PUMPED 50 BBLS DISPERSED PILL. - FIRE AND MEDICAL EMERGENCY DRILLS PERFORMED."
+            ],
+            [
+              "23:00",
+              "6:00",
+              "7.00",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA CON BHA #2 DIRECCIONAL SECCIÓN 16\" DESLIZANDO Y ROTANDO CONTROLANDO PARAMETROS DE 2744´ A 3272´. PARAMETROS: 900 GPM, 2700/2800 PSI, 60 RPM, 5/15 KLBS-FT TQ, 10 KLBS WOB, ROP: 102 FT/HR, MW: 9.6 PPG; 28 SEG. REPASANDO UNA VEZ Y TOMANDO SURVEY DESPUES DE CADA CONEXIÓN. @ 2820' BOMBEA 50 BLS DE PILDORA VISCOSA DE 9.6 PPG, 90 SEG. PESO SUBIENDO: 140 KLBS, PESO BAJANDO: 120 KLBS, PESO ROTANDO: 130 KLBS.",
+              "DRILLING WITH BHA #2 DIRECTIONAL 16\" SECTION SLIDING AND ROTATING CONTROLLING PARAMETERS FROM 2744' TO 3272'. PARAMETERS: 900 GPM, 2700/2800 PSI, 60 RPM, 5/15 KLBS-FT TQ, 10 KLBS WOB, ROP: 102 FT/HR, MW: 9.6 PPG; 28 SEC. REAMING ONCE AND TAKING SURVEY AFTER EACH CONNECTION. @ 2820' PUMPED 50 BBLS VISCOUS PILL 9.6 PPG, 90 SEC. WEIGHT UP: 140 KLBS, WEIGHT DOWN: 120 KLBS, WEIGHT ROTATING: 130 KLBS."
+            ]
+          ]
+        },
+        {
+          "table_title": "Safety Statistics",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Safety Incident?",
+              "N"
+            ],
+            [
+              "Environ Incident?",
+              "N"
+            ],
+            [
+              "Days since Last RI",
+              "95.00"
+            ],
+            [
+              "Days since Last LTA",
+              "95.00"
+            ],
+            [
+              "TARJETAS DEL DÍA: STOP",
+              "3"
+            ],
+            [
+              "TARJETAS DEL DÍA: ECO",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_title": "Mud Gas",
+          "headers": [
+            "Parameter",
+            "Avg",
+            "Max"
+          ],
+          "rows": [
+            [
+              "Backgr",
+              "",
+              ""
+            ],
+            [
+              "Trip",
+              "",
+              ""
+            ],
+            [
+              "Conn",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\29-10-2023_VHRJ-028_DDR 02_RIG CCDC 69.pdf",
+    "pdf_name": "29-10-2023_VHRJ-028_DDR 02_RIG CCDC 69.pdf",
+    "data": {
+      "document_metadata": {
+        "date": "10/29/2023",
+        "report_number": "2",
+        "well_name": "VHRJ-028",
+        "operator": "EP PETROECUADOR",
+        "rig": "CCDC-069",
+        "detected_language": "Spanish/English Mixed",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "Event",
+          "content": "DEV DRILLING"
+        },
+        {
+          "section_title": "Primary Reason",
+          "content": "DEEPEN DIR"
+        },
+        {
+          "section_title": "Description",
+          "content": "Perforacion del pozo VHRJ-028 | Drilling of well VHRJ-028"
+        },
+        {
+          "section_title": "Current Ops",
+          "content": "CIRCULANDO HOYO CON 1000 GPM PREVIO A CORRIDA DE REGISTRO GYRO | CIRCULATING HOLE WITH 1000 GPM PRIOR TO GYRO LOG RUN"
+        },
+        {
+          "section_title": "24-Hr Summary",
+          "content": "ARMA ENSAMBLAJE CON DCs DE 8\" + CONECTA BROCA TRICONICA DE 12 1/4\" + BAJA BHA CONVENCIONAL DE 12 1/4\" A FONDO @ 65 ft MD + PERFORA HOYO DE 12 1/4\" HASTA 378 PIES + SACA BHA #1 + ARMA Y BAJA BHA DIR. DE 12 1/4\" (BHA #2) + PERFORAR SECCION HASTA 1021 ft MD | MAKE UP ASSEMBLY WITH 8\" DCs + CONNECT 12 1/4\" TRICONE BIT + RUN CONVENTIONAL BHA 12 1/4\" TO BOTTOM @ 65 ft MD + DRILL 12 1/4\" HOLE TO 378 FEET + PULL BHA #1 + MAKE UP AND RUN DIRECTIONAL BHA 12 1/4\" (BHA #2) + DRILL SECTION TO 1021 ft MD"
+        },
+        {
+          "section_title": "24-Hr Forecast",
+          "content": "CONT. PERFORANDO SECCION DE 12 1/4\" CON BHA DIR. CON BROCA PDC, MOTOR Y MWD (BHA #2) CONFORME PLAN DIRECCIONAL DE POZO | CONTINUE DRILLING 12 1/4\" SECTION WITH DIRECTIONAL BHA WITH PDC BIT, MOTOR AND MWD (BHA #2) ACCORDING TO WELL DIRECTIONAL PLAN"
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "Well Information",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Wellbore",
+              "00"
+            ],
+            [
+              "Today's MD",
+              "1,021.00 ft"
+            ],
+            [
+              "Prev MD",
+              ""
+            ],
+            [
+              "PBMD",
+              ""
+            ],
+            [
+              "Ref Datum",
+              "ORIGINAL KB @868.02ft"
+            ],
+            [
+              "Ground Elev",
+              "830.92 ft"
+            ],
+            [
+              "AFE MD/Days",
+              "/ 15.8 days"
+            ],
+            [
+              "AFE Number",
+              "AFE C. IGAPO"
+            ],
+            [
+              "Daily Cost",
+              "$0"
+            ],
+            [
+              "Cum Cost",
+              "$0"
+            ],
+            [
+              "AFE Cost",
+              ""
+            ],
+            [
+              "Rig",
+              "CCDC-069"
+            ],
+            [
+              "Inicio OPR",
+              "10/27/2023 12:00:00AM"
+            ]
+          ]
+        },
+        {
+          "table_title": "Operations",
+          "headers": [
+            "From",
+            "To",
+            "Hrs",
+            "Op Code",
+            "Op Sub",
+            "Op Type",
+            "Operation Details"
+          ],
+          "rows": [
+            [
+              "6:00",
+              "8:30",
+              "2.50",
+              "BHA",
+              "R/U PDC Bit / BHA",
+              "P",
+              "ARMA 2da PARADA DE DCs DE 6 1/2\" + ARMA ENSAMBLAJE CON CON DCs DE 8\" | MAKE UP 2nd STAND OF 6 1/2\" DCs + MAKE UP ASSEMBLY WITH 8\" DCs"
+            ],
+            [
+              "8:30",
+              "9:00",
+              "0.50",
+              "BHA",
+              "R/U PDC Bit / BHA",
+              "P",
+              "REALIZA REUINION DE SEGURIIDAD Y OPERATIVA PARA INICIO DE PERFORACION DE POZO. | CONDUCT SAFETY AND OPERATIONS MEETING FOR START OF WELL DRILLING."
+            ],
+            [
+              "9:00",
+              "9:30",
+              "0.50",
+              "BHA",
+              "RIH Tricone Bit / BH",
+              "P",
+              "CONECTA BROCA TRICONICA DE 12 ¼\" (RR) CON ENSAMBLAJE DE DCs DE 8\" + PASA BROCA POR MESA ROTARIA (SUPD WELL) Y BAJA ENSAMBLAJE CONVENCIONAL DE 12 1/4\" HASTA CONTACTAR FONDO @ 65 ft MD + LEVANTA SARTA 1 PIE DEL FONDO + PRENDE BOMBAS (300 GPM) + COLOCA ROTACION EN SARTA (80 RPM) + BAJA ENSAMBLAJE A FONDO | CONNECT 12 ¼\" TRICONE BIT (RR) WITH 8\" DC ASSEMBLY + PASS BIT THROUGH ROTARY TABLE (SUPD WELL) AND RUN CONVENTIONAL 12 1/4\" ASSEMBLY TO CONTACT BOTTOM @ 65 ft MD + PICK UP STRING 1 FOOT OFF BOTTOM + START PUMPS (300 GPM) + APPLY ROTATION TO STRING (80 RPM) + LOWER ASSEMBLY TO BOTTOM"
+            ],
+            [
+              "9:30",
+              "14:30",
+              "5.00",
+              "DRILLING",
+              "Rotary - Vertical Ho",
+              "P",
+              "PERFORA SECCION SUPERFICIAL DE 12 1/4\" CON BHA CONVENCIONAL CON BROCA TRICONICA DESDE 65 ft HASTA 376 ft MD, CON 350-400 GPM, 80-100 RPM, 300 PSI, WOB: 10-12 KLBS, TQ: 1-2 KLBS-FT – LITOLOGIA TRAMO DESDE 65 ft @ 376 ft = 70% ARCILLOLITA, 20% LIMOLITA, 10% ARENA - ROP PROM: 62.2 ft/hr - MW: 8.5 ppg | DRILL SURFACE SECTION 12 1/4\" WITH CONVENTIONAL BHA WITH TRICONE BIT FROM 65 ft TO 376 ft MD, WITH 350-400 GPM, 80-100 RPM, 300 PSI, WOB: 10-12 KLBS, TQ: 1-2 KLBS-FT – LITHOLOGY INTERVAL FROM 65 ft @ 376 ft = 70% SHALE, 20% SILTSTONE, 10% SANDSTONE - AVG ROP: 62.2 ft/hr - MW: 8.5 ppg"
+            ],
+            [
+              "14:30",
+              "15:00",
+              "0.50",
+              "CIRCULATING",
+              "Condition Hole",
+              "P",
+              "BOMBEA Y CIRCULA FUERA DEL HOYO 40 BBL DE PILDORA VISCOSA DE 8,5 ppg X 120 seg | PUMP AND CIRCULATE OUT OF HOLE 40 BBL OF VISCOUS PILL 8.5 ppg X 120 sec"
+            ],
+            [
+              "15:00",
+              "16:30",
+              "1.50",
+              "BHA",
+              "Tripping",
+              "P",
+              "SACA ENSAMBLAJE CON DCs DE 6 ½\" Y 8\" Y BROCA TRICONICA DE 12 ¼\" DESDE 376 ft HASTA SUPERFICIE, DESARMANDO 2 DCs DE 8\" Y ESTABILIZADOR DE 11 3/4\" + DESCONECTA BROCA TRICONICA RR DE 12 1/4\" – CONDICION DE BROCA = 1-1-WT-E-I-NO-BHA | PULL ASSEMBLY WITH 6 ½\" AND 8\" DCs AND 12 ¼\" TRICONE BIT FROM 376 ft TO SURFACE, LAYING DOWN 2 PCS OF 8\" DC AND 11 3/4\" STABILIZER + DISCONNECT 12 1/4\" RR TRICONE BIT – BIT CONDITION = 1-1-WT-E-I-NO-BHA"
+            ],
+            [
+              "16:30",
+              "17:00",
+              "0.50",
+              "BHA",
+              "Pre job safety meeti",
+              "P",
+              "REALIZA REUNION DE SEGURIDAD Y OPERATIVA PARA ARMADO DE BHA DIR. DE 12 ½\" | CONDUCT SAFETY AND OPERATIONS MEETING FOR MAKEUP OF 12 ½\" DIRECTIONAL BHA"
+            ],
+            [
+              "17:00",
+              "20:00",
+              "3.00",
+              "BHA",
+              "R/U PDC Bit / BHA",
+              "P",
+              "SPERRY HAL ARMA BHA DIR. DE 12 1/4\" (BHA #2)) CON BROCA PDC DE 12 1/4\" + MOTOR DE 9 5/8\" TerraForce Lobe 6/7 - 5.0 stg - BH 1.5 + FLEX FLOAT SUB DE 8\" CON FLOAT VALVE + PONY COLLAR DE 8\" + ESTABILIZADOR INTEGRAL DE 11 1/2\" + MWD DE 8\" + UBHO DE 8\" - LONG. DE ENSAMBLAJE DIRECCIONAL DE 12 1/4\" = 76.89 PIES | SPERRY HAL MAKES UP DIRECTIONAL BHA 12 1/4\" (BHA #2)) WITH 12 1/4\" PDC BIT + 9 5/8\" TerraForce Lobe 6/7 - 5.0 stg - BH 1.5 MOTOR + 8\" FLEX FLOAT SUB WITH FLOAT VALVE + 8\" PONY COLLAR + 11 1/2\" INTEGRAL STABILIZER + 8\" MWD + 8\" UBHO - LENGTH OF 12 1/4\" DIRECTIONAL ASSEMBLY = 76.89 FEET"
+            ],
+            [
+              "20:00",
+              "21:00",
+              "1.00",
+              "BHA",
+              "R/D PDC Bit / BHA",
+              "P",
+              "ALINEA ENSAMBLAJE DIRECCIONAL CON MWD Y TOOL FACE DE MOTOR + CONECTA ENSAMBLAJE DIR. CON DC DE 8\" | ALIGN DIRECTIONAL ASSEMBLY WITH MWD AND MOTOR TOOL FACE + CONNECT DIRECTIONAL ASSEMBLY WITH 8\" DC"
+            ],
+            [
+              "21:00",
+              "22:00",
+              "1.00",
+              "BHA",
+              "RIH PDC Bit / BHA",
+              "P",
+              "BAJA ENSAMBLAJE DIR. DE 12 ¼\" CON BROCA PDC, MOTOR Y MWD (BHA #2) CON DC DE 8\" Y 6 1/2\" HASTA FONDO @ 376 ft MD - BAJA LAVANDO CON ULTIMA PARADA DE HWDP DE 5\" CON 300 GPM, 40 RPM, 120 PSI, TQ: 1-2 KLBS-FT | RUN DIRECTIONAL ASSEMBLY 12 ¼\" WITH PDC BIT, MOTOR AND MWD (BHA #2) WITH 8\" AND 6 1/2\" DC TO BOTTOM @ 376 ft MD - RUN IN WASHING WITH LAST STAND OF 5\" HWDP WITH 300 GPM, 40 RPM, 120 PSI, TQ: 1-2 KLBS-FT"
+            ],
+            [
+              "22:00",
+              "22:30",
+              "0.50",
+              "DRILLING",
+              "Rotary - Vertical Ho",
+              "P",
+              "PERFORA CON BHA DIR. DE 12 1/4\" (BHA #2) DESDE 376 ft HASTA 383 ft MD CON 400 GPM, 40 RPM, 250 PSI (Off), WOB: 10 KLBS, 350 PSI (On), TQ:4-6 KLBS-FT | DRILL WITH 12 1/4\" DIRECTIONAL BHA (BHA #2) FROM 376 ft TO 383 ft MD WITH 400 GPM, 40 RPM, 250 PSI (Off), WOB: 10 KLBS, 350 PSI (On), TQ:4-6 KLBS-FT"
+            ],
+            [
+              "22:30",
+              "23:30",
+              "1.00",
+              "GYRO",
+              "Gyro Multishot",
+              "P",
+              "CIRCULA UN FONDO ARRIBA + VES SURVEY ARMA Y CORRE REGISTRO GYRO @ 289 ft WLM = Inc. 0.22 grd, Dir. 138 grd. | CIRCULATE ONE BOTTOM UP + VES SURVEY MAKES UP AND RUNS GYRO LOG @ 289 ft WLM = Inc. 0.22 grd, Dir. 138 grd."
+            ],
+            [
+              "23:30",
+              "6:00",
+              "6.50",
+              "DRILLING",
+              "Rotary - Sliding Dir",
+              "P",
+              "PERFORA SECCION DE 12 ¼\" CON BHA DIR. CON BROCA PDC, MOTOR Y MWD (BHA #2) DESDE 383 ft HASTA 1,021 ft MD, CON 500-1000 GPM, 40-70 RPM, 350-1500 PSI, WOB: 6-12 KLBS, TQ: 4-6 KLBS-FT – ROP PROM: 98.15 ft/hr – MW: 8,8 ppg **KOP @ 383 ft MD **LITOLOGIA @ 1,020 ft MD = 60% ARCILLOLITA, 20% CARBON, 10% LIMOLITA, 10% ARENA - PRESENCIA DE INTERALACIONES CON CARBON A PARTIR DE LOS 900 PIES **SURVEY @ 959 ft MD = Inc. 9.27 grd, Azi. 51.77 grd, TVD 956.8 ft | DRILL 12 ¼\" SECTION WITH DIRECTIONAL BHA WITH PDC BIT, MOTOR AND MWD (BHA #2) FROM 383 ft TO 1,021 ft MD, WITH 500-1000 GPM, 40-70 RPM, 350-1500 PSI, WOB: 6-12 KLBS, TQ: 4-6 KLBS-FT – AVG ROP: 98.15 ft/hr – MW: 8.8 ppg **KOP @ 383 ft MD **LITHOLOGY @ 1,020 ft MD = 60% SHALE, 20% COAL, 10% SILTSTONE, 10% SANDSTONE - PRESENCE OF INTERBEDDING WITH COAL FROM 900 FEET **SURVEY @ 959 ft MD = Inc. 9.27 grd, Azi. 51.77 grd, TVD 956.8 ft"
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petroecuador\\Page_1_DR_3_VHRH-027.pdf",
+    "pdf_name": "Page_1_DR_3_VHRH-027.pdf",
+    "data": {
+      "document_metadata": {
+        "date": "10/07/2018",
+        "report_number": "3",
+        "well_name": "VHRH-027",
+        "operator": "PETROAMAZONAS EP",
+        "rig": "PETREX-20",
+        "detected_language": "Spanish/English",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "Event",
+          "content": "DEV DRILLING"
+        },
+        {
+          "section_title": "Prim. Reason",
+          "content": "DEEPEN DIR"
+        },
+        {
+          "section_title": "Current Ops",
+          "content": "PERFORANDO CON BHA#2 DIRECCIONAL SECCIÓN DE 16\" @ 3272' | DRILLING WITH DIRECTIONAL BHA#2 16\" SECTION @ 3272'"
+        },
+        {
+          "section_title": "24-Hr Summary",
+          "content": "PERFORÓ DE 1000' HASTA 1152', CIRCULÓ POZO, CAMBIÓ SABER SUB DEL T/D, PERFORÓ SECCIÓN DE 16\" DE 1152' HASTA 1336', CIRCULÓ Y BOMBEÓ PILDORA DE LIMPIEZA, GYRO CORRIÓ SURVEY, PERFORÓ DE 1336' HASTA 1798', REPARA STAND PIPE, PERFORÓ DE 1798' HASTA 3272' | DRILLED FROM 1000' TO 1152', CIRCULATED WELL, CHANGED SABER SUB OF T/D, DRILLED 16\" SECTION FROM 1152' TO 1336', CIRCULATED AND PUMPED CLEANING PILL, GYRO RAN SURVEY, DRILLED FROM 1336' TO 1798', REPAIRED STAND PIPE, DRILLED FROM 1798' TO 3272'"
+        },
+        {
+          "section_title": "24-Hr Forecast",
+          "content": "CONTINUAR PERFORANDO SECCIÓN DE 16\" CON BHA#2 DIRECCIONAL SEGÚN PROGRAMA | CONTINUE DRILLING 16\" SECTION WITH DIRECTIONAL BHA#2 ACCORDING TO PROGRAM"
+        },
+        {
+          "section_title": "Mud Data Comments",
+          "content": "Trabaja con equipo de control de solidos completo 4 zarandas vibradoras, equipo 3 en 1 desander y desilter para el control de arena, centrifugas decantadoras en modo Floculacion Selectiva utilizando CLAY GRABBER. | Working with complete solids control equipment 4 shale shakers, 3 in 1 equipment desander and desilter for sand control, decanting centrifuges in Selective Flocculation mode using CLAY GRABBER."
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "Well Summary",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Wellbore",
+              "00"
+            ],
+            [
+              "Today's MD",
+              "3,272.00 ft"
+            ],
+            [
+              "Prev MD",
+              "1,000.00 ft"
+            ],
+            [
+              "Progress",
+              "2,272.00 ft"
+            ],
+            [
+              "Rot Hrs Today",
+              "18.00 hr"
+            ],
+            [
+              "Avg ROP Slide (ft/hr)",
+              "82.40"
+            ],
+            [
+              "Avg ROP Rot (ft/hr)",
+              "114.78"
+            ],
+            [
+              "Ref Datum",
+              "ORIGINAL KB @856.08ft"
+            ],
+            [
+              "Ground Elev",
+              "823.68 ft"
+            ],
+            [
+              "AFE MD/Days",
+              "/ 19.9 days"
+            ],
+            [
+              "AFE Number",
+              "2.69"
+            ],
+            [
+              "DFS",
+              "$0"
+            ],
+            [
+              "Daily Cost",
+              "$0"
+            ],
+            [
+              "Cum Cost",
+              "$0"
+            ],
+            [
+              "AFE Cost",
+              null
+            ]
+          ]
+        },
+        {
+          "table_title": "MUD GAS",
+          "headers": [
+            "Type",
+            "Avg",
+            "Max"
+          ],
+          "rows": [
+            [
+              "Backgr",
+              null,
+              null
+            ],
+            [
+              "Trip",
+              null,
+              null
+            ],
+            [
+              "Conn",
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "table_title": "CASING/WELL CONTROL",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Last Casing",
+              "20.000in @ 58ft"
+            ],
+            [
+              "Next Casing",
+              "13.375in @ 5,642ft"
+            ],
+            [
+              "Last BOP Press Test",
+              null
+            ],
+            [
+              "Form Test/EMW",
+              null
+            ]
+          ]
+        },
+        {
+          "table_title": "HOOKLOAD & TORQUE",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Str Wt Up/Dn",
+              "140.0 / 120.0 kip"
+            ],
+            [
+              "Str Wt Rot",
+              "130.0 kip"
+            ],
+            [
+              "Torq Off Btm",
+              "10,000.0 ft-lbf"
+            ],
+            [
+              "Torq On Btm",
+              "18,000.0 ft-lbf"
+            ]
+          ]
+        },
+        {
+          "table_title": "HYDRAULICS",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Pump Rate",
+              "0.0 gpm"
+            ],
+            [
+              "Pump Press",
+              "0.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "SURVEY DATA (LAST 6)",
+          "headers": [
+            "MD",
+            "Incl",
+            "Azi",
+            "TVD",
+            "N/-S",
+            "E/-W",
+            "VS",
+            "DLS",
+            "Build"
+          ],
+          "rows": [
+            [
+              "3,117.0",
+              "23.60",
+              "162.46",
+              "3,009.46",
+              "-626.9",
+              "213.0",
+              "-626.9",
+              "0.88",
+              "0.82"
+            ],
+            [
+              "3,025.0",
+              "22.85",
+              "163.21",
+              "2,924.92",
+              "-592.2",
+              "202.3",
+              "-592.2",
+              "0.35",
+              "-0.10"
+            ],
+            [
+              "2,933.0",
+              "22.94",
+              "162.42",
+              "2,840.16",
+              "-558.0",
+              "191.8",
+              "-558.0",
+              "1.17",
+              "-1.09"
+            ],
+            [
+              "2,841.0",
+              "23.94",
+              "161.44",
+              "2,755.76",
+              "-523.2",
+              "180.4",
+              "-523.2",
+              "0.88",
+              "0.82"
+            ],
+            [
+              "2,749.0",
+              "23.19",
+              "160.68",
+              "2,671.43",
+              "-488.4",
+              "168.5",
+              "-488.4",
+              "0.52",
+              "0.09"
+            ],
+            [
+              "2,657.0",
+              "23.11",
+              "161.89",
+              "2,586.84",
+              "-454.2",
+              "156.9",
+              "-454.2",
+              "0.77",
+              "0.44"
+            ]
+          ]
+        },
+        {
+          "table_title": "PERSONNEL",
+          "headers": [
+            "Role",
+            "Name"
+          ],
+          "rows": [
+            [
+              "Supervisor 1",
+              "OSCAR INTRIAGO (IGAPO)"
+            ],
+            [
+              "Supervisor 2",
+              null
+            ],
+            [
+              "Engineer",
+              "EDGAR ESPINOSA"
+            ],
+            [
+              "Geologist",
+              null
+            ],
+            [
+              "Engineer PAM",
+              null
+            ],
+            [
+              "Total on Site",
+              "0"
+            ]
+          ]
+        },
+        {
+          "table_title": "BIT RECORD",
+          "headers": [
+            "Bit No",
+            "Size",
+            "Manufacturer",
+            "Model",
+            "Serial No",
+            "IADC Code",
+            "Nozzles",
+            "MD In",
+            "MD Out",
+            "I-O-D-L",
+            "B-G-O-R"
+          ],
+          "rows": [
+            [
+              "02",
+              "16.000",
+              "HALLIBURTON SECURITY",
+              "DBS SF56CH",
+              "12892052",
+              null,
+              "4x13, 3x12",
+              "382.00",
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "table_title": "BIT OPERATING PARAMETERS TODAY",
+          "headers": [
+            "Bit No",
+            "Rot Hrs",
+            "Cum Rot Hrs",
+            "Prog",
+            "Cum Prog",
+            "ROP",
+            "Cum ROP",
+            "WOB min/max",
+            "RPM min/max",
+            "TFA",
+            "P Drop Bit",
+            "Noz Vel",
+            "HHPSI"
+          ],
+          "rows": [
+            [
+              "02",
+              "20.50",
+              "26.00",
+              "2,272.00",
+              "2,890.00",
+              "110.8",
+              "111.2",
+              "10.0/15.0",
+              "50/55",
+              "0.850",
+              "1,116.37",
+              "358.7",
+              "3.1"
+            ]
+          ]
+        },
+        {
+          "table_title": "MUD DATA - Baroid Fluid Services",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Engineer",
+              "GAVILANES GAIBOR, ANDRES SANTIAGO"
+            ],
+            [
+              "Sample From",
+              "Flowline"
+            ],
+            [
+              "Mud Type",
+              "Spud Mud"
+            ],
+            [
+              "Time / MD",
+              "4:00 / 3,235.0"
+            ],
+            [
+              "Density @ Temp",
+              "9.70 / 136"
+            ],
+            [
+              "Rheology Temp",
+              ""
+            ],
+            [
+              "Viscosity",
+              "130"
+            ],
+            [
+              "PV / YP",
+              "28.00 / "
+            ],
+            [
+              "Gels 10s/10m/30m",
+              "7 / 15 / 19"
+            ],
+            [
+              "API WL",
+              "46.00"
+            ],
+            [
+              "HTHP WL",
+              "/"
+            ],
+            [
+              "Cake API / HTHP",
+              "10.41 / 10.19"
+            ],
+            [
+              "Solids / Sol Corr",
+              "/ 89.6"
+            ],
+            [
+              "Oil / Water",
+              "/ 89.6"
+            ],
+            [
+              "Sand",
+              "0.40"
+            ],
+            [
+              "Water Added",
+              "3.50 / 31.92"
+            ],
+            [
+              "Oil Added",
+              null
+            ],
+            [
+              "LGS",
+              null
+            ],
+            [
+              "MBT",
+              "2 / 11"
+            ],
+            [
+              "pH",
+              "8.2"
+            ],
+            [
+              "Pf / Mf",
+              "/"
+            ],
+            [
+              "Pm / Pom",
+              "40 / "
+            ],
+            [
+              "Chlorides",
+              "80 /"
+            ],
+            [
+              "Ca+ / K+",
+              "/"
+            ],
+            [
+              "CaCl2",
+              null
+            ],
+            [
+              "Clom",
+              null
+            ],
+            [
+              "Lime",
+              "10.30"
+            ],
+            [
+              "ES",
+              "/"
+            ],
+            [
+              "ECD",
+              "10.30"
+            ],
+            [
+              "n / K",
+              "/ 0.0"
+            ],
+            [
+              "Carbonate",
+              "/"
+            ],
+            [
+              "Bicarbonate",
+              null
+            ],
+            [
+              "Form Loss",
+              "/ 0.0"
+            ],
+            [
+              "Fluid Disch",
+              "/"
+            ],
+            [
+              "Daily Mud Cost",
+              "$0"
+            ],
+            [
+              "Cum Mud Cost",
+              "$0"
+            ],
+            [
+              "VG Meter",
+              "6@3 / 7@6 / 10@100 / 12@200 / 13@300 / 15@600"
+            ]
+          ]
+        },
+        {
+          "table_title": "LAST OR CURRENT BHA",
+          "headers": [
+            "Component",
+            "OD",
+            "ID",
+            "Jts",
+            "Length"
+          ],
+          "rows": [
+            [
+              "Polycrystalline Diamond Bit",
+              "16.000",
+              "3.250",
+              "1",
+              "1.40"
+            ],
+            [
+              "Positive Displacement Motor",
+              "9.625",
+              "6.537",
+              "1",
+              "27.30"
+            ],
+            [
+              "Float Sub",
+              "8.010",
+              "3.000",
+              "1",
+              "2.92"
+            ],
+            [
+              "Integral Blade Stabilizer",
+              "8.010",
+              "3.000",
+              "1",
+              "6.21"
+            ],
+            [
+              "Non-Magnetic Drill Collar (MWD)",
+              "8.000",
+              "4.015",
+              "1",
+              "32.24"
+            ],
+            [
+              "UBHO SUB",
+              "7.940",
+              "2.970",
+              "1",
+              "2.18"
+            ],
+            [
+              "Spiral Drill Collar",
+              "8.000",
+              "2.813",
+              "1",
+              "30.39"
+            ],
+            [
+              "Cross Over",
+              "8.000",
+              "2.875",
+              "1",
+              "2.16"
+            ],
+            [
+              "Spiral Drill Collar",
+              "6.500",
+              "2.813",
+              "2",
+              "60.58"
+            ],
+            [
+              "Cross Over",
+              "6.500",
+              "2.800",
+              "1",
+              "1.90"
+            ],
+            [
+              "Heavy Weight Drill Pipe",
+              "5.000",
+              "3.000",
+              "15",
+              "455.10"
+            ],
+            [
+              "Heavy Weight Drill Pipe",
+              "5.000",
+              "3.000",
+              "11",
+              "328.27"
+            ],
+            [
+              "Drilling Jar",
+              "6.500",
+              "2.750",
+              "1",
+              "21.02"
+            ]
+          ]
+        },
+        {
+          "table_title": "BHA Summary",
+          "headers": [
+            "Parameter",
+            "Value"
+          ],
+          "rows": [
+            [
+              "BHA No",
+              "02"
+            ],
+            [
+              "Bit No",
+              "02"
+            ],
+            [
+              "MD In",
+              "382.00 ft"
+            ],
+            [
+              "MD Out",
+              null
+            ],
+            [
+              "Purpose",
+              "DRILL DIRECTIONALLY 16\" HOLE"
+            ],
+            [
+              "Total Length",
+              "1,153.23 ft"
+            ],
+            [
+              "Wt below Jars",
+              "60.1 kip"
+            ]
+          ]
+        },
+        {
+          "table_title": "DAILY COSTS (Top 15)",
+          "headers": [
+            "Cost Description",
+            "Vendor",
+            "Amount"
+          ],
+          "rows": []
+        },
+        {
+          "table_title": "MUD PRODUCTS (ADICIONAL)",
+          "headers": [
+            "Product",
+            "Units",
+            "Qty Used"
+          ],
+          "rows": []
+        },
+        {
+          "table_title": "BULKS",
+          "headers": [
+            "Item",
+            "Qty Start",
+            "Qty End",
+            "Qty Used"
+          ],
+          "rows": [
+            [
+              "DIESEL - CAMP",
+              "2,142.00",
+              "1,994.00",
+              "148.00"
+            ],
+            [
+              "DIESEL - RIG",
+              "16,234.00",
+              "13,811.00",
+              "2,423.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "FLUID LOSSES",
+          "headers": [
+            "Parameter",
+            "Volume (bbl)"
+          ],
+          "rows": [
+            [
+              "Injected Volume",
+              "187.0"
+            ],
+            [
+              "Returned Volume",
+              "868.0"
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  }
+]

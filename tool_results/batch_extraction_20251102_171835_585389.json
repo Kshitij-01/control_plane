@@ -1,0 +1,1211 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_161606\\phase2\\unpack_and_catalog\\data\\raw\\Petroecuador\\08-11-2023_VHRJ-028_DDR 12_RIG CCDC 69.pdf",
+    "pdf_name": "08-11-2023_VHRJ-028_DDR 12_RIG CCDC 69.pdf",
+    "data": {
+      "document_id": "VHRJ-028_Report_12_20231108",
+      "file_path": "DAILY OPERATIONS REPORT",
+      "vendor": "EP PETROECUADOR",
+      "language_detected": "es",
+      "metadata": {
+        "title": "DAILY OPERATIONS REPORT",
+        "author": null,
+        "creator": null,
+        "producer": null,
+        "creation_date": "11/08/2023 6:07:18AM",
+        "mod_date": null,
+        "pdf_version": null,
+        "page_count": 3
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "text_blocks": [
+            {
+              "order_index": 1,
+              "text": "DAILY OPERATIONS REPORT",
+              "translation_en": "DAILY OPERATIONS REPORT"
+            },
+            {
+              "order_index": 2,
+              "text": "EP PETROECUADOR",
+              "translation_en": "EP PETROECUADOR"
+            },
+            {
+              "order_index": 3,
+              "text": "Event: DEV DRILLING",
+              "translation_en": "Event: DEV DRILLING"
+            },
+            {
+              "order_index": 4,
+              "text": "Prim. Reason: DEEPEN DIR",
+              "translation_en": "Primary Reason: DEEPEN DIR"
+            },
+            {
+              "order_index": 5,
+              "text": "Wellbore: VHRJ-028",
+              "translation_en": "Wellbore: VHRJ-028"
+            },
+            {
+              "order_index": 6,
+              "text": "Date: 11/08/2023",
+              "translation_en": "Date: 11/08/2023"
+            },
+            {
+              "order_index": 7,
+              "text": "Report No: 12",
+              "translation_en": "Report No: 12"
+            },
+            {
+              "order_index": 8,
+              "text": "Current Ops: TOMANDO PARAMETROS DE CIRCULACION Y ROTACION CON LINER HANGER VERSAFLEX Y ENSAMBLAJE DE 7\" DENTRO DE ZAPATA DE 9 5/8\" @ 6,315 ft MD",
+              "translation_en": "Current Ops: TAKING CIRCULATION AND ROTATION PARAMETERS WITH VERSAFLEX LINER HANGER AND 7\" ASSEMBLY INSIDE 9 5/8\" SHOE @ 6,315 ft MD"
+            },
+            {
+              "order_index": 9,
+              "text": "24-Hr Summary: CIRC. ACONDICIONANDO HOYO + DESPLAZA EN FONDO PILDORA LUBRICA-SELLANTE + SACA BHA DIR. DE 8 1/2\" HTA. ZAPATA DE 9 5/8\" + BOMBEA PILDORA PESADA + CONT. SACANDO BHA DIR. DE 8 1/2\" A SUPERF.+ QUIEBRA BHA DIR. DE 8 1/2\" + ARMA Y CORRE LINER DE 7\" @ 6315 ft MD",
+              "translation_en": "24-Hr Summary: CIRC. CONDITIONING HOLE + DISPLACES LUBRICANT-SEALANT PILL AT BOTTOM + PULLS 8 1/2\" DIR. BHA TO 9 5/8\" SHOE + PUMPS HEAVY PILL + CONT. PULLING 8 1/2\" DIR. BHA TO SURFACE + BREAKS 8 1/2\" DIR. BHA + ASSEMBLES AND RUNS 7\" LINER @ 6315 ft MD"
+            },
+            {
+              "order_index": 10,
+              "text": "24-Hr Forecast: CONT. BAJANDO EL ENSAMBLAJE DE 7\" CON LINER HANGER VERSAFLEX HT DE 7\" X 9 5/8\" CON PARADAS DE DP DE 5 1/2\" HASTA FONDO @ 8,760 ft MD + CIRCULAR ACONDICIONANDO HOYO + CEMENTAR LINER DE 7\" + DESPLAZAR FLUIDO DEL HOYO POR H2O + SACAR SETTING A SUPERFICIE",
+              "translation_en": "24-Hr Forecast: CONT. RUNNING 7\" ASSEMBLY WITH VERSAFLEX HT 7\" X 9 5/8\" LINER HANGER WITH 5 1/2\" DP STANDS TO BOTTOM @ 8,760 ft MD + CIRCULATE CONDITIONING HOLE + CEMENT 7\" LINER + DISPLACE HOLE FLUID WITH H2O + PULL SETTING TOOL TO SURFACE"
+            }
+          ],
+          "tables": [
+            {
+              "table_id": "well_parameters",
+              "caption": "Well Parameters",
+              "n_rows": 10,
+              "n_cols": 4,
+              "data": [
+                [
+                  "Parameter",
+                  "Value",
+                  "Parameter",
+                  "Value"
+                ],
+                [
+                  "Today's MD:",
+                  "8,760.00 ft",
+                  "Progress:",
+                  "0.00"
+                ],
+                [
+                  "Prev MD:",
+                  "8,760.00 ft",
+                  "Rot Hrs Today:",
+                  "0.00"
+                ],
+                [
+                  "Avg ROP Slide (ft/hr):",
+                  "0.00",
+                  "Avg ROP Rot (ft/hr):",
+                  "0.00"
+                ],
+                [
+                  "Rig:",
+                  "CCDC-069",
+                  "Ref Datum:",
+                  "ORIGINAL KB @868.02ft"
+                ],
+                [
+                  "Ground Elev:",
+                  "830.92 ft",
+                  "Daily Cost:",
+                  "$0"
+                ],
+                [
+                  "AFE MD/Days:",
+                  "/ 15.8 days",
+                  "Cum Cost:",
+                  "$0"
+                ],
+                [
+                  "AFE Number:",
+                  "AFE C. IGAPO",
+                  "AFE Cost:",
+                  null
+                ],
+                [
+                  "DFS:",
+                  "11.50",
+                  null,
+                  null
+                ]
+              ]
+            },
+            {
+              "table_id": "survey_data",
+              "caption": "SURVEY DATA (LAST 6)",
+              "n_rows": 7,
+              "n_cols": 9,
+              "data": [
+                [
+                  "MD",
+                  "Incl",
+                  "Azi",
+                  "TVD",
+                  "N/-S",
+                  "E/-W",
+                  "VS",
+                  "DLS",
+                  "Build"
+                ],
+                [
+                  "8,657.0",
+                  "0.82",
+                  "102.52",
+                  "8,158.47",
+                  "1,679.5",
+                  "858.3",
+                  "1,885.5",
+                  "0.14",
+                  "0.14"
+                ],
+                [
+                  "8,613.0",
+                  "0.76",
+                  "101.82",
+                  "8,114.48",
+                  "1,679.6",
+                  "857.7",
+                  "1,885.4",
+                  "0.19",
+                  "-0.02"
+                ],
+                [
+                  "8,518.0",
+                  "0.78",
+                  "88.10",
+                  "8,019.49",
+                  "1,679.7",
+                  "856.4",
+                  "1,884.9",
+                  "0.15",
+                  "0.15"
+                ],
+                [
+                  "8,423.0",
+                  "0.64",
+                  "87.63",
+                  "7,924.49",
+                  "1,679.7",
+                  "855.3",
+                  "1,884.4",
+                  "0.12",
+                  "-0.03"
+                ],
+                [
+                  "8,328.0",
+                  "0.67",
+                  "77.77",
+                  "7,829.50",
+                  "1,679.6",
+                  "854.2",
+                  "1,883.8",
+                  "0.13",
+                  "0.12"
+                ],
+                [
+                  "8,233.0",
+                  "0.56",
+                  "82.19",
+                  "7,734.50",
+                  "1,679.4",
+                  "853.2",
+                  "1,883.2",
+                  "0.10",
+                  "0.03"
+                ]
+              ]
+            },
+            {
+              "table_id": "casing_well_control",
+              "caption": "CASING/WELL CONTROL",
+              "n_rows": 4,
+              "n_cols": 2,
+              "data": [
+                [
+                  "Last Casing:",
+                  "9.625in @ 6,315ft"
+                ],
+                [
+                  "Next Casing:",
+                  "7.000in @ 8,704ft"
+                ],
+                [
+                  "Last BOP Press Test:",
+                  "11/03/2023"
+                ],
+                [
+                  "Form Test/EMW:",
+                  "FIT / 11.50 ppg"
+                ]
+              ]
+            },
+            {
+              "table_id": "bit_record",
+              "caption": "BIT RECORD",
+              "n_rows": 2,
+              "n_cols": 11,
+              "data": [
+                [
+                  "Bit No",
+                  "Size",
+                  "Manufacturer",
+                  "Model",
+                  "Serial No",
+                  "IADC Code",
+                  "Nozzles",
+                  "MD In",
+                  "MD Out",
+                  "I-O-D-L",
+                  "B-G-O-R"
+                ],
+                [
+                  "03",
+                  "8.500",
+                  "PRF-HALLIBURTON LATIN AMERICA S.R.L",
+                  "GT65DO",
+                  "13687998",
+                  "M323",
+                  "2x14, 4x13",
+                  "6,315.00",
+                  null,
+                  "2-1-CT-N",
+                  "X-I-BT-TD"
+                ]
+              ]
+            },
+            {
+              "table_id": "mud_data",
+              "caption": "MUD DATA - PRF-HALLIBURTON LATIN AMERICA S.R.L",
+              "n_rows": 20,
+              "n_cols": 4,
+              "data": [
+                [
+                  "Engineer:",
+                  "D. CASTELLANOS / C. VASQUEZ",
+                  "MBT:",
+                  "10.4"
+                ],
+                [
+                  "Sample From:",
+                  "IN",
+                  "pH:",
+                  "12.5 lbm/bbl"
+                ],
+                [
+                  "Mud Type:",
+                  "POLIMERO",
+                  "Pm / Pom:",
+                  "0.6 / 1.6"
+                ],
+                [
+                  "Time / MD:",
+                  "6:00 / 8,760.0",
+                  "Pf / Mf:",
+                  "0.00"
+                ],
+                [
+                  "Density @ Temp:",
+                  "10.30 / 130",
+                  "Chlorides:",
+                  "1,200"
+                ],
+                [
+                  "Rheology Temp:",
+                  "120",
+                  "Ca+ / K+:",
+                  "80 / 0"
+                ],
+                [
+                  "Viscosity:",
+                  "65.00",
+                  "CaCl2:",
+                  "0.00"
+                ],
+                [
+                  "PV / YP:",
+                  "26 / 28",
+                  "Clom:",
+                  "0.00"
+                ],
+                [
+                  "Gels 10s/10m/30m:",
+                  "10 / 16 / 21",
+                  "Lime:",
+                  "0.00"
+                ],
+                [
+                  "API WL:",
+                  "4.00",
+                  "ES:",
+                  "0.00"
+                ],
+                [
+                  "HTHP WL:",
+                  "0.00",
+                  "ECD:",
+                  "0.00"
+                ],
+                [
+                  "Cake API / HTHP:",
+                  "1.0 / .0",
+                  "n / K:",
+                  "0.64 / 0.430"
+                ],
+                [
+                  "Solids / Sol Corr:",
+                  "14.40 / 13.40",
+                  "Carbonate:",
+                  "0 ppm"
+                ],
+                [
+                  "Oil / Water:",
+                  "3.0 / 82.6",
+                  "Bicarbonate:",
+                  "0 ppm"
+                ],
+                [
+                  "Sand:",
+                  "0.50",
+                  "Form Loss:",
+                  "/ 0.0"
+                ],
+                [
+                  "Water Added:",
+                  "0.0 bbl",
+                  "Fluid Disch:",
+                  "/"
+                ],
+                [
+                  "Oil Added:",
+                  "0.0 bbl",
+                  "Daily Mud Cost:",
+                  "$0"
+                ],
+                [
+                  "LGS:",
+                  "1.50 / 13.92",
+                  "Cum Mud Cost:",
+                  "$0"
+                ]
+              ]
+            },
+            {
+              "table_id": "bha_components",
+              "caption": "LAST OR CURRENT BHA",
+              "n_rows": 14,
+              "n_cols": 5,
+              "data": [
+                [
+                  "Component",
+                  "OD",
+                  "ID",
+                  "Jts",
+                  "Length"
+                ],
+                [
+                  "Polycrystalline Diamond Bit",
+                  "6.750",
+                  "3.000",
+                  "1",
+                  "0.94"
+                ],
+                [
+                  "SperryDrill Lobe 6/7 - 5.0 stg",
+                  "6.750",
+                  "4.498",
+                  "1",
+                  "24.29"
+                ],
+                [
+                  "Float Sub",
+                  "6.610",
+                  "3.750",
+                  "1",
+                  "2.97"
+                ],
+                [
+                  "Logging While Drilling",
+                  "6.750",
+                  "3.000",
+                  "1",
+                  "1.78"
+                ],
+                [
+                  "Cross Over",
+                  "6.750",
+                  "3.000",
+                  "1",
+                  "2.01"
+                ],
+                [
+                  "Logging While Drilling",
+                  "6.750",
+                  "1.905",
+                  "1",
+                  "4.43"
+                ],
+                [
+                  "DGR Collar",
+                  "6.750",
+                  "1.920",
+                  "1",
+                  "4.56"
+                ],
+                [
+                  "Logging While Drilling",
+                  "6.740",
+                  "2.890",
+                  "1",
+                  "2.03"
+                ],
+                [
+                  "Logging While Drilling",
+                  "6.750",
+                  "1.920",
+                  "1",
+                  "24.14"
+                ],
+                [
+                  "Cross Over",
+                  "6.750",
+                  "3.000",
+                  "1",
+                  "3.36"
+                ],
+                [
+                  "ALD Collar",
+                  "6.705",
+                  "1.920",
+                  "1",
+                  "12.85"
+                ],
+                [
+                  "CTN Collar",
+                  "6.750",
+                  "1.905",
+                  "1",
+                  "15.61"
+                ],
+                [
+                  "SHOC",
+                  "6.900",
+                  "3.250",
+                  "1",
+                  "15.79"
+                ]
+              ]
+            },
+            {
+              "table_id": "fluid_losses",
+              "caption": "FLUID LOSSES",
+              "n_rows": 2,
+              "n_cols": 2,
+              "data": [
+                [
+                  "Injected Volume:",
+                  "1,146.9(bbl)"
+                ],
+                [
+                  "Returned Volume:",
+                  "1,146.9(bbl)"
+                ]
+              ]
+            },
+            {
+              "table_id": "bulks",
+              "caption": "BULKS",
+              "n_rows": 3,
+              "n_cols": 4,
+              "data": [
+                [
+                  "Item",
+                  "Qty Start",
+                  "Qty End",
+                  "Qty Used"
+                ],
+                [
+                  "DIESEL - CAMP",
+                  "4,820.00",
+                  "4,640.00",
+                  "180.00"
+                ],
+                [
+                  "DIESEL - RIG",
+                  "11,923.00",
+                  "9,423.00",
+                  "2,500.00"
+                ]
+              ]
+            }
+          ],
+          "key_value_pairs": [
+            {
+              "key": "Event",
+              "value": "DEV DRILLING",
+              "translation_en": "Event: DEV DRILLING"
+            },
+            {
+              "key": "Prim. Reason",
+              "value": "DEEPEN DIR",
+              "translation_en": "Primary Reason: DEEPEN DIR"
+            },
+            {
+              "key": "Wellbore",
+              "value": "VHRJ-028",
+              "translation_en": "Wellbore: VHRJ-028"
+            },
+            {
+              "key": "Date",
+              "value": "11/08/2023",
+              "translation_en": "Date: 11/08/2023"
+            },
+            {
+              "key": "Report No",
+              "value": "12",
+              "translation_en": "Report No: 12"
+            },
+            {
+              "key": "Rig",
+              "value": "CCDC-069",
+              "translation_en": "Rig: CCDC-069"
+            },
+            {
+              "key": "Today's MD",
+              "value": "8,760.00 ft",
+              "translation_en": "Today's MD: 8,760.00 ft"
+            },
+            {
+              "key": "Prev MD",
+              "value": "8,760.00 ft",
+              "translation_en": "Prev MD: 8,760.00 ft"
+            },
+            {
+              "key": "Progress",
+              "value": "0.00",
+              "translation_en": "Progress: 0.00"
+            },
+            {
+              "key": "Ground Elev",
+              "value": "830.92 ft",
+              "translation_en": "Ground Elev: 830.92 ft"
+            },
+            {
+              "key": "DFS",
+              "value": "11.50",
+              "translation_en": "DFS: 11.50"
+            },
+            {
+              "key": "Daily Cost",
+              "value": "$0",
+              "translation_en": "Daily Cost: $0"
+            },
+            {
+              "key": "Cum Cost",
+              "value": "$0",
+              "translation_en": "Cum Cost: $0"
+            },
+            {
+              "key": "AFE Number",
+              "value": "AFE C. IGAPO",
+              "translation_en": "AFE Number: AFE C. IGAPO"
+            },
+            {
+              "key": "Supervisor 1",
+              "value": "GIOVANNY CARRILLO (IGAPO)",
+              "translation_en": "Supervisor 1: GIOVANNY CARRILLO (IGAPO)"
+            },
+            {
+              "key": "Supervisor 2",
+              "value": "EDGAR ESPINOSA",
+              "translation_en": "Supervisor 2: EDGAR ESPINOSA"
+            },
+            {
+              "key": "Total on Site",
+              "value": "0",
+              "translation_en": "Total on Site: 0"
+            },
+            {
+              "key": "BHA No",
+              "value": "03",
+              "translation_en": "BHA No: 03"
+            },
+            {
+              "key": "Bit No",
+              "value": "03",
+              "translation_en": "Bit No: 03"
+            },
+            {
+              "key": "MD In",
+              "value": "6,315.00 ft",
+              "translation_en": "MD In: 6,315.00 ft"
+            },
+            {
+              "key": "Total Length",
+              "value": "1,032.89 ft",
+              "translation_en": "Total Length: 1,032.89 ft"
+            },
+            {
+              "key": "Wt below Jars",
+              "value": "90.0 kip",
+              "translation_en": "Wt below Jars: 90.0 kip"
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "text_blocks": [
+            {
+              "order_index": 1,
+              "text": "OPERATIONS",
+              "translation_en": "OPERATIONS"
+            }
+          ],
+          "tables": [
+            {
+              "table_id": "operations_log_page2",
+              "caption": "OPERATIONS",
+              "n_rows": 18,
+              "n_cols": 6,
+              "data": [
+                [
+                  "From",
+                  "To",
+                  "Hrs",
+                  "Op Code",
+                  "Op Sub",
+                  "Operation Details"
+                ],
+                [
+                  "6:00",
+                  "7:30",
+                  "1.50",
+                  "CIRCULATING",
+                  "Condition Hole",
+                  "CIRCULA FUERA DEL HOYO TANDEM DE PILDORAS VISCOSAS DE 40 BBL C/ UNA DE 10.3 ppg X 120 seg ESPACIADAS EN 2500 STKS CON 400 GPM, 1450 PSI, 80 RPM, 20-24 KLBS-FT"
+                ],
+                [
+                  "7:30",
+                  "8:00",
+                  "0.50",
+                  "CIRCULATING",
+                  "Pump pill",
+                  "BOMBEA Y DESPLAZA AL ESPACIO ANULAR 66 BBLS DE PILDORA LUBRICA-SELLANTE DE 10.3 ppg"
+                ],
+                [
+                  "8:00",
+                  "10:00",
+                  "2.00",
+                  "BHA",
+                  "Tripping",
+                  "SACA BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON DP DE 5 1/2\" HLST54 EN ELEVADORES DESE FONDO @ 8,760 ft HASTA ZAPATA DE 9 5/8\" @ 6,315 ft MD, NORMAL. VELOCIDAD DE VIAJE DE SACDA DE BHA DIR. 8 1/2\" EN OPEN HOLE = 1,220 ft/hr"
+                ],
+                [
+                  "10:00",
+                  "10:30",
+                  "0.50",
+                  "CIRCULATING",
+                  "Pump pill",
+                  "BOMBEA Y DESAPLAZA POR DIRECTA 40 BBL DE PILDORA PESADA PARA MANIOBRA DE VIAJE CON TUBERIA SECA"
+                ],
+                [
+                  "10:30",
+                  "13:30",
+                  "3.00",
+                  "BHA",
+                  "Tripping",
+                  "CONT. SACANDO BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON DP DE 5 1/2\" HLST54 EN ELEVADORES DESDE 6,315 ft HASTA 1,033 ft MD"
+                ],
+                [
+                  "13:30",
+                  "14:00",
+                  "0.50",
+                  "BHA",
+                  "Tripping",
+                  "CONT. SACANDO BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON HWDP DE 5 1/2\" HLST54 EN ELEVADORES DESDE 1,033 ft HASTA PROFUNIDAD DE MARRTILLO HIDRAULICO DE 6 1/2\" @ 728 ft MD"
+                ],
+                [
+                  "14:00",
+                  "14:30",
+                  "0.50",
+                  "BHA",
+                  "R/D PDC Bit / BHA",
+                  "LEVANTA SARTA @ 697 ft MD + DESCONECTA Y DESARMA XOs Y MARTILLO DE PERFORACION DE 6 1/2\" DE ADRIALPETRO - TOTAL HORAS DE MARTILLO 115.5 HRS."
+                ],
+                [
+                  "14:30",
+                  "15:00",
+                  "0.50",
+                  "BHA",
+                  "DRILL",
+                  "CONT. SACANDO BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON HWDP DE 5 1/2\" HLST54 EN ELEVADORES DESDE 697 ft HASTA PROFUNIDAD DE DCs DE 6 1/2\" @ 302 ft MD"
+                ],
+                [
+                  "15:00",
+                  "15:30",
+                  "0.50",
+                  "BHA",
+                  "R/D PDC Bit / BHA",
+                  "CONT. SACANDO SARTA DIR. DE 8 1/2\" DESCONECTANDO Y DESARMANDO TUBO A TUBO A PLANCHADA LOS DCs DE 61/2\" (6 DCs), DESDE 302 ft HASTA PROFUNDIADAS DE ESTABLIZADOR DE SARTA @ 120 ft MD"
+                ],
+                [
+                  "15:30",
+                  "16:00",
+                  "0.50",
+                  "BHA",
+                  "Pre job safety meeti",
+                  "HAL SPERRY REALIZA REUINION DE SEGURIDAD Y OPERATIVA PARA DESARMAR EL CONJUNTO DIRECCIONAL DE 8 1/2\" CON HTAS. M/ LWD (BHA #3)"
+                ],
+                [
+                  "16:00",
+                  "16:30",
+                  "0.50",
+                  "BHA",
+                  "R/D PDC Bit / BHA",
+                  "DESCONECTA ESTABILIZADOR + RETIRA FUENTES RADIOCTIVAS DE CONJUNTO LWD"
+                ],
+                [
+                  "16:30",
+                  "18:30",
+                  "2.00",
+                  "BHA",
+                  "R/D PDC Bit / BHA",
+                  "LEVANTA ENSAMBLAJE DIRECCIONAL DE 8 1/2\" DESDE 120 ft HASTA SUPERFICIE, DESCONECTANDO, DESARMANDO Y BAJANDO A PLANCHDA CONJUNTO M/ LWD = 6 3/4\" MWD + 6 3/4\" CTN COLLAR + 6 3/4\" ALD COLLAR + 6 3/4\" ADR COLLAR + 6 3/4\" DGR COLLAR + 6 3/4\" PWD COLLAR + DESCARGA MOTOR + DESCONECTA BROCA PDC DE 8 1/2\" + QUIEBRA A PLANCHA MOTOR TERRAFORCE DE 6 3/4\". CONDICION DE SALIDA DE BROCA = 2-1-CT-N/S-X-I-BT-TD. CAMISA ESTABILIZADORA DE MOTOR PRESENTA DESGASTE EN LOS EXTREMOS SUPERIOR E INFERIOR EN TODAS LAS ALETAS - DESAGASTE AXIAL DE MOTOR = 1 mm (ENTRO CON 3mm, SALE CON 4mm) - INLINE STABILIZER (ILS) EN CALIBRE - ESTABILIZADOR INTEGRAL DE SARTA DE 6 3/4\" EN CALIBRE CON DESGASTE NORMAL"
+                ],
+                [
+                  "18:30",
+                  "19:00",
+                  "0.50",
+                  "CASING",
+                  "Pre job safety meeti",
+                  "HCT REALIZA REUINION DE SEGURIDAD Y OPERATIVA PARA CORRIDA DE LINER DE 7\""
+                ],
+                [
+                  "19:00",
+                  "19:30",
+                  "0.50",
+                  "CASING",
+                  "RU/RD Casing Equip.",
+                  "MISSION PET. ARMA EQUIPO DE CORRIDA DE TUBULARES DE 7\" CON UNIDAD DE POTENCIA HIDRAULICA, LLAVE HIDRAULICA CON CONTRA TORQUE, TORQUIMETRO DE TENSION (BRAZO 32), SAFETY CLAMP TIPO \"C\", ELEVADOR SIDE DOOR SLX 7\", SINGLE JOINT ELEVATOR SJ 7\", ESLINGAS DE 5/8\", ESLINGAS ANTILATIGO"
+                ],
+                [
+                  "19:30",
+                  "20:30",
+                  "1.00",
+                  "CASING",
+                  "Run Casing/Liner",
+                  "ARMA SHOE TRACK DE 7\" CON ZAPATA RIMADOR CON PUNTA EXCENTRICA, PROVISTO DE VALVULA FLOTADORA DE 4 -1/4\" TXP BC + 1 JTA. DE CGS DE 7\", 26#, P-110, BC + FLOAT COLLAR DE 7\" PROVISTO DE VALVULA FLOTADORA DE 4 1/4\" + JTA. DE CGS DE 7\", 26#, P-110, BC + LANDING COLLAR DE 7\" - LONG. DE SHOE TRACK DE 7\" = 80.72 PIES. APLICA SUELDA FRIA EN CONEXIONES Y TORQUE GEOMETRICO A LA BASE DEL TRIANGULO CON 15 KLBS-FT EN ZAPATA, 12 KLBS-FT EN FLOAT COLLAR Y LANDING COLLAR - LLENA TUBERIA Y PRUEBA FUNCIONAMIENTO DE EQUIPO FLOTACION DE FLOTACION, OK"
+                ],
+                [
+                  "20:30",
+                  "21:00",
+                  "0.50",
+                  "RIG MAINTENANCE",
+                  "Service Rig and Equi",
+                  "REALIZA RIG SERVICE + CALIBRA CROWN-O-MATIC"
+                ],
+                [
+                  "21:00",
+                  "1:00",
+                  "4.00",
+                  "CASING",
+                  "Run Casing/Liner",
+                  "CONT. ARMANDO Y CORRIENDO EN HOYO ENTUBADO EL LINER DE 7\" DESDE 80 ft HASTA 2,639 ft MD, APLICANDO ROQUE GEOMTRICO EN XONEXIONES A LA BASE DEL TRIANGULO CON 10,000 LBS-FT - BAJA LLENANDO TUBERIA C/ JTS. DE CSG. ARMA UN TOTA DEL 70 JTS. DE DE CSG DE 7\", 26#, P-110, BC, R3, PSL2, CON 71 ANILLOS DE TORQUE ROSCABLES INSTALADOS EN LAS CONEXIONES BC DEL CSG DE 7\" Y 34 CENTRALIZADORES SEMIRIGIDOS CENTEK, INSTALADOS EN LAS PRIMERAS 23 JTAS. DE CSG DE 7\" CON 68 STOP RINGS"
+                ]
+              ]
+            }
+          ],
+          "key_value_pairs": []
+        },
+        {
+          "page_number": 3,
+          "text_blocks": [
+            {
+              "order_index": 1,
+              "text": "CONTROL DE SOLIDOS",
+              "translation_en": "SOLIDS CONTROL"
+            },
+            {
+              "order_index": 2,
+              "text": "SE REALIZA DEWATETRING DE 400BBL DE FLUIDOS DESCARTADOS DE PERFORACION",
+              "translation_en": "DEWATERING OF 400BBL OF DISCARDED DRILLING FLUIDS IS PERFORMED"
+            },
+            {
+              "order_index": 3,
+              "text": "SE TRATAN 450 BBL DE AGUA TRATADA Y SE ENVIA A REINYECCION A LA ESTACION VHR 400 BBLACUMULADO 2800BBL REINYECTADOS",
+              "translation_en": "450 BBL OF TREATED WATER IS TREATED AND SENT TO REINJECTION AT VHR STATION 400 BBL ACCUMULATED 2800BBL REINJECTED"
+            },
+            {
+              "order_index": 4,
+              "text": "SE ENVIA LA GESTOR AMBIENTAL 33M3 DE RIPIOS. ACUMULADO 790M3.",
+              "translation_en": "33M3 OF CUTTINGS ARE SENT TO ENVIRONMENTAL MANAGER. ACCUMULATED 790M3."
+            },
+            {
+              "order_index": 5,
+              "text": "SE ENVIAN 6 VIAJES, ACUNULADO 125M3.",
+              "translation_en": "6 TRIPS ARE SENT, ACCUMULATED 125M3."
+            },
+            {
+              "order_index": 6,
+              "text": "INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS.",
+              "translation_en": "NO INCIDENTS TO REPORT IN THE LAST 24 HOURS."
+            }
+          ],
+          "tables": [
+            {
+              "table_id": "operations_log_page3",
+              "caption": "OPERATIONS",
+              "n_rows": 5,
+              "n_cols": 6,
+              "data": [
+                [
+                  "From",
+                  "To",
+                  "Hrs",
+                  "Op Code",
+                  "Op Sub",
+                  "Operation Details"
+                ],
+                [
+                  "1:00",
+                  "1:30",
+                  "0.50",
+                  "CASING",
+                  "Run Casing/Liner",
+                  "HCT LEVANTA Y ARMA COLGADOR HT DE 7\" X 9 5/8\" VERSAFLEX CON ENSAMBLAJE DE 7\" - INSTALA WIPER PLUG DE 7\" CON 4 PINES DE 500 PSI C/ UNO (2000 PSI) - LONG. ENSAMBLE DE LINER HANGER VERSAFLEX = 43.19 PIES. CIRCULA CON 200/ 300/ 400 GPM = 300/ 330/ 450 PSI - REGISTRA PESOS DE SARTA = 105 KLBS SUBIENDO, 100 KLBS BAJANDO - SIN BOMBA, 115 KLBS SUBIENDO, 110 KLBS BAJANDO"
+                ],
+                [
+                  "1:30",
+                  "2:00",
+                  "0.50",
+                  "CASING",
+                  "RU/RD Casing Equip.",
+                  "DESARMA EQUIPO DE CORRIDA DE TUBULARESDE 7\" DE MISSION PET."
+                ],
+                [
+                  "2:00",
+                  "6:00",
+                  "4.00",
+                  "CASING",
+                  "Run Casing/Liner",
+                  "CONT. BAJANDO EL ENSAMBLAJE DE 7\" CON LINER HANGER VERSAFLEX HIGH TORQUE DE 7\" X 9 5/8\" CON PARADAS DE DP DE 5 1/2\", DESDE 2,682 ft HASTA ZAPATA DE 9 5/8\" @ 8,760 ft MD. **BAJA LAS PARADAS DE DP DE 5 1/2\" HLST54, CONEJEANDO TUBERIA EN TRINCHES CON CALIBRADOR DE 2.75\", LLENANDO TUBERIA Y REGISTRANDO PESOS C/ 13 PARADAS"
+                ]
+              ]
+            },
+            {
+              "table_id": "safety_incidents",
+              "caption": "Safety and Environmental Incidents",
+              "n_rows": 4,
+              "n_cols": 2,
+              "data": [
+                [
+                  "Safety Incident?",
+                  "N"
+                ],
+                [
+                  "Environ Incident?",
+                  "N"
+                ],
+                [
+                  "Days since Last RI:",
+                  null
+                ],
+                [
+                  "Days since Last LTA:",
+                  "76.00"
+                ]
+              ]
+            }
+          ],
+          "key_value_pairs": [
+            {
+              "key": "Safety Incident",
+              "value": "N",
+              "translation_en": "Safety Incident: N"
+            },
+            {
+              "key": "Environ Incident",
+              "value": "N",
+              "translation_en": "Environmental Incident: N"
+            },
+            {
+              "key": "Days since Last LTA",
+              "value": "76.00",
+              "translation_en": "Days since Last LTA: 76.00"
+            },
+            {
+              "key": "Incident Comments",
+              "value": "INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS",
+              "translation_en": "Incident Comments: NO INCIDENTS TO REPORT IN THE LAST 24 HOURS"
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Well Information",
+          "content": "Wellbore: VHRJ-028, Event: DEV DRILLING, Primary Reason: DEEPEN DIR, Date: 11/08/2023, Report No: 12",
+          "translation_en": "Wellbore: VHRJ-028, Event: DEV DRILLING, Primary Reason: DEEPEN DIR, Date: 11/08/2023, Report No: 12"
+        },
+        {
+          "heading": "Current Operations",
+          "content": "TOMANDO PARAMETROS DE CIRCULACION Y ROTACION CON LINER HANGER VERSAFLEX Y ENSAMBLAJE DE 7\" DENTRO DE ZAPATA DE 9 5/8\" @ 6,315 ft MD",
+          "translation_en": "TAKING CIRCULATION AND ROTATION PARAMETERS WITH VERSAFLEX LINER HANGER AND 7\" ASSEMBLY INSIDE 9 5/8\" SHOE @ 6,315 ft MD"
+        },
+        {
+          "heading": "24-Hr Summary",
+          "content": "CIRC. ACONDICIONANDO HOYO + DESPLAZA EN FONDO PILDORA LUBRICA-SELLANTE + SACA BHA DIR. DE 8 1/2\" HTA. ZAPATA DE 9 5/8\" + BOMBEA PILDORA PESADA + CONT. SACANDO BHA DIR. DE 8 1/2\" A SUPERF.+ QUIEBRA BHA DIR. DE 8 1/2\" + ARMA Y CORRE LINER DE 7\" @ 6315 ft MD",
+          "translation_en": "CIRC. CONDITIONING HOLE + DISPLACES LUBRICANT-SEALANT PILL AT BOTTOM + PULLS 8 1/2\" DIR. BHA TO 9 5/8\" SHOE + PUMPS HEAVY PILL + CONT. PULLING 8 1/2\" DIR. BHA TO SURFACE + BREAKS 8 1/2\" DIR. BHA + ASSEMBLES AND RUNS 7\" LINER @ 6315 ft MD"
+        },
+        {
+          "heading": "24-Hr Forecast",
+          "content": "CONT. BAJANDO EL ENSAMBLAJE DE 7\" CON LINER HANGER VERSAFLEX HT DE 7\" X 9 5/8\" CON PARADAS DE DP DE 5 1/2\" HASTA FONDO @ 8,760 ft MD + CIRCULAR ACONDICIONANDO HOYO + CEMENTAR LINER DE 7\" + DESPLAZAR FLUIDO DEL HOYO POR H2O + SACAR SETTING A SUPERFICIE",
+          "translation_en": "CONT. RUNNING 7\" ASSEMBLY WITH VERSAFLEX HT 7\" X 9 5/8\" LINER HANGER WITH 5 1/2\" DP STANDS TO BOTTOM @ 8,760 ft MD + CIRCULATE CONDITIONING HOLE + CEMENT 7\" LINER + DISPLACE HOLE FLUID WITH H2O + PULL SETTING TOOL TO SURFACE"
+        },
+        {
+          "heading": "Personnel",
+          "content": "Supervisor 1: GIOVANNY CARRILLO (IGAPO), Supervisor 2: EDGAR ESPINOSA, Total on Site: 0",
+          "translation_en": "Supervisor 1: GIOVANNY CARRILLO (IGAPO), Supervisor 2: EDGAR ESPINOSA, Total on Site: 0"
+        },
+        {
+          "heading": "Solids Control",
+          "content": "SE REALIZA DEWATETRING DE 400BBL DE FLUIDOS DESCARTADOS DE PERFORACION. SE TRATAN 450 BBL DE AGUA TRATADA Y SE ENVIA A REINYECCION A LA ESTACION VHR 400 BBLACUMULADO 2800BBL REINYECTADOS. SE ENVIA LA GESTOR AMBIENTAL 33M3 DE RIPIOS. ACUMULADO 790M3. SE ENVIAN 6 VIAJES, ACUNULADO 125M3.",
+          "translation_en": "DEWATERING OF 400BBL OF DISCARDED DRILLING FLUIDS IS PERFORMED. 450 BBL OF TREATED WATER IS TREATED AND SENT TO REINJECTION AT VHR STATION 400 BBL ACCUMULATED 2800BBL REINJECTED. 33M3 OF CUTTINGS ARE SENT TO ENVIRONMENTAL MANAGER. ACCUMULATED 790M3. 6 TRIPS ARE SENT, ACCUMULATED 125M3."
+        },
+        {
+          "heading": "Safety Incidents",
+          "content": "INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS. Days since Last LTA: 76.00",
+          "translation_en": "NO INCIDENTS TO REPORT IN THE LAST 24 HOURS. Days since Last LTA: 76.00"
+        }
+      ],
+      "entities": [
+        {
+          "type": "WELLBORE",
+          "value": "VHRJ-028",
+          "normalized_value": "VHRJ-028",
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "DATE",
+          "value": "11/08/2023",
+          "normalized_value": "2023-11-08",
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "REPORT_NUMBER",
+          "value": "12",
+          "normalized_value": 12,
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "RIG",
+          "value": "CCDC-069",
+          "normalized_value": "CCDC-069",
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "DEPTH",
+          "value": "8,760.00 ft",
+          "normalized_value": 8760.0,
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "DEPTH",
+          "value": "6,315 ft",
+          "normalized_value": 6315,
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "CASING_SIZE",
+          "value": "9 5/8\"",
+          "normalized_value": "9.625",
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "CASING_SIZE",
+          "value": "7\"",
+          "normalized_value": "7.0",
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "BIT_SIZE",
+          "value": "8 1/2\"",
+          "normalized_value": "8.5",
+          "page_numbers": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "PERSON",
+          "value": "GIOVANNY CARRILLO",
+          "normalized_value": "GIOVANNY CARRILLO",
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "PERSON",
+          "value": "EDGAR ESPINOSA",
+          "normalized_value": "EDGAR ESPINOSA",
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "COMPANY",
+          "value": "EP PETROECUADOR",
+          "normalized_value": "EP PETROECUADOR",
+          "page_numbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "COMPANY",
+          "value": "HALLIBURTON LATIN AMERICA S.R.L",
+          "normalized_value": "HALLIBURTON",
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "AFE_NUMBER",
+          "value": "AFE C. IGAPO",
+          "normalized_value": "AFE C. IGAPO",
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "MUD_WEIGHT",
+          "value": "10.3 ppg",
+          "normalized_value": 10.3,
+          "page_numbers": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "MUD_WEIGHT",
+          "value": "11.50 ppg",
+          "normalized_value": 11.5,
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "BHA_NUMBER",
+          "value": "03",
+          "normalized_value": 3,
+          "page_numbers": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "BIT_NUMBER",
+          "value": "03",
+          "normalized_value": 3,
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "SERIAL_NUMBER",
+          "value": "13687998",
+          "normalized_value": "13687998",
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "ELEVATION",
+          "value": "830.92 ft",
+          "normalized_value": 830.92,
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "KB_ELEVATION",
+          "value": "868.02 ft",
+          "normalized_value": 868.02,
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "DAYS_SINCE_LTA",
+          "value": "76.00",
+          "normalized_value": 76,
+          "page_numbers": [
+            3
+          ]
+        },
+        {
+          "type": "VOLUME",
+          "value": "1,146.9 bbl",
+          "normalized_value": 1146.9,
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "DIESEL_USAGE_CAMP",
+          "value": "180.00",
+          "normalized_value": 180,
+          "page_numbers": [
+            1
+          ]
+        },
+        {
+          "type": "DIESEL_USAGE_RIG",
+          "value": "2,500.00",
+          "normalized_value": 2500,
+          "page_numbers": [
+            1
+          ]
+        }
+      ],
+      "full_text": "DAILY OPERATIONS REPORT\nEP PETROECUADOR\nEvent: DEV DRILLING\nDate: 11/08/2023\nReport No: 12\nPrim. Reason: DEEPEN DIR\nECU\nWellbore: VHRJ-028\nRig: CCDC-069\nRef Datum: ORIGINAL KB @868.02ft\nToday's MD: 8,760.00 ft\nProgress: 0.00\nGround Elev: 830.92 ft\nPrev MD: 8,760.00 ft\nRot Hrs Today: 0.00\nAFE MD/Days: / 15.8 days\nAvg ROP Slide (ft/hr): 0.00\nAvg ROP Rot (ft/hr): 0.00\nAFE Number: AFE C. IGAPO\nDFS: 11.50\nDaily Cost: $0\nCum Cost: $0\n\nCurrent Ops: TOMANDO PARAMETROS DE CIRCULACION Y ROTACION CON LINER HANGER VERSAFLEX Y ENSAMBLAJE DE 7\" DENTRO DE ZAPATA DE 9 5/8\" @ 6,315 ft MD\n\n24-Hr Summary: CIRC. ACONDICIONANDO HOYO + DESPLAZA EN FONDO PILDORA LUBRICA-SELLANTE + SACA BHA DIR. DE 8 1/2\" HTA. ZAPATA DE 9 5/8\" + BOMBEA PILDORA PESADA + CONT. SACANDO BHA DIR. DE 8 1/2\" A SUPERF.+ QUIEBRA BHA DIR. DE 8 1/2\" + ARMA Y CORRE LINER DE 7\" @ 6315 ft MD\n\n24-Hr Forecast: CONT. BAJANDO EL ENSAMBLAJE DE 7\" CON LINER HANGER VERSAFLEX HT DE 7\" X 9 5/8\" CON PARADAS DE DP DE 5 1/2\" HASTA FONDO @ 8,760 ft MD + CIRCULAR ACONDICIONANDO HOYO + CEMENTAR LINER DE 7\" + DESPLAZAR FLUIDO DEL HOYO POR H2O + SACAR SETTING A SUPERFICIE\n\nCASING/WELL CONTROL\nLast Casing: 9.625in @ 6,315ft\nNext Casing: 7.000in @ 8,704ft\nLast BOP Press Test: 11/03/2023\nForm Test/EMW: FIT / 11.50 ppg\n\nHOOKLOAD & TORQUE\nStr Wt Up/Dn: /\nStr Wt Rot:\nTorq Off Btm:\nTorq On Btm:\n\nHYDRAULICS\nPump Rate: 0.0\nPump Press: 0.00\n\nMUD GAS Avg Max\nConn:\nTrip:\nBackgr:\n\nSURVEY DATA (LAST 6)\nMD    Incl   Azi    TVD      N/-S    E/-W    VS      DLS    Build\n8,657.0  0.82  102.52  8,158.47  1,679.5  858.3  1,885.5  0.14   0.14\n8,613.0  0.76  101.82  8,114.48  1,679.6  857.7  1,885.4  0.19  -0.02\n8,518.0  0.78   88.10  8,019.49  1,679.7  856.4  1,884.9  0.15   0.15\n8,423.0  0.64   87.63  7,924.49  1,679.7  855.3  1,884.4  0.12  -0.03\n8,328.0  0.67   77.77  7,829.50  1,679.6  854.2  1,883.8  0.13   0.12\n8,233.0  0.56   82.19  7,734.50  1,679.4  853.2  1,883.2  0.10   0.03\n\nPERSONNEL\nSupervisor 1: GIOVANNY CARRILLO (IGAPO)\nSupervisor 2: EDGAR ESPINOSA\nEngineer:\nGeologist:\nEngineer PAM:\nTotal on Site: 0\n\nBIT RECORD\nBit No  Size  Manufacturer                           Model   Serial No  IADC Code  Nozzles      MD In    MD Out  I-O-D-L    B-G-O-R\n03      8.500 PRF-HALLIBURTON LATIN AMERICA S.R.L  GT65DO  13687998   M323       2x14, 4x13   6,315.00         2-1-CT-N   X-I-BT-TD\n\nBIT OPERATING PARAMETERS TODAY\nBit No  Rot Hrs  Cum Rot Hrs  Prog  Cum Prog  ROP  Cum ROP  WOB min/max  RPM min/max  TFA  P Drop Bit  Noz Vel  HHPSI\n\nMUD DATA - PRF-HALLIBURTON LATIN AMERICA S.R.L\nEngineer: D. CASTELLANOS / C. VASQUEZ\nSample From: IN\nMud Type: POLIMERO\nTime / MD: 6:00 / 8,760.0\nDensity @ Temp: 10.30 / 130\nRheology Temp: 120\nViscosity: 65.00\nPV / YP: 26 / 28\nGels 10s/10m/30m: 10 / 16 / 21\nAPI WL: 4.00\nHTHP WL: 0.00\nCake API / HTHP: 1.0 / .0\nSolids / Sol Corr: 14.40 / 13.40\nOil / Water: 3.0 / 82.6\nSand: 0.50\nWater Added: 0.0 bbl\nOil Added: 0.0 bbl\nLGS: 1.50 / 13.92\nVG Meter:\nComments:\n\nMBT: 10.4\npH: 12.5 lbm/bbl\nPf / Mf: 0.00\nPm / Pom: 0.6 / 1.6\nChlorides: 1,200\nCa+ / K+: 80 / 0\nCaCl2: 0.00\nClom: 0.00\nLime: 0.00\nES: 0.00\nECD: 0.00\nn / K: 0.64 / 0.430\nCarbonate: 0 ppm\nBicarbonate: 0 ppm\nForm Loss: / 0.0\nFluid Disch: /\nDaily Mud Cost: $0\nCum Mud Cost: $0\n\nMUD PRODUCTS (ADICIONAL)\nProduct  Units  Qty Used\n\nLAST OR CURRENT BHA\nBHA No: 03  Bit No: 03  MD In: 6,315.00 ft\nPurpose: DRILL 8 1/2\" HOLE SECTION TO 8704 ft MD  MD Out:\nTotal Length: 1,032.89 ft  Wt below Jars: 90.0 kip\n\nComponent                          OD     ID     Jts  Length\nPolycrystalline Diamond Bit       6.750  3.000   1    0.94\nSperryDrill Lobe 6/7 - 5.0 stg    6.750  4.498   1   24.29\nFloat Sub                         6.610  3.750   1    2.97\nLogging While Drilling            6.750  3.000   1    1.78\nCross Over                        6.750  3.000   1    2.01\nLogging While Drilling            6.750  1.905   1    4.43\nDGR Collar                        6.750  1.920   1    4.56\nLogging While Drilling            6.740  2.890   1    2.03\nLogging While Drilling            6.750  1.920   1   24.14\nCross Over                        6.750  3.000   1    3.36\nALD Collar                        6.705  1.920   1   12.85\nCTN Collar                        6.750  1.905   1   15.61\nSHOC                              6.900  3.250   1   15.79\n\nDAILY COSTS (Top 15)\nCost Description  Vendor  Amount\n\nFLUID LOSSES\nInjected Volume: 1,146.9(bbl)\nReturned Volume: 1,146.9(bbl)\n\nBULKS            Qty Start   Qty End    Qty Used\nDIESEL - CAMP    4,820.00    4,640.00   180.00\nDIESEL - RIG    11,923.00    9,423.00  2,500.00\n\n11/8/2023  6:07:18AM  Page 1 of 3\n\n\nOPERATIONS\nFrom  To    Hrs   Op Code        Op Sub              Op Type  Operation Details\n6:00  7:30  1.50  CIRCULATING    Condition Hole      P        CIRCULA FUERA DEL HOYO TANDEM DE PILDORAS VISCOSAS DE 40 BBL C/ UNA DE 10.3 ppg X 120 seg ESPACIADAS EN 2500 STKS CON 400 GPM, 1450 PSI, 80 RPM, 20-24 KLBS-FT\n7:30  8:00  0.50  CIRCULATING    Pump pill           P        BOMBEA Y DESPLAZA AL ESPACIO ANULAR 66 BBLS DE PILDORA LUBRICA-SELLANTE DE 10.3 ppg\n8:00  10:00 2.00  BHA            Tripping            P        SACA BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON DP DE 5 1/2\" HLST54 EN ELEVADORES DESE FONDO @ 8,760 ft HASTA ZAPATA DE 9 5/8\" @ 6,315 ft MD, NORMAL. VELOCIDAD DE VIAJE DE SACDA DE BHA DIR. 8 1/2\" EN OPEN HOLE = 1,220 ft/hr\n10:00 10:30 0.50  CIRCULATING    Pump pill           P        BOMBEA Y DESAPLAZA POR DIRECTA 40 BBL DE PILDORA PESADA PARA MANIOBRA DE VIAJE CON TUBERIA SECA\n10:30 13:30 3.00  BHA            Tripping            P        CONT. SACANDO BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON DP DE 5 1/2\" HLST54 EN ELEVADORES DESDE 6,315 ft HASTA 1,033 ft MD\n13:30 14:00 0.50  BHA            Tripping            P        CONT. SACANDO BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON HWDP DE 5 1/2\" HLST54 EN ELEVADORES DESDE 1,033 ft HASTA PROFUNIDAD DE MARRTILLO HIDRAULICO DE 6 1/2\" @ 728 ft MD\n14:00 14:30 0.50  BHA            R/D PDC Bit / BHA   P        LEVANTA SARTA @ 697 ft MD + DESCONECTA Y DESARMA XOs Y MARTILLO DE PERFORACION DE 6 1/2\" DE ADRIALPETRO - TOTAL HORAS DE MARTILLO 115.5 HRS.\n14:30 15:00 0.50  BHA            DRILL               P        CONT. SACANDO BHA DIR. DE 8 1/2\" CON BROCA PDC, MOTOR Y HTAS. M/ LWD (BHA #3) CON HWDP DE 5 1/2\" HLST54 EN ELEVADORES DESDE 697 ft HASTA PROFUNIDAD DE DCs DE 6 1/2\" @ 302 ft MD\n15:00 15:30 0.50  BHA            R/D PDC Bit / BHA   P        CONT. SACANDO SARTA DIR. DE 8 1/2\" DESCONECTANDO Y DESARMANDO TUBO A TUBO A PLANCHADA LOS DCs DE 61/2\" (6 DCs), DESDE 302 ft HASTA PROFUNDIADAS DE ESTABLIZADOR DE SARTA @ 120 ft MD\n15:30 16:00 0.50  BHA            Pre job safety meeti P       HAL SPERRY REALIZA REUINION DE SEGURIDAD Y OPERATIVA PARA DESARMAR EL CONJUNTO DIRECCIONAL DE 8 1/2\" CON HTAS. M/ LWD (BHA #3)\n16:00 16:30 0.50  BHA            R/D PDC Bit / BHA   P        DESCONECTA ESTABILIZADOR + RETIRA FUENTES RADIOCTIVAS DE CONJUNTO LWD\n16:30 18:30 2.00  BHA            R/D PDC Bit / BHA   P        LEVANTA ENSAMBLAJE DIRECCIONAL DE 8 1/2\" DESDE 120 ft HASTA SUPERFICIE, DESCONECTANDO, DESARMANDO Y BAJANDO A PLANCHDA CONJUNTO M/ LWD = 6 3/4\" MWD + 6 3/4\" CTN COLLAR + 6 3/4\" ALD COLLAR + 6 3/4\" ADR COLLAR + 6 3/4\" DGR COLLAR + 6 3/4\" PWD COLLAR + DESCARGA MOTOR + DESCONECTA BROCA PDC DE 8 1/2\" + QUIEBRA A PLANCHA MOTOR TERRAFORCE DE 6 3/4\". CONDICION DE SALIDA DE BROCA = 2-1-CT-N/S-X-I-BT-TD. CAMISA ESTABILIZADORA DE MOTOR PRESENTA DESGASTE EN LOS EXTREMOS SUPERIOR E INFERIOR EN TODAS LAS ALETAS - DESAGASTE AXIAL DE MOTOR = 1 mm (ENTRO CON 3mm, SALE CON 4mm) - INLINE STABILIZER (ILS) EN CALIBRE - ESTABILIZADOR INTEGRAL DE SARTA DE 6 3/4\" EN CALIBRE CON DESGASTE NORMAL\n18:30 19:00 0.50  CASING         Pre job safety meeti P       HCT REALIZA REUINION DE SEGURIDAD Y OPERATIVA PARA CORRIDA DE LINER DE 7\"\n19:00 19:30 0.50  CASING         RU/RD Casing Equip. P        MISSION PET. ARMA EQUIPO DE CORRIDA DE TUBULARES DE 7\" CON UNIDAD DE POTENCIA HIDRAULICA, LLAVE HIDRAULICA CON CONTRA TORQUE, TORQUIMETRO DE TENSION (BRAZO 32), SAFETY CLAMP TIPO \"C\", ELEVADOR SIDE DOOR SLX 7\", SINGLE JOINT ELEVATOR SJ 7\", ESLINGAS DE 5/8\", ESLINGAS ANTILATIGO\n19:30 20:30 1.00  CASING         Run Casing/Liner    P        ARMA SHOE TRACK DE 7\" CON ZAPATA RIMADOR CON PUNTA EXCENTRICA, PROVISTO DE VALVULA FLOTADORA DE 4 -1/4\" TXP BC + 1 JTA. DE CGS DE 7\", 26#, P-110, BC + FLOAT COLLAR DE 7\" PROVISTO DE VALVULA FLOTADORA DE 4 1/4\" + JTA. DE CGS DE 7\", 26#, P-110, BC + LANDING COLLAR DE 7\" - LONG. DE SHOE TRACK DE 7\" = 80.72 PIES. APLICA SUELDA FRIA EN CONEXIONES Y TORQUE GEOMETRICO A LA BASE DEL TRIANGULO CON 15 KLBS-FT EN ZAPATA, 12 KLBS-FT EN FLOAT COLLAR Y LANDING COLLAR - LLENA TUBERIA Y PRUEBA FUNCIONAMIENTO DE EQUIPO FLOTACION DE FLOTACION, OK\n20:30 21:00 0.50  RIG MAINTENANCE Service Rig and Equi P      REALIZA RIG SERVICE + CALIBRA CROWN-O-MATIC\n21:00 1:00  4.00  CASING         Run Casing/Liner    P        CONT. ARMANDO Y CORRIENDO EN HOYO ENTUBADO EL LINER DE 7\" DESDE 80 ft HASTA 2,639 ft MD, APLICANDO ROQUE GEOMTRICO EN XONEXIONES A LA BASE DEL TRIANGULO CON 10,000 LBS-FT - BAJA LLENANDO TUBERIA C/ JTS. DE CSG. ARMA UN TOTA DEL 70 JTS. DE DE CSG DE 7\", 26#, P-110, BC, R3, PSL2, CON 71 ANILLOS DE TORQUE ROSCABLES INSTALADOS EN LAS CONEXIONES BC DEL CSG DE 7\" Y 34 CENTRALIZADORES SEMIRIGIDOS CENTEK, INSTALADOS EN LAS PRIMERAS 23 JTAS. DE CSG DE 7\" CON 68 STOP RINGS\n\n11/8/2023  6:07:18AM  Page 2 of 3\n\n\nFrom  To    Hrs   Op Code        Op Sub              Op Type  Operation Details\n1:00  1:30  0.50  CASING         Run Casing/Liner    P        HCT LEVANTA Y ARMA COLGADOR HT DE 7\" X 9 5/8\" VERSAFLEX CON ENSAMBLAJE DE 7\" - INSTALA WIPER PLUG DE 7\" CON 4 PINES DE 500 PSI C/ UNO (2000 PSI) - LONG. ENSAMBLE DE LINER HANGER VERSAFLEX = 43.19 PIES. CIRCULA CON 200/ 300/ 400 GPM = 300/ 330/ 450 PSI - REGISTRA PESOS DE SARTA = 105 KLBS SUBIENDO, 100 KLBS BAJANDO - SIN BOMBA, 115 KLBS SUBIENDO, 110 KLBS BAJANDO\n1:30  2:00  0.50  CASING         RU/RD Casing Equip. P        DESARMA EQUIPO DE CORRIDA DE TUBULARESDE 7\" DE MISSION PET.\n2:00  6:00  4.00  CASING         Run Casing/Liner    P        CONT. BAJANDO EL ENSAMBLAJE DE 7\" CON LINER HANGER VERSAFLEX HIGH TORQUE DE 7\" X 9 5/8\" CON PARADAS DE DP DE 5 1/2\", DESDE 2,682 ft HASTA ZAPATA DE 9 5/8\" @ 8,760 ft MD. **BAJA LAS PARADAS DE DP DE 5 1/2\" HLST54, CONEJEANDO TUBERIA EN TRINCHES CON CALIBRADOR DE 2.75\", LLENANDO TUBERIA Y REGISTRANDO PESOS C/ 13 PARADAS\n\nSafety Incident?: N\nEnviron Incident?: N\nDays since Last RI:\nDays since Last LTA: 76.00\n\nIncident Comments: INCIDENTES SIN REPORTAR EN LAS ULTIMAS 24 HORAS.\n\nOther Remarks:\nCONTROL DE SOLIDOS\nSE REALIZA DEWATETRING DE 400BBL DE FLUIDOS DESCARTADOS DE PERFORACION\nSE TRATAN 450 BBL DE AGUA TRATADA Y SE ENVIA A REINYECCION A LA ESTACION VHR 400 BBLACUMULADO 2800BBL REINYECTADOS\nSE ENVIA LA GESTOR AMBIENTAL 33M3 DE RIPIOS. ACUMULADO 790M3.\nSE ENVIAN 6 VIAJES, ACUNULADO 125M3.\n\n11/8/2023  6:07:18AM  Page 3 of 3"
+    },
+    "success": true,
+    "error": null
+  }
+]

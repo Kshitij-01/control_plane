@@ -1,0 +1,124 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_025124\\phase2\\unpack_archive\\outputs\\ingest\\unpacked\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "header_text": "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S. REPORTE DIARIO DE OPERACIONES DEL: 01-feb-2015 Proyecto: Alianza DISTRITO:",
+      "language_detected": "Spanish",
+      "key_phrases_found": [
+        "REPORTE DIARIO DE OPERACIONES",
+        "PEMEX EXPLORACIÓN PRODUCCIÓN",
+        "GCIA. DE PERFORACIÓN Y MANTTO. A POZOS",
+        "Proyecto: Alianza",
+        "Equipo: IPC-776",
+        "Pozo: NAVEGANTE 0001DL",
+        "PERFORO DIRECCIONAL CON BNA PDC",
+        "RHINO REAMER",
+        "NPT MOVIMIENTO",
+        "PERFORACIÓN",
+        "CON SEGURIDAD ... SERVIMOS MEJOR"
+      ],
+      "has_tables": true,
+      "layout_description": "Complex multi-column, grid-based form layout. Header section spans full width with company name and report identification. Main body divided into multiple grid sections including: time-based operations log with start/end times and descriptions (left side), well survey data table with dates/depths/angles, drilling parameters section, mud properties grid, BHA component listing table, QHSE safety metrics, pump/equipment specifications, and signature blocks at bottom. Mix of horizontal and vertical data organization with nested tables and structured data fields.",
+      "recurring_patterns": [
+        "Date format: DD-MMM-YYYY (e.g., 01-feb-2015, 31-ene-2015)",
+        "Time format: HH:MM in 24-hour format (e.g., 00:00 - 03:00)",
+        "Rig identifier: IPC-776",
+        "Well name pattern: NAVEGANTE 0001DL",
+        "Depth measurements in meters: MTS or M",
+        "Equipment codes: BNA PDC 10 5/8\", RHINO REAMER 12 1/4\"",
+        "Drilling parameters: RPM, PSI, GPM, EPM, TON, FT-LB",
+        "NPT tracking codes and hours",
+        "Section headers with NOTA1:, NOTA2:, NOTA3: prefixes",
+        "Measurement units: gr/cc, degC, lbm/bbl, cm3",
+        "Equipment nomenclature: DC 8\", HWDP 5\", POWER DRIVE"
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_025124\\phase2\\unpack_archive\\outputs\\ingest\\unpacked\\Petrobras\\BDP Parceiro - 15.10.2020.pdf",
+    "pdf_name": "BDP Parceiro - 15.10.2020.pdf",
+    "data": {
+      "header_text": "Daily Drilling Report (LIBRA)",
+      "language_detected": "Portuguese",
+      "key_phrases_found": [
+        "Daily Drilling Report (LIBRA)",
+        "PETROBRAS",
+        "DEEPWATER MYKONOS",
+        "8-MRO-8-RJS",
+        "LIBRA-NW",
+        "REPORT No: 39",
+        "REPORT DATE: 15/10/2020",
+        "WELLBORE NAME: 8-MRO-8-RJS",
+        "RIG NAME/No: DEEPWATER MYKONOS / 39",
+        "CRITICAL PATH OPERATIONS SUMMARY",
+        "PARALLEL OPERATIONS SUMMARY",
+        "MP: Retirando BHA 8 1/2\"",
+        "MA: Montando e estaleirando BHA"
+      ],
+      "has_tables": true,
+      "layout_description": "Grid-based multi-section layout with header block containing well identification fields (well name, wellbore number, rig name, project, dates, depths), followed by structured data sections including status summaries, cost information, and multiple detailed operations tables. The document uses a combination of horizontal header rows with key-value pairs and vertical tabular data with columns for time ranges, duration, operation class, and detailed descriptions. Portuguese text mixed with technical drilling terminology and measurements.",
+      "recurring_patterns": [
+        "Report number format: 'REPORT No: [number]'",
+        "Date format: DD/MM/YYYY (15/10/2020, 08/09/2020, 12/12/2020)",
+        "Time format: HH:MM in 24-hour format (00:00, 11:00, 12:30)",
+        "Rig identifier: 'DEEPWATER MYKONOS / 39'",
+        "Well designation: '8-MRO-8-RJS'",
+        "Project code: 'LIBRA-NW'",
+        "Depth measurements: '[number] m' (meters)",
+        "Pressure measurements: '[number] psi'",
+        "Flow rate: '[number] gpm'",
+        "Equipment serial numbers: 'NS: [number]' (e.g., NS: 13469116)",
+        "BHA references: 'BHA 8 1/2\"' or 'BHA #4'",
+        "Operation codes: 'PT' (Production Time), 'NPT' (Non-Productive Time)",
+        "Rig designation: 'MAIN' or 'AUX'",
+        "Hole diameter: '[number]\"' (inches)",
+        "Personnel roles in Portuguese with company affiliations"
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_025124\\phase2\\unpack_archive\\outputs\\ingest\\unpacked\\Petroecuador\\2018_10_06_Daily Drilling Report_02_VHRH-027.pdf",
+    "pdf_name": "2018_10_06_Daily Drilling Report_02_VHRH-027.pdf",
+    "data": {
+      "header_text": "DAILY OPERATIONS REPORT\nPETROAMAZONAS EP\nEvent: DEV DRILLING\nDate: 10/06/2018\nReport No: 2\nPrim. Reason: DEEPEN DIR\nWellbore: VHRH-027\nRig: PETREX-20",
+      "language_detected": "Mixed English/Spanish (Headers in English, operational details in Spanish)",
+      "key_phrases_found": [
+        "DAILY OPERATIONS REPORT",
+        "PETROAMAZONAS EP",
+        "DEV DRILLING",
+        "DEEPEN DIR",
+        "PERFORANDO CON BHA#2 DIRECCIONAL",
+        "VHRH-027",
+        "PETREX-20",
+        "24-Hr Summary",
+        "24-Hr Forecast",
+        "BIT RECORD",
+        "MUD DATA",
+        "SURVEY DATA",
+        "OPERATIONS"
+      ],
+      "has_tables": true,
+      "layout_description": "Multi-column grid-based layout with header section containing well identification and operational summary. Document includes multiple structured data tables: survey data (6 rows), bit record, bit operating parameters, mud properties, BHA components, daily costs, fluid losses, and detailed hourly operations log. Page 2 contains detailed operations timeline with timestamps, operation codes, and Spanish-language descriptions.",
+      "recurring_patterns": [
+        "Date format: 10/06/2018 (MM/DD/YYYY)",
+        "Time format: 24-hour (e.g., 6:00, 15:00)",
+        "Well identifier: VHRH-027",
+        "Rig identifier: PETREX-20",
+        "BHA references: BHA#1, BHA#2",
+        "Measurement units: ft, gpm, psi, RPM, PPG, KLBS",
+        "Report number format: Report No: 2",
+        "Spanish operational verbs: PERFORÓ, CONTINUÓ, ARMÓ, SACÓ",
+        "Equipment codes: HALLIBURTON SECURITY DBS",
+        "Operation codes: DRILLING, CIRCULATING, GYRO, BHA, POOH, RIH",
+        "Company name: PETROAMAZONAS EP"
+      ]
+    },
+    "success": true,
+    "error": null
+  }
+]

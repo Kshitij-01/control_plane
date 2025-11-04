@@ -1,0 +1,573 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_015505\\phase2\\classify_pdf_patterns\\workspace\\source\\halliburton_ddr\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "page_count": 1,
+      "detected_language": "Spanish",
+      "first_page_headings": [
+        "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+        "REPORTE DIARIO DE OPERACIONES DEL: 01-feb-2015",
+        "Proyecto: Alianza",
+        "Equipo: IPC-776 Pozo: NAVEGANTE 0001DL",
+        "Resumen",
+        "OBSERVACIONES",
+        "MAT. REQUERIDOS",
+        "RESUM.DIA ANTER."
+      ],
+      "tables": [
+        {
+          "page": 1,
+          "row_count": 4,
+          "column_count": 3,
+          "description": "Time log table (Hrs/Duration/Activities) - Main operations log showing three time periods: 00:00-03:00 (3.00 hrs), 03:00-06:00 (3.00 hrs), and 06:00-00:00 (18.00 hrs) with detailed drilling operations"
+        },
+        {
+          "page": 1,
+          "row_count": 6,
+          "column_count": 8,
+          "description": "Directional survey data table showing Date (Fecha), Measured Depth (Prof. Desarr), Vertical Depth (Prof. Vert), Angle (Ángulo), Azimuth, Closure, and Severity for dates from Jan 30 to Feb 1, 2015"
+        },
+        {
+          "page": 1,
+          "row_count": 4,
+          "column_count": 3,
+          "description": "Casing/TR (Tubería de Revestimiento) table showing diameter, depth, and cementing information for last TR (11.875 in at 5,386m), next TR (9.875 in at 6,681m), and B.L. (11.875 in at 3,521m)"
+        },
+        {
+          "page": 1,
+          "row_count": 8,
+          "column_count": 2,
+          "description": "Operations days summary showing Movement (11.42), NPT Movement (138.00), Movement without NPT (5.67), Drilling (595.23), NPT Drilling (6,395.00), Drilling without NPT (328.77), Total Days at Location (619.38)"
+        },
+        {
+          "page": 1,
+          "row_count": 6,
+          "column_count": 2,
+          "description": "Distribution of lost time (DIST. TIEMPO PERDIDO) showing Wait Codes (1,940.50 hrs), Mobilization (138.00 hrs), Equipment Repair (221.00 hrs), Drilling (5,891.00 hrs), Wellhead and BOPs (309.00 hrs)"
+        },
+        {
+          "page": 1,
+          "row_count": 5,
+          "column_count": 2,
+          "description": "QHSE (Quality, Health, Safety, Environment) table showing RIR's/STOP's (0), Safety Meetings (2), Drills (0), Total (2)"
+        },
+        {
+          "page": 1,
+          "row_count": 6,
+          "column_count": 5,
+          "description": "Pump and auxiliary equipment configuration table showing 3 pump liners and 3 pumps (BBA) with specifications including diameter (6.000 x 11.000), flow rate (65 EPM, 40 EPM), pressure (650 psi), depth (5623 mts), and density (2.00 gr/cc)"
+        },
+        {
+          "page": 1,
+          "row_count": 5,
+          "column_count": 4,
+          "description": "BOP test and safety information table showing drill dates, pressure ratings for Annular (5,000 psi), Rams (8,000 psi), various manifolds, and days without accidents (629)"
+        },
+        {
+          "page": 1,
+          "row_count": 20,
+          "column_count": 6,
+          "description": "BHA (Bottom Hole Assembly) configuration table listing all components from bit to heavy weight drill pipe, including 20 items with columns for Quantity, Inner Diameter, Outer Diameter, Length, and Total Length"
+        },
+        {
+          "page": 1,
+          "row_count": 13,
+          "column_count": 3,
+          "description": "Current and previous bit comparison table showing manufacturer (Smith), series numbers, diameter (10.625 in), type, nozzles, meters drilled (167m), operating hours (44:45), average per meter (16.08), last 3 meters performance (36'-32'-44'), and wear status"
+        },
+        {
+          "page": 1,
+          "row_count": 13,
+          "column_count": 8,
+          "description": "Mud properties table showing comprehensive drilling fluid parameters including density (2.02 g/cm3), viscosity (70s), temperature (79°C), filtrate (1.4 cm3), gels, pH, solids (38%), oil (54%), water (8%), chlorides (9,989 lbm/bbl), and various rheological properties"
+        },
+        {
+          "page": 1,
+          "row_count": 5,
+          "column_count": 3,
+          "description": "Depth progression table showing measured and vertical depths at different times: 00:00 hrs (5,712m), 14:00 hrs (5,719m), 24:00 hrs (5,752m), with daily average of 40m"
+        }
+      ],
+      "has_multi_column_layout": true,
+      "layout_notes": "This is a standard oil and gas Daily Drilling Report (DDR) with a complex multi-section layout. The document is organized in a grid-like structure with multiple data tables and text sections distributed across the page. The layout includes: a main operations log on the left side, equipment and performance statistics on the right side, detailed BHA configuration in the lower portion, and various technical parameters (mud properties, directional data, bit information) distributed throughout. The format is typical of PEMEX (Mexican state oil company) drilling operations reports, containing comprehensive operational, safety, and technical data for the 24-hour period of February 1, 2015."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_015505\\phase2\\classify_pdf_patterns\\workspace\\source\\halliburton_ddr\\Pemex\\08 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "08 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": {
+      "page_count": 2,
+      "detected_language": "Spanish",
+      "first_page_headings": [
+        "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+        "REPORTE DIARIO DE OPERACIONES DEL: 08-ene-2015",
+        "Hrs",
+        "Ops. Días",
+        "DIST. TIEMPO PERDIDO",
+        "QHSE",
+        "Cmp. y Eq.Aux.",
+        "T.R.",
+        "Litología",
+        "BHA # 32, WINDW MILL+WTM",
+        "BNA Actual Anterior",
+        "Lodo: Megadrill"
+      ],
+      "tables": [
+        {
+          "page": 1,
+          "row_count": 3,
+          "column_count": 3,
+          "description": "Time log table - operational activities by time period (Hrs, duration in hours, and detailed activity descriptions for 00:00-05:00, 05:00-09:00, and 09:00-00:00)"
+        },
+        {
+          "page": 1,
+          "row_count": 6,
+          "column_count": 2,
+          "description": "Operations days summary - MOVIMIENTO (11.42 days), NPT MOVIMIENTO (138.00 hrs), MOVIMIENTO (SIN NPT) (5.67 days), PERFORACIÓN (571.23 days), NPT PERFORACIÓN (6,209.00 hrs), PERFORACIÓN (SIN NPT) (312.52 days), TOTAL DÍAS @ LOC (595.38 days)"
+        },
+        {
+          "page": 1,
+          "row_count": 5,
+          "column_count": 2,
+          "description": "Lost time distribution - Códigos de Espera (1,940.50 hrs), Movilización (138.00 hrs), Reparación del Equipo (218.00 hrs), Perforación (5,708.00 hrs), Cabezal y BOP's (309.00 hrs)"
+        },
+        {
+          "page": 1,
+          "row_count": 4,
+          "column_count": 2,
+          "description": "QHSE statistics - RIR's/STOP's (0), JTAS. DE SEGURIDAD (2), SIMULACROS (0), TOTAL (2)"
+        },
+        {
+          "page": 1,
+          "row_count": 8,
+          "column_count": 3,
+          "description": "Equipment and auxiliary components - pumps configuration and BOP testing information with dates and pressures"
+        },
+        {
+          "page": 1,
+          "row_count": 4,
+          "column_count": 5,
+          "description": "Casing (T.R.) information - Ult TR (11.875 in, 5,386 m), Prx TR (9.875 in, 6,681 m), B.L. (11.875 in, 3,521 m), Emp. (C2)"
+        },
+        {
+          "page": 1,
+          "row_count": 5,
+          "column_count": 7,
+          "description": "Directional survey data - Fecha, Prof. Desarr (m), Prof. Vert (m), Ángulo, Azimuth, Closure (m), Severidad (deg/100ft) for dates from 25-oct-2014 to 02-nov-2014"
+        },
+        {
+          "page": 1,
+          "row_count": 12,
+          "column_count": 10,
+          "description": "Mud properties table - comprehensive drilling fluid parameters including density (1.75 g/cm3), viscosity (84 s), filtration, gel strengths, rheology, chemical composition, and other properties"
+        },
+        {
+          "page": 1,
+          "row_count": 3,
+          "column_count": 2,
+          "description": "Depth tracking table - depth at 00:00 hrs (5,400 m), 14:00 hrs (5,400 m), 24:00 hrs (5,400 m), daily average (0 m)"
+        },
+        {
+          "page": 1,
+          "row_count": 9,
+          "column_count": 6,
+          "description": "BHA composition table - Bottom Hole Assembly components including WINDOW MILL, WATERMELON, DOBLE CAJA, VCP, DC 8\", MARTILLO 8\", X/O, and HWDP 5\" with dimensions and cumulative lengths totaling 237.16 m"
+        },
+        {
+          "page": 1,
+          "row_count": 11,
+          "column_count": 3,
+          "description": "Bit (BNA) information table - Marca (Smith), Serie (JJ1604), Dia (10.625 in), Tipo (MDSI813LBPX), Toberas, Mts. Perf. (27 m), Hrs. Op. (33:30), Prom x m (74.44), Desgaste (0-0-NO-A-X-I-NO-BHA)"
+        },
+        {
+          "page": 1,
+          "row_count": 3,
+          "column_count": 3,
+          "description": "Tremor/vibration readings - Temblo #1 2 3, Temblo #4 y 5, Temblo #6 y 7, all showing 140/140/140 values"
+        },
+        {
+          "page": 2,
+          "row_count": 10,
+          "column_count": 2,
+          "description": "Personnel and contact information table - listing positions and names including Ing. de Pozo (OMAR VILCHEZ), Sup. IPM (FERNANDO ANDRADE), WSS-SLB, ITP-PM, etc."
+        }
+      ],
+      "has_multi_column_layout": true,
+      "layout_notes": "This is a complex Daily Drilling Report (DDR) for well NAVEGANTE 0001DL dated January 8, 2015. The document uses a dense multi-column layout typical of oil & gas drilling reports. Page 1 contains the main operational data organized in multiple sections including: time-based activity log (left column), operations statistics and equipment data (middle columns), lithology description, BHA configuration, and mud properties. The report documents pulling out a PDC bit with downhole motor and running in with a window mill and watermelon assembly. Page 2 contains personnel information, summary, and planned next operations. The layout maximizes information density with tables, technical specifications, and operational parameters arranged in a grid-like structure."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_015505\\phase2\\classify_pdf_patterns\\workspace\\source\\halliburton_ddr\\Petrobras\\BDP 016_8-MRO-14D-RJS_10-06-2021_Parceiros (1).pdf",
+    "pdf_name": "BDP 016_8-MRO-14D-RJS_10-06-2021_Parceiros (1).pdf",
+    "data": {
+      "page_count": 5,
+      "detected_language": "Portuguese",
+      "first_page_headings": [
+        "Daily Drilling Report (LIBRA)",
+        "WELL INFO",
+        "DEPTHS DAYS",
+        "STATUS",
+        "CURRENT STATUS (6am)",
+        "OPER. SUMMARY 6am NEXT DAY",
+        "24 Hr FORECAST",
+        "COSTS ($)",
+        "CRITICAL PATH OPERATIONS SUMMARY"
+      ],
+      "tables": [
+        {
+          "page": 1,
+          "row_count": 18,
+          "column_count": 6,
+          "description": "Well header information table containing well identification, location, depths, status, and costs. Includes fields like WELL (8-MRO-14D-RJS), RIG NAME (DEEPWATER MYKONOS/39), PROJECT (LIBRA-NW), SPUD DATE (25/02/2021), MD (3,380.00m), and daily/cumulative costs."
+        },
+        {
+          "page": 1,
+          "row_count": 8,
+          "column_count": 6,
+          "description": "Critical Path Operations Summary table showing main wellbore operations from 00:00 to 11:30, including activities like pumping, FIT test, drilling from 3410-3418m, underreamer activation, and enlarging to 13 1/2 inches. Columns: FROM, TO, DUR.(hr), CLASS, RIG, DESCRIPTION."
+        },
+        {
+          "page": 2,
+          "row_count": 2,
+          "column_count": 6,
+          "description": "Critical Path Operations Summary continuation showing drilling operation from 11:30 to 00:00 (12.5 hours), drilling 12 1/4 x 13 1/2 inches from 3418 to 3711m with multiple survey points and operational notes."
+        },
+        {
+          "page": 2,
+          "row_count": 8,
+          "column_count": 6,
+          "description": "Parallel Operations Summary table showing auxiliary wellbore activities from 00:00 to 00:00 (24 hours total), including making up and racking back 10 3/4 inch casing stands, installing centralizers, and preparing LDB assembly. Columns: FROM, TO, DUR.(hr), CLASS, RIG, DESCRIPTION."
+        },
+        {
+          "page": 2,
+          "row_count": 4,
+          "column_count": 8,
+          "description": "Hole Section table showing three hole sections: CONDUCTOR (42 inch OH, 1925-2004m), SURFACE (17.50 inch OH, 2004-3375m), and CASING 3 (12.25 inch OH, starting 3375m). Columns include SECTION NAME, SECTION TYPE, EFFECTIVE HOLE DIAMETER, ID, MD TOP/BASE, and START/END DATE/TIME."
+        },
+        {
+          "page": 2,
+          "row_count": 4,
+          "column_count": 8,
+          "description": "Assembly Information header and start of Assembly Components table. Shows BHA No. 3, LENGTH 355.41m, DATE IN 08/06/2021, PURPOSE: PERFURAÇÃO (drilling). First 3 components listed: 12 1/4 inch bit, Geopilot, and Drilldoc."
+        },
+        {
+          "page": 3,
+          "row_count": 32,
+          "column_count": 8,
+          "description": "Assembly Components detailed table listing all BHA components from bit to HWDP, including DM collars, stabilizers, PWD equipment, underreamer, drill collars, and heavy weight drill pipe. Columns: ITEM DESCRIPTION, No. of JOINTS, LENGTH(m), OD(inches), ID(inches), CONNECTION, WEIGHT(ppf), SERIAL No."
+        },
+        {
+          "page": 3,
+          "row_count": 2,
+          "column_count": 9,
+          "description": "Bit Details table header with columns: BIT No., SIZE(in), MANUFACTURER, MODEL No., CLASS, IADC CODE, SERIAL No., JETS(32nd inches), MD IN(m), MD OUT(m), I-O-D-L-B-G-O-R. No data rows visible."
+        },
+        {
+          "page": 3,
+          "row_count": 6,
+          "column_count": 6,
+          "description": "Materials table showing product usage including CALCÁRIO (792.00/0.00), BARITA (555.00/1,879.00), ÁGUA POTÁVEL (42.00/787.00), ÁGUA INDUSTRIAL (39.00/1,209.00), and ÓLEO DIESEL (36.00/3,109.00). Columns: PRODUCT NAME, WEIGHT/VOL. PER UNIT, USAGE, QUANTITY END (repeated twice)."
+        },
+        {
+          "page": 3,
+          "row_count": 3,
+          "column_count": 3,
+          "description": "Safety table showing STOP CARDS (18), DAYS SINCE LOST TIME/INCIDENT (1283.0), and SAFETY MOMENT with TOPIC and KEYWORDS fields (empty)."
+        },
+        {
+          "page": 5,
+          "row_count": 11,
+          "column_count": 2,
+          "description": "Equipment Detection Tests table with fields for rig and mud log measurements including transfer volumes, detected volumes, response times, flow rates, vacuum measurements, and wellbore closure simulation. All data fields appear empty."
+        }
+      ],
+      "has_multi_column_layout": false,
+      "layout_notes": "Standard daily drilling report format with single-column layout. Document consists of a comprehensive header section with well identification and status information, followed by detailed operational tables (critical path and parallel operations), assembly/BHA component listings, materials usage, safety statistics, HSE activities comments, and equipment test data. Tables span full page width. Most content is tabular with technical drilling parameters, depths, pressures, and equipment specifications. Pages 4-5 contain extensive text comments about HSE activities rather than structured tables."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_015505\\phase2\\classify_pdf_patterns\\workspace\\source\\halliburton_ddr\\Petrobras\\BDP_Parceiro-039-8-MRO-8-RJS-15-10-2020 (1).pdf",
+    "pdf_name": "BDP_Parceiro-039-8-MRO-8-RJS-15-10-2020 (1).pdf",
+    "data": {
+      "page_count": 6,
+      "detected_language": "Portuguese",
+      "first_page_headings": [
+        "Daily Drilling Report (LIBRA)",
+        "WELL INFO",
+        "DEPTHS DAYS",
+        "STATUS",
+        "CURRENT STATUS (6am)",
+        "OPER. SUMMARY 6am NEXT DAY",
+        "24 Hr FORECAST",
+        "COSTS ($)",
+        "CRITICAL PATH OPERATIONS SUMMARY",
+        "PARALLEL OPERATIONS SUMMARY"
+      ],
+      "tables": [
+        {
+          "page": 1,
+          "row_count": 12,
+          "column_count": 7,
+          "description": "Well header information table containing well identification, wellbore details, project name, dates, depths, personnel, and costs"
+        },
+        {
+          "page": 1,
+          "row_count": 4,
+          "column_count": 6,
+          "description": "Critical Path Operations Summary table showing time-based drilling operations from 00:00 to 16:00, including operation classes (PT/NPT), duration, and detailed descriptions of drilling activities"
+        },
+        {
+          "page": 2,
+          "row_count": 11,
+          "column_count": 6,
+          "description": "Critical Path Operations Summary continuation showing operations from 16:00 to 00:00 with drilling parameters, troubleshooting, and POOH (Pull Out Of Hole) activities"
+        },
+        {
+          "page": 2,
+          "row_count": 3,
+          "column_count": 5,
+          "description": "Parallel Operations Summary table showing auxiliary operations for loading/unloading drill pipe from 00:00 to 00:00 (24 hours)"
+        },
+        {
+          "page": 3,
+          "row_count": 4,
+          "column_count": 8,
+          "description": "Hole Section table showing conductor, surface, casing sections with diameters, depths, and start/end dates"
+        },
+        {
+          "page": 3,
+          "row_count": 3,
+          "column_count": 14,
+          "description": "Mud table showing mud properties including density, viscosity, PV, YP, chlorides, calcium, pH, and filtration parameters at different depths"
+        },
+        {
+          "page": 3,
+          "row_count": 4,
+          "column_count": 4,
+          "description": "Assembly Information table showing BHA #5 details including length (357.35m), dates, and purpose"
+        },
+        {
+          "page": 3,
+          "row_count": 35,
+          "column_count": 7,
+          "description": "Assembly Components table listing detailed BHA components including PDC bit, motors, stabilizers, collars, drill pipes with specifications (length, OD, ID, weight, serial numbers)"
+        },
+        {
+          "page": 4,
+          "row_count": 5,
+          "column_count": 7,
+          "description": "Assembly Components continuation showing X-Over Sub, HWDP, and drill pipe specifications"
+        },
+        {
+          "page": 4,
+          "row_count": 1,
+          "column_count": 9,
+          "description": "Bit Details table header (no data rows filled)"
+        },
+        {
+          "page": 4,
+          "row_count": 40,
+          "column_count": 3,
+          "description": "Mud Products table listing chemicals and materials used with units and quantities (barite, bentonite, calcium chloride solution, etc.)"
+        },
+        {
+          "page": 4,
+          "row_count": 6,
+          "column_count": 2,
+          "description": "Personnel table beginning showing Petrobras personnel on board (geologists and inspectors)"
+        },
+        {
+          "page": 5,
+          "row_count": 45,
+          "column_count": 2,
+          "description": "Personnel table continuation listing Halliburton, FMC, Oceaneering, and Weatherford personnel with their roles (LWD, MWD, mud logging, directional, MPD, ROV, etc.)"
+        },
+        {
+          "page": 5,
+          "row_count": 2,
+          "column_count": 6,
+          "description": "Materials table showing diesel and potable water usage with weights/volumes per unit and quantities"
+        },
+        {
+          "page": 6,
+          "row_count": 2,
+          "column_count": 6,
+          "description": "Materials continuation showing industrial water and cement usage"
+        },
+        {
+          "page": 6,
+          "row_count": 5,
+          "column_count": 2,
+          "description": "Safety section showing stop cards, days since incidents (1044 days), safety moment topic, and accident statistics"
+        },
+        {
+          "page": 6,
+          "row_count": 10,
+          "column_count": 2,
+          "description": "Equipment Detection Tests table with fields for rig and mud log transfer volumes, response times, flow rates, and vacuum parameters (no data filled)"
+        },
+        {
+          "page": 6,
+          "row_count": 1,
+          "column_count": 6,
+          "description": "Support Craft table header (no data rows)"
+        },
+        {
+          "page": 6,
+          "row_count": 2,
+          "column_count": 12,
+          "description": "Weather table with fields for temperature, visibility, wind speed, currents, waves, and swell (no data filled)"
+        },
+        {
+          "page": 6,
+          "row_count": 1,
+          "column_count": 5,
+          "description": "Vessel table with fields for heave, pitch, roll, offset, and heading (no data filled)"
+        }
+      ],
+      "has_multi_column_layout": false,
+      "layout_notes": "This is a standardized daily drilling report form with a consistent single-column layout. The document begins with a comprehensive header section containing well identification, location, and operational summary information. The main body consists of multiple structured tables including: time-based operations summaries (critical path and parallel operations), technical specifications (hole sections, mud properties, BHA assembly details), resource tracking (personnel, materials, mud products), and monitoring sections (safety, weather, vessel parameters). Many tables on the final page are templates with headers but no data filled in. The report is dated October 15, 2020 (Report #39) for well 8-MRO-8-RJS on the Deepwater Mykonos rig in the LIBRA block offshore Brazil."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_015505\\phase2\\classify_pdf_patterns\\workspace\\source\\halliburton_ddr\\Petroecuador\\01-11-2023_VHRJ-028_DDR 05_RIG CCDC 69.pdf",
+    "pdf_name": "01-11-2023_VHRJ-028_DDR 05_RIG CCDC 69.pdf",
+    "data": {
+      "page_count": 2,
+      "detected_language": "Spanish",
+      "first_page_headings": [
+        "VHRJ-028",
+        "DAILY OPERATIONS SHORT REPORT",
+        "EP PETROECUADOR",
+        "Event: DEV DRILLING",
+        "Prim. Reason: DEEPEN DIR",
+        "24-Hr Summary:",
+        "24-Hr Forecast:",
+        "OPERATIONS"
+      ],
+      "tables": [
+        {
+          "page": 1,
+          "row_count": 8,
+          "column_count": 7,
+          "description": "Header information table containing wellbore details including: Wellbore (00), Today's MD (6,315.00 ft), Prev MD (5,278.00 ft), PBMD, Rig (CCDC-069), Reference Datum (ORIGINAL KB @868.02ft), Ground Elevation (830.92 ft), Daily Cost ($0), Cumulative Cost ($0), AFE MD/Days (/ 15.8 days), AFE Number (AFE C. IGAPO), Current Operations, 24-Hr Summary, and 24-Hr Forecast"
+        },
+        {
+          "page": 1,
+          "row_count": 7,
+          "column_count": 7,
+          "description": "Operations detail table with columns: From, To, Hrs, Op Code, Op Sub, Op Type, Operation Details. Contains 7 time-based operational entries from 6:00 to 1:00 (next day) covering drilling, rig maintenance, circulating, and BHA tripping operations"
+        },
+        {
+          "page": 2,
+          "row_count": 5,
+          "column_count": 7,
+          "description": "Continuation of operations detail table with 5 time-based entries from 1:00 to 6:00 covering circulating, BHA tripping operations"
+        }
+      ],
+      "has_multi_column_layout": false,
+      "layout_notes": "The document is a structured daily drilling operations report with a standard single-column layout. It begins with a header section containing well identification and summary information, followed by a detailed chronological operations table that spans both pages. The table lists activities in time blocks with corresponding operation codes, types, and detailed descriptions in Spanish. Page 2 also includes an 'OTHER REMARKS' section with additional information about solids control, safety incidents, work permits, and inspections."
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_015505\\phase2\\classify_pdf_patterns\\workspace\\source\\halliburton_ddr\\Petroecuador\\Page_1_DR_3_VHRH-027.pdf",
+    "pdf_name": "Page_1_DR_3_VHRH-027.pdf",
+    "data": {
+      "page_count": 2,
+      "detected_language": "Spanish",
+      "first_page_headings": [
+        "DAILY OPERATIONS REPORT",
+        "PETROAMAZONAS EP",
+        "Event: DEV DRILLING",
+        "Prim. Reason: DEEPEN DIR",
+        "24-Hr Summary",
+        "24-Hr Forecast",
+        "CASING/WELL CONTROL",
+        "HOOKLOAD & TORQUE",
+        "HYDRAULICS",
+        "MUD GAS",
+        "SURVEY DATA (LAST 6)",
+        "PERSONNEL",
+        "BIT RECORD",
+        "BIT OPERATING PARAMETERS TODAY",
+        "MUD DATA - Baroid Fluid Services",
+        "MUD PRODUCTS (ADICIONAL)",
+        "LAST OR CURRENT BHA",
+        "DAILY COSTS (Top 15)",
+        "FLUID LOSSES",
+        "BULKS"
+      ],
+      "tables": [
+        {
+          "page": 1,
+          "row_count": 7,
+          "column_count": 9,
+          "description": "Survey Data (Last 6) - Shows directional drilling measurements including MD, Incl, Azi, TVD, N/-S, E/-W, VS, DLS, and Build values for 6 survey points"
+        },
+        {
+          "page": 1,
+          "row_count": 6,
+          "column_count": 2,
+          "description": "Personnel - Lists Supervisor 1, Supervisor 2, Engineer, Geologist, Engineer PAM, and Total on Site"
+        },
+        {
+          "page": 1,
+          "row_count": 2,
+          "column_count": 11,
+          "description": "Bit Record - Contains bit specifications including Bit No, Size, Manufacturer, Model, Serial No, IADC Code, Nozzles, MD In, MD Out, I-O-D-L, and B-G-O-R"
+        },
+        {
+          "page": 1,
+          "row_count": 2,
+          "column_count": 13,
+          "description": "Bit Operating Parameters Today - Shows operational parameters including Rot Hrs, Cum Rot Hrs, Prog, Cum Prog, ROP, Cum ROP, WOB, RPM, TFA, P Drop Bit, Noz Vel, and HHPSI"
+        },
+        {
+          "page": 1,
+          "row_count": 1,
+          "column_count": 30,
+          "description": "Mud Data - Comprehensive mud properties including rheology, density, viscosity, PV/YP, gels, water loss, solids, pH, and other drilling fluid characteristics"
+        },
+        {
+          "page": 1,
+          "row_count": 14,
+          "column_count": 5,
+          "description": "Last or Current BHA - Bottom Hole Assembly components listing Component, OD, ID, Jts, and Length for 13 components including bit, motor, stabilizers, collars, and pipes"
+        },
+        {
+          "page": 1,
+          "row_count": 1,
+          "column_count": 3,
+          "description": "Mud Products (Adicional) - Table for additional mud products with columns Product, Units, Qty Used (appears empty)"
+        },
+        {
+          "page": 1,
+          "row_count": 1,
+          "column_count": 3,
+          "description": "Daily Costs (Top 15) - Table for top 15 daily costs with columns Cost Description, Vendor, Amount (appears empty in visible portion)"
+        },
+        {
+          "page": 1,
+          "row_count": 3,
+          "column_count": 4,
+          "description": "Bulks - Bulk materials inventory showing Qty Start, Qty End, and Qty Used for DIESEL - CAMP and DIESEL - RIG"
+        }
+      ],
+      "has_multi_column_layout": false,
+      "layout_notes": "Standardized daily operations report for drilling operations with a form-based layout. The document is organized into multiple sections containing operational data, survey information, bit records, mud properties, BHA configuration, and cost tracking. Data is presented in a combination of labeled fields and tabular format. The layout uses a single-column structure with various sections stacked vertically, though each section may contain multiple columns of data fields. The report includes both Spanish text (operations summaries) and English technical terminology."
+    },
+    "success": true,
+    "error": null
+  }
+]

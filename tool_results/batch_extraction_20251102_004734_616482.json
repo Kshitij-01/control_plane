@@ -1,0 +1,679 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petrobras\\BDP 016_8-MRO-14D-RJS_10-06-2021_Parceiros (1).pdf",
+    "pdf_name": "BDP 016_8-MRO-14D-RJS_10-06-2021_Parceiros (1).pdf",
+    "data": {
+      "document_metadata": {
+        "date": "10/06/2021",
+        "report_number": "16",
+        "well_name": "8-MRO-14D-RJS",
+        "operator": "PETROBRAS",
+        "rig": "DEEPWATER MYKONOS / 39",
+        "detected_language": "Portuguese (with English technical terms)",
+        "translated_to": "English"
+      },
+      "text_sections": [
+        {
+          "section_title": "WELLBORE INFO",
+          "content": "Wellbore No: OH, Wellbore Name: 8-MRO-14D-RJS, Project: LIBRA-NW, Site: 8-MRO-14D-RJS, Event: ORIG DRILLING, Start Date: 06/03/2021, Spud Date: 25/02/2021, Active Datum: NS-40 @ 25.00m, Ground Elevation/Water Depth (m): 25.00 / 1,900.00"
+        },
+        {
+          "section_title": "WELL INFO",
+          "content": "Block: LIBRA, GEP: Ramon Moreira Fernandes, Fiscal: Jair / Guilherme Mendonça"
+        },
+        {
+          "section_title": "DEPTHS DAYS",
+          "content": "MD (m): 3,380.00, Progress (m): [blank], AVG. ROP. (m/hr): 0.00, Rotating Hrs (hr): [blank], CUM. ROT. Hrs (hr): 48.50, DFS. (days): 4.00, MD AUTH: [blank], LAST CASING: 13.63'' @ 3,360.60 m"
+        },
+        {
+          "section_title": "CURRENT STATUS (6am)",
+          "content": "MP: Drilling and enlarging 12 1/4\" x 13 1/2\". MA: No operations."
+        },
+        {
+          "section_title": "OPER. SUMMARY 6am NEXT DAY",
+          "content": "MP: Replaced saver sub and sacrificial sub due to over torque. MA: No operations."
+        },
+        {
+          "section_title": "24 Hr FORECAST",
+          "content": "MP: Drill to 5995 m. MA: Assemble sets with shoe, landing collar and XO"
+        },
+        {
+          "section_title": "SAFETY MOMENT",
+          "content": "Stop Cards: 18, Days Since Lost Time / Incident: 1283.0"
+        },
+        {
+          "section_title": "COMMENTS - HSE Activities",
+          "content": "Audits carried out by HSE team: Leading Indicator Audits; Work Site Assessment; PTW Audit; HTZ Conversations; Pre-Tour Meeting: Upcoming Ops / Expectations / Planning and Task Monitoring; MYK HSE Statistics: LTI = 1281 days, LOC = 29 days, FAC = 265 days; Tasks performed: HOD meeting; COW Meeting; Pre-Tour Meetings; Focus Update Close; Morning Report into GMS System; General Assistance to Personnel Access ILS; Review and Update Monthly Report; Training and Emails management; Updating LTI and Current Operation in Induction and Orientation Presentation; General Assistance Transocean Employee - Registered Training into ILS System; Working on training compliance to increase KPI; Monitoring weather condition; Continue working on MOCs Process; Flights preparation (Planned Crew Change) and additional flights required; Safety Induction Reviewed and Included Service Provider Incident Statistics; Company Man's HSE Performance Daily Report; SONDOPOLIS and SONDASMAR actions follow up; Booking external trainings; Updating training in the GMS System; Monitoring and general support during all Activities; Continue follow up and update HUMAN FACTORS SURVEY / PESQUISA DE FATORES HUMANOS; Review and working Petrobras Abrangencias; Apply Internal Training - Third Party Personnel; Continue monitoring SCA Job position compliance; Monitoring and Tracking Trainings Requests; Working on PB - SCOPE ANALYSIS SAFETY ALERTS Abrangency; Review and Updated actions on Focus Items; Send Petrobras Abrangencias; Training Administration; Performing Safety monthly PMs; Continue Updated Monthly Petrobras Spreadsheet; Follow up Helideck issues 2019 - Petrobras Auditoria de Aerodromo; Catering Meeting #23 preparing"
+        }
+      ],
+      "tables": [
+        {
+          "table_title": "COSTS ($)",
+          "headers": [
+            "ESTIMATED DAILY COST",
+            "APPROVED AFE",
+            "CUMULATIVE COST"
+          ],
+          "rows": [
+            [
+              "585,520.17",
+              "",
+              "6,438,503.21"
+            ]
+          ]
+        },
+        {
+          "table_title": "CRITICAL PATH OPERATIONS SUMMARY",
+          "headers": [
+            "FROM",
+            "TO",
+            "DUR. (hr)",
+            "CLASS",
+            "RIG",
+            "DESCRIPTION"
+          ],
+          "rows": [
+            [
+              "00:00",
+              "01:00",
+              "1.00",
+              "PT",
+              "MAIN",
+              "MW: Pumping down string and kill line from cement unit WBM 11.2 ppg @ 0.4 bpm/ 80 psi for friction. Close IBOP and fail safe valve at kill line. Perform surface line pressure test with 300/2000 psi for 5/5 min. Perform hang off at UPR with SO 30 klbf."
+            ],
+            [
+              "01:00",
+              "02:00",
+              "1.00",
+              "PT",
+              "MAIN",
+              "MW: Perform FIT @ 0.4 bpm."
+            ],
+            [
+              "02:00",
+              "02:30",
+              "0.50",
+              "PT",
+              "MAIN",
+              "MW: Stablish ciculation for PWD data recovering."
+            ],
+            [
+              "02:30",
+              "08:30",
+              "6.00",
+              "PT",
+              "MAIN",
+              "MW: Drill new formation 12 1/4\" from 3410 to 3418 m with 25 - 30 klbf, 80 rpm / 5 - 20 klbf ft, 850 gpm / 2700 psi, MW 11.2 ppg, ECD 11.43 ppg."
+            ],
+            [
+              "08:30",
+              "10:00",
+              "1.50",
+              "PT",
+              "MAIN",
+              "MW: Perform procedure for underreamer activation. POOH from 3418 m to 3410 m. Stop circulation and drop 2\" activation ball. RIH till 3417 m (bit 1m above bottom). Circulate WBM 11.2 ppg @ 150 gpm, 210 psi, 30 rpm, 4 klbft, without pressure spike as expected by Halliburton procedure."
+            ],
+            [
+              "10:00",
+              "10:30",
+              "0.50",
+              "PT",
+              "MAIN",
+              "MW: Increase flow rate from 150 gpm till 750 gpm / 2290 psi at 50 gpm steps, verifying torq spikes from 400 gpm/760 psi on. Stop circulation and POOH drom 3417 to 3412 m. Perform carry out test against rat hole bottom with 750 gpm / 2260 psi @ 3415 m (bit depth) with 25 klbf."
+            ],
+            [
+              "10:30",
+              "11:00",
+              "0.50",
+              "PT",
+              "MAIN",
+              "MW: Perform down link and take SCRs (after reamer activation) with MPs #1 e #2."
+            ],
+            [
+              "11:00",
+              "11:30",
+              "0.50",
+              "PT",
+              "MAIN",
+              "MW: Enlarge to 13 1/2\" from 3374 até 3377 m with 11 klbf, 45 rpm, 10-35 klb ft, 850 gpm, 2700 psi, MW 11.2 ppg, ECD 11.4 ppg."
+            ],
+            [
+              "11:30",
+              "00:00",
+              "12.50",
+              "PT",
+              "MAIN",
+              "MW: Drill 12 1/4\" x 13 1/2\" from 3418 to 3711 m, 30-50 klbf, 850 gpm, 2750-2800 psi, 140-170 rpm, 12-32 klb ft, MW: 11.2 - 11.7 ppg, ECD: 11.4 - 12.1 ppg. Surveys: Prof 3413 m // inc 14.58° // az 107.92° // TVD 3408.4 m; Prof 3453 m // inc 11.85° // az 102.26° // TVD 3447.3 m; Prof 3489 m // inc 11.33° // az 113.86° // TVD 3482.6 m; Prof 3527 m // inc 9.62° // az 113.16° // TVD 3520.0 m; Prof 3565 m // inc 7.75° // az 127.57° // TVD 3557.5 m; Prof 3603 m // inc 7.16° // az 137.21° // TVD 3595.2 m; Prof 3625 m // inc 6.11° // az 137.66° // TVD 3617.1 m; Prof 3662 m // inc 6.38° // az 165.57° // TVD 3653.9 m; Prof 3679 m // inc 5.81° // az 173.36° // TVD 3670.8 m. Notes: Set Autodrill, Soft speed and AHC while drilling. Reduced ROP to correct azimuth from 3470 to 3502 m. BOP Stack: 3800 psi. Ditch magnet day/section: 0.75 kg / 3.725 kg."
+            ]
+          ]
+        },
+        {
+          "table_title": "PARALLEL OPERATIONS SUMMARY",
+          "headers": [
+            "FROM",
+            "TO",
+            "DUR. (hr)",
+            "CLASS",
+            "RIG",
+            "DESCRIPTION"
+          ],
+          "rows": [
+            [
+              "00:00",
+              "02:30",
+              "2.50",
+              "PT",
+              "AUX",
+              "AW: Make up and rack back 10 3/4\" 65.7# casing stands (total 23/23 stds)."
+            ],
+            [
+              "02:30",
+              "12:00",
+              "9.50",
+              "PT",
+              "AUX",
+              "AW: Make up and rack back 10 stands of 10 3/4\" 85.3# casing (total 63/63 stds)."
+            ],
+            [
+              "12:00",
+              "13:00",
+              "1.00",
+              "PT",
+              "AUX",
+              "AW: No activity."
+            ],
+            [
+              "13:00",
+              "13:30",
+              "0.50",
+              "PT",
+              "AUX",
+              "AW: Install centralizers on 10 3/4\" casing joints."
+            ],
+            [
+              "13:30",
+              "15:00",
+              "1.50",
+              "PT",
+              "AUX",
+              "AW: Remove PS-30 slips and install BX-4 elevator."
+            ],
+            [
+              "15:00",
+              "19:00",
+              "4.00",
+              "PT",
+              "AUX",
+              "AW: Make up and rack back LDB assy."
+            ],
+            [
+              "19:00",
+              "00:00",
+              "5.00",
+              "PT",
+              "AUX",
+              "AW: Make up and rack back pumping stand with SES + TIW."
+            ]
+          ]
+        },
+        {
+          "table_title": "HOLE SECTION",
+          "headers": [
+            "SECTION NAME",
+            "SECTION TYPE",
+            "EFFECTIVE HOLE DIAMETER (\")",
+            "ID (\")",
+            "MD (m) TOP",
+            "MD (m) BASE",
+            "HOLE SECTION START DATE/TIME",
+            "HOLE SECTION END DATE/TIME"
+          ],
+          "rows": [
+            [
+              "CONDUCTOR",
+              "OH",
+              "42.00",
+              "",
+              "1,925.00",
+              "2,004.00",
+              "25/02/2021 06:00",
+              "25/02/2021 11:30"
+            ],
+            [
+              "SURFACE",
+              "OH",
+              "17.50",
+              "",
+              "2,004.00",
+              "3,375.00",
+              "28/02/2021 01:00",
+              "01/03/2021 11:00"
+            ],
+            [
+              "CASING 3",
+              "OH",
+              "12.25",
+              "",
+              "3,375.00",
+              "",
+              "09/06/2021 20:00",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "ASSEMBLY INFORMATION",
+          "headers": [
+            "BHA No. #",
+            "LENGTH(m)",
+            "DATE IN",
+            "DATE OUT",
+            "PURPOSE"
+          ],
+          "rows": [
+            [
+              "3",
+              "355.41",
+              "08/06/2021 00:00",
+              "",
+              "PERFURAÇÃO (DRILLING)"
+            ]
+          ]
+        },
+        {
+          "table_title": "ASSEMBLY COMPONENTS",
+          "headers": [
+            "ITEM DESCRIPTION",
+            "No. of JOINTS",
+            "LENGHT (m)",
+            "OD (\")",
+            "ID (\")",
+            "CONNECTION",
+            "WEIGHT (ppf)",
+            "SERIAL No."
+          ],
+          "rows": [
+            [
+              "Broca 12 1/4\"",
+              "1",
+              "0.38",
+              "12.25",
+              "",
+              "6 5/8 REG",
+              "136.68",
+              "13268240"
+            ],
+            [
+              "Geopilot S/N 1225486",
+              "1",
+              "6.62",
+              "9.63",
+              "2.38",
+              "7 5/8 REG",
+              "156.45",
+              ""
+            ],
+            [
+              "Drilldoc S/N 13415745",
+              "1",
+              "2.60",
+              "9.50",
+              "2.38",
+              "7 5/8 REG",
+              "210.30",
+              ""
+            ],
+            [
+              "DM collar S/N 12095685",
+              "1",
+              "2.66",
+              "9.50",
+              "4.13",
+              "7 5/8 REG",
+              "208.40",
+              ""
+            ],
+            [
+              "Inline stabilizer S/N 12105985",
+              "1",
+              "1.15",
+              "9.50",
+              "3.00",
+              "7 5/8 REG",
+              "217.48",
+              ""
+            ],
+            [
+              "AGR/PWD collar S/N 12276835",
+              "1",
+              "2.47",
+              "9.50",
+              "2.38",
+              "7 5/8 REG",
+              "201.70",
+              ""
+            ],
+            [
+              "EWR-M5 Collar S/N 13214489",
+              "1",
+              "3.02",
+              "9.50",
+              "2.38",
+              "7 5/8 REG",
+              "250.00",
+              ""
+            ],
+            [
+              "HCIM Collar S/N 12276835",
+              "1",
+              "2.83",
+              "9.50",
+              "2.38",
+              "7 5/8 REG",
+              "212.70",
+              ""
+            ],
+            [
+              "Inline stabilizer S/N 12109737",
+              "1",
+              "1.09",
+              "9.50",
+              "3.00",
+              "7 5/8 REG",
+              "217.48",
+              ""
+            ],
+            [
+              "BAT Collar S/N 11443773",
+              "1",
+              "6.83",
+              "9.50",
+              "2.38",
+              "7 5/8 REG",
+              "198.80",
+              ""
+            ],
+            [
+              "MPT (JetPulse) S/N 12049114",
+              "1",
+              "4.78",
+              "9.50",
+              "2.75",
+              "7 5/8 REG",
+              "197.60",
+              ""
+            ],
+            [
+              "12 1/8\" Integral Stabilizer S/N 12105872",
+              "1",
+              "2.23",
+              "9.50",
+              "3.00",
+              "7 5/8 REG",
+              "217.48",
+              ""
+            ],
+            [
+              "XO NS-39",
+              "1",
+              "1.44",
+              "9.50",
+              "3.00",
+              "7 5/8 REG",
+              "217.48",
+              ""
+            ],
+            [
+              "XR 1200 Underreamer S/N 923360101",
+              "1",
+              "4.06",
+              "12.00",
+              "4.06",
+              "6 5/8 REG",
+              "215.66",
+              ""
+            ],
+            [
+              "SDC 8\" NS-39",
+              "1",
+              "3.07",
+              "8.25",
+              "3.00",
+              "6 5/8 REG",
+              "217.48",
+              ""
+            ],
+            [
+              "12 1/8\" Integral Stabilizer S/N 12105961",
+              "1",
+              "2.20",
+              "8.00",
+              "3.00",
+              "6 5/8 REG",
+              "147.22",
+              ""
+            ],
+            [
+              "8 1/4\" PBL S/N WES825BP437",
+              "1",
+              "2.57",
+              "8.25",
+              "3.50",
+              "6 5/8 REG",
+              "149.39",
+              ""
+            ],
+            [
+              "DCs NS-39",
+              "11",
+              "102.30",
+              "8.25",
+              "3.00",
+              "6 5/8 REG",
+              "157.70",
+              ""
+            ],
+            [
+              "Djar N/S 710014",
+              "1",
+              "9.12",
+              "8.00",
+              "2.81",
+              "6 5/8 REG",
+              "150.17",
+              ""
+            ],
+            [
+              "DCs NS-39",
+              "4",
+              "37.22",
+              "8.25",
+              "3.00",
+              "6 5/8 REG",
+              "157.70",
+              ""
+            ],
+            [
+              "XO NS-39",
+              "1",
+              "1.43",
+              "8.25",
+              "3.00",
+              "6 5/8 REG",
+              "158.09",
+              ""
+            ],
+            [
+              "FIRBP FMC",
+              "1",
+              "1.86",
+              "8.13",
+              "3.00",
+              "6 5/8 FH",
+              "152.61",
+              ""
+            ],
+            [
+              "XO NS-39",
+              "1",
+              "1.43",
+              "8.00",
+              "3.00",
+              "",
+              "147.22",
+              ""
+            ],
+            [
+              "XO NS-39",
+              "1",
+              "1.44",
+              "8.25",
+              "2.88",
+              "",
+              "160.05",
+              ""
+            ],
+            [
+              "HWDP NS-39",
+              "16",
+              "150.61",
+              "5.50",
+              "3.25",
+              "",
+              "150.61",
+              ""
+            ]
+          ]
+        },
+        {
+          "table_title": "MATERIALS",
+          "headers": [
+            "PRODUCT NAME",
+            "WEIGHT/VOL. PER UNIT",
+            "USAGE",
+            "QUANTITY END"
+          ],
+          "rows": [
+            [
+              "CALCÁRIO",
+              "792.00",
+              "",
+              "0.00"
+            ],
+            [
+              "BARITA",
+              "555.00",
+              "",
+              "1,879.00"
+            ],
+            [
+              "ÁGUA POTÁVEL",
+              "42.00",
+              "",
+              "787.00"
+            ],
+            [
+              "ÁGUA INDUSTRIAL",
+              "39.00",
+              "",
+              "1,209.00"
+            ],
+            [
+              "ÓLEO DIESEL",
+              "36.00",
+              "",
+              "3,109.00"
+            ]
+          ]
+        },
+        {
+          "table_title": "EQUIPMENT DETECTION TESTS",
+          "headers": [
+            "PARAMETER",
+            "VALUE"
+          ],
+          "rows": [
+            [
+              "RIG TRANSF. VOL. (bbl)",
+              ""
+            ],
+            [
+              "MUD LOG TRANSF. VOL. (bbl)",
+              ""
+            ],
+            [
+              "RIG VOLUME DETECTED (bbl)",
+              ""
+            ],
+            [
+              "MUD LOG VOLUME DETECTED (bbl)",
+              ""
+            ],
+            [
+              "RIG RESP. TIME (hr)",
+              ""
+            ],
+            [
+              "MUD LOG RESP. TIME (hr)",
+              ""
+            ],
+            [
+              "10% INCREASE? (RIG / MUD LOG)",
+              ""
+            ],
+            [
+              "MUD LOG FLOW RATE DETECTED (gpm)",
+              ""
+            ],
+            [
+              "RIG FLOW RATE DETECTED (gpm)",
+              ""
+            ],
+            [
+              "VACUUM WORKING PRINCIPLE",
+              ""
+            ],
+            [
+              "PARTIAL VACUUM (mmHg)",
+              ""
+            ],
+            [
+              "VACUUM PRESSURE DROP (psi)",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petrobras\\BDP Parceiro - 15.10.2020.pdf",
+    "pdf_name": "BDP Parceiro - 15.10.2020.pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 120 seconds"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petrobras\\BDP-035-8-MRO-8-RJS-11-10-2020 (1).pdf",
+    "pdf_name": "BDP-035-8-MRO-8-RJS-11-10-2020 (1).pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 120 seconds"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petrobras\\BDP_Parceiro-036-8-MRO-8-RJS-12-10-2020 (1).pdf",
+    "pdf_name": "BDP_Parceiro-036-8-MRO-8-RJS-12-10-2020 (1).pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 120 seconds"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_002759\\phase2\\batch_extract_all_pdfs\\extracted_pdfs\\Petrobras\\BDP_Parceiro-039-8-MRO-8-RJS-15-10-2020 (1).pdf",
+    "pdf_name": "BDP_Parceiro-039-8-MRO-8-RJS-15-10-2020 (1).pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 120 seconds"
+  }
+]

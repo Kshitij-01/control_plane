@@ -104,25 +104,65 @@ class PDFExtractionTool:
             result_text = str(result_text) if result_text else "{}"
         
         # Try to extract JSON from response
+        # ROBUST MULTI-LAYER PARSING: Pydantic → json-repair → demjson3 → Fallback
+        
+        # Extract JSON from code blocks if present
+        if "```json" in result_text:
+            json_start = result_text.find("```json") + 7
+            json_end = result_text.find("```", json_start)
+            result_text = result_text[json_start:json_end].strip()
+        elif "```" in result_text:
+            json_start = result_text.find("```") + 3
+            json_end = result_text.find("```", json_start)
+            result_text = result_text[json_start:json_end].strip()
+        
+        # Layer 1: Try strict standard JSON parsing (fastest)
         try:
-            # Look for JSON in code blocks
-            if "```json" in result_text:
-                json_start = result_text.find("```json") + 7
-                json_end = result_text.find("```", json_start)
-                result_text = result_text[json_start:json_end].strip()
-            elif "```" in result_text:
-                json_start = result_text.find("```") + 3
-                json_end = result_text.find("```", json_start)
-                result_text = result_text[json_start:json_end].strip()
-            
             extracted_data = json.loads(result_text)
-            logger.info(f"[PDF_TOOL] Successfully extracted data from {Path(pdf_path).name}")
+            logger.info(f"[PDF_TOOL] Successfully parsed JSON (strict parser) from {Path(pdf_path).name}")
             return extracted_data
-            
         except json.JSONDecodeError as e:
-            logger.error(f"[PDF_TOOL] Failed to parse JSON from Claude response: {e}")
-            logger.error(f"[PDF_TOOL] Raw response: {result_text[:500]}...")
-            return {"error": "Failed to parse JSON", "raw_response": result_text}
+            logger.warning(f"[PDF_TOOL] Strict JSON parsing failed: {e}")
+        
+        # Layer 2: Try Pydantic's lenient JSON parsing
+        try:
+            from pydantic import TypeAdapter
+            # Pydantic can handle some malformed JSON
+            adapter = TypeAdapter(dict)
+            extracted_data = adapter.validate_json(result_text)
+            logger.info(f"[PDF_TOOL] Successfully parsed JSON (Pydantic) from {Path(pdf_path).name}")
+            return extracted_data
+        except Exception as e:
+            logger.warning(f"[PDF_TOOL] Pydantic JSON parsing failed: {e}")
+        
+        # Layer 3: Try json-repair (designed for LLM outputs)
+        try:
+            from json_repair import repair_json
+            repaired_text = repair_json(result_text)
+            extracted_data = json.loads(repaired_text)
+            logger.info(f"[PDF_TOOL] Successfully parsed JSON (json-repair) from {Path(pdf_path).name}")
+            return extracted_data
+        except Exception as e:
+            logger.warning(f"[PDF_TOOL] json-repair parsing failed: {e}")
+        
+        # Layer 4: Try demjson3 (most lenient)
+        try:
+            import demjson3
+            extracted_data = demjson3.decode(result_text)
+            logger.info(f"[PDF_TOOL] Successfully parsed JSON (demjson3) from {Path(pdf_path).name}")
+            return extracted_data
+        except Exception as e:
+            logger.warning(f"[PDF_TOOL] demjson3 parsing failed: {e}")
+        
+        # All parsers failed - return error with truncated response
+        logger.error(f"[PDF_TOOL] ALL JSON parsers failed for {Path(pdf_path).name}")
+        logger.error(f"[PDF_TOOL] Response preview (first 500 chars): {result_text[:500]}")
+        logger.error(f"[PDF_TOOL] Response preview (last 500 chars): {result_text[-500:]}")
+        return {
+            "error": "Failed to parse JSON with all parsers",
+            "raw_response_preview": result_text[:1000] + "\n...\n" + result_text[-1000:],
+            "parsers_tried": ["json.loads", "pydantic", "json-repair", "demjson3"]
+        }
     
     def _build_extraction_prompt(self, schema: Dict[str, Any], custom_instructions: str) -> str:
         """Build extraction prompt from schema"""
@@ -152,6 +192,67 @@ class PDFExtractionTool:
         
         return "".join(prompt_parts)
     
+    async def _extract_single_pdf_safe(
+        self,
+        pdf_path: str,
+        schema: Dict[str, Any],
+        extraction_instructions: str,
+        index: int,
+        total: int
+    ) -> Dict[str, Any]:
+        """
+        Extract from single PDF with error handling and timeout
+        
+        Args:
+            pdf_path: Path to PDF file
+            schema: JSON schema for extraction
+            extraction_instructions: Additional instructions
+            index: Current PDF index (1-based)
+            total: Total number of PDFs
+            
+        Returns:
+            Dict with extraction results or error
+        """
+        logger.info(f"[PDF_TOOL] Processing PDF {index}/{total}: {Path(pdf_path).name}")
+        
+        try:
+            # Add 10-minute timeout per PDF (increased to handle complex multi-page reports)
+            import asyncio
+            async with asyncio.timeout(600):
+                data = await self.extract_structured_data(
+                    pdf_path=pdf_path,
+                    schema=schema,
+                    extraction_instructions=extraction_instructions
+                )
+            
+            return {
+                "pdf_path": pdf_path,
+                "pdf_name": Path(pdf_path).name,
+                "data": data,
+                "success": True,
+                "error": None
+            }
+            
+        except asyncio.TimeoutError:
+            logger.error(f"[PDF_TOOL] Timeout processing {Path(pdf_path).name} (>600s)")
+            return {
+                "pdf_path": pdf_path,
+                "pdf_name": Path(pdf_path).name,
+                "data": None,
+                "success": False,
+                "error": "Timeout: PDF processing exceeded 600 seconds"
+            }
+            
+        except Exception as e:
+            logger.error(f"[PDF_TOOL] Error processing {Path(pdf_path).name}: {e}")
+            return {
+                "pdf_path": pdf_path,
+                "pdf_name": Path(pdf_path).name,
+                "data": None,
+                "success": False,
+                "error": str(e)
+            }
+    
     async def extract_from_multiple_pdfs(
         self,
         pdf_paths: List[str],
@@ -159,7 +260,7 @@ class PDFExtractionTool:
         extraction_instructions: str = ""
     ) -> List[Dict[str, Any]]:
         """
-        Extract data from multiple PDFs (processes sequentially)
+        Extract data from multiple PDFs in PARALLEL using asyncio.gather
         
         Args:
             pdf_paths: List of PDF file paths
@@ -169,35 +270,59 @@ class PDFExtractionTool:
         Returns:
             List of extracted data (one dict per PDF)
         """
-        results = []
+        import asyncio
+        from pathlib import Path
         
-        for i, pdf_path in enumerate(pdf_paths, 1):
-            logger.info(f"[PDF_TOOL] Processing PDF {i}/{len(pdf_paths)}: {Path(pdf_path).name}")
-            
-            try:
-                data = await self.extract_structured_data(
-                    pdf_path=pdf_path,
-                    schema=schema,
-                    extraction_instructions=extraction_instructions
-                )
-                results.append({
+        logger.info(f"[PDF_TOOL] Starting PARALLEL extraction of {len(pdf_paths)} PDFs")
+        
+        # CRITICAL: PRE-VALIDATE ALL PATHS (Prevent hallucinated filenames from wasting API calls)
+        valid_paths = []
+        invalid_results = []
+        
+        for pdf_path in pdf_paths:
+            if Path(pdf_path).exists():
+                valid_paths.append(pdf_path)
+            else:
+                logger.error(f"[PDF_TOOL] INVALID PATH - File does not exist: {pdf_path}")
+                invalid_results.append({
                     "pdf_path": pdf_path,
                     "pdf_name": Path(pdf_path).name,
-                    "data": data,
-                    "success": "error" not in data
-                })
-            except Exception as e:
-                logger.error(f"[PDF_TOOL] Error processing {Path(pdf_path).name}: {e}")
-                results.append({
-                    "pdf_path": pdf_path,
-                    "pdf_name": Path(pdf_path).name,
-                    "data": None,
                     "success": False,
-                    "error": str(e)
+                    "error": f"[Errno 2] No such file or directory: '{pdf_path}'",
+                    "data": None
                 })
         
-        logger.info(f"[PDF_TOOL] Completed {len(results)} PDFs. Success: {sum(1 for r in results if r['success'])}/{len(results)}")
-        return results
+        if invalid_results:
+            logger.warning(f"[PDF_TOOL] Skipping {len(invalid_results)} non-existent files")
+            logger.warning(f"[PDF_TOOL] Processing only {len(valid_paths)} valid paths")
+        
+        # Only process valid paths (avoid wasted API calls)
+        if not valid_paths:
+            logger.error(f"[PDF_TOOL] NO VALID PATHS - All {len(pdf_paths)} files are non-existent!")
+            return invalid_results
+        
+        # Create tasks for parallel execution (ONLY for valid paths)
+        tasks = [
+            self._extract_single_pdf_safe(
+                pdf_path=pdf_path,
+                schema=schema,
+                extraction_instructions=extraction_instructions,
+                index=i+1,
+                total=len(valid_paths)
+            )
+            for i, pdf_path in enumerate(valid_paths)
+        ]
+        
+        # Execute all tasks in parallel
+        results = await asyncio.gather(*tasks, return_exceptions=False)
+        
+        # Combine valid results with invalid results
+        all_results = results + invalid_results
+        
+        success_count = sum(1 for r in all_results if r.get("success"))
+        logger.info(f"[PDF_TOOL] Completed PARALLEL extraction: {success_count}/{len(pdf_paths)} successful ({len(invalid_results)} skipped as non-existent)")
+        
+        return all_results
 
 
 # Example usage

@@ -1,0 +1,4745 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "source_file_path": "document_1.pdf",
+      "source_filename": "document_1.pdf",
+      "source_category": "Pemex",
+      "language": "Spanish",
+      "document_metadata": {
+        "title": "REPORTE DIARIO DE OPERACIONES",
+        "document_date": "2015-02-01",
+        "report_type": "Daily Drilling Operations Report",
+        "vessel_or_asset_name": "IPC-776 / NAVEGANTE 0001DL",
+        "timezone": "Local Time"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "raw_text": "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 01-feb-2015 Proyecto: Alianza DISTRITO:\n\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\n\nHrs 01-feb-2015\n00:00 - 03:00 3.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712MTS A 5719 MTS (AMPLIANDO A 5691 MTS). CON PSB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI.\nNOTA1: PERFORANDO EL METRO 5717M, OBSERVO DISMINUCIÓN EN EL TIEMPO DE PENETRACIÓN DE 9 MIN POR METRO. POSTERIORMENTE PERFORO METRO A METRO DE 5717M HASTA 5719M LEVANTANDO SARTA POR SEGURIDAD LEVANTANDO LIBRE. PARÁMETROS CONTROLADOS DE TORQUE 17,000-19,000 FT-LB Y PSB: 5 TON.\nNOTA2: OBSERVO RESISTENCIA PARA REGRESAR AL FONDO DESDE 5718.6 HASTA 5719M CON TORQUE DE 17,000 - 19,000 FT-LB.\nNOTA3: DECIDIO LEVANTAR SARTA A 5690M PARA RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR CON GEOLOGÍA.\n\n03:00 - 06:00 3.00 LEVANTO SARTA Y BARRENA DE 10 5/8\" A DE 5,719 A 5,692 M PARA CIRCULAR POZO Y RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR POR GEOLOGÍA.\n\n06:00 - 00:00 18.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,719 MTS HASTA 5752 MTS (AMPLIANDO A 5724 MTS). CON PSB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI.\nRECORD BNA: 352 M EN 166:00 HRS.\nRHINO: 318 M EN 144:44 HRS. ULT.3.MTS: 36' - 32' - 44'. PROM: 32.78 MIN/M.\nNOTA: INCREMENTO DENSIDAD DE LODO DE 2.0 GR/CC A 2.02 GR/CC.\nNOTA1: LEVANTO CON CIRCULACION Y SIN ROTACION A 5,712 M PARA VERIFICAR PESOS, LIBRE. PESOS DE SARTA: ESTATICO 206 TON, ARRIBA 222 TON, TQ FUERA DE FONDO 13,500 FT-LB.\nNOTA2: SUSPENDE POR OBTENER 100 HRS CONTINUAS DE PERFORACION PARA REALIZAR VIAJE DE CORTO DE ACUERDO A PROGRAMA.\nNOTA3: OBSERVO PERDIDA DE SENAL DE LA HTTA MWD A 5752M. REALIZO PRUEBA ANTIJAMMING RECUPERANDO SENAL DE LAS HERRAMIENTAS (MWD) SATISFACTORIAMENTE.\n\n* LODO PERDIDO DIA: 0 M3. * ACUMULADO ETAPA: 527:4 M3. *UNIDADES DE GAS: 10\n**MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n\nResumen: PERFORO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5752 MTS (AMPLIANDO A 5724 MTS).\nSGTE. OPERACIÓN: PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS.",
+          "translated_text": "PEMEX EXPLORATION PRODUCTION DRILLING AND WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT OF: 01-Feb-2015 Project: Alliance DISTRICT:\n\nRig: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in MSL: 9.20 m Activity: Drilling Activity Start\nObjective: JSK Programmed Depth: 7,211 m Planned Days: 331.1 Elevation: 11.00 m Next Move: End of Previous Well\n\nHrs 01-Feb-2015\n00:00 - 03:00 3.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" AT DEPTH FROM 5712M TO 5719 M (REAMING TO 5691 M). WITH WOB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 SPM, 500 GPM, 3900 PSI.\nNOTE1: DRILLING METER 5717M, OBSERVED DECREASE IN PENETRATION TIME OF 9 MIN PER METER. SUBSEQUENTLY DRILLED METER BY METER FROM 5717M TO 5719M PULLING STRING FOR SAFETY PULLING FREE. CONTROLLED PARAMETERS TORQUE 17,000-19,000 FT-LB AND WOB: 5 TON.\nNOTE2: OBSERVED RESISTANCE TO RETURN TO BOTTOM FROM 5718.6 TO 5719M WITH TORQUE OF 17,000 - 19,000 FT-LB.\nNOTE3: DECIDED TO PULL STRING TO 5690M TO RECOVER BOTTOM SAMPLE AND CHARACTERIZE WITH GEOLOGY.\n\n03:00 - 06:00 3.00 PULLED STRING AND BIT 10 5/8\" FROM 5,719 TO 5,692 M TO CIRCULATE WELL AND RECOVER BOTTOM SAMPLE AND CHARACTERIZE BY GEOLOGY.\n\n06:00 - 00:00 18.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5,719 M TO 5752 M (REAMING TO 5724 M). WITH WOB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 SPM, 500 GPM, 4000 PSI.\nBIT RECORD: 352 M IN 166:00 HRS.\nRHINO: 318 M IN 144:44 HRS. LAST 3.MTS: 36' - 32' - 44'. AVG: 32.78 MIN/M.\nNOTE: INCREASED MUD DENSITY FROM 2.0 G/CC TO 2.02 G/CC.\nNOTE1: PULLED WITH CIRCULATION AND WITHOUT ROTATION TO 5,712 M TO VERIFY WEIGHTS, FREE. STRING WEIGHTS: STATIC 206 TON, UP 222 TON, TQ OFF BOTTOM 13,500 FT-LB.\nNOTE2: SUSPENDED FOR OBTAINING 100 CONTINUOUS DRILLING HOURS TO MAKE SHORT TRIP ACCORDING TO PROGRAM.\nNOTE3: OBSERVED LOSS OF SIGNAL FROM HTTA MWD AT 5752M. PERFORMED ANTIJAMMING TEST RECOVERING SIGNAL FROM TOOLS (MWD) SATISFACTORILY.\n\n* MUD LOST DAY: 0 M3. * STAGE ACCUMULATED: 527:4 M3. *GAS UNITS: 10\n**MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CACO 3 M-200 AND 2 LT/M3 OF VERSACOAT.\n\nSummary: DRILLED WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5752 M (REAMING TO 5724 M).\nNEXT OPERATION: DRILL DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" TO DEPTH OF 6165 M.",
+          "tables": [
+            {
+              "table_id": "table_1_time_breakdown",
+              "title": "Time Breakdown Operations",
+              "headers": [
+                "Hrs",
+                "01-feb-2015",
+                "Hours"
+              ],
+              "rows": [
+                [
+                  "00:00 - 03:00",
+                  "3.00",
+                  "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712MTS A 5719 MTS (AMPLIANDO A 5691 MTS). CON PSB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI."
+                ],
+                [
+                  "03:00 - 06:00",
+                  "3.00",
+                  "LEVANTO SARTA Y BARRENA DE 10 5/8\" A DE 5,719 A 5,692 M PARA CIRCULAR POZO Y RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR POR GEOLOGÍA."
+                ],
+                [
+                  "06:00 - 00:00",
+                  "18.00",
+                  "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,719 MTS HASTA 5752 MTS (AMPLIANDO A 5724 MTS). CON PSB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI."
+                ]
+              ]
+            },
+            {
+              "table_id": "table_2_casing_program",
+              "title": "Casing Program",
+              "headers": [
+                "T.R.",
+                "Dia (in)",
+                "Prf (m)",
+                "Nuc (m)",
+                "Int. Prog.",
+                "Int Disp (m)",
+                "Emp."
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386",
+                  "",
+                  "",
+                  "",
+                  "C2"
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "table_3_directional_survey",
+              "title": "Directional Survey Data",
+              "headers": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,610",
+                  "5,456.40",
+                  "25.47",
+                  "131.72",
+                  "693.55",
+                  "0.37"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_4_mud_properties",
+              "title": "Mud Properties",
+              "headers": [
+                "Property",
+                "Value",
+                "Units"
+              ],
+              "rows": [
+                [
+                  "Lodo",
+                  "Megadrill",
+                  ""
+                ],
+                [
+                  "Dens",
+                  "2.02",
+                  "g/cm3"
+                ],
+                [
+                  "Visc",
+                  "70",
+                  "s"
+                ],
+                [
+                  "Temp.",
+                  "79",
+                  "degC"
+                ],
+                [
+                  "Arena",
+                  "",
+                  "%"
+                ],
+                [
+                  "Filtrado",
+                  "1.4",
+                  "cm3"
+                ],
+                [
+                  "Ex. Cal",
+                  "6",
+                  "lbm/bbl"
+                ],
+                [
+                  "Gel 0",
+                  "16",
+                  ""
+                ],
+                [
+                  "Gel 10",
+                  "31",
+                  ""
+                ],
+                [
+                  "Gel 30",
+                  "39",
+                  ""
+                ],
+                [
+                  "Enj.",
+                  "1 1/32",
+                  "in"
+                ],
+                [
+                  "pH",
+                  "",
+                  ""
+                ],
+                [
+                  "Sólidos",
+                  "38",
+                  "%"
+                ],
+                [
+                  "Aceite",
+                  "54",
+                  "%"
+                ],
+                [
+                  "Agua",
+                  "8",
+                  "%"
+                ],
+                [
+                  "Vis. ap",
+                  "63",
+                  "cP"
+                ],
+                [
+                  "Vis Pl.",
+                  "53",
+                  "cP"
+                ],
+                [
+                  "P. Ced.",
+                  "20",
+                  "lbf/100ft2"
+                ],
+                [
+                  "Alcalinidad",
+                  "5.00",
+                  ""
+                ],
+                [
+                  "Emul",
+                  "1,349",
+                  "V"
+                ],
+                [
+                  "RAA",
+                  "87 / 13",
+                  ""
+                ],
+                [
+                  "Cloruros",
+                  "9,989",
+                  "lbm/bbl"
+                ],
+                [
+                  "Sal.",
+                  "370,900",
+                  "ppm"
+                ],
+                [
+                  "POM",
+                  "5.00",
+                  ""
+                ],
+                [
+                  "RPM600",
+                  "126",
+                  "deg"
+                ],
+                [
+                  "RPM300",
+                  "73",
+                  "deg"
+                ],
+                [
+                  "LDP",
+                  "0",
+                  "m3"
+                ],
+                [
+                  "TLDP",
+                  "755",
+                  "m3"
+                ],
+                [
+                  "Gradiente de Formación",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "Gradiente de Fractura",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "Densidad Equiv. Circ.",
+                  "2.10",
+                  "g/cm3"
+                ],
+                [
+                  "Prueba Integridad",
+                  "2.04",
+                  "g/cm3"
+                ],
+                [
+                  "Fecha de Prueba",
+                  "17-ene-2015",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "table_5_drilling_parameters",
+              "title": "Drilling Parameters",
+              "headers": [
+                "Parameter",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "P.S.B.",
+                  "9 ton"
+                ],
+                [
+                  "Rotaria",
+                  "120 RPM"
+                ],
+                [
+                  "Pr. Bomba",
+                  "4,000 psi"
+                ],
+                [
+                  "Torque",
+                  "17 1000 ft.lbf"
+                ],
+                [
+                  "P. Sarta (est.)",
+                  "200 ton"
+                ],
+                [
+                  "Gasto",
+                  "500.00 gal/min 130 EPM"
+                ],
+                [
+                  "Velocidad Anular",
+                  "PPM"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_6_pump_configuration",
+              "title": "Pump Configuration",
+              "headers": [
+                "Pump",
+                "Configuration",
+                "Rate",
+                "Pressure"
+              ],
+              "rows": [
+                [
+                  "Cmp. y Eq.Aux.",
+                  "6.000 x 11.000",
+                  "65 EPM",
+                  ""
+                ],
+                [
+                  "Camisa 1",
+                  "6.000 x 11.000",
+                  "65 EPM",
+                  ""
+                ],
+                [
+                  "Camisa 2",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Camisa 3",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "BBA 1",
+                  "40 EPM @ 650 psi",
+                  "Prof: 5623 mts",
+                  "Dens: 2.00 gr/cc"
+                ],
+                [
+                  "BBA 2",
+                  "40 EPM @ 650 psi",
+                  "Prof: 5623 mts",
+                  "Dens: 2.00 gr/cc"
+                ],
+                [
+                  "BBA 3",
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "table_7_bha_configuration",
+              "title": "BHA Configuration with PDC Bit 10 5/8\" + PD + RHINO",
+              "headers": [
+                "Component",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  "1",
+                  "",
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_8_bit_comparison",
+              "title": "Bit Comparison - Current vs Previous",
+              "headers": [
+                "Property",
+                "BNA Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "167 m",
+                  ""
+                ],
+                [
+                  "Hrs. Op.",
+                  "44:45",
+                  ""
+                ],
+                [
+                  "Prom x m",
+                  "16.08",
+                  ""
+                ],
+                [
+                  "3 Ult. Mts.",
+                  "36'-32'-44'",
+                  ""
+                ],
+                [
+                  "$/m",
+                  "",
+                  ""
+                ],
+                [
+                  "Amp. Inc",
+                  "",
+                  ""
+                ],
+                [
+                  "Desgaste",
+                  "-------",
+                  "-------"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_9_time_distribution",
+              "title": "Time Distribution",
+              "headers": [
+                "Category",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "DIST. TIEMPO PERDIDO",
+                  "Horas"
+                ],
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "221.00"
+                ],
+                [
+                  "Perforación",
+                  "5,891.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_10_operations_days",
+              "title": "Operations Days Summary",
+              "headers": [
+                "Category",
+                "Ops. Días"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "595.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,395.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "328.77"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "619.38"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_11_qhse",
+              "title": "QHSE Statistics",
+              "headers": [
+                "Item",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_12_bop_tests",
+              "title": "BOP Test Information",
+              "headers": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Prueba BOPs",
+                  "16-ene-2015"
+                ],
+                [
+                  "Annular",
+                  "5,000 psi"
+                ],
+                [
+                  "Rams",
+                  "8,000 psi"
+                ],
+                [
+                  "Chok Line",
+                  ""
+                ],
+                [
+                  "Manifold",
+                  ""
+                ],
+                [
+                  "Koomey",
+                  "31-dic-2014"
+                ],
+                [
+                  "Manifold",
+                  "1,500 psi"
+                ],
+                [
+                  "Acumulador",
+                  "3,000 psi"
+                ],
+                [
+                  "Esférico",
+                  "800 psi"
+                ],
+                [
+                  "SIM.: (Fuego)",
+                  "14-ene-2015"
+                ],
+                [
+                  "Tiempo",
+                  "TIEMPO DE RESPUESTA 03 MIN."
+                ],
+                [
+                  "Function",
+                  "16-ene-2015"
+                ],
+                [
+                  "Standpipe",
+                  ""
+                ],
+                [
+                  "Kelly Hose",
+                  ""
+                ],
+                [
+                  "Diverter",
+                  ""
+                ],
+                [
+                  "Días sin Accidentes",
+                  "629"
+                ]
+              ]
+            },
+            {
+              "table_id": "table_13_depth_progression",
+              "title": "Depth Progression",
+              "headers": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,712",
+                  ""
+                ],
+                [
+                  "14:00 hrs",
+                  "5,719",
+                  ""
+                ],
+                [
+                  "24:00 hrs",
+                  "5,752",
+                  ""
+                ],
+                [
+                  "Prm/día",
+                  "40",
+                  ""
+                ],
+                [
+                  "Ult. Cont.",
+                  "",
+                  ""
+                ],
+                [
+                  "Prx. Cont.",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "table_14_lithology",
+              "title": "Lithology",
+              "headers": [
+                "Depth",
+                "Description"
+              ],
+              "rows": [
+                [
+                  "5740 M",
+                  "100% HALITA BLANCA CON TRAZAS DE LUTITA GRIS OSCURO, SEMIDURA A DURA LIGERAMENTE CALCAREO."
+                ]
+              ]
+            },
+            {
+              "table_id": "table_15_personnel",
+              "title": "Personnel",
+              "headers": [
+                "Position",
+                "Name"
+              ],
+              "rows": [
+                [
+                  "Ing. de Pozo",
+                  "Omar Vilchez Cunha"
+                ],
+                [
+                  "Sup. IPM",
+                  "JOSE JUARISTI"
+                ],
+                [
+                  "Sup. PEMEX",
+                  ""
+                ],
+                [
+                  "Teléfono",
+                  ""
+                ],
+                [
+                  "WSS-SLB",
+                  "O. NEGRETE/ M. PEREZ"
+                ],
+                [
+                  "AWSS-SLB",
+                  "V.SANCHEZ/ E.ARAUJO"
+                ],
+                [
+                  "Tlf. Equipo",
+                  "9932792088"
+                ],
+                [
+                  "ITP-PM",
+                  ""
+                ],
+                [
+                  "RSC-SLB",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "table_16_tremor_readings",
+              "title": "Tremor Readings",
+              "headers": [
+                "Sensor",
+                "Readings"
+              ],
+              "rows": [
+                [
+                  "Temblo #1 2 3",
+                  "120/120/120/120"
+                ],
+                [
+                  "Temblo #4 y 5",
+                  "120/120/120/120"
+                ],
+                [
+                  "Temblo #6 y 7",
+                  "120/120/120/120"
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "well_name",
+              "entity_value": "NAVEGANTE 0001DL",
+              "context": "Well being drilled"
+            },
+            {
+              "entity_type": "rig_name",
+              "entity_value": "IPC-776",
+              "context": "Drilling rig identification"
+            },
+            {
+              "entity_type": "date",
+              "entity_value": "01-feb-2015",
+              "context": "Report date"
+            },
+            {
+              "entity_type": "project",
+              "entity_value": "Alianza",
+              "context": "Project name"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+              "context": "Operating company"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "5752 m",
+              "context": "Final drilling depth for the day"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "7211 m",
+              "context": "Programmed total depth"
+            },
+            {
+              "entity_type": "bit_size",
+              "entity_value": "10 5/8 inch",
+              "context": "PDC bit diameter"
+            },
+            {
+              "entity_type": "reamer_size",
+              "entity_value": "12 1/4 inch",
+              "context": "Rhino reamer diameter"
+            },
+            {
+              "entity_type": "mud_density",
+              "entity_value": "2.02 g/cm3",
+              "context": "Current mud weight"
+            },
+            {
+              "entity_type": "mud_type",
+              "entity_value": "Megadrill",
+              "context": "Mud system type"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "Omar Vilchez Cunha",
+              "context": "Well Engineer"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "JOSE JUARISTI",
+              "context": "IPM Supervisor"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "HTTA MWD",
+              "context": "Measurement while drilling tool"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "Power Drive",
+              "context": "Rotary steerable system"
+            },
+            {
+              "entity_type": "service_company",
+              "entity_value": "SLB",
+              "context": "Service provider (Schlumberger)"
+            },
+            {
+              "entity_type": "lithology",
+              "entity_value": "HALITA BLANCA",
+              "context": "White halite formation at 5740m"
+            },
+            {
+              "entity_type": "casing_size",
+              "entity_value": "11.875 inch",
+              "context": "Last casing string"
+            },
+            {
+              "entity_type": "casing_depth",
+              "entity_value": "5386 m",
+              "context": "Last casing depth"
+            },
+            {
+              "entity_type": "measurement",
+              "entity_value": "206 ton",
+              "context": "Static string weight"
+            },
+            {
+              "entity_type": "measurement",
+              "entity_value": "222 ton",
+              "context": "String weight pulling up"
+            },
+            {
+              "entity_type": "angle",
+              "entity_value": "24.89 degrees",
+              "context": "Current wellbore inclination"
+            },
+            {
+              "entity_type": "azimuth",
+              "entity_value": "130.38 degrees",
+              "context": "Current wellbore direction"
+            },
+            {
+              "entity_type": "temperature",
+              "entity_value": "79 degC",
+              "context": "Mud temperature"
+            },
+            {
+              "entity_type": "rate_of_penetration",
+              "entity_value": "32.78 min/m",
+              "context": "Average drilling rate"
+            },
+            {
+              "entity_type": "bit_manufacturer",
+              "entity_value": "Smith",
+              "context": "Bit manufacturer"
+            },
+            {
+              "entity_type": "bit_model",
+              "entity_value": "MDSi813LBPX",
+              "context": "Current bit model"
+            },
+            {
+              "entity_type": "bit_serial",
+              "entity_value": "JJ1604",
+              "context": "Current bit serial number"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "source_file_path": "document_index_1.pdf",
+      "source_filename": "PEMEX_Daily_Drilling_Report_02-feb-2015.pdf",
+      "source_category": "Pemex",
+      "language": "Spanish",
+      "document_metadata": {
+        "title": "REPORTE DIARIO DE OPERACIONES",
+        "document_date": "2015-02-02",
+        "report_type": "Daily Drilling Operations Report",
+        "vessel_or_asset_name": "NAVEGANTE 0001DL",
+        "timezone": "Not specified",
+        "company": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+        "management": "GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+        "project": "Alianza",
+        "equipment": "IPC-776",
+        "activity": "Perforación"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "raw_text": "Hrs 02-feb-2015\n00:00 - 03:00 3.00 CON BARRENA DE 10 5/8\" A 5,740 M, CIRCULO POZO HASTA RETORNOS LIMPIOS 130 EPM, 500 GPM , 4000 PSI, 80 RPM RECIPROCANDO SARTA.\n03:00 - 06:00 3.00 EN VIAJE CORTO SACO BARRENA DE 10 5/8\" DESDE 5752 MT HASTA 5330 MT, LIBRE. LLENO A CADA 5 LINGADAS VOLUMEN DE ACERO EXTRAÍDO DEL POZO.\nNOTA: POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS A LA TP 5 7/8\" XT-57\n06:00 - 08:00 2.00 CON BARRENA PDC 10 5/8\" A 5,330 M, CIA TESCO CAMBIO CARATULA Y SENSOR DE RPM DEL TOP DRIVE EN LA CONSOLA DE PARÁMETROS DEL PERFORADOR.\nEN EL INTER CIRCULO POZO CON BOTELLA A TP CON 25 EPM, 100 GPM Y 600 PSI.\n08:00 - 12:00 4.00 BAJO BARRENA DESDE 5330 HASTA 5752 M (FONDO PERFORADO) LIBRE. POR SEGURIDAD BAJO CON CON ROTACIÓN Y CIRCULACIÓN ULTIMAS DOS LINGADAS CON 110 RPM, 490 GPM, 3900 PSI.\n12:00 - 00:00 12.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,752 HASTA 5765 M (AMPLIANDO A 5737 M). CON PSB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nRECORD BNA: 365 M EN 177:25 HRS, 1.08 MPH, ULT.3.MTS: 85-68-22.\nRHINO: 330 M EN 156:02 HRS.\n* VOL. LODO PERDIDO DIA: 0 M3.\n* VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3.\n**MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n** A PARTIR DE 5762 MT REALIZO PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP. VARIANDO PARÁMETROS DE LA SIGUIENTE MANERA: PSB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\nResumen: CIRCULO POZO. LEVANTO BNA DE 10 5/8\" A 5330 M, LIBRE. CAMBIO SENSOR DE RPM. BAJO BNA A 5752 M, LIBRE. PERFORO AGUJERO 10 5/8\" HASTA 5765 M (AMPLIANDO HASTA 5737 M).\nSGTE. OPERACIÓN: PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS.",
+          "translated_text": "Hrs 02-feb-2015\n00:00 - 03:00 3.00 WITH 10 5/8\" BIT AT 5,740 M, CIRCULATED WELL UNTIL CLEAN RETURNS 130 SPM, 500 GPM, 4000 PSI, 80 RPM RECIPROCATING STRING.\n03:00 - 06:00 3.00 IN SHORT TRIP PULLED 10 5/8\" BIT FROM 5752 MT TO 5330 MT, FREE. FILLED EVERY 5 STANDS VOLUME OF STEEL EXTRACTED FROM WELL.\nNOTE: BY REQUEST OF OPERATING UNIT, THREAD PROTECTORS NOT PLACED ON TP 5 7/8\" XT-57\n06:00 - 08:00 2.00 WITH PDC BIT 10 5/8\" AT 5,330 M, TESCO COMPANY CHANGED FACE PLATE AND RPM SENSOR OF TOP DRIVE IN DRILLER'S PARAMETER CONSOLE.\nIN THE MEANTIME CIRCULATED WELL WITH BOTTOMS UP TO TP WITH 25 SPM, 100 GPM AND 600 PSI.\n08:00 - 12:00 4.00 LOWERED BIT FROM 5330 TO 5752 M (DRILLED DEPTH) FREE. FOR SAFETY LOWERED WITH ROTATION AND CIRCULATION LAST TWO STANDS WITH 110 RPM, 490 GPM, 3900 PSI.\n12:00 - 00:00 12.00 DRILLED DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5,752 TO 5765 M (REAMING TO 5737 M). WITH WOB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nBIT RECORD: 365 M IN 177:25 HRS, 1.08 MPH, LAST 3.MTS: 85-68-22.\nRHINO: 330 M IN 156:02 HRS.\n* VOL. MUD LOST DAY: 0 M3.\n* VOL. MUD LOST ACCUMULATED STAGE: 527:4 M3.\n**MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CACO 3 M-200 AND 2 LT/M3 OF VERSACOAT.\n** FROM 5762 MT PERFORMED DRILLABILITY TESTS TO OPTIMIZE ROP. VARYING PARAMETERS AS FOLLOWS: WOB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 SPM, 500 GPM, 3854 PSI.\nSummary: CIRCULATED WELL. PULLED BIT 10 5/8\" TO 5330 M, FREE. CHANGED RPM SENSOR. LOWERED BIT TO 5752 M, FREE. DRILLED 10 5/8\" HOLE TO 5765 M (REAMING TO 5737 M).\nNEXT OPERATION: DRILL DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" TO DEPTH OF 6165 MTS.",
+          "tables": [
+            {
+              "table_id": "time_log",
+              "title": "Hourly Operations Log",
+              "headers": [
+                "Time Range",
+                "Hours",
+                "Activity Description"
+              ],
+              "rows": [
+                [
+                  "00:00 - 03:00",
+                  "3.00",
+                  "CON BARRENA DE 10 5/8\" A 5,740 M, CIRCULO POZO HASTA RETORNOS LIMPIOS 130 EPM, 500 GPM, 4000 PSI, 80 RPM RECIPROCANDO SARTA"
+                ],
+                [
+                  "03:00 - 06:00",
+                  "3.00",
+                  "EN VIAJE CORTO SACO BARRENA DE 10 5/8\" DESDE 5752 MT HASTA 5330 MT, LIBRE. LLENO A CADA 5 LINGADAS VOLUMEN DE ACERO EXTRAÍDO DEL POZO"
+                ],
+                [
+                  "06:00 - 08:00",
+                  "2.00",
+                  "CON BARRENA PDC 10 5/8\" A 5,330 M, CIA TESCO CAMBIO CARATULA Y SENSOR DE RPM DEL TOP DRIVE EN LA CONSOLA DE PARÁMETROS DEL PERFORADOR"
+                ],
+                [
+                  "08:00 - 12:00",
+                  "4.00",
+                  "BAJO BARRENA DESDE 5330 HASTA 5752 M (FONDO PERFORADO) LIBRE. POR SEGURIDAD BAJO CON CON ROTACIÓN Y CIRCULACIÓN ULTIMAS DOS LINGADAS CON 110 RPM, 490 GPM, 3900 PSI"
+                ],
+                [
+                  "12:00 - 00:00",
+                  "12.00",
+                  "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,752 HASTA 5765 M (AMPLIANDO A 5737 M). CON PSB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI"
+                ]
+              ]
+            },
+            {
+              "table_id": "personnel",
+              "title": "Personnel",
+              "headers": [
+                "Role",
+                "Name"
+              ],
+              "rows": [
+                [
+                  "Ing. de Pozo",
+                  "Omar Vilchez Cunha"
+                ],
+                [
+                  "Sup. IPM",
+                  "JOSE JUARISTI"
+                ],
+                [
+                  "Sup. PEMEX",
+                  ""
+                ],
+                [
+                  "WSS-SLB",
+                  "O. NEGRETE/ M. PEREZ"
+                ],
+                [
+                  "AWSS-SLB",
+                  "V.SANCHEZ/ E.ARAUJO"
+                ],
+                [
+                  "Tlf. Equipo",
+                  "9932792088"
+                ]
+              ]
+            },
+            {
+              "table_id": "operations_days",
+              "title": "Ops. Días",
+              "headers": [
+                "Category",
+                "Hours"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "596.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,397.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "329.69"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "620.38"
+                ]
+              ]
+            },
+            {
+              "table_id": "time_distribution",
+              "title": "DIST. TIEMPO PERDIDO",
+              "headers": [
+                "Category",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "223.00"
+                ],
+                [
+                  "Perforación",
+                  "5,891.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "table_id": "qhse",
+              "title": "QHSE",
+              "headers": [
+                "Item",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "table_id": "pumps_equipment",
+              "title": "Cmp. y Eq.Aux.",
+              "headers": [
+                "Equipment",
+                "Specifications"
+              ],
+              "rows": [
+                [
+                  "BBA 1:",
+                  "6.000 x 11.000 65 EPM"
+                ],
+                [
+                  "Camisa 1:",
+                  "6.000 x 11.000 65 EPM"
+                ],
+                [
+                  "Camisa 2:",
+                  ""
+                ],
+                [
+                  "Camisa 3:",
+                  ""
+                ],
+                [
+                  "BBA 2:",
+                  "40 EPM @ 680 psi Prof: 5743 mts - Dens: 2.02 gr/cc"
+                ],
+                [
+                  "BBA 3:",
+                  "40 EPM @ 660 psi Prof: 5743 mts - Dens: 2.02 gr/cc"
+                ]
+              ]
+            },
+            {
+              "table_id": "bop_tests",
+              "title": "BOP and Safety Tests",
+              "headers": [
+                "Item",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "SIM.: (Fuego)",
+                  "14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN"
+                ],
+                [
+                  "Function",
+                  "16-ene-2015"
+                ],
+                [
+                  "Annular:",
+                  "5,000 psi"
+                ],
+                [
+                  "Rams:",
+                  "8,000 psi"
+                ],
+                [
+                  "Chok Line:",
+                  ""
+                ],
+                [
+                  "Manifold:",
+                  ""
+                ],
+                [
+                  "Koomey",
+                  "31-dic-2014"
+                ],
+                [
+                  "Manifold:",
+                  "1,500 psi"
+                ],
+                [
+                  "Acumulador",
+                  "3,000 psi"
+                ],
+                [
+                  "Esférico:",
+                  "800 psi"
+                ],
+                [
+                  "Prueba BOPs:",
+                  "16-ene-2015"
+                ],
+                [
+                  "Días sin Accidentes:",
+                  "630"
+                ]
+              ]
+            },
+            {
+              "table_id": "casing_data",
+              "title": "T.R. (Casing)",
+              "headers": [
+                "Type",
+                "Dia (in)",
+                "Prf (m)",
+                "Emp."
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386",
+                  "C2"
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681",
+                  ""
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "survey_data",
+              "title": "Survey Data",
+              "headers": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,610",
+                  "5,456.40",
+                  "25.47",
+                  "131.72",
+                  "693.55",
+                  "0.37"
+                ]
+              ]
+            },
+            {
+              "table_id": "well_parameters",
+              "title": "Well Parameters",
+              "headers": [
+                "Parameter",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Equipo:",
+                  "IPC-776"
+                ],
+                [
+                  "Pozo:",
+                  "NAVEGANTE 0001DL"
+                ],
+                [
+                  "Conductor:",
+                  "42 m 30.000 in"
+                ],
+                [
+                  "E.M.R.:",
+                  "9.20 m"
+                ],
+                [
+                  "Actividad:",
+                  "Perforación"
+                ],
+                [
+                  "Obj:",
+                  "JSK"
+                ],
+                [
+                  "Prof Pgm:",
+                  "7,211 m"
+                ],
+                [
+                  "Días Pg:",
+                  "331.1"
+                ],
+                [
+                  "Elevac.:",
+                  "11.00 m"
+                ],
+                [
+                  "Prox. Mov:",
+                  "Fin del Pozo"
+                ],
+                [
+                  "P.S.B.:",
+                  "13 ton"
+                ],
+                [
+                  "Rotaria:",
+                  "120 RPM"
+                ],
+                [
+                  "Pr. Bomba:",
+                  "3,854 psi"
+                ],
+                [
+                  "Torque:",
+                  "18 1000 ft.lbf"
+                ],
+                [
+                  "P. Sarta (est.):",
+                  "202 ton"
+                ]
+              ]
+            },
+            {
+              "table_id": "mud_properties",
+              "title": "Mud Properties",
+              "headers": [
+                "Property",
+                "Value",
+                "Unit"
+              ],
+              "rows": [
+                [
+                  "Lodo:",
+                  "Megadrill",
+                  ""
+                ],
+                [
+                  "Dens:",
+                  "2.02",
+                  "g/cm3"
+                ],
+                [
+                  "Visc:",
+                  "72",
+                  "s"
+                ],
+                [
+                  "Temp.:",
+                  "80",
+                  "degC"
+                ],
+                [
+                  "Arena:",
+                  "",
+                  "%"
+                ],
+                [
+                  "Filtrado:",
+                  "1.4",
+                  "cm3"
+                ],
+                [
+                  "Ex. Cal:",
+                  "7",
+                  "lbm/bbl"
+                ],
+                [
+                  "Enj.:",
+                  "1 1/32",
+                  "in"
+                ],
+                [
+                  "Gel 0:",
+                  "17",
+                  ""
+                ],
+                [
+                  "Gel 10:",
+                  "33",
+                  ""
+                ],
+                [
+                  "Gel 30:",
+                  "40",
+                  ""
+                ],
+                [
+                  "Cloruros:",
+                  "10,165",
+                  "lbm/bbl"
+                ],
+                [
+                  "pH:",
+                  "",
+                  ""
+                ],
+                [
+                  "Sólidos:",
+                  "38",
+                  "%"
+                ],
+                [
+                  "Aceite:",
+                  "54",
+                  "%"
+                ],
+                [
+                  "Agua:",
+                  "8",
+                  "%"
+                ],
+                [
+                  "Vis. ap:",
+                  "65",
+                  "cP"
+                ],
+                [
+                  "Vis Pl.:",
+                  "56",
+                  "cP"
+                ],
+                [
+                  "P. Ced.:",
+                  "18",
+                  "lbf/100ft2"
+                ],
+                [
+                  "Alcalinidad:",
+                  "5.10",
+                  ""
+                ],
+                [
+                  "Emul:",
+                  "1,376",
+                  "V"
+                ],
+                [
+                  "RAA:",
+                  "87 / 13",
+                  ""
+                ],
+                [
+                  "Sal.:",
+                  "375,000",
+                  "ppm"
+                ],
+                [
+                  "POM:",
+                  "5.10",
+                  ""
+                ],
+                [
+                  "RPM600:",
+                  "130",
+                  "deg"
+                ],
+                [
+                  "RPM300:",
+                  "74",
+                  "deg"
+                ],
+                [
+                  "LDP:",
+                  "0",
+                  "m3"
+                ],
+                [
+                  "TLDP:",
+                  "755",
+                  "m3"
+                ],
+                [
+                  "Barita",
+                  "113.4",
+                  "ton"
+                ],
+                [
+                  "Prueba Integridad:",
+                  "2.04",
+                  "g/cm3"
+                ],
+                [
+                  "Gradiente de Formación:",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "Gradiente de Fractura:",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "Densidad Equiv. Circ.:",
+                  "2.10",
+                  "g/cm3"
+                ],
+                [
+                  "Fecha de Prueba:",
+                  "17-ene-2015",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "depth_progress",
+              "title": "Depth Progress",
+              "headers": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,752",
+                  ""
+                ],
+                [
+                  "14:00 hrs",
+                  "5,752",
+                  ""
+                ],
+                [
+                  "24:00 hrs",
+                  "5,765",
+                  ""
+                ],
+                [
+                  "Prm/día",
+                  "13",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "bha_configuration",
+              "title": "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+              "headers": [
+                "Component",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  "",
+                  "",
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "table_id": "bit_comparison",
+              "title": "BNA Actual vs Anterior",
+              "headers": [
+                "Parameter",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "180 m",
+                  ""
+                ],
+                [
+                  "Hrs. Op.",
+                  "44:45",
+                  ""
+                ],
+                [
+                  "Prom x m",
+                  "14.92",
+                  ""
+                ],
+                [
+                  "3 Ult. Mts.",
+                  "85'-68'-22'",
+                  ""
+                ],
+                [
+                  "$/m",
+                  "",
+                  ""
+                ],
+                [
+                  "Amp. Inc",
+                  "",
+                  ""
+                ],
+                [
+                  "Desgaste",
+                  "-------",
+                  "-------"
+                ]
+              ]
+            },
+            {
+              "table_id": "tremor_data",
+              "title": "Temblo (Tremor) Data",
+              "headers": [
+                "Tremor",
+                "Values"
+              ],
+              "rows": [
+                [
+                  "Temblo #1 2 3",
+                  "120/120/120/120"
+                ],
+                [
+                  "Temblo #4 y 5",
+                  "120/120/120/120"
+                ],
+                [
+                  "Temblo #6 y 7",
+                  "120/120/120/120"
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "DATE",
+              "entity_value": "02-feb-2015",
+              "context": "Report date"
+            },
+            {
+              "entity_type": "WELL_NAME",
+              "entity_value": "NAVEGANTE 0001DL",
+              "context": "Well identification"
+            },
+            {
+              "entity_type": "EQUIPMENT",
+              "entity_value": "IPC-776",
+              "context": "Rig equipment"
+            },
+            {
+              "entity_type": "DEPTH",
+              "entity_value": "5765 M",
+              "context": "Final drilled depth"
+            },
+            {
+              "entity_type": "DEPTH",
+              "entity_value": "5752 M",
+              "context": "Starting depth for drilling"
+            },
+            {
+              "entity_type": "BIT_SIZE",
+              "entity_value": "10 5/8\"",
+              "context": "Drill bit diameter"
+            },
+            {
+              "entity_type": "REAMER_SIZE",
+              "entity_value": "12 1/4\"",
+              "context": "Rhino reamer size"
+            },
+            {
+              "entity_type": "PRESSURE",
+              "entity_value": "3854 PSI",
+              "context": "Pump pressure"
+            },
+            {
+              "entity_type": "RPM",
+              "entity_value": "130 RPM",
+              "context": "Rotary speed"
+            },
+            {
+              "entity_type": "FLOW_RATE",
+              "entity_value": "500 GPM",
+              "context": "Flow rate"
+            },
+            {
+              "entity_type": "WEIGHT_ON_BIT",
+              "entity_value": "6-10-17 TON",
+              "context": "Weight on bit range"
+            },
+            {
+              "entity_type": "TORQUE",
+              "entity_value": "15,000-17,500 FT-LB",
+              "context": "Torque range"
+            },
+            {
+              "entity_type": "MUD_WEIGHT",
+              "entity_value": "2.02 g/cm3",
+              "context": "Mud density"
+            },
+            {
+              "entity_type": "MUD_TYPE",
+              "entity_value": "Megadrill",
+              "context": "Mud system"
+            },
+            {
+              "entity_type": "TEMPERATURE",
+              "entity_value": "80 degC",
+              "context": "Mud temperature"
+            },
+            {
+              "entity_type": "PERSON",
+              "entity_value": "Omar Vilchez Cunha",
+              "context": "Ing. de Pozo"
+            },
+            {
+              "entity_type": "PERSON",
+              "entity_value": "JOSE JUARISTI",
+              "context": "Sup. IPM"
+            },
+            {
+              "entity_type": "PERSON",
+              "entity_value": "O. NEGRETE",
+              "context": "WSS-SLB"
+            },
+            {
+              "entity_type": "PERSON",
+              "entity_value": "M. PEREZ",
+              "context": "WSS-SLB"
+            },
+            {
+              "entity_type": "PERSON",
+              "entity_value": "V.SANCHEZ",
+              "context": "AWSS-SLB"
+            },
+            {
+              "entity_type": "PERSON",
+              "entity_value": "E.ARAUJO",
+              "context": "AWSS-SLB"
+            },
+            {
+              "entity_type": "PHONE",
+              "entity_value": "9932792088",
+              "context": "Equipment telephone"
+            },
+            {
+              "entity_type": "COMPANY",
+              "entity_value": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+              "context": "Operating company"
+            },
+            {
+              "entity_type": "COMPANY",
+              "entity_value": "TESCO",
+              "context": "Service company"
+            },
+            {
+              "entity_type": "COMPANY",
+              "entity_value": "SLB",
+              "context": "Schlumberger"
+            },
+            {
+              "entity_type": "PROJECT",
+              "entity_value": "Alianza",
+              "context": "Project name"
+            },
+            {
+              "entity_type": "BIT_MANUFACTURER",
+              "entity_value": "Smith",
+              "context": "Bit manufacturer"
+            },
+            {
+              "entity_type": "BIT_MODEL",
+              "entity_value": "MDSi813LBPX",
+              "context": "Current bit model"
+            },
+            {
+              "entity_type": "BIT_SERIAL",
+              "entity_value": "JJ1604",
+              "context": "Current bit serial number"
+            },
+            {
+              "entity_type": "LITHOLOGY",
+              "entity_value": "60% YESO, 20% LUTITA CAFE CLARO, LIGERAMENTE CALCAREA Y 20% ANHIDRITA BLANCA Y/O YESO",
+              "context": "Formation at 5761 M"
+            },
+            {
+              "entity_type": "CASING_SIZE",
+              "entity_value": "11.875\"",
+              "context": "Last casing size"
+            },
+            {
+              "entity_type": "CASING_DEPTH",
+              "entity_value": "5,386 m",
+              "context": "Last casing depth"
+            },
+            {
+              "entity_type": "SAFETY_METRIC",
+              "entity_value": "630 days",
+              "context": "Days without accidents"
+            },
+            {
+              "entity_type": "ANGLE",
+              "entity_value": "24.89 degrees",
+              "context": "Well inclination at 5,728 m"
+            },
+            {
+              "entity_type": "AZIMUTH",
+              "entity_value": "130.38 degrees",
+              "context": "Well direction at 5,728 m"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\03 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "03 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "source_file_path": "",
+      "source_filename": "03-feb-2015_NAVEGANTE_0001DL_Daily_Report.pdf",
+      "source_category": "Pemex",
+      "language": "es",
+      "document_metadata": {
+        "title": "REPORTE DIARIO DE OPERACIONES",
+        "document_date": "2015-02-03",
+        "report_type": "Daily Drilling Operations Report",
+        "vessel_or_asset_name": "NAVEGANTE 0001DL",
+        "timezone": "Local Time",
+        "company": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+        "department": "GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+        "equipment": "IPC-776",
+        "project": "Alianza"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "raw_text": "Hrs 03-feb-2015\n00:00 - 08:00 8.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5765 HASTA 5771 M (AMPLIANDO A 5742 M). CON PSB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nRECORD\n- BNA: 371 M EN 181:45 HRS, 2.03 MPH. U3M: 60-55-55.\n- RHINO: 336 M EN 161:17 HRS.\n** MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n** A PARTIR DE 5762 MT REALIZO PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP. VARIANDO PARÁMETROS DE LA SIGUIENTE MANERA: PSB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n08:00 - 12:00 4.00 BOMBEO 8 M3 DE BACHE ANTIPERDIDA-VISCOSO 250 SEG (30 KG/M3 DE OPTISEAL Y 20 KG/M3 DE CaCO3) Y CIRCULO POZO HASTA OBSERVAR RETORNOS LIMPIOS EN TEMBLORINAS CON 20 RPM, 480 GPM, 3850 PSI.\n12:00 - 00:00 12.00 LEVANTO BARRENA DE 10 5/8\" DESDE 5571 A 3,100 M LIBRE, LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL CON HOJA Y TANQUE DE VIAJES.\n* VOL. LODO PERDIDO DIA: 0 M3.\n* VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3.\n\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m\n\nLitología @ 5771 M.\n- 80 % LUTITA GRIS OSCURO, SEMIDURA A DURA, LIGERAMENTE CALCAREA.\n- 20 % YESO BLANCO.\nTRAZAS DE HALITA BLANCA\n\nP.S.B.: 15 ton\nRotaria: 130 RPM\nPr. Bomba: 3,900 psi\nTorque: 15,000 1000 ft.lbf\nP. Sarta (est.): 195 ton\n\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 70 s\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 6 lbm/bbl\nGel 0: 17 Gel 10: 36 Gel 30: 40 Cloruros: 10,165 lbm/bbl\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 %\nVis. ap: 66 cP Vis Pl.: 56 cP P. Ced.: 19 lbf/100ft2 Alcalinidad: 5.00\nEmul: 1,374 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.00\nRPM600: 131 deg RPM300: 75 deg LDP: 0 m3 TLDP: 755 m3\n\nPersonal:\nIng. de Pozo OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nITP-PM OSCAR VERA\n\nDías sin Accidentes: 631",
+          "translated_text": "Hrs 03-Feb-2015\n00:00 - 08:00 8.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5765 TO 5771 M (REAMING TO 5742 M). WITH WOB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nRECORD\n- BIT: 371 M IN 181:45 HRS, 2.03 MPH. LAST 3M: 60-55-55.\n- RHINO: 336 M IN 161:17 HRS.\n** MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CaCO3 M-200 AND 2 LT/M3 OF VERSACOAT.\n** FROM 5762 MT PERFORMED DRILLABILITY TESTS TO OPTIMIZE ROP. VARYING PARAMETERS AS FOLLOWS: WOB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n08:00 - 12:00 4.00 PUMPED 8 M3 OF LOSS PREVENTION-VISCOUS PILL 250 SEC (30 KG/M3 OF OPTISEAL AND 20 KG/M3 OF CaCO3) AND CIRCULATED WELL UNTIL CLEAN RETURNS OBSERVED ON SHAKERS WITH 20 RPM, 480 GPM, 3850 PSI.\n12:00 - 00:00 12.00 PULLED BIT 10 5/8\" FROM 5571 TO 3,100 M FREE, FILLING WELL EVERY 5 STANDS AND MAINTAINING CONTROL WITH SHEET AND TRIP TANK.\n* DAILY MUD LOSS VOL: 0 M3.\n* CUMULATIVE MUD LOSS VOL STAGE: 527.4 M3.\n\nEquipment: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in R.K.B.: 9.20 m Activity: Drilling\nObj: JSK Prog Depth: 7,211 m Prog Days: 331.1 Elevation: 11.00 m\n\nLithology @ 5771 M.\n- 80% DARK GRAY SHALE, SEMI-HARD TO HARD, SLIGHTLY CALCAREOUS.\n- 20% WHITE GYPSUM.\nTRACES OF WHITE HALITE\n\nW.O.B.: 15 ton\nRotary: 130 RPM\nPump Press: 3,900 psi\nTorque: 15,000 1000 ft.lbf\nString Weight (est.): 195 ton\n\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 70 s\nSand: % Filtrate: 1.4 cm3 Lime Ex: 6 lbm/bbl\nGel 0: 17 Gel 10: 36 Gel 30: 40 Chlorides: 10,165 lbm/bbl\npH: Solids: 38 % Oil: 54 % Water: 8 %\nApp. Vis: 66 cP Pl. Vis: 56 cP Yield Pt: 19 lbf/100ft2 Alkalinity: 5.00\nEmul: 1,374 V RAA: 87 / 13 Sal: 375,000 ppm POM: 5.00\nRPM600: 131 deg RPM300: 75 deg LDP: 0 m3 TLDP: 755 m3\n\nPersonnel:\nWell Eng OMAR VILCHEZ\nIPM Sup JOSE JUARISTI\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nITP-PM OSCAR VERA\n\nDays without Accidents: 631",
+          "tables": [
+            {
+              "table_id": "time_breakdown",
+              "title": "Time Breakdown by Activity",
+              "headers": [
+                "Activity",
+                "Hours"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "597.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,397.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "330.69"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "621.38"
+                ]
+              ]
+            },
+            {
+              "table_id": "time_distribution",
+              "title": "Time Distribution",
+              "headers": [
+                "Category",
+                "Hours"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "223.00"
+                ],
+                [
+                  "Perforación",
+                  "5,891.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "table_id": "qhse_metrics",
+              "title": "QHSE Metrics",
+              "headers": [
+                "Metric",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "table_id": "casing_data",
+              "title": "Casing Data",
+              "headers": [
+                "T.R.",
+                "Dia (in)",
+                "Prf (m)",
+                "Emp."
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386",
+                  "C2"
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681",
+                  ""
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "survey_data",
+              "title": "Survey Data",
+              "headers": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "03-feb-2015",
+                  "5,758",
+                  "5,589.99",
+                  "24.91",
+                  "129.02",
+                  "755.74",
+                  "0.57"
+                ],
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ]
+              ]
+            },
+            {
+              "table_id": "bha_composition",
+              "title": "BHA Composition with PDC Bit 10 5/8\" + PD + RHINO",
+              "headers": [
+                "Component",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  "",
+                  "",
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "table_id": "bit_comparison",
+              "title": "Bit Comparison - Current vs Previous",
+              "headers": [
+                "Parameter",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "180 m",
+                  ""
+                ],
+                [
+                  "Hrs. Op.",
+                  "181:45",
+                  ""
+                ],
+                [
+                  "Prom x m",
+                  "60.58",
+                  ""
+                ],
+                [
+                  "3 Ult. Mts.",
+                  "55' - 60' - 55'.",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "depth_progress",
+              "title": "Depth Progress",
+              "headers": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,765",
+                  ""
+                ],
+                [
+                  "14:00 hrs",
+                  "5,771",
+                  ""
+                ],
+                [
+                  "24:00 hrs",
+                  "5,771",
+                  ""
+                ],
+                [
+                  "Prm/día",
+                  "6",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "pump_configuration",
+              "title": "Pump Configuration",
+              "headers": [
+                "Pump",
+                "Liner Size",
+                "EPM",
+                "Pressure",
+                "Depth",
+                "Density"
+              ],
+              "rows": [
+                [
+                  "BBA 1:",
+                  "6.000 x 11.000",
+                  "65 EPM",
+                  "30 EPM @ 600 psi",
+                  "Prof: 5752 m",
+                  "Dens: 2.02 gr/cc"
+                ],
+                [
+                  "BBA 2:",
+                  "6.000 x 11.000",
+                  "65 EPM",
+                  "30 EPM @ 540 psi",
+                  "Prof: 5752 m",
+                  "Dens: 2.02 gr/cc"
+                ],
+                [
+                  "BBA 3:",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "shaker_screens",
+              "title": "Shaker Screen Configuration",
+              "headers": [
+                "Shaker",
+                "Screen Sizes"
+              ],
+              "rows": [
+                [
+                  "Temblo #1 2 3",
+                  "120/120/120/120"
+                ],
+                [
+                  "Temblo #4 y 5",
+                  "120/120/120/120"
+                ],
+                [
+                  "Temblo #6 y 7",
+                  "120/120/120/120"
+                ]
+              ]
+            },
+            {
+              "table_id": "bop_test_data",
+              "title": "BOP Test Data",
+              "headers": [
+                "Component",
+                "Pressure",
+                "Date"
+              ],
+              "rows": [
+                [
+                  "Annular",
+                  "5,000 psi",
+                  ""
+                ],
+                [
+                  "Rams",
+                  "8,000 psi",
+                  ""
+                ],
+                [
+                  "Chok Line",
+                  "",
+                  ""
+                ],
+                [
+                  "Manifold",
+                  "",
+                  ""
+                ],
+                [
+                  "Koomey",
+                  "31-dic-2014",
+                  ""
+                ],
+                [
+                  "Manifold",
+                  "1,500 psi",
+                  ""
+                ],
+                [
+                  "Acumulador",
+                  "3,000 psi",
+                  ""
+                ],
+                [
+                  "Esférico",
+                  "800 psi",
+                  ""
+                ],
+                [
+                  "Prueba BOPs",
+                  "",
+                  "16-ene-2015"
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "date",
+              "entity_value": "2015-02-03",
+              "context": "Report date"
+            },
+            {
+              "entity_type": "well_name",
+              "entity_value": "NAVEGANTE 0001DL",
+              "context": "Well identifier"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "IPC-776",
+              "context": "Rig equipment"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "5771",
+              "context": "Final depth in meters"
+            },
+            {
+              "entity_type": "bit_size",
+              "entity_value": "10 5/8\"",
+              "context": "Bit diameter"
+            },
+            {
+              "entity_type": "mud_weight",
+              "entity_value": "2.02",
+              "context": "Mud density in g/cm3"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "OMAR VILCHEZ",
+              "context": "Well Engineer"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "JOSE JUARISTI",
+              "context": "IPM Supervisor"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "OSCAR VERA",
+              "context": "ITP-PM"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+              "context": "Operating company"
+            },
+            {
+              "entity_type": "safety_metric",
+              "entity_value": "631",
+              "context": "Days without accidents"
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "raw_text": "Resumen: PERFO CON BNA PDC 10 5/8\" DESDE 5765 M HASTA LA PROFUNDIDAD DE 5771 M (AMPLIANDO A 5743 M). CIRCULO POZO HASTA RETORNOS LIMPIOS. SACO BNA PDC 10 5/8\" + BHA DIRECCIONAL HASTA 3100 M.\n\nSGTE. OPERACIÓN: SACAR BNA A SUPERFICIE. PROBAR CONJUNTO DE PREVENTORES. ARMAR Y BAJAR BHA DIRECCIONAL CON BNA PDC 10 5/8\" + AMPLIADOR RHINO HASTA 5771 M.\n\nOBSERVACIONES:\n\nMAT. REQUERIDOS: HERRAMIENTAS DIRECCIONALES, MARTILLO 8\".\n\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+          "translated_text": "Summary: DRILLED WITH PDC BIT 10 5/8\" FROM 5765 M TO DEPTH OF 5771 M (REAMING TO 5743 M). CIRCULATED WELL UNTIL CLEAN RETURNS. PULLED PDC BIT 10 5/8\" + DIRECTIONAL BHA TO 3100 M.\n\nNEXT OPERATION: PULL BIT TO SURFACE. TEST BOP STACK. ASSEMBLE AND RUN DIRECTIONAL BHA WITH PDC BIT 10 5/8\" + RHINO REAMER TO 5771 M.\n\nOBSERVATIONS:\n\nREQUIRED MATERIALS: DIRECTIONAL TOOLS, 8\" HAMMER.\n\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+          "tables": [],
+          "entities": [
+            {
+              "entity_type": "depth",
+              "entity_value": "5771",
+              "context": "Final drilled depth in meters"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "5765",
+              "context": "Starting depth in meters"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "5743",
+              "context": "Reaming depth in meters"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "3100",
+              "context": "BHA pulled to depth in meters"
+            },
+            {
+              "entity_type": "bit_size",
+              "entity_value": "10 5/8\"",
+              "context": "PDC bit size"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "RHINO REAMER",
+              "context": "Reaming tool"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "MARTILLO 8\"",
+              "context": "8 inch hammer required"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\03 MARZO -2015  24 HRS NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "03 MARZO -2015  24 HRS NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "source_file_path": "",
+      "source_filename": "03-mar-2015_NAVEGANTE_0001DL.pdf",
+      "source_category": "Pemex",
+      "language": "Spanish",
+      "document_metadata": {
+        "title": "REPORTE DIARIO DE OPERACIONES",
+        "document_date": "2015-03-03",
+        "report_type": "Daily Operations Report",
+        "vessel_or_asset_name": "IPC-776",
+        "timezone": "Local Time",
+        "well_name": "NAVEGANTE 0001DL",
+        "project": "Alianza",
+        "company": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+        "department": "GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S."
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "raw_text": "Hrs 03-mar-2015\n00:00 - 06:00 6.00 LEVANTO BNA PDC 10-5/8\" DESDE 989 M A SUPERFICIE, DESCONECTANDO SARTA ROTATORIA EQUIPADA CON POWER DRIVE / MWD / AMPLIADOR RHINO 10\" x 12- 1/4\". MONITOREO LLENADO DEL POZO CADA 5 LINGADAS CON HOJA Y TANQUE DE VIAJES.\n*DESGASTE DE LA BNA PDC 10-5/8\": 0-0-NO-A-X-I-NO-BHA\n*DESGASTE PRIMER ESTABILIZADOR (BAJO EL AMPLIADOR): 1/8\"\n*DESGASTE SEGUNDO ESTABILIZADOR (SOBRE EL AMPLIADOR): 1/16\"\n*DESGASTE AMPLIADOR RHINO: 0-0-NO-A-X-I-NO-BHA\nNOTA: POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS A LA TP 5 7/8\" XT-57.\n06:00 - 10:00 4.00 EN ESPERA DE CIA. VETCO GREY PARA RECUPERAR BUJE DE DESGASTE. EN EL INTER: PERSONAL CIA. PROPESA Y UNIDAD DE PRUEBAS, PROBÓ ENSAMBLE DE ESTRANGULACIÓN (VALVULA X VALVULA) CON 300 PSI EN BAJA Y 8000 PSI. EN ALTA BIEN. PERSONAL CIA. IPC PROBO BOMBAS DE LODOS CON NUEVA HIDRAULICA 5-1/2\"X11\" Y REVISO MOTOR ELECTRICO N. 1 DEL MALACATE PRINCIPAL.\n10:00 - 11:00 1.00 CON PERSONAL CIA. VETCO GRAY RECUPERO BUJE DE DESGASTE.\n11:00 - 00:00 13.00 CON UNIDAD DE CIA PROPESA INSTALO PROBADOR DE COPAS, INTENTO PROBAR BOPS 13-5/8\"-10M S/E EN REPETIDAS OCASIONES. S/EXITO CAMBIO COPA INTENTO PROBAR NUEVAMENTE S/E. SACO PROBADOR A SUP Y CAMBIO X TAPON DE PRUEBAS CIA VETCO Y PROBO PREVENTOR ESFERICO 13-5/8\"-10M CON 300PSI EN BAJA Y 7000PSI EN ALTA 40 MIN BIEN. HR. POR FALLA EN U. PRUEBAS. SE REPARO FALLA EN MANGUERA DE FLUIDO HIDRAULICO. SE INTENTO PROBAR PREVENTOR SUPERIOR DE ARIETES Y RAM CIEGO OBSERVANDO FUGA EN TAPON DE PRUEBA.'O' RING. SE CONECTO PROBADOR DE COPAS CON EXTENSION E INTENTO PROBAR NUEVAMENTE S/E, SE OBSERVO QUE NO EMPACA COPA DE PRUEBA CIA PROPESA. SE SOLICITO OTRA COPA DE PRUEBA A CIA PROPESA, INSTALO COPA NUEVA E INTENTO PROBAR NUEVAMENTE S/E, LA COPA NO EMPACO. SE ESPERO TAPON DE PRUEBAS CIA VETCO Y SE INSTALO. AVANCE ACTUAL PRUEBA DE BOPSS 13-5/8\"-10M CON 300PSI BAJA Y 8000PSI ALTA: 25%",
+          "translated_text": "Hrs 03-mar-2015\n00:00 - 06:00 6.00 LIFTED PDC BIT 10-5/8\" FROM 989 M TO SURFACE, DISCONNECTING ROTARY STRING EQUIPPED WITH POWER DRIVE / MWD / RHINO REAMER 10\" x 12-1/4\". MONITORED WELL FILLING EVERY 5 STANDS WITH SHEET AND TRIP TANK.\n*WEAR OF PDC BIT 10-5/8\": 0-0-NO-A-X-I-NO-BHA\n*WEAR FIRST STABILIZER (BELOW REAMER): 1/8\"\n*WEAR SECOND STABILIZER (ABOVE REAMER): 1/16\"\n*WEAR RHINO REAMER: 0-0-NO-A-X-I-NO-BHA\nNOTE: BY REQUEST OF THE OPERATING UNIT, THREAD PROTECTORS WERE NOT PLACED ON TP 5 7/8\" XT-57.\n06:00 - 10:00 4.00 WAITING FOR VETCO GREY COMPANY TO RECOVER WEAR BUSHING. IN THE MEANTIME: PROPESA COMPANY PERSONNEL AND TEST UNIT, TESTED CHOKE ASSEMBLY (VALVE X VALVE) WITH 300 PSI LOW AND 8000 PSI. HIGH WELL. IPC COMPANY PERSONNEL TESTED MUD PUMPS WITH NEW 5-1/2\"X11\" HYDRAULICS AND CHECKED ELECTRIC MOTOR N. 1 OF MAIN DRAWWORKS.\n10:00 - 11:00 1.00 WITH VETCO GRAY COMPANY PERSONNEL RECOVERED WEAR BUSHING.\n11:00 - 00:00 13.00 WITH PROPESA COMPANY UNIT INSTALLED CUP TESTER, ATTEMPTED TO TEST BOPS 13-5/8\"-10M W/E ON REPEATED OCCASIONS. W/O SUCCESS CHANGED CUP ATTEMPTED TO TEST AGAIN W/E. PULLED TESTER TO SURFACE AND CHANGED FOR VETCO COMPANY TEST PLUG AND TESTED SPHERICAL PREVENTER 13-5/8\"-10M WITH 300PSI LOW AND 7000PSI HIGH 40 MIN WELL. HR. DUE TO FAILURE IN TEST UNIT. REPAIRED FAILURE IN HYDRAULIC FLUID HOSE. ATTEMPTED TO TEST UPPER RAM PREVENTER AND BLIND RAM OBSERVING LEAK IN TEST PLUG 'O' RING. CONNECTED CUP TESTER WITH EXTENSION AND ATTEMPTED TO TEST AGAIN W/E, OBSERVED THAT PROPESA COMPANY TEST CUP DOES NOT PACK. REQUESTED ANOTHER TEST CUP FROM PROPESA COMPANY, INSTALLED NEW CUP AND ATTEMPTED TO TEST AGAIN W/E, CUP DID NOT PACK. WAITED FOR VETCO COMPANY TEST PLUG AND INSTALLED. CURRENT PROGRESS TEST OF BOPS 13-5/8\"-10M WITH 300PSI LOW AND 8000PSI HIGH: 25%",
+          "tables": [
+            {
+              "table_id": "time_breakdown",
+              "title": "Hourly Operations Breakdown",
+              "headers": [
+                "Hrs",
+                "Time Range",
+                "Duration",
+                "Description"
+              ],
+              "rows": [
+                [
+                  "00:00 - 06:00",
+                  "6.00",
+                  "LEVANTO BNA PDC 10-5/8\" DESDE 989 M A SUPERFICIE, DESCONECTANDO SARTA ROTATORIA EQUIPADA CON POWER DRIVE / MWD / AMPLIADOR RHINO 10\" x 12-1/4\". MONITOREO LLENADO DEL POZO CADA 5 LINGADAS CON HOJA Y TANQUE DE VIAJES."
+                ],
+                [
+                  "06:00 - 10:00",
+                  "4.00",
+                  "EN ESPERA DE CIA. VETCO GREY PARA RECUPERAR BUJE DE DESGASTE."
+                ],
+                [
+                  "10:00 - 11:00",
+                  "1.00",
+                  "CON PERSONAL CIA. VETCO GRAY RECUPERO BUJE DE DESGASTE."
+                ],
+                [
+                  "11:00 - 00:00",
+                  "13.00",
+                  "CON UNIDAD DE CIA PROPESA INSTALO PROBADOR DE COPAS, INTENTO PROBAR BOPS 13-5/8\"-10M"
+                ]
+              ]
+            },
+            {
+              "table_id": "operations_days",
+              "title": "Operations Days Summary",
+              "headers": [
+                "Category",
+                "Ops. Días"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "625.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,505.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "354.19"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "649.38"
+                ]
+              ]
+            },
+            {
+              "table_id": "time_distribution",
+              "title": "Time Distribution",
+              "headers": [
+                "DIST. TIEMPO PERDIDO",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,944.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "315.00"
+                ],
+                [
+                  "Perforación",
+                  "5,907.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "table_id": "qhse",
+              "title": "QHSE Statistics",
+              "headers": [
+                "Category",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "0"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "table_id": "pump_parameters",
+              "title": "Pump Parameters",
+              "headers": [
+                "Component",
+                "Specifications",
+                "EPM"
+              ],
+              "rows": [
+                [
+                  "BBA 1: Camisa 1",
+                  "6.000 x 11.000",
+                  "61 EPM"
+                ],
+                [
+                  "BBA 2: Camisa 2",
+                  "6.000 x 11.000",
+                  "62 EPM"
+                ],
+                [
+                  "30 EPM @ 900 psi @ 6,084 M. LODO 1.95 GR/CC.",
+                  "",
+                  ""
+                ],
+                [
+                  "30 EPM @ 950 psi @ 6,084 M. LODO 1.95 GR/CC.",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "bop_tests",
+              "title": "BOP Test Information",
+              "headers": [
+                "Test Type",
+                "Date",
+                "Pressure/Details"
+              ],
+              "rows": [
+                [
+                  "SIM.: (Control de Pozo)",
+                  "16-feb-2015",
+                  "TIEMPO DE CIERRE: 2.5 MIN."
+                ],
+                [
+                  "Function",
+                  "05-feb-2015",
+                  "Standpipe Kelly Hose Diverter:"
+                ],
+                [
+                  "Annular:",
+                  "",
+                  "Rams: Chok Line: Manifold:"
+                ],
+                [
+                  "Koomey",
+                  "05-feb-2015",
+                  "Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 1,000 psi"
+                ],
+                [
+                  "Prueba BOPs:",
+                  "05-feb-2015",
+                  ""
+                ],
+                [
+                  "Días sin Accidentes:",
+                  "659",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "casing_data",
+              "title": "Casing Data",
+              "headers": [
+                "Description",
+                "T.R. Dia (in)",
+                "Prf (m)",
+                "Emp."
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386",
+                  ""
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681",
+                  ""
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521",
+                  "C2"
+                ]
+              ]
+            },
+            {
+              "table_id": "survey_data",
+              "title": "Survey Data",
+              "headers": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "23-feb-2015",
+                  "6,081",
+                  "5,883.27",
+                  "25.05",
+                  "129.46",
+                  "892.24",
+                  "0.22"
+                ],
+                [
+                  "22-feb-2015",
+                  "6,051",
+                  "5,856.21",
+                  "25.09",
+                  "129.96",
+                  "879.58",
+                  "0.38"
+                ],
+                [
+                  "21-feb-2015",
+                  "6,023",
+                  "5,830.47",
+                  "25.13",
+                  "130.80",
+                  "867.52",
+                  "0.10"
+                ],
+                [
+                  "20-feb-2015",
+                  "5,992",
+                  "5,802.25",
+                  "25.14",
+                  "130.55",
+                  "854.28",
+                  "0.28"
+                ],
+                [
+                  "19-feb-2015",
+                  "5,965",
+                  "5,777.73",
+                  "25.20",
+                  "131.12",
+                  "842.76",
+                  "0.84"
+                ]
+              ]
+            },
+            {
+              "table_id": "well_information",
+              "title": "Well Information",
+              "headers": [
+                "Parameter",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Equipo:",
+                  "IPC-776"
+                ],
+                [
+                  "Pozo:",
+                  "NAVEGANTE 0001DL"
+                ],
+                [
+                  "Conductor:",
+                  "42 m 30.000 in"
+                ],
+                [
+                  "E.M.R.:",
+                  "9.20 m"
+                ],
+                [
+                  "Actividad:",
+                  "Perforación"
+                ],
+                [
+                  "Inicio de Actividad",
+                  ""
+                ],
+                [
+                  "Obj:",
+                  "JSK"
+                ],
+                [
+                  "Prof Pgm:",
+                  "7,211 m"
+                ],
+                [
+                  "Días Pg:",
+                  "331.1"
+                ],
+                [
+                  "Elevac.:",
+                  "11.00 m"
+                ],
+                [
+                  "Prox. Mov:",
+                  "Fin del Pozo Anterior"
+                ]
+              ]
+            },
+            {
+              "table_id": "mud_properties",
+              "title": "Mud Properties",
+              "headers": [
+                "Property",
+                "Value",
+                "Unit"
+              ],
+              "rows": [
+                [
+                  "Lodo:",
+                  "Megadrill",
+                  ""
+                ],
+                [
+                  "Dens:",
+                  "2.05",
+                  "g/cm3"
+                ],
+                [
+                  "Visc:",
+                  "94",
+                  "s"
+                ],
+                [
+                  "Temp.:",
+                  "",
+                  "degC"
+                ],
+                [
+                  "Barita",
+                  "113.4",
+                  "ton"
+                ],
+                [
+                  "Arena:",
+                  "",
+                  "%"
+                ],
+                [
+                  "Filtrado:",
+                  "1.2",
+                  "cm3"
+                ],
+                [
+                  "Ex. Cal:",
+                  "6",
+                  "lbm/bbl"
+                ],
+                [
+                  "Enj.:",
+                  "1 1/32",
+                  "in"
+                ],
+                [
+                  "Prueba Integridad:",
+                  "2.04",
+                  "g/cm3"
+                ],
+                [
+                  "Gel 0:",
+                  "14",
+                  ""
+                ],
+                [
+                  "Gel 10:",
+                  "33",
+                  ""
+                ],
+                [
+                  "Gel 30:",
+                  "42",
+                  ""
+                ],
+                [
+                  "Cloruros:",
+                  "10,165",
+                  "lbm/bbl"
+                ],
+                [
+                  "Gradiente de Formación:",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "pH:",
+                  "",
+                  ""
+                ],
+                [
+                  "Sólidos:",
+                  "38",
+                  "%"
+                ],
+                [
+                  "Aceite:",
+                  "54",
+                  "%"
+                ],
+                [
+                  "Agua:",
+                  "8",
+                  "%"
+                ],
+                [
+                  "Gradiente de Fractura:",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "Vis. ap:",
+                  "68",
+                  "cP"
+                ],
+                [
+                  "Vis Pl.:",
+                  "58",
+                  "cP"
+                ],
+                [
+                  "P. Ced.:",
+                  "20",
+                  "lbf/100ft2"
+                ],
+                [
+                  "Alcalinidad:",
+                  "4.70",
+                  ""
+                ],
+                [
+                  "Densidad Equiv. Circ.:",
+                  "",
+                  "g/cm3"
+                ],
+                [
+                  "Emul:",
+                  "1,238",
+                  ""
+                ],
+                [
+                  "V",
+                  "",
+                  ""
+                ],
+                [
+                  "RAA:",
+                  "87 / 13",
+                  ""
+                ],
+                [
+                  "Sal.:",
+                  "362,000",
+                  "ppm"
+                ],
+                [
+                  "POM:",
+                  "4.70",
+                  ""
+                ],
+                [
+                  "Fecha de Prueba:",
+                  "17-ene-2015",
+                  ""
+                ],
+                [
+                  "RPM600:",
+                  "136",
+                  "deg"
+                ],
+                [
+                  "RPM300:",
+                  "78",
+                  "deg"
+                ],
+                [
+                  "LDP:",
+                  "0",
+                  "m3"
+                ],
+                [
+                  "TLDP:",
+                  "755",
+                  "m3"
+                ]
+              ]
+            },
+            {
+              "table_id": "depth_progress",
+              "title": "Depth Progress",
+              "headers": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "6,230",
+                  ""
+                ],
+                [
+                  "14:00 hrs",
+                  "6,230",
+                  ""
+                ],
+                [
+                  "24:00 hrs",
+                  "6,230",
+                  ""
+                ],
+                [
+                  "Prm/día",
+                  "0",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "bha_configuration",
+              "title": "BHA #36 Configuration",
+              "headers": [
+                "Cant.",
+                "Component",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "BNA PDC 10.625 #36",
+                  "",
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "1",
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "3.000",
+                  "8.250",
+                  "4.15",
+                  "4.44"
+                ],
+                [
+                  "1",
+                  "MISC. SUB",
+                  "3.250",
+                  "8.250",
+                  "1.86",
+                  "6.30"
+                ],
+                [
+                  "1",
+                  "MWD 8\"",
+                  "4.250",
+                  "8.000",
+                  "8.21",
+                  "14.51"
+                ],
+                [
+                  "1",
+                  "DC MONEL 8\" NO MAG.",
+                  "3.375",
+                  "8.250",
+                  "8.62",
+                  "23.13"
+                ],
+                [
+                  "1",
+                  "FILTRO DE FONDO",
+                  "3.500",
+                  "8.000",
+                  "1.08",
+                  "24.21"
+                ],
+                [
+                  "1",
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "3.000",
+                  "8.000",
+                  "1.60",
+                  "25.81"
+                ],
+                [
+                  "1",
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "3.000",
+                  "8.250",
+                  "4.21",
+                  "30.02"
+                ],
+                [
+                  "1",
+                  "DC 8\"",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.42"
+                ],
+                [
+                  "1",
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "3.000",
+                  "8.000",
+                  "1.90",
+                  "41.32"
+                ],
+                [
+                  "6",
+                  "DC 8\"",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.21"
+                ],
+                [
+                  "1",
+                  "MARTILLO 8\"",
+                  "3.000",
+                  "8.000",
+                  "9.89",
+                  "105.10"
+                ],
+                [
+                  "3",
+                  "DC 8\"",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.52"
+                ],
+                [
+                  "1",
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "133.82"
+                ],
+                [
+                  "15",
+                  "HWDP 5\"",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "274.74"
+                ]
+              ]
+            },
+            {
+              "table_id": "bit_comparison",
+              "title": "Bit Comparison",
+              "headers": [
+                "Parameter",
+                "BNA Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JF1821",
+                  "JF6795"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSI813LBPX",
+                  "MDSI813LBPX"
+                ],
+                [
+                  "Toberas (in)",
+                  "(8)12",
+                  "(8)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "359 m",
+                  "100 m"
+                ],
+                [
+                  "Hrs. Op.",
+                  "164:00",
+                  "40:15"
+                ],
+                [
+                  "Prom x m",
+                  "27.41",
+                  "24.15"
+                ],
+                [
+                  "Desgaste",
+                  "0-0-NO-A-X-I-NO-DTF",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "personnel",
+              "title": "Personnel",
+              "headers": [
+                "Position",
+                "Name"
+              ],
+              "rows": [
+                [
+                  "Ing. de Pozo",
+                  "ELIZABETH GODINEZ"
+                ],
+                [
+                  "Sup. IPM",
+                  "JOSE JUARISTI"
+                ],
+                [
+                  "Sup. PEMEX",
+                  ""
+                ],
+                [
+                  "Teléfono:",
+                  ""
+                ],
+                [
+                  "WSS-SLB",
+                  "NEGRETE / SANCHEZ"
+                ],
+                [
+                  "AWSS-SLB",
+                  "ALEX PUPIALES"
+                ],
+                [
+                  "Tlf. Equipo",
+                  "9932792088"
+                ],
+                [
+                  "ITP-PM",
+                  "OSCAR VERA"
+                ],
+                [
+                  "RSC-SLB",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "date",
+              "entity_value": "2015-03-03",
+              "context": "Report date"
+            },
+            {
+              "entity_type": "time",
+              "entity_value": "00:00-06:00",
+              "context": "Operation period"
+            },
+            {
+              "entity_type": "time",
+              "entity_value": "06:00-10:00",
+              "context": "Operation period"
+            },
+            {
+              "entity_type": "time",
+              "entity_value": "10:00-11:00",
+              "context": "Operation period"
+            },
+            {
+              "entity_type": "time",
+              "entity_value": "11:00-00:00",
+              "context": "Operation period"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "IPC-776",
+              "context": "Rig equipment"
+            },
+            {
+              "entity_type": "well",
+              "entity_value": "NAVEGANTE 0001DL",
+              "context": "Well name"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "989 m",
+              "context": "Depth from which bit was lifted"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "6,230 m",
+              "context": "Current depth"
+            },
+            {
+              "entity_type": "pressure",
+              "entity_value": "300 PSI",
+              "context": "Low test pressure"
+            },
+            {
+              "entity_type": "pressure",
+              "entity_value": "7000 PSI",
+              "context": "High test pressure"
+            },
+            {
+              "entity_type": "pressure",
+              "entity_value": "8000 PSI",
+              "context": "High test pressure"
+            },
+            {
+              "entity_type": "equipment_size",
+              "entity_value": "10-5/8\"",
+              "context": "Bit size"
+            },
+            {
+              "entity_type": "equipment_size",
+              "entity_value": "13-5/8\"",
+              "context": "BOP size"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "VETCO GREY",
+              "context": "Service company"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "PROPESA",
+              "context": "Service company"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "IPC",
+              "context": "Service company"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "ELIZABETH GODINEZ",
+              "context": "Well Engineer"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "JOSE JUARISTI",
+              "context": "IPM Supervisor"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "NEGRETE / SANCHEZ",
+              "context": "WSS-SLB"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "ALEX PUPIALES",
+              "context": "AWSS-SLB"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "OSCAR VERA",
+              "context": "ITP-PM"
+            },
+            {
+              "entity_type": "density",
+              "entity_value": "1.95 g/cm3",
+              "context": "Mud density"
+            },
+            {
+              "entity_type": "density",
+              "entity_value": "2.05 g/cm3",
+              "context": "Mud density"
+            },
+            {
+              "entity_type": "phone",
+              "entity_value": "9932792088",
+              "context": "Equipment phone"
+            },
+            {
+              "entity_type": "measurement",
+              "entity_value": "1/8\"",
+              "context": "Stabilizer wear"
+            },
+            {
+              "entity_type": "measurement",
+              "entity_value": "1/16\"",
+              "context": "Stabilizer wear"
+            },
+            {
+              "entity_type": "days",
+              "entity_value": "659",
+              "context": "Days without accidents"
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "raw_text": "Resumen: SE PROBO PREVENTOR ANULAR 13-5/8\" CON 300 PSI EN BAJA Y 7000PSI EN ALTA BIEN. SE PROBO PREVENTOR SUPERIOR DE ARIETES Y SE OBSERVO EN TAPON. SE ESPERO X TAPON DE PRUEBAS DE CIA VETCO. AVANCE 25% DE PRUEBA DE BOPS.\nSGTE. OPERACIÓN: PROBAR BOPS, ARMAR SARTA CON BNA PDC 10-5/8\" Y SARTA DIRECCIONAL. BAJAR A +/- 3,521 M. DESPLAZAR LODO 2.05 GR/CC X 1.95 GR/CC.\nOBSERVACIONES: PERSONAL CIA. IPC CAMBIO HIDRAULICA DE LAS BOMBAS 1 Y 2 DEL EQUIPO A 5-1/2\" X 11\".\nMAT. REQUERIDOS:\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+          "translated_text": "Summary: TESTED ANNULAR PREVENTER 13-5/8\" WITH 300 PSI LOW AND 7000PSI HIGH WELL. TESTED UPPER RAM PREVENTER AND OBSERVED IN PLUG. WAITED FOR VETCO COMPANY TEST PLUG. 25% PROGRESS OF BOP TEST.\nNEXT OPERATION: TEST BOPS, ASSEMBLE STRING WITH PDC BIT 10-5/8\" AND DIRECTIONAL STRING. RUN TO +/- 3,521 M. DISPLACE MUD 2.05 GR/CC X 1.95 GR/CC.\nOBSERVATIONS: IPC COMPANY PERSONNEL CHANGED HYDRAULICS OF PUMPS 1 AND 2 OF EQUIPMENT TO 5-1/2\" X 11\".\nMAT. REQUIRED:\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+          "tables": [
+            {
+              "table_id": "page2_summary",
+              "title": "Summary Table",
+              "headers": [
+                "Section",
+                "Content"
+              ],
+              "rows": [
+                [
+                  "Resumen:",
+                  "SE PROBO PREVENTOR ANULAR 13-5/8\" CON 300 PSI EN BAJA Y 7000PSI EN ALTA BIEN. SE PROBO PREVENTOR SUPERIOR DE ARIETES Y SE OBSERVO EN TAPON. SE ESPERO X TAPON DE PRUEBAS DE CIA VETCO. AVANCE 25% DE PRUEBA DE BOPS."
+                ],
+                [
+                  "SGTE. OPERACIÓN:",
+                  "PROBAR BOPS, ARMAR SARTA CON BNA PDC 10-5/8\" Y SARTA DIRECCIONAL. BAJAR A +/- 3,521 M. DESPLAZAR LODO 2.05 GR/CC X 1.95 GR/CC."
+                ],
+                [
+                  "OBSERVACIONES:",
+                  "PERSONAL CIA. IPC CAMBIO HIDRAULICA DE LAS BOMBAS 1 Y 2 DEL EQUIPO A 5-1/2\" X 11\"."
+                ],
+                [
+                  "MAT. REQUERIDOS:",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "equipment_size",
+              "entity_value": "13-5/8\"",
+              "context": "Annular preventer size"
+            },
+            {
+              "entity_type": "pressure",
+              "entity_value": "300 PSI",
+              "context": "Low test pressure"
+            },
+            {
+              "entity_type": "pressure",
+              "entity_value": "7000 PSI",
+              "context": "High test pressure"
+            },
+            {
+              "entity_type": "percentage",
+              "entity_value": "25%",
+              "context": "BOP test progress"
+            },
+            {
+              "entity_type": "equipment_size",
+              "entity_value": "10-5/8\"",
+              "context": "PDC bit size"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "3,521 M",
+              "context": "Target depth"
+            },
+            {
+              "entity_type": "density",
+              "entity_value": "2.05 GR/CC",
+              "context": "Mud density"
+            },
+            {
+              "entity_type": "density",
+              "entity_value": "1.95 GR/CC",
+              "context": "Mud density"
+            },
+            {
+              "entity_type": "equipment_size",
+              "entity_value": "5-1/2\" X 11\"",
+              "context": "Pump hydraulics size"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "IPC",
+              "context": "Service company"
+            },
+            {
+              "entity_type": "company",
+              "entity_value": "VETCO",
+              "context": "Service company"
+            },
+            {
+              "entity_type": "version",
+              "entity_value": "2013.1 03Jul2013 v3.2",
+              "context": "Document version"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\04 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "04 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": {
+      "source_file_path": "",
+      "source_filename": "PEMEX_Daily_Operations_Report_04-ene-2015.pdf",
+      "source_category": "Pemex",
+      "language": "Spanish",
+      "document_metadata": {
+        "title": "REPORTE DIARIO DE OPERACIONES",
+        "document_date": "2015-01-04",
+        "report_type": "Daily Operations Report",
+        "vessel_or_asset_name": "IPC-776",
+        "timezone": "Not specified",
+        "well_name": "NAVEGANTE 0001DL",
+        "project": "Alianza",
+        "company": "PEMEX EXPLORACIÓN PRODUCCIÓN"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "raw_text": "Hrs 04-ene-2015\n00:00 - 16:00 16.00 SACO TUBO DIFUSOR DE 5\", POR LINGADAS DE TP 5-7/8\" Y 5\" DE 2,700 M A 630 M, MONITOREA LLENADO DEL POZO CON HOJA Y TANQUE DE VIAJES CADA 5 LINGADAS. OBSERVA SALIR TUBERIA LLENA.\nNOTA:\n*DESDE 1209 M SE OBSERVO SALIR TUBERIA LLENA CON LODO FLOCULADO CONTAMINADO CON BACHE ESPACIADOR Y CEMENTO, DESASOLVO CONTINUAMENTE CHAROLA ECOLOGICA.\n16:00 - 23:00 7.00 CONTINUO SACANDO TUBO DIFUSOR 5\" DE 630 M HASTA SUPERFICIE DESCONECTANDO TRAMO X TRAMO POR VENIR TP 5\", S-135, 19.5#, TAPADA CON BACHE ESPACIADOR Y CEMENTO SOLIDIFICADO.\nNOTA: DESDE 344 M HASTA EL TUBO DIFUSOR, SE OBSERVA SALIR TAPADA CON CEMENTO.\n23:00 - 00:00 1.00 PERSONAL DE OPERACIONES PEMEX REALIZO ORDEN Y LIMPIEZA AL PISO DE PERFORACIÓN.\nNOTA:\nSE SOLICITO A PEMEX (IPC) 1000 MTS DE TP 5\",S-135, 19.5# PARA SUSTITUIR LA TAPADA CON CEMENTO.\nVOLUMEN PERDIDO A FORMACION EN EL DIA: 0 M3\nVOL DE LODO PERDIDO A FORMACION EN LA ETAPA : 499.5 M3.\nVOL DE LODO CONTAMINADO: 4.3 M3\n\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 04-ene-2015 Proyecto: Alianza DISTRITO:\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\n\nLITOLOGIA A 5,400 M: 80% MUDSTONE GRIS CLARO, CAFE CLARO Y BLANCO CREMA EN PARTES DOLOMITICO, LIGERAMENTE ARCILLOSO, ALGUNOS FRAGMENTOS PRESENTAN LINEAS MICROESTILILITICAS SELLADAS POR MATERIAL ARCILLO BITUMINOSO, ALGUNOS FRAGMENTOS PRESENTAN PARCHES DE ANHIDRITA, ALGUNOS FRAGMENTOS PRESENTAN MICROFRACTURAS SELLADAS POR CALCITA.\n20% ANHIDRITA BLANCA.\nESPORADICO FRAGMENTOS DE PACKSTONE DE PELOIDE, OOIDES CAFE CLARO Y GRIS CLARO.\nSOLUBILIDAD GENERAL 40 %\n\nLodo: Megadrill Dens: 1.75 g/cm3 Visc: 85 s Temp.: degC Pruebas Formación Barita 113.4 ton\nArena: 0 % Filtrado: 2.0 cm3 Ex. Cal: 7 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 1.91 g/cm3\nGel 0: 14 Gel 10: 26 Gel 30: 38 Cloruros: 10,340 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 33 % Aceite: 59 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 43 cP Vis Pl.: 35 cP P. Ced.: 16 lbf/100ft2 Alcalinidad: 5.10 Densidad Equiv. Circ.: 1.79 g/cm3\nEmul: 1,232 V RAA: 88 / 12 Sal.: 379,000 ppm POM: 5.10 Fecha de Prueba: 11-mar-2014\nRPM600: 85 deg RPM300: 51 deg LDP: 0 m3 TLDP: 755 m3\n\nRESUM.DIA ANTER.: CON POZO ALINEADO AL ENSAMBLE DE ESTRANGULACIÓN, MONTOREO PRESIÓN POR TR 2146 PSI. ESPERO FRAGUADO DE CEMENTO DE 9 HRS. DESFOGO POZO. CAMBIO GAFAS DEL TOP DRIVE. CAMBIO LLAVE TW-60. SACA TUBO DIFUSOR A 2700 M.",
+          "translated_text": "Hours 04-Jan-2015\n00:00 - 16:00 16.00 PULLED 5\" DIFFUSER TUBE, BY STANDS OF TP 5-7/8\" AND 5\" FROM 2,700 M TO 630 M, MONITORED WELL FILL WITH TRIP SHEET AND TANK EVERY 5 STANDS. OBSERVED FULL PIPE COMING OUT.\nNOTE:\n*FROM 1209 M OBSERVED FULL PIPE COMING OUT WITH FLOCCULATED MUD CONTAMINATED WITH SPACER BATCH AND CEMENT, CONTINUOUSLY CLEANED ECOLOGICAL TRAY.\n16:00 - 23:00 7.00 CONTINUED PULLING 5\" DIFFUSER TUBE FROM 630 M TO SURFACE DISCONNECTING STAND BY STAND DUE TO TP 5\", S-135, 19.5#, PLUGGED WITH SPACER BATCH AND SOLIDIFIED CEMENT.\nNOTE: FROM 344 M TO THE DIFFUSER TUBE, OBSERVED COMING OUT PLUGGED WITH CEMENT.\n23:00 - 00:00 1.00 PEMEX OPERATIONS PERSONNEL PERFORMED ORDER AND CLEANING OF THE DRILLING FLOOR.\nNOTE:\nREQUESTED FROM PEMEX (IPC) 1000 MTS OF TP 5\",S-135, 19.5# TO REPLACE THE ONE PLUGGED WITH CEMENT.\nVOLUME LOST TO FORMATION IN THE DAY: 0 M3\nVOL OF MUD LOST TO FORMATION IN THE STAGE: 499.5 M3.\nVOL OF CONTAMINATED MUD: 4.3 M3\n\nPEMEX EXPLORATION PRODUCTION DRILLING AND WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT OF: 04-Jan-2015 Project: Alianza DISTRICT:\nEquipment: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Start of Activity\nObj: JSK Depth Pgm: 7,211 m Days Pg: 331.1 Elevation: 11.00 m Next Move: End of Well Previous\n\nLITHOLOGY AT 5,400 M: 80% LIGHT GRAY, LIGHT BROWN AND CREAMY WHITE MUDSTONE PARTLY DOLOMITIC, SLIGHTLY CLAYEY, SOME FRAGMENTS PRESENT MICROSTYLOLITIC LINES SEALED BY CLAYEY BITUMINOUS MATERIAL, SOME FRAGMENTS PRESENT ANHYDRITE PATCHES, SOME FRAGMENTS PRESENT MICROFRACTURES SEALED BY CALCITE.\n20% WHITE ANHYDRITE.\nSPORADIC FRAGMENTS OF PELOID PACKSTONE, LIGHT BROWN AND LIGHT GRAY OOIDS.\nGENERAL SOLUBILITY 40%\n\nMud: Megadrill Dens: 1.75 g/cm3 Visc: 85 s Temp.: degC Formation Tests Barite 113.4 ton\nSand: 0 % Filtrate: 2.0 cm3 Ex. Cal: 7 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 1.91 g/cm3\nGel 0: 14 Gel 10: 26 Gel 30: 38 Chlorides: 10,340 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 33 % Oil: 59 % Water: 8 % Fracture Gradient: g/cm3\nApp. Vis: 43 cP Pl. Vis: 35 cP Yield Point: 16 lbf/100ft2 Alkalinity: 5.10 Equiv. Circ. Density: 1.79 g/cm3\nEmul: 1,232 V RAA: 88 / 12 Sal.: 379,000 ppm POM: 5.10 Test Date: 11-Mar-2014\nRPM600: 85 deg RPM300: 51 deg LDP: 0 m3 TLDP: 755 m3\n\nPREVIOUS DAY SUMMARY: WITH WELL ALIGNED TO CHOKE ASSEMBLY, MONITORED PRESSURE BY TR 2146 PSI. WAITED CEMENT SETTING OF 9 HRS. BLED OFF WELL. CHANGED TOP DRIVE GLASSES. CHANGED TW-60 WRENCH. PULLED DIFFUSER TUBE TO 2700 M.",
+          "tables": [
+            {
+              "table_id": "ops_time_distribution",
+              "title": "Ops. Días (Operational Days Distribution)",
+              "headers": [
+                "Category",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "567.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,089.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "313.52"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "591.38"
+                ]
+              ]
+            },
+            {
+              "table_id": "time_distribution",
+              "title": "DIST. TIEMPO PERDIDO (Lost Time Distribution)",
+              "headers": [
+                "Category",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "218.00"
+                ],
+                [
+                  "Perforación",
+                  "5,588.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "table_id": "qhse_metrics",
+              "title": "QHSE",
+              "headers": [
+                "Metric",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "table_id": "pump_data",
+              "title": "Cmp. y Eq.Aux. (Pumps and Auxiliary Equipment)",
+              "headers": [
+                "Equipment",
+                "EPM"
+              ],
+              "rows": [
+                [
+                  "BBA 1: x 12.000",
+                  "EPM"
+                ],
+                [
+                  "BBA 2: x 11.000",
+                  "0 EPM"
+                ],
+                [
+                  "Camisa 1: x 11.000",
+                  "0 EPM"
+                ],
+                [
+                  "Camisa 2:",
+                  ""
+                ],
+                [
+                  "Camisa 3:",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "bop_tests",
+              "title": "BOP Tests",
+              "headers": [
+                "Test Type",
+                "Date",
+                "Pressure/Details"
+              ],
+              "rows": [
+                [
+                  "SIM.: (Control de Pozo)",
+                  "30-dic-2014",
+                  "Tiempo: 3 MIN"
+                ],
+                [
+                  "Function",
+                  "31-dic-2014",
+                  "Standpipe Kelly Hose Diverter:"
+                ],
+                [
+                  "Annular:",
+                  "",
+                  "800 psi"
+                ],
+                [
+                  "Rams:",
+                  "",
+                  "1,500 psi"
+                ],
+                [
+                  "Chok Line:",
+                  "",
+                  "3,000 psi"
+                ],
+                [
+                  "Manifold:",
+                  "",
+                  ""
+                ],
+                [
+                  "Koomey",
+                  "31-dic-2014",
+                  "Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi"
+                ],
+                [
+                  "Prueba BOPs:",
+                  "31-dic-2014",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "casing_program",
+              "title": "T.R. (Casing) Program",
+              "headers": [
+                "Type",
+                "Dia (in)",
+                "Prf (m)"
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386"
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681"
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521"
+                ]
+              ]
+            },
+            {
+              "table_id": "directional_survey",
+              "title": "Survey Data",
+              "headers": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "02-nov-2014",
+                  "5,371",
+                  "5,241.25",
+                  "25.70",
+                  "124.46",
+                  "587.86",
+                  "0.68"
+                ],
+                [
+                  "02-nov-2014",
+                  "5,342",
+                  "5,215.14",
+                  "26.36",
+                  "124.31",
+                  "575.17",
+                  "0.39"
+                ],
+                [
+                  "01-nov-2014",
+                  "5,312",
+                  "5,188.72",
+                  "26.69",
+                  "124.74",
+                  "562.04",
+                  "0.86"
+                ],
+                [
+                  "01-nov-2014",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "25-oct-2014",
+                  "5,283",
+                  "5,163.10",
+                  "27.51",
+                  "125.01",
+                  "548.99",
+                  "0.91"
+                ]
+              ]
+            },
+            {
+              "table_id": "depth_tracking",
+              "title": "Profundidad (Depth) Tracking",
+              "headers": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,400",
+                  ""
+                ],
+                [
+                  "14:00 hrs",
+                  "5,400",
+                  ""
+                ],
+                [
+                  "24:00 hrs",
+                  "5,400",
+                  ""
+                ],
+                [
+                  "Prm/día",
+                  "0",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "string_composition",
+              "title": "TUBO DIFUSOR 5\" (String Composition)",
+              "headers": [
+                "Component",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "TUBO DIFUSOR 5\"",
+                  "",
+                  "5.000",
+                  "1.50",
+                  "1.50",
+                  ""
+                ],
+                [
+                  "TP 5\" S-135, 19.5#",
+                  "231",
+                  "5.000",
+                  "",
+                  "2,200.98",
+                  "2,202.48"
+                ],
+                [
+                  "COMB 5\" NC50 (P) X 5 7/8\" XT57 (B)",
+                  "",
+                  "",
+                  "5.875",
+                  "0.90",
+                  "2,203.38"
+                ],
+                [
+                  "TP 5 7/8\" XT 57, 26.3#",
+                  "329",
+                  "5.388",
+                  "",
+                  "3,196.62",
+                  "5,400.00"
+                ]
+              ]
+            },
+            {
+              "table_id": "bha_comparison",
+              "title": "BNA (BHA) - Actual vs Anterior",
+              "headers": [
+                "Parameter",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Corta",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "IPC 1836.14",
+                  "JJ1604"
+                ],
+                [
+                  "Dia",
+                  "5.000 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "",
+                  "MDSI813LBPX"
+                ],
+                [
+                  "Toberas (in)",
+                  "(20)1 (1)2 (1)11 (2)12 (5)13",
+                  "(1)11 (2)12 (5)13"
+                ],
+                [
+                  "Mts. Perf.",
+                  "",
+                  "27 m"
+                ],
+                [
+                  "Hrs. Op.",
+                  "",
+                  "33:30"
+                ],
+                [
+                  "Prom x m",
+                  "",
+                  "74.44"
+                ],
+                [
+                  "Desgaste",
+                  "-------",
+                  "0-0-NO-A-X-I-NO-BHA"
+                ]
+              ]
+            },
+            {
+              "table_id": "mud_properties",
+              "title": "Mud Properties",
+              "headers": [
+                "Property",
+                "Value",
+                "Units"
+              ],
+              "rows": [
+                [
+                  "Lodo:",
+                  "Megadrill",
+                  ""
+                ],
+                [
+                  "Dens:",
+                  "1.75",
+                  "g/cm3"
+                ],
+                [
+                  "Visc:",
+                  "85",
+                  "s"
+                ],
+                [
+                  "Arena:",
+                  "0",
+                  "%"
+                ],
+                [
+                  "Filtrado:",
+                  "2.0",
+                  "cm3"
+                ],
+                [
+                  "Ex. Cal:",
+                  "7",
+                  "lbm/bbl"
+                ],
+                [
+                  "Gel 0:",
+                  "14",
+                  ""
+                ],
+                [
+                  "Gel 10:",
+                  "26",
+                  ""
+                ],
+                [
+                  "Gel 30:",
+                  "38",
+                  ""
+                ],
+                [
+                  "Cloruros:",
+                  "10,340",
+                  "lbm/bbl"
+                ],
+                [
+                  "pH:",
+                  "",
+                  ""
+                ],
+                [
+                  "Sólidos:",
+                  "33",
+                  "%"
+                ],
+                [
+                  "Aceite:",
+                  "59",
+                  "%"
+                ],
+                [
+                  "Agua:",
+                  "8",
+                  "%"
+                ],
+                [
+                  "Vis. ap:",
+                  "43",
+                  "cP"
+                ],
+                [
+                  "Vis Pl.:",
+                  "35",
+                  "cP"
+                ],
+                [
+                  "P. Ced.:",
+                  "16",
+                  "lbf/100ft2"
+                ],
+                [
+                  "Alcalinidad:",
+                  "5.10",
+                  ""
+                ],
+                [
+                  "Emul:",
+                  "1,232",
+                  "V"
+                ],
+                [
+                  "RAA:",
+                  "88 / 12",
+                  ""
+                ],
+                [
+                  "Sal.:",
+                  "379,000",
+                  "ppm"
+                ],
+                [
+                  "POM:",
+                  "5.10",
+                  ""
+                ],
+                [
+                  "RPM600:",
+                  "85",
+                  "deg"
+                ],
+                [
+                  "RPM300:",
+                  "51",
+                  "deg"
+                ],
+                [
+                  "LDP:",
+                  "0",
+                  "m3"
+                ],
+                [
+                  "TLDP:",
+                  "755",
+                  "m3"
+                ],
+                [
+                  "Prueba Integridad:",
+                  "1.91",
+                  "g/cm3"
+                ],
+                [
+                  "Densidad Equiv. Circ.:",
+                  "1.79",
+                  "g/cm3"
+                ],
+                [
+                  "Fecha de Prueba:",
+                  "11-mar-2014",
+                  ""
+                ]
+              ]
+            },
+            {
+              "table_id": "trembles",
+              "title": "Temblo (Shakers) Status",
+              "headers": [
+                "Shaker",
+                "Status"
+              ],
+              "rows": [
+                [
+                  "Temblo #1 2 3",
+                  "140/140/140/"
+                ],
+                [
+                  "Temblo #4 y 5",
+                  "140/140/140/"
+                ],
+                [
+                  "Temblo #6 y 7",
+                  "140/140/140/"
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "date",
+              "entity_value": "04-ene-2015",
+              "context": "Report date"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "IPC-776",
+              "context": "Rig equipment number"
+            },
+            {
+              "entity_type": "well",
+              "entity_value": "NAVEGANTE 0001DL",
+              "context": "Well name"
+            },
+            {
+              "entity_type": "project",
+              "entity_value": "Alianza",
+              "context": "Project name"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "5,400 m",
+              "context": "Current depth"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "7,211 m",
+              "context": "Programmed depth"
+            },
+            {
+              "entity_type": "volume",
+              "entity_value": "499.5 M3",
+              "context": "Volume of mud lost to formation in the stage"
+            },
+            {
+              "entity_type": "volume",
+              "entity_value": "4.3 M3",
+              "context": "Volume of contaminated mud"
+            },
+            {
+              "entity_type": "mud_weight",
+              "entity_value": "1.75 g/cm3",
+              "context": "Mud density"
+            },
+            {
+              "entity_type": "pressure",
+              "entity_value": "2146 PSI",
+              "context": "Pressure by TR"
+            },
+            {
+              "entity_type": "time",
+              "entity_value": "601 days",
+              "context": "Days without accidents"
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "raw_text": "Ing. de Pozo OMAR VILCHEZ\nSup. IPM FERNANDO ANDRADE\nSup. PEMEX TOMAS AGUILAR\nTeléfono:\nWSS-SLB L.GARCIA/ J, LOPEZ/A. ROQUE\nAWSS-SLB L.POLANCO\nTlf. Equipo 9932792088\nITP-PM J.QUEVEDO\nRSC-SLB\n\nResumen: SACO TUBO DIFUSOR CON TP 5 7/8\" Y TP 5\" POR LINGADAS DE 2700 A 630 M. SACO TUBO DIFUSOR A SUPERFICIE, QUEBRANDO TRAMO X TRAMO, POR OBSERVAR TP 5\", S-135, 19.5#, TAPADA CON CEMENTO Y BACHE ESPACIADOR. REALIZO ORDEN Y LIMPIEZA.\n\nSGTE. OPERACIÓN: CONECTAR BNA PDC 10-5/8\" CON MF Y BAJAR CON SARTA RECONOCER CIMA DE CEMENTO Y REBAJAR MISMO HASTA 5357 M.\n\nOBSERVACIONES:\n\nMAT. REQUERIDOS:\n\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+          "translated_text": "Well Engineer OMAR VILCHEZ\nSup. IPM FERNANDO ANDRADE\nSup. PEMEX TOMAS AGUILAR\nTelephone:\nWSS-SLB L.GARCIA/ J, LOPEZ/A. ROQUE\nAWSS-SLB L.POLANCO\nEquipment Phone 9932792088\nITP-PM J.QUEVEDO\nRSC-SLB\n\nSummary: PULLED DIFFUSER TUBE WITH TP 5 7/8\" AND TP 5\" BY STANDS FROM 2700 TO 630 M. PULLED DIFFUSER TUBE TO SURFACE, BREAKING STAND BY STAND, DUE TO OBSERVING TP 5\", S-135, 19.5#, PLUGGED WITH CEMENT AND SPACER BATCH. PERFORMED ORDER AND CLEANING.\n\nNEXT OPERATION: CONNECT PDC BHA 10-5/8\" WITH MF AND RUN IN HOLE WITH STRING TO RECOGNIZE CEMENT TOP AND DRILL OUT SAME TO 5357 M.\n\nOBSERVATIONS:\n\nREQUIRED MATERIALS:\n\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+          "tables": [
+            {
+              "table_id": "personnel",
+              "title": "Personnel",
+              "headers": [
+                "Position",
+                "Name"
+              ],
+              "rows": [
+                [
+                  "Ing. de Pozo",
+                  "OMAR VILCHEZ"
+                ],
+                [
+                  "Sup. IPM",
+                  "FERNANDO ANDRADE"
+                ],
+                [
+                  "Sup. PEMEX",
+                  "TOMAS AGUILAR"
+                ],
+                [
+                  "WSS-SLB",
+                  "L.GARCIA/ J, LOPEZ/A. ROQUE"
+                ],
+                [
+                  "AWSS-SLB",
+                  "L.POLANCO"
+                ],
+                [
+                  "ITP-PM",
+                  "J.QUEVEDO"
+                ],
+                [
+                  "RSC-SLB",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "entities": [
+            {
+              "entity_type": "person",
+              "entity_value": "OMAR VILCHEZ",
+              "context": "Well Engineer"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "FERNANDO ANDRADE",
+              "context": "IPM Supervisor"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "TOMAS AGUILAR",
+              "context": "PEMEX Supervisor"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "L.GARCIA",
+              "context": "WSS-SLB"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "J. LOPEZ",
+              "context": "WSS-SLB"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "A. ROQUE",
+              "context": "WSS-SLB"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "L.POLANCO",
+              "context": "AWSS-SLB"
+            },
+            {
+              "entity_type": "person",
+              "entity_value": "J.QUEVEDO",
+              "context": "ITP-PM"
+            },
+            {
+              "entity_type": "phone",
+              "entity_value": "9932792088",
+              "context": "Equipment phone"
+            },
+            {
+              "entity_type": "depth",
+              "entity_value": "5357 M",
+              "context": "Target depth for drilling out cement"
+            },
+            {
+              "entity_type": "equipment",
+              "entity_value": "PDC 10-5/8\"",
+              "context": "Next BHA to connect"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\11 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "11 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\11 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\12 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "12 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\12 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\13 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "13 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\13 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\14 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "14 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\14 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\15 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "15 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\15 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\16 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "16 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\16 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\17 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "17 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\17 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\18 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "18 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\18 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\19 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "19 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\19 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\20 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "20 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\20 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\21 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "21 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\21 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\22 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "22 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\22 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\23 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "23 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\23 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\24 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "24 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_143128\\phase2\\prepare_and_unzip_source\\workspace\\source_documents\\Pemex\\24 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'",
+    "data": null
+  }
+]

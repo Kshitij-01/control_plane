@@ -1,0 +1,931 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "schema_name": "DDRUnifiedSchemaV1_Group2",
+      "base_schema_ref": "base_ddr_schema.json",
+      "type": "object",
+      "file_metadata": {
+        "source_operator": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+        "report_date_iso": "2015-02-01",
+        "rig_name": "IPC-776",
+        "well_name": "NAVEGANTE 0001DL",
+        "field_or_block": "Proyecto Alianza",
+        "location": "DISTRITO: Not specified",
+        "pdf_filename": "PEMEX_DDR_NAVEGANTE_0001DL_2015-02-01.pdf",
+        "pdf_path": "document_index_1",
+        "language_detected": "Spanish"
+      },
+      "drilling_summary": {
+        "section": "12 1/4 inch (reaming with Rhino Reamer)",
+        "hole_size_in": 12.25,
+        "start_depth_m": 5712,
+        "end_depth_m": 5752,
+        "depth_units": "m",
+        "footage_drilled_m": 40,
+        "avg_rop_m_per_hr": 1.83,
+        "bit_run_no": "JJ1604",
+        "time_on_bit_hr": 44.75
+      },
+      "times": {
+        "drilling_hr": 21.0,
+        "tripping_hr": 3.0,
+        "casing_cementing_hr": 0,
+        "rig_repair_hr": 0,
+        "wait_on_weather_hr": 0,
+        "other_npt_hr": 0,
+        "total_hrs": 24.0
+      },
+      "mud_properties": {
+        "mud_type": "Megadrill",
+        "mud_weight_ppg": 16.86,
+        "viscosity_sec": 70,
+        "ph": null,
+        "fluid_loss_ml": 1.4,
+        "temp_degC": 79,
+        "gel_0_sec": 16,
+        "gel_10_sec": 31,
+        "gel_30_sec": 39,
+        "chlorides_mg_per_l": 9989,
+        "solids_percent": 38,
+        "oil_percent": 54,
+        "water_percent": 8,
+        "plastic_viscosity_cp": 53,
+        "yield_point_lbf_100ft2": 20,
+        "apparent_viscosity_cp": 63,
+        "alkalinity": 5.0,
+        "salinity_ppm": 370900,
+        "emulsion": 1349,
+        "rpm_600": 126,
+        "rpm_300": 73,
+        "density_g_cm3": 2.02,
+        "equivalent_circulating_density_g_cm3": 2.1
+      },
+      "bit_record": {
+        "bit_size_in": 10.625,
+        "bit_type": "PDC",
+        "bit_manufacturer": "Smith",
+        "bit_serial_no": "JJ1604",
+        "bit_model": "MDSi813LBPX",
+        "bit_depth_in_m": null,
+        "bit_depth_out_m": 5752,
+        "rotating_hours": 44.75,
+        "bit_condition": "In hole",
+        "footage_drilled_m": 167,
+        "avg_min_per_m": 16.08,
+        "last_3_meters_time": "36'-32'-44'",
+        "nozzles": "(4)13",
+        "total_bit_record_m": 352,
+        "total_bit_record_hrs": 166.0,
+        "rhino_reamer_m": 318,
+        "rhino_reamer_hrs": 144.73
+      },
+      "operations_narrative": [
+        {
+          "time_start": "00:00",
+          "time_end": "03:00",
+          "duration_hr": 3.0,
+          "activity_code": "DRILLING",
+          "description_en": "Directional drilling with PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" at depth from 5712M to 5719M (reaming to 5691M). With WOB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI. NOTE1: Drilling the meter at 5717M, observed decrease in penetration time of 9 MIN per meter. Subsequently drilled meter by meter from 5717M to 5719M raising string for safety, pulling free. Controlled torque parameters 17,000-19,000 FT-LB and WOB: 5 TON. NOTE2: Observed resistance to return to bottom from 5718.6 to 5719M with torque of 17,000-19,000 FT-LB. NOTE3: Decided to raise string to 5690M to recover bottom sample and characterize with geology.",
+          "depth_m": 5719
+        },
+        {
+          "time_start": "03:00",
+          "time_end": "06:00",
+          "duration_hr": 3.0,
+          "activity_code": "TRIPPING",
+          "description_en": "Raised string and bit 10 5/8\" from 5,719 to 5,692 M to circulate well and recover bottom sample and characterize by geology.",
+          "depth_m": 5692
+        },
+        {
+          "time_start": "06:00",
+          "time_end": "00:00",
+          "duration_hr": 18.0,
+          "activity_code": "DRILLING",
+          "description_en": "Directional drilling with PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" from 5,719 MTS to 5752 MTS (reaming to 5724 MTS). With WOB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI. BIT RECORD: 352 M IN 166:00 HRS. RHINO: 318 M IN 144:44 HRS. LAST 3.MTS: 36' - 32' - 44'. AVG: 32.78 MIN/M. NOTE: Increased mud density from 2.0 GR/CC to 2.02 GR/CC. NOTE1: Raised with circulation and without rotation to 5,712 M to verify weights, free. String weights: STATIC 206 TON, UP 222 TON, TQ off bottom 13,500 FT-LB. NOTE2: Suspended after obtaining 100 continuous hours of drilling to make short trip according to program. NOTE3: Observed loss of signal from HTTA MWD at 5752M. Performed anti-jamming test recovering tool signals (MWD) satisfactorily.",
+          "depth_m": 5752
+        }
+      ],
+      "personnel": {
+        "company_man": "Not specified",
+        "drilling_supervisor": "JOSE JUARISTI",
+        "rig_manager": "Omar Vilchez Cunha",
+        "well_engineer": "Omar Vilchez Cunha",
+        "wss_slb": "O. NEGRETE / M. PEREZ",
+        "awss_slb": "V.SANCHEZ / E.ARAUJO",
+        "total_crew_count": null
+      },
+      "safety_environment": {
+        "incidents_count": 0,
+        "near_misses_count": 0,
+        "safety_meeting_held": true,
+        "safety_meetings_count": 2,
+        "drills_count": 0,
+        "days_without_accidents": 629,
+        "hse_observations": "Last drill (Fire) on 14-ene-2015, Response time: 03 MIN. RIR's/STOP's: 0, Safety Meetings: 2, Drills: 0",
+        "rir_stops_count": 0
+      },
+      "npt_events": [],
+      "costs_summary": {
+        "daily_rig_rate_usd": null,
+        "additional_costs_usd": null,
+        "total_cost_usd": null
+      },
+      "extracted_tables": [
+        {
+          "table_title": "Directional Survey Data",
+          "table_data": [
+            {
+              "date": "2015-02-01",
+              "measured_depth_m": 5728,
+              "vertical_depth_m": 5562.57,
+              "angle_deg": 24.89,
+              "azimuth_deg": 130.38,
+              "closure_m": 743.01,
+              "severity_deg_per_100ft": 0.32
+            },
+            {
+              "date": "2015-01-31",
+              "measured_depth_m": 5698,
+              "vertical_depth_m": 5536.13,
+              "angle_deg": 24.85,
+              "azimuth_deg": 131.11,
+              "closure_m": 730.75,
+              "severity_deg_per_100ft": 0.34
+            },
+            {
+              "date": "2015-01-31",
+              "measured_depth_m": 5669,
+              "vertical_depth_m": 5509.09,
+              "angle_deg": 24.85,
+              "azimuth_deg": 131.92,
+              "closure_m": 718.23,
+              "severity_deg_per_100ft": 0.33
+            },
+            {
+              "date": "2015-01-30",
+              "measured_depth_m": 5640,
+              "vertical_depth_m": 5483.48,
+              "angle_deg": 25.08,
+              "azimuth_deg": 132.43,
+              "closure_m": 706.32,
+              "severity_deg_per_100ft": 0.49
+            },
+            {
+              "date": "2015-01-30",
+              "measured_depth_m": 5610,
+              "vertical_depth_m": 5456.4,
+              "angle_deg": 25.47,
+              "azimuth_deg": 131.72,
+              "closure_m": 693.55,
+              "severity_deg_per_100ft": 0.37
+            }
+          ]
+        },
+        {
+          "table_title": "BHA Composition with PDC Bit 10 5/8\" + PD + RHINO",
+          "table_data": [
+            {
+              "component": "PDC BIT 10 5/8\" MDSi813",
+              "quantity": 1,
+              "id_in": null,
+              "od_in": 10.625,
+              "length_m": 0.29,
+              "cumulative_m": 0.29
+            },
+            {
+              "component": "POWER DRIVE 10 5/8\" x 10 1/2\"",
+              "quantity": 1,
+              "id_in": 3.25,
+              "od_in": 8.25,
+              "length_m": 4.21,
+              "cumulative_m": 4.5
+            },
+            {
+              "component": "MISC. SUB.",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.25,
+              "length_m": 1.88,
+              "cumulative_m": 6.38
+            },
+            {
+              "component": "MWD 8\"",
+              "quantity": 1,
+              "id_in": 4.25,
+              "od_in": 8.0,
+              "length_m": 7.8,
+              "cumulative_m": 14.18
+            },
+            {
+              "component": "DC MONEL 8\" NO MAG.",
+              "quantity": 1,
+              "id_in": 3.375,
+              "od_in": 8.25,
+              "length_m": 8.42,
+              "cumulative_m": 22.6
+            },
+            {
+              "component": "BOTTOM FILTER",
+              "quantity": 1,
+              "id_in": 3.5,
+              "od_in": 8.0,
+              "length_m": 2.23,
+              "cumulative_m": 24.83
+            },
+            {
+              "component": "STABILIZER 8\" x 10 1/2\"",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 1.57,
+              "cumulative_m": 26.4
+            },
+            {
+              "component": "RHINO REAMER 8 1/2\" x 12 1/4\"",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.25,
+              "length_m": 4.04,
+              "cumulative_m": 30.44
+            },
+            {
+              "component": "DC 8\"",
+              "quantity": 1,
+              "id_in": 2.75,
+              "od_in": 8.0,
+              "length_m": 9.4,
+              "cumulative_m": 39.84
+            },
+            {
+              "component": "STABILIZER 8\" x 10 1/2\"",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 1.8,
+              "cumulative_m": 41.64
+            },
+            {
+              "component": "DC 8\"",
+              "quantity": 6,
+              "id_in": 2.75,
+              "od_in": 8.0,
+              "length_m": 53.89,
+              "cumulative_m": 95.53
+            },
+            {
+              "component": "JAR 8\"",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 9.99,
+              "cumulative_m": 105.52
+            },
+            {
+              "component": "DC 8\"",
+              "quantity": 3,
+              "id_in": 2.75,
+              "od_in": 8.0,
+              "length_m": 27.42,
+              "cumulative_m": 132.94
+            },
+            {
+              "component": "CROSSOVER 6 5/8\" REG x NC50",
+              "quantity": 1,
+              "id_in": 3.25,
+              "od_in": 6.875,
+              "length_m": 1.3,
+              "cumulative_m": 134.24
+            },
+            {
+              "component": "HWDP 5\"",
+              "quantity": 15,
+              "id_in": 3.0,
+              "od_in": 5.0,
+              "length_m": 140.92,
+              "cumulative_m": 275.16
+            }
+          ]
+        },
+        {
+          "table_title": "Time Distribution Summary",
+          "table_data": [
+            {
+              "category": "Wait Codes",
+              "hours": 1940.5
+            },
+            {
+              "category": "Mobilization",
+              "hours": 138.0
+            },
+            {
+              "category": "Equipment Repair",
+              "hours": 221.0
+            },
+            {
+              "category": "Drilling",
+              "hours": 5891.0
+            },
+            {
+              "category": "Wellhead and BOPs",
+              "hours": 309.0
+            }
+          ]
+        },
+        {
+          "table_title": "Pump Data",
+          "table_data": [
+            {
+              "pump": "BBA 1",
+              "liner_size": "6.000 x 11.000",
+              "stroke_rate_epm": 65,
+              "pressure_psi": 650,
+              "depth_m": 5623,
+              "density_g_cc": 2.0
+            },
+            {
+              "pump": "BBA 2 (Liner 1)",
+              "liner_size": "6.000 x 11.000",
+              "stroke_rate_epm": 65,
+              "pressure_psi": 650,
+              "depth_m": 5623,
+              "density_g_cc": 2.0
+            }
+          ]
+        },
+        {
+          "table_title": "Casing/Tubing Data",
+          "table_data": [
+            {
+              "type": "Last TR (Casing)",
+              "diameter_in": 11.875,
+              "depth_m": 5386,
+              "company": "C2"
+            },
+            {
+              "type": "Next TR (Casing)",
+              "diameter_in": 9.875,
+              "depth_m": 6681,
+              "company": null
+            },
+            {
+              "type": "B.L. (Liner)",
+              "diameter_in": 11.875,
+              "depth_m": 3521,
+              "company": null
+            },
+            {
+              "type": "Conductor",
+              "diameter_in": 30.0,
+              "depth_m": 42,
+              "company": null
+            }
+          ]
+        },
+        {
+          "table_title": "BOP Test Data",
+          "table_data": [
+            {
+              "component": "Annular",
+              "test_pressure_psi": 5000,
+              "test_date": "2015-01-16"
+            },
+            {
+              "component": "Rams",
+              "test_pressure_psi": 8000,
+              "test_date": "2015-01-16"
+            },
+            {
+              "component": "Manifold",
+              "test_pressure_psi": 1500,
+              "test_date": null
+            },
+            {
+              "component": "Accumulator",
+              "test_pressure_psi": 3000,
+              "test_date": "2014-12-31"
+            },
+            {
+              "component": "Spherical",
+              "test_pressure_psi": 800,
+              "test_date": null
+            }
+          ]
+        }
+      ],
+      "comments_notes": "SUMMARY: Drilled with PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" to depth of 5752 MTS (reaming to 5724 MTS). NEXT OPERATION: Directionally drill with PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" to depth of 6165 MTS. OBSERVATIONS: Lost mud per day: 0 M3. Cumulative stage: 527.4 M3. Gas units: 10. Maintains in circulating system 15 KG/M3 of CACO3 M-200 and 2 LT/M3 of VERSACOAT. Lithology at 5740M: 100% WHITE HALITE WITH TRACES OF DARK GRAY SHALE, SEMI-HARD TO HARD SLIGHTLY CALCAREOUS. Barite: 113.4 ton. Previous day summary: Continued drilling with PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" to depth of 5712 MTS (reaming to 5684 MTS).",
+      "group_specific_fields": {
+        "pemex_project": "Proyecto Alianza",
+        "report_number": null,
+        "well_objective": "JSK",
+        "programmed_depth_m": 7211,
+        "programmed_days": 331.1,
+        "elevation_m": 11.0,
+        "emr_m": 9.2,
+        "activity": "Drilling",
+        "next_movement": "End of Well",
+        "wob_ton": 9,
+        "rotary_rpm": 120,
+        "pump_pressure_psi": 4000,
+        "torque_ft_lbf": 17000,
+        "string_weight_static_ton": 200,
+        "total_days_at_location": 619.38,
+        "operational_days_movement": 11.42,
+        "npt_movement_hrs": 138.0,
+        "movement_without_npt_days": 5.67,
+        "operational_days_drilling": 595.23,
+        "npt_drilling_hrs": 6395.0,
+        "drilling_without_npt_days": 328.77,
+        "mud_lost_day_m3": 0,
+        "mud_lost_stage_accumulated_m3": 527.4,
+        "gas_units": 10,
+        "kick_tolerance_bbl": null,
+        "integrity_test_g_cm3": 2.04,
+        "formation_gradient_g_cm3": null,
+        "fracture_gradient_g_cm3": null,
+        "proof_test_date": "2015-01-17",
+        "telephone_equipment": "9932792088"
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\03 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "03 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\03 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\04 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf",
+    "pdf_name": "04 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\04 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\05 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf",
+    "pdf_name": "05 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\05 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\06 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "06 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\06 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\07 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "07 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\07 FEBRERO 2015-24HRS-NAVEGANTE_1DL_MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\31 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf",
+    "pdf_name": "31 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\31 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA_CORREGIDO.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\02 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "02 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\02 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\03 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "03 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\03 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\08 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "pdf_name": "08 ENERO 2015-24 HRS-NAVEGANTE_1DL_MCA.pdf",
+    "data": {
+      "schema_name": "DDRUnifiedSchemaV1_Group2",
+      "base_schema_ref": "base_ddr_schema.json",
+      "type": "object",
+      "file_metadata": {
+        "source_operator": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+        "report_date_iso": "2015-01-08",
+        "rig_name": "IPC-776",
+        "well_name": "NAVEGANTE 0001DL",
+        "field_or_block": "Alianza",
+        "location": "DISTRITO: (not specified)",
+        "pdf_filename": "PEMEX_DDR_NAVEGANTE_0001DL_2015-01-08.pdf",
+        "pdf_path": "document_index_1",
+        "language_detected": "Spanish"
+      },
+      "drilling_summary": {
+        "section": "10 5/8\" section",
+        "hole_size_in": 10.625,
+        "start_depth_m": 5400,
+        "end_depth_m": 5400,
+        "depth_units": "meters",
+        "footage_drilled_m": 0,
+        "avg_rop_m_per_hr": 0,
+        "bit_run_no": "BHA #32",
+        "time_on_bit_hr": 0
+      },
+      "times": {
+        "drilling_hr": 0,
+        "tripping_hr": 20.0,
+        "casing_cementing_hr": 0,
+        "rig_repair_hr": 0,
+        "wait_on_weather_hr": 0,
+        "other_npt_hr": 4.0,
+        "total_hrs": 24.0
+      },
+      "mud_properties": {
+        "mud_type": "Megadrill",
+        "mud_weight_ppg": 14.6,
+        "viscosity_sec": 84,
+        "ph": null,
+        "fluid_loss_ml": 1.8,
+        "gel_0_sec": 15,
+        "gel_10_sec": 34,
+        "gel_30_sec": 46,
+        "chlorides_ppm": 13319,
+        "solids_pct": 31,
+        "oil_pct": 59,
+        "water_pct": 10,
+        "apparent_viscosity_cp": 46,
+        "plastic_viscosity_cp": 38,
+        "yield_point_lbf_100ft2": 16,
+        "alkalinity": 5.6,
+        "emulsion_voltage": 1190,
+        "raa_ratio": "86/14",
+        "salinity_ppm": 386100,
+        "pom": 5.6,
+        "rpm_600": 92,
+        "rpm_300": 54,
+        "density_g_cm3": 1.75,
+        "ecd_g_cm3": 1.79
+      },
+      "bit_record": {
+        "bit_size_in": 10.625,
+        "bit_type": "PDC - MDSI813LBPX",
+        "bit_manufacturer": "Smith",
+        "bit_serial_no": "JJ1604",
+        "bit_depth_in_m": 5373,
+        "bit_depth_out_m": 5400,
+        "rotating_hours": 33.5,
+        "bit_condition": "0-0-NO-A-X-I-NO-BHA",
+        "footage_drilled_m": 27,
+        "nozzles": "(13)5, (11)1, (12)2",
+        "tfa_in2": null,
+        "avg_m_per_hr": 74.44
+      },
+      "operations_narrative": [
+        {
+          "time_start": "00:00",
+          "time_end": "05:00",
+          "duration_hr": 5.0,
+          "activity_code": "TRIPPING OUT",
+          "description_en": "Pulled out PDC bit 10 5/8\" with mud motor from 600 m to surface. Monitored well fill every 5 stands with trip sheet and trip tank, good. Observed static well for 15 min, good. Bit wear: 0-0-NO-A-X-I-NO-BHA. Motor stabilizer sleeve: to gauge.",
+          "description_es": "SACO BNA PDC 10 5/8\" CON MOTOR DE FONDO DE 600 M HASTA SUPERFICIE. MONITOREO LLENADO DEL POZO CADA 5 LINGADAS CON HOJA Y TANQUE DE VIAJES, BIEN. OBSERVO POZO ESTÁTICO DURANTE 15 MIN, BIEN. DESGASTE DE BNA PDC 10 5/8\": 0-0-NO-A-X-I-NO-BHA. CAMISA ESTABILIZADORA DEL MOTOR: AL CALIBRE.",
+          "depth_m": 600
+        },
+        {
+          "time_start": "05:00",
+          "time_end": "09:00",
+          "duration_hr": 4.0,
+          "activity_code": "RIG UP - BHA MAKEUP",
+          "description_en": "In presence of DT&R personnel, connected window mill 10 5/8\" with 8 circulation ports of 2\", with 8 orifices 9/16\", TFA: 1.988 + 01 watermelon 10 5/8\" + double box 8\" + VCP 8\" + 2 stands DC 8\" + hammer 8\" + 1 stand DC 8\" + crossover 6 5/8\" REG (P) x NC 50 (B) + 5 stands HWDP and ran to 237 m. Monitored displacement with trip sheet and trip tank. Torque applied to mill and watermelon: 48,000 lbs-ft.",
+          "description_es": "EN PRESENCIA DE PERSONAL DE DT&R CONECTO WINDOW MILL 10 5/8\" CON 8 VIAS DE CIRCULACION DE 2\", CON 8 ORIFICIOS 9/16\", TFA: 1.988 + 01 WATERMELON 10 5/8\" + DOBLE CAJA 8\" + VCP 8\" + 2 LING DC 8\" + MARTILLO 8\" + 1 LING DC 8\" + COMB 6 5/8\" REG (P) X NC 50 (B) + 5 LING HWDP Y BAJO A 237 M. MONITOREA DESPLAZAMIENTO CON HOJA Y TANQUE DE VIAJE. TORQUE APLICADO AL MOLINO Y WATERMELLON: 48,000 LBS-FT.",
+          "depth_m": 237,
+          "torque_lbs_ft": 48000
+        },
+        {
+          "time_start": "09:00",
+          "time_end": "24:00",
+          "duration_hr": 15.0,
+          "activity_code": "TRIPPING IN",
+          "description_en": "Ran window mill 10 5/8\" + watermelon 10 5/8\" with smooth string from 237 m to 3800 m. Filled TP and broke circulation every 500 m for carrying VCP. Monitored TP displacement with trip sheet and trip tank, good. Volume lost to formation today: 0 m3. Total volume lost to formation in this stage: 499.5 m3.",
+          "description_es": "METE MOLINO WINDOW MILL 10 5/8\" + WATERMELON 10 5/8\" CON SARTA LISA DE 237 M A 3800 M. LLENA TP Y ROMPE CIRCULACION CADA 500 M POR LLEVAR VCP. MONITOREA DESPLAZAMIENTO DE TP CON HOJA Y TANQUE DE VIAJE, BIEN. VOLUMEN PERDIDO A FORMACIÓN EN EL DIA: 0 M3. VOL DE LODO PERDIDO A FORMACIÓN EN LA ETAPA: 499.5 M3.",
+          "depth_m": 3800,
+          "fluid_loss_m3_daily": 0,
+          "fluid_loss_m3_cumulative": 499.5
+        }
+      ],
+      "personnel": {
+        "company_man": "Not specified",
+        "drilling_supervisor": "FERNANDO ANDRADE",
+        "rig_manager": null,
+        "well_engineer": "OMAR VILCHEZ",
+        "total_crew_count": null,
+        "ipm_supervisor": "FERNANDO ANDRADE",
+        "itp_pm": "OSCAR VERA",
+        "wss_slb": "L.GARCIA/A.ROQUE",
+        "awss_slb": "L.POLANCO",
+        "phone_rig": "9932792088"
+      },
+      "safety_environment": {
+        "incidents_count": 0,
+        "near_misses_count": 0,
+        "safety_meeting_held": true,
+        "safety_meetings_count": 2,
+        "drills_count": 0,
+        "rir_stops_count": 0,
+        "days_without_accidents": 605,
+        "hse_observations": "2 safety meetings held. 0 incidents. 605 days without accidents."
+      },
+      "npt_events": [
+        {
+          "event_description_en": "Movement NPT (cumulative)",
+          "event_description_es": "NPT MOVIMIENTO",
+          "duration_hr": 138.0,
+          "category": "MOVEMENT"
+        },
+        {
+          "event_description_en": "Drilling NPT (cumulative)",
+          "event_description_es": "NPT PERFORACIÓN",
+          "duration_hr": 6209.0,
+          "category": "DRILLING"
+        }
+      ],
+      "costs_summary": {
+        "daily_rig_rate_usd": null,
+        "additional_costs_usd": null,
+        "total_cost_usd": null
+      },
+      "extracted_tables": [
+        {
+          "table_title": "Operations Time Distribution",
+          "table_data": [
+            {
+              "category": "MOVIMIENTO (Movement)",
+              "days": 11.42
+            },
+            {
+              "category": "NPT MOVIMIENTO (HRS)",
+              "hours": 138.0
+            },
+            {
+              "category": "MOVIMIENTO (SIN NPT)",
+              "days": 5.67
+            },
+            {
+              "category": "PERFORACIÓN (Drilling)",
+              "days": 571.23
+            },
+            {
+              "category": "NPT PERFORACIÓN (HRS)",
+              "hours": 6209.0
+            },
+            {
+              "category": "PERFORACIÓN (SIN NPT)",
+              "days": 312.52
+            },
+            {
+              "category": "TOTAL DÍAS @ LOC",
+              "days": 595.38
+            }
+          ]
+        },
+        {
+          "table_title": "Time Distribution by Code",
+          "table_data": [
+            {
+              "category": "Códigos de Espera (Wait Codes)",
+              "hours": 1940.5
+            },
+            {
+              "category": "Movilización (Mobilization)",
+              "hours": 138.0
+            },
+            {
+              "category": "Reparación del Equipo (Equipment Repair)",
+              "hours": 218.0
+            },
+            {
+              "category": "Perforación (Drilling)",
+              "hours": 5708.0
+            },
+            {
+              "category": "Cabezal y BOP's (Wellhead & BOPs)",
+              "hours": 309.0
+            }
+          ]
+        },
+        {
+          "table_title": "BHA #32 - Window Mill + Watermelon",
+          "table_data": [
+            {
+              "component": "WINDOW MILL 10 5/8\"",
+              "quantity": 1,
+              "id_in": null,
+              "od_in": 10.625,
+              "length_m": 0.47,
+              "total_m": 0.47
+            },
+            {
+              "component": "WATERMELON 7 1/2\" X 10 5/8\"",
+              "quantity": 1,
+              "id_in": 2.5,
+              "od_in": 10.625,
+              "length_m": 1.57,
+              "total_m": 2.04
+            },
+            {
+              "component": "DOBLE CAJA (Double Box)",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 0.69,
+              "total_m": 2.73
+            },
+            {
+              "component": "VCP",
+              "quantity": 1,
+              "id_in": 2.875,
+              "od_in": 8.25,
+              "length_m": 0.89,
+              "total_m": 3.62
+            },
+            {
+              "component": "6 DC 8\"",
+              "quantity": 6,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 53.89,
+              "total_m": 57.51
+            },
+            {
+              "component": "MARTILLO 8\" (Hammer)",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 10.01,
+              "total_m": 67.52
+            },
+            {
+              "component": "3 DC 8\"",
+              "quantity": 3,
+              "id_in": 3.0,
+              "od_in": 8.0,
+              "length_m": 27.42,
+              "total_m": 94.94
+            },
+            {
+              "component": "X/O 6 5/8 REG (P) X NC50 (B)",
+              "quantity": 1,
+              "id_in": 3.0,
+              "od_in": 6.875,
+              "length_m": 1.3,
+              "total_m": 96.24
+            },
+            {
+              "component": "HWDP 5\"",
+              "quantity": 15,
+              "id_in": 3.0,
+              "od_in": 5.0,
+              "length_m": 140.92,
+              "total_m": 237.16
+            }
+          ]
+        },
+        {
+          "table_title": "Casing Record",
+          "table_data": [
+            {
+              "casing_string": "Conductor",
+              "diameter_in": 30.0,
+              "depth_m": 42,
+              "cementing": "C2"
+            },
+            {
+              "casing_string": "Ult TR (Last Casing)",
+              "diameter_in": 11.875,
+              "depth_m": 5386
+            },
+            {
+              "casing_string": "Prx TR (Next Casing)",
+              "diameter_in": 9.875,
+              "depth_m": 6681
+            },
+            {
+              "casing_string": "B.L. (Liner)",
+              "diameter_in": 11.875,
+              "depth_m": 3521
+            }
+          ]
+        },
+        {
+          "table_title": "Directional Survey Data",
+          "table_data": [
+            {
+              "date": "2014-11-02",
+              "measured_depth_m": 5371,
+              "vertical_depth_m": 5241.25,
+              "inclination_deg": 25.7,
+              "azimuth_deg": 124.46,
+              "closure_m": 587.86,
+              "dogleg_severity_deg_100ft": 0.68
+            },
+            {
+              "date": "2014-11-02",
+              "measured_depth_m": 5342,
+              "vertical_depth_m": 5215.14,
+              "inclination_deg": 26.36,
+              "azimuth_deg": 124.31,
+              "closure_m": 575.17,
+              "dogleg_severity_deg_100ft": 0.39
+            },
+            {
+              "date": "2014-11-01",
+              "measured_depth_m": 5312,
+              "vertical_depth_m": 5188.72,
+              "inclination_deg": 26.69,
+              "azimuth_deg": 124.74,
+              "closure_m": 562.04,
+              "dogleg_severity_deg_100ft": 0.86
+            },
+            {
+              "date": "2014-10-25",
+              "measured_depth_m": 5283,
+              "vertical_depth_m": 5163.1,
+              "inclination_deg": 27.51,
+              "azimuth_deg": 125.01,
+              "closure_m": 548.99,
+              "dogleg_severity_deg_100ft": 0.91
+            }
+          ]
+        },
+        {
+          "table_title": "BOP Test Data",
+          "table_data": [
+            {
+              "component": "Annular",
+              "test_pressure_psi": 800,
+              "test_date": "2014-12-31"
+            },
+            {
+              "component": "Rams",
+              "test_pressure_psi": 1500,
+              "test_date": "2014-12-31"
+            },
+            {
+              "component": "Choke Line",
+              "test_pressure_psi": 3000,
+              "test_date": "2014-12-31"
+            },
+            {
+              "component": "Manifold",
+              "test_pressure_psi": 1500,
+              "test_date": "2014-12-31"
+            },
+            {
+              "component": "Accumulator",
+              "test_pressure_psi": 3000,
+              "test_date": "2014-12-31"
+            },
+            {
+              "component": "Esférico (Spherical)",
+              "test_pressure_psi": 800,
+              "test_date": "2014-12-31"
+            }
+          ]
+        }
+      ],
+      "comments_notes": "Summary: Pulled out PDC bit 10 5/8\" with mud motor to surface. Connected window mill and watermelon 10-5/8\" and ran in hole with smooth string to 3800 m. Next operation: Run window mill and watermelon 10-5/8\" to 5357 m. Mill cement to 5,371 m. Circulate until clean returns. Perform FIT (Formation Integrity Test). Lithology at 5,400 m: 80% mudstone (gray-light, light brown, cream white, partly dolomitic, slightly clayey, some fragments show micro-stylolitic lines sealed by clayey bituminous material, some fragments have anhydrite patches, some fragments show microfractures sealed by calcite). 20% white anhydrite. Sporadic fragments of packstone with peloids, ooids, light brown and light gray. General solubility 40%. No volume lost to formation today (0 m3). Total volume lost to formation in this stage: 499.5 m3. Program depth: 7,211 m. Programmed days: 331.1. Total days on location: 595.38.",
+      "group_specific_fields": {
+        "pemex_project": "Proyecto Alianza",
+        "report_number": null,
+        "well_objective": "JSK",
+        "programmed_depth_m": 7211,
+        "programmed_days": 331.1,
+        "elevation_m": 11.0,
+        "emr_m": 9.2,
+        "barite_inventory_ton": 113.4,
+        "formation_integrity_test_g_cm3": 1.91,
+        "ecd_g_cm3": 1.79,
+        "pore_pressure_at_bit_g_cm3": 1.75,
+        "lithology_description_en": "Lithology at 5,400 m: 80% mudstone (gray-light, light brown, cream white, partly dolomitic, slightly clayey, some fragments show micro-stylolitic lines sealed by clayey bituminous material, some fragments have anhydrite patches, some fragments show microfractures sealed by calcite). 20% white anhydrite. Sporadic fragments of packstone with peloids, ooids, light brown and light gray. General solubility 40%.",
+        "lithology_description_es": "LITOLOGIA A 5,400 M: 80% MUDSTONE GRIS CLARO, CAFE CLARO Y BLANCO CREMA EN PARTES DOLOMITICO, LIGERAMENTE ARCILLOSO, ALGUNOS FRAGMENTOS PRESENTAN LINEAS MICROESTILILITICAS SELLADAS POR MATERIAL ARCILLO BITUMINOSO, ALGUNOS FRAGMENTOS PRESENTAN PARCHES DE ANHIDRITA, ALGUNOS FRAGMENTOS PRESENTAN MICROFRACTURAS SELLADAS POR CALCITA.20% ANHIDRITA BLANCA.ESPORADICO FRAGMENTOS DE PACKSTONE DE PELOIDE, OOIDES CAFE CLARO Y GRIS CLARO. SOLUBILIDAD GENERAL 40 %",
+        "previous_day_summary_en": "Circulated well until clean returns. Pulled out PDC bit 10 5/8\" with mud motor from 5,357 m to 600 m. Filling well every 5 stands with trip tank and trip sheet.",
+        "previous_day_summary_es": "CIRCULO POZO HASTA RETORNOS LIMPIOS. SACA BNA PDC 10 5/8\" CON MOTOR DE FONDO DE 5,357 M A 600 M. LLENANDO POZO CADA 5 LINGADAS CON TANQUE Y HOJA DE VIAJES",
+        "next_operation_en": "Run window mill and watermelon 10-5/8\" to 5357 m. Mill cement to 5,371 m. Circulate until clean returns. Perform FIT.",
+        "next_operation_es": "BAJAR WINDOW MILL Y WATERMELLON 10-5/8\" HASTA 5357 M. REBAJAR CEMENTO HASTA 5,371 M. CIRCULAR HASTA RETORNOS LIMPIOS. REALIZAR FIT."
+      }
+    },
+    "success": true,
+    "error": null
+  }
+]

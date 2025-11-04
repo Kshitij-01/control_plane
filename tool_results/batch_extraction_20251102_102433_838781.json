@@ -1,0 +1,728 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "file_metadata": {
+        "pdf_filename": "unknown",
+        "pdf_path": "unknown",
+        "page_count": 1,
+        "detected_language": "Spanish"
+      },
+      "layout_features": {
+        "headings": [
+          "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+          "REPORTE DIARIO DE OPERACIONES DEL: 01-feb-2015",
+          "Proyecto: Alianza",
+          "DISTRITO:",
+          "Equipo: IPC-776 Pozo: NAVEGANTE 0001DL",
+          "Obj: JSK Prof Pgm: 7,211 m",
+          "Resumen:",
+          "SGTE. OPERACIÓN:",
+          "OBSERVACIONES:",
+          "MAT. REQUERIDOS:",
+          "CON SEGURIDAD ... SERVIMOS MEJOR",
+          "QHSE",
+          "RIR's/STOP's",
+          "JTAS. DE SEGURIDAD",
+          "SIMULACROS",
+          "Cmp. y Eq.Aux.",
+          "Prueba BOPs:",
+          "Días sin Accidentes: 629",
+          "T.R. Dia (in) Prf (m)",
+          "BNA Actual Anterior",
+          "Litología",
+          "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+          "DIST. TIEMPO PERDIDO",
+          "Lodo: Megadrill",
+          "Ops. Días",
+          "MOVIMIENTO",
+          "NPT MOVIMIENTO (HRS)",
+          "MOVIMIENTO (SIN NPT)",
+          "PERFORACIÓN",
+          "NPT PERFORACIÓN (HRS)",
+          "PERFORACIÓN (SIN NPT)",
+          "TOTAL DÍAS @ LOC"
+        ],
+        "tables_summary": [
+          {
+            "table_title": "Daily Operations Log (Hrs, Activities)",
+            "approx_rows": 3,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Survey Data (Fecha, Prof. Desarr, Prof. Vert, Ángulo, Azimuth, Closure, Severidad)",
+            "approx_rows": 5,
+            "approx_cols": 7
+          },
+          {
+            "table_title": "Casing Program (T.R. Dia, Prf, Emp.)",
+            "approx_rows": 3,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "BHA Configuration",
+            "approx_rows": 17,
+            "approx_cols": 5
+          },
+          {
+            "table_title": "Mud Properties",
+            "approx_rows": 12,
+            "approx_cols": 8
+          },
+          {
+            "table_title": "Bit Record (BNA Actual/Anterior)",
+            "approx_rows": 11,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Time Distribution (DIST. TIEMPO PERDIDO)",
+            "approx_rows": 5,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Operations Days Summary",
+            "approx_rows": 7,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "QHSE Statistics",
+            "approx_rows": 4,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Pump Configuration (Cmp. y Eq.Aux.)",
+            "approx_rows": 5,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "Depth Progress (Profun. Desrr, Vert)",
+            "approx_rows": 5,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Personnel Information (Temblo, Ing. de Pozo, Sup. IPM, etc.)",
+            "approx_rows": 8,
+            "approx_cols": 2
+          }
+        ],
+        "key_phrases": [
+          "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\"",
+          "LEVANTO SARTA Y BARRENA",
+          "CIRCULAR POZO Y RECUPERAR MUESTRA DE FONDO",
+          "RECORD BNA: 352 M EN 166:00 HRS",
+          "RHINO: 318 M EN 144:44 HRS",
+          "INCREMENTO DENSIDAD DE LODO DE 2.0 GR/CC A 2.02 GR/CC",
+          "OBSERVO PERDIDA DE SENAL DE LA HTTA MWD",
+          "PRUEBA ANTIJAMMING",
+          "LODO PERDIDO DIA: 0 M3",
+          "ACUMULADO ETAPA: 527:4 M3",
+          "UNIDADES DE GAS: 10",
+          "Días sin Accidentes: 629",
+          "100% HALITA BLANCA CON TRAZAS DE LUTITA GRIS OSCURO",
+          "MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT",
+          "PSB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI",
+          "OBSERVO DISMINUCIÓN EN EL TIEMPO DE PENETRACIÓN",
+          "OBSERVO RESISTENCIA PARA REGRESAR AL FONDO",
+          "DECIDIO LEVANTAR SARTA PARA RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR CON GEOLOGÍA",
+          "SUSPENDE POR OBTENER 100 HRS CONTINUAS DE PERFORACION PARA REALIZAR VIAJE DE CORTO",
+          "PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS"
+        ]
+      },
+      "simple_fields": {
+        "report_date_text": "01-feb-2015",
+        "rig_text": "IPC-776",
+        "well_text": "NAVEGANTE 0001DL",
+        "operator_text": "PEMEX EXPLORACIÓN PRODUCCIÓN"
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "file_metadata": {
+        "pdf_filename": null,
+        "pdf_path": null,
+        "page_count": 1,
+        "detected_language": "Spanish"
+      },
+      "layout_features": {
+        "headings": [
+          "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+          "REPORTE DIARIO DE OPERACIONES DEL: 02-feb-2015",
+          "Hrs 02-feb-2015",
+          "QHSE",
+          "Cmp. y Eq.Aux.",
+          "Prueba BOPs:",
+          "DIST. TIEMPO PERDIDO",
+          "Resumen:",
+          "SGTE. OPERACIÓN:",
+          "OBSERVACIONES:",
+          "MAT. REQUERIDOS:",
+          "Lodo: Megadrill",
+          "Litología",
+          "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+          "BNA Actual / Anterior",
+          "RESUM.DIA ANTER.:",
+          "Ops. Días",
+          "Códigos de Espera",
+          "Días sin Accidentes: 630",
+          "CON SEGURIDAD ... SERVIMOS MEJOR"
+        ],
+        "tables_summary": [
+          {
+            "table_title": "Main Header Information (Well/Rig Data)",
+            "approx_rows": 3,
+            "approx_cols": 12
+          },
+          {
+            "table_title": "Hourly Operations Log",
+            "approx_rows": 6,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Personnel and Contacts",
+            "approx_rows": 8,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Ops. Días (Operations Days)",
+            "approx_rows": 7,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "DIST. TIEMPO PERDIDO (Lost Time Distribution)",
+            "approx_rows": 6,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "QHSE Statistics",
+            "approx_rows": 5,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Cmp. y Eq.Aux. (Pumps and Equipment)",
+            "approx_rows": 4,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "BOP Testing Information",
+            "approx_rows": 5,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "Mud Properties (Lodo)",
+            "approx_rows": 10,
+            "approx_cols": 8
+          },
+          {
+            "table_title": "Directional Survey Data",
+            "approx_rows": 6,
+            "approx_cols": 7
+          },
+          {
+            "table_title": "T.R. (Casing Record)",
+            "approx_rows": 4,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "BHA Composition",
+            "approx_rows": 17,
+            "approx_cols": 6
+          },
+          {
+            "table_title": "BNA Actual vs Anterior (Current vs Previous Bit)",
+            "approx_rows": 12,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Depth Progression by Time",
+            "approx_rows": 6,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Drilling Parameters Summary",
+            "approx_rows": 6,
+            "approx_cols": 3
+          }
+        ],
+        "key_phrases": [
+          "CON BARRENA DE 10 5/8\" A 5,740 M",
+          "CIRCULO POZO HASTA RETORNOS LIMPIOS",
+          "EN VIAJE CORTO SACO BARRENA",
+          "CAMBIO CARATULA Y SENSOR DE RPM DEL TOP DRIVE",
+          "PERFORO DIRECCIONAL CON BNA PDC",
+          "RHINO REAMER 12 1/4\"",
+          "POWER DRIVE 10 5/8\" x 10 1/2\"",
+          "MWD 8\"",
+          "DC MONEL 8\" NO MAG",
+          "PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP",
+          "VOL. LODO PERDIDO DIA: 0 M3",
+          "VOL. LODO PERDIDO ACUMULADO ETAPA: 527.4 M3",
+          "MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT",
+          "RECORD BNA: 365 M EN 177:25 HRS, 1.08 MPH",
+          "P.S.B.: 13 ton",
+          "Rotaria: 120 RPM",
+          "Pr. Bomba: 3,854 psi",
+          "Torque: 18 1000 ft.lbf",
+          "Gasto: 500.00 gal/min 130 EPM",
+          "Densidad Equiv. Circ.: 2.10 g/cm3",
+          "Dens: 2.02 g/cm3",
+          "Visc: 72 s",
+          "Temp.: 80 degC",
+          "Barita 113.4 ton",
+          "60% YESO, 20% LUTITA CAFE CLARO, LIGERAMENTE CALCAREA Y 20% ANHIDRITA BLANCA Y/O YESO",
+          "Ing. de Pozo Omar Vilchez Cunha",
+          "Sup. IPM JOSE JUARISTI",
+          "WSS-SLB O. NEGRETE/ M. PEREZ",
+          "Proyecto: Alianza",
+          "Actividad: Perforación",
+          "Prof Pgm: 7,211 m",
+          "Días Pg: 331.1",
+          "Obj: JSK",
+          "Prox. Mov: Fin del Pozo Anterior"
+        ]
+      },
+      "simple_fields": {
+        "report_date_text": "02-feb-2015",
+        "rig_text": "IPC-776",
+        "well_text": "NAVEGANTE 0001DL",
+        "operator_text": "PEMEX EXPLORACIÓN PRODUCCIÓN"
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\03 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "03 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "file_metadata": {
+        "pdf_filename": null,
+        "pdf_path": null,
+        "page_count": 2,
+        "detected_language": "Spanish"
+      },
+      "layout_features": {
+        "headings": [
+          "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+          "REPORTE DIARIO DE OPERACIONES DEL: 03-feb-2015",
+          "Hrs 03-feb-2015",
+          "RECORD",
+          "QHSE",
+          "Cmp. y Eq.Aux.",
+          "BNA Actual Anterior",
+          "Litología @ 5771 M.",
+          "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+          "T.R.",
+          "Lodo: Megadrill",
+          "RESUM.DIA ANTER.:",
+          "Resumen:",
+          "SGTE. OPERACIÓN:",
+          "OBSERVACIONES:",
+          "MAT. REQUERIDOS:",
+          "Ops. Días",
+          "DIST. TIEMPO PERDIDO",
+          "RIR's/STOP's",
+          "JTAS. DE SEGURIDAD",
+          "SIMULACROS",
+          "Días sin Accidentes: 631"
+        ],
+        "tables_summary": [
+          {
+            "table_title": "Operations Time Log",
+            "approx_rows": 3,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Temblo Readings (Shaker Screens)",
+            "approx_rows": 3,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "Personnel and Contacts",
+            "approx_rows": 10,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Operations Days Summary",
+            "approx_rows": 6,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Time Distribution (Lost Time)",
+            "approx_rows": 5,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "QHSE Statistics",
+            "approx_rows": 4,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Pump Specifications",
+            "approx_rows": 3,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "BOP Test Data",
+            "approx_rows": 4,
+            "approx_cols": 5
+          },
+          {
+            "table_title": "Casing Data (T.R.)",
+            "approx_rows": 4,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "Survey Data",
+            "approx_rows": 5,
+            "approx_cols": 7
+          },
+          {
+            "table_title": "Mud Properties",
+            "approx_rows": 10,
+            "approx_cols": 8
+          },
+          {
+            "table_title": "Well Header Information",
+            "approx_rows": 8,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "BHA Components",
+            "approx_rows": 16,
+            "approx_cols": 6
+          },
+          {
+            "table_title": "Bit Data Comparison",
+            "approx_rows": 10,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Lithology Description",
+            "approx_rows": 4,
+            "approx_cols": 1
+          },
+          {
+            "table_title": "Depth Progression",
+            "approx_rows": 3,
+            "approx_cols": 3
+          }
+        ],
+        "key_phrases": [
+          "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\"",
+          "DESDE 5765 HASTA 5771 M (AMPLIANDO A 5742 M)",
+          "PSB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI",
+          "BNA: 371 M EN 181:45 HRS, 2.03 MPH",
+          "RHINO: 336 M EN 161:17 HRS",
+          "MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT",
+          "PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP",
+          "BOMBEO 8 M3 DE BACHE ANTIPERDIDA-VISCOSO 250 SEG",
+          "30 KG/M3 DE OPTISEAL Y 20 KG/M3 DE CaCO3",
+          "CIRCULO POZO HASTA OBSERVAR RETORNOS LIMPIOS EN TEMBLORINAS",
+          "LEVANTO BARRENA DE 10 5/8\" DESDE 5571 A 3,100 M LIBRE",
+          "LLENANDO POZO CADA 5 LINGADAS",
+          "VOL. LODO PERDIDO DIA: 0 M3",
+          "VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3",
+          "Días sin Accidentes: 631",
+          "80 % LUTITA GRIS OSCURO, SEMIDURA A DURA, LIGERAMENTE CALCAREA",
+          "20 % YESO BLANCO",
+          "TRAZAS DE HALITA BLANCA",
+          "Proyecto: Alianza",
+          "Actividad: Perforación",
+          "Prox. Mov: Fin del Pozo",
+          "CON SEGURIDAD ... SERVIMOS MEJOR",
+          "SACAR BNA A SUPERFICIE",
+          "PROBAR CONJUNTO DE PREVENTORES",
+          "ARMAR Y BAJAR BHA DIRECCIONAL"
+        ]
+      },
+      "simple_fields": {
+        "report_date_text": "03-feb-2015",
+        "rig_text": "IPC-776",
+        "well_text": "NAVEGANTE 0001DL",
+        "operator_text": "PEMEX EXPLORACIÓN PRODUCCIÓN"
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\04 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "04 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "file_metadata": {
+        "pdf_filename": "unknown",
+        "pdf_path": "unknown",
+        "page_count": 2,
+        "detected_language": "Spanish"
+      },
+      "layout_features": {
+        "headings": [
+          "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.",
+          "REPORTE DIARIO DE OPERACIONES DEL: 04-feb-2015",
+          "Proyecto: Alianza",
+          "DISTRITO:",
+          "Hrs 04-feb-2015",
+          "DIST. TIEMPO PERDIDO",
+          "QHSE",
+          "Cmp. y Eq.Aux.",
+          "Prueba BOPs:",
+          "T.R. Dia (in) Prf (m)",
+          "Lodo: Megadrill",
+          "Litología @ 5771 M.",
+          "Profun. Desrr (m) Vert (m)",
+          "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+          "BNA Actual Anterior",
+          "RESUM.DIA ANTER.:",
+          "Resumen:",
+          "SGTE. OPERACIÓN:",
+          "OBSERVACIONES:",
+          "MAT. REQUERIDOS:",
+          "CON SEGURIDAD ... SERVIMOS MEJOR"
+        ],
+        "tables_summary": [
+          {
+            "table_title": "Hourly Operations Log (Hrs 04-feb-2015)",
+            "approx_rows": 12,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "Personnel and Contacts",
+            "approx_rows": 8,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "DIST. TIEMPO PERDIDO (Time Distribution)",
+            "approx_rows": 10,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "QHSE (Safety Metrics)",
+            "approx_rows": 5,
+            "approx_cols": 2
+          },
+          {
+            "table_title": "Pump Specifications (Cmp. y Eq.Aux.)",
+            "approx_rows": 6,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "BOP Test Information",
+            "approx_rows": 4,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "Directional Survey Data",
+            "approx_rows": 6,
+            "approx_cols": 7
+          },
+          {
+            "table_title": "Casing/TR Data",
+            "approx_rows": 4,
+            "approx_cols": 4
+          },
+          {
+            "table_title": "Mud Properties (Lodo)",
+            "approx_rows": 12,
+            "approx_cols": 8
+          },
+          {
+            "table_title": "Depth Tracking",
+            "approx_rows": 6,
+            "approx_cols": 3
+          },
+          {
+            "table_title": "BHA Composition",
+            "approx_rows": 17,
+            "approx_cols": 6
+          },
+          {
+            "table_title": "Bit Comparison (BNA Actual vs Anterior)",
+            "approx_rows": 11,
+            "approx_cols": 3
+          }
+        ],
+        "key_phrases": [
+          "LEVANTO BARRENA DE 10 5/8\" DESDE 3100 A 1,100 M LIBRE",
+          "LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL CON HOJA Y TANQUE DE VIAJES",
+          "TESCO REALIZO CAMBIO DE ACEITE AL TOP DRIVE",
+          "PERSONAL DE CIA IPC DESLIZO CABLE DE PERFORACION DE 1-1/2\" 16.5 MT",
+          "NPT.- CIA TITSA.- ESPERA POR GRUA POR BLOQUEO DEL SISTEMA DE SEGURIDAD",
+          "SACO BNA PDC 10 5/8\"",
+          "DESCONECTANDO COMPONENTES DEL BHA",
+          "REALIZO ORDEN Y LIMPIEZA EN PISO DE PERFORACION",
+          "POWER DRIVE 10 5/8\" x 10 1/2\"",
+          "AMPLIADOR RHINO REAMER",
+          "MWD 8\"",
+          "DC MONEL 8\" NO MAG.",
+          "MARTILLO 8\"",
+          "HWDP 5\"",
+          "DESGASTE DE BNA: 0-1-WT-S-X-I-PN-BHA",
+          "DESGASTE DE RHINO: 0-0-NO-A-X-I-NO-BHA",
+          "POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS",
+          "PERSONAL DE CIA. PROPESA PROBO ENSAMBLE DE ESTRANGULACIÓN",
+          "Días sin Accidentes: 632",
+          "80 % LUTITA GRIS OSCURO, SEMIDURA A DURA, LIGERAMENTE CALCAREA",
+          "20 % YESO BLANCO",
+          "TRAZAS DE HALITA BLANCA",
+          "PROBAR CONJUNTO DE PREVENTORES",
+          "ARMAR Y BAJAR BHA DIRECCIONAL CON BNA PDC 10 5/8\"",
+          "CON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2"
+        ]
+      },
+      "simple_fields": {
+        "report_date_text": "04-feb-2015",
+        "rig_text": "IPC-776",
+        "well_text": "NAVEGANTE 0001DL",
+        "operator_text": "PEMEX EXPLORACIÓN PRODUCCIÓN"
+      }
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\05 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "05 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\05 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Pemex\\10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Pemex\\\\10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 07 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 07 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 07 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 08 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 08 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 08 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 09 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 09 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 09 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 10 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 10 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 10 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 11 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 11 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 11 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 12 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 12 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 12 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 13 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 13 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 13 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petrobras\\DDR - 0001-D-CQS-001 14 01 16.pdf",
+    "pdf_name": "DDR - 0001-D-CQS-001 14 01 16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petrobras\\\\DDR - 0001-D-CQS-001 14 01 16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petroecuador\\DDR_01_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "pdf_name": "DDR_01_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petroecuador\\\\DDR_01_MARZO_2016_WELL_YURALPA_A1.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petroecuador\\DDR_02_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "pdf_name": "DDR_02_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petroecuador\\\\DDR_02_MARZO_2016_WELL_YURALPA_A1.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petroecuador\\DDR_03_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "pdf_name": "DDR_03_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petroecuador\\\\DDR_03_MARZO_2016_WELL_YURALPA_A1.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petroecuador\\DDR_04_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "pdf_name": "DDR_04_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petroecuador\\\\DDR_04_MARZO_2016_WELL_YURALPA_A1.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petroecuador\\DDR_05_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "pdf_name": "DDR_05_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petroecuador\\\\DDR_05_MARZO_2016_WELL_YURALPA_A1.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_101548\\phase2\\prepare_workspace\\data\\ddr_pdfs\\Petroecuador\\DDR_06_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "pdf_name": "DDR_06_MARZO_2016_WELL_YURALPA_A1.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_101548\\\\phase2\\\\prepare_workspace\\\\data\\\\ddr_pdfs\\\\Petroecuador\\\\DDR_06_MARZO_2016_WELL_YURALPA_A1.pdf'"
+  }
+]

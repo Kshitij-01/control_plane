@@ -1,0 +1,325 @@
+{
+  "task_id": "enterprise_document_analysis_premium_reporting",
+  "task_type": "multi_source_batch_processing",
+  "description": "ENTERPRISE-GRADE MISSION-CRITICAL ANALYSIS: Process compressed archive containing technical/operational documents from multiple organizations. Extract ALL data with forensic precision. Primary focus: COST ANALYSIS and EVENT BREAKDOWN with financial impact quantification. Generate premium HTML reports with publication-quality visualizations. ZERO tolerance for data loss or quality compromise.",
+  
+  "user_uploads": [
+    {
+      "source": "C:\\Users\\Kshitij.Patil\\Downloads\\Halliburton DDR\\Halliburton DDR.zip",
+      "filename": "source_documents.zip"
+    }
+  ],
+  
+  "skip_side_tasks": true,
+  "skip_phase_0": true,
+  
+  "execution_preferences": {
+    "task_organization": "INTELLIGENT AUTO-DISCOVERY: System must discover document structure, organizational groupings, languages, and data patterns WITHOUT any hardcoded assumptions. Adapt extraction strategy to discovered patterns. Batch by similarity.",
+    "allow_dynamic_planning": true,
+    "prefer_batch_processing": true,
+    "quality_over_speed": true,
+    "detail_level": "MAXIMUM - Enterprise stakeholders require complete visibility"
+  },
+  
+  "primary_objectives": {
+    "cost_analysis": {
+      "priority": "CRITICAL - PRIMARY DELIVERABLE",
+      "requirements": [
+        "Extract ALL financial data: daily costs, cumulative costs, budgets, AFE (Authorized For Expenditure), rates, expenditures, estimates",
+        "Capture cost currency and breakdown (if present)",
+        "Link costs to events/activities when possible",
+        "Compute cost totals, averages, trends across documents",
+        "Identify cost drivers and high-impact events",
+        "Generate multiple cost-focused visualizations (see visualization_requirements)"
+      ],
+      "output_format": "Structured cost data in JSON + rich visualizations in HTML + sortable master cost table"
+    },
+    
+    "event_breakdown": {
+      "priority": "CRITICAL - PRIMARY DELIVERABLE",
+      "requirements": [
+        "Extract EVERY event with maximum detail",
+        "For EACH event capture: timestamp, type/category, description (ORIGINAL language), description (ENGLISH translation), duration/downtime, severity, equipment involved, personnel involved, location, corrective actions",
+        "Estimate/extract financial impact when possible (downtime cost, material cost, delay cost)",
+        "Categorize events (operational, safety, equipment failure, weather, etc.)",
+        "Create event timeline and breakdown by type, severity, cost impact"
+      ],
+      "translation_mandate": "ALL non-English event descriptions MUST be translated to professional English. Show BOTH original and translation. Preserve technical terminology.",
+      "output_format": "Detailed event records in JSON + bilingual event tables in HTML + event analytics charts"
+    },
+    
+    "data_completeness": {
+      "priority": "CRITICAL",
+      "requirements": "Extract EVERYTHING: metadata, operations logs, personnel, equipment, measurements, tables, safety notes. If data exists in document, it MUST appear in JSON and HTML."
+    }
+  },
+  
+  "data_extraction_schema_guidance": {
+    "note": "Adapt this schema to discovered document structure. Field names are examples - use what matches actual document content.",
+    "document_metadata": {
+      "identifiers": ["document_id (generated stable hash)", "source_filename", "source_path", "source_organization (discovered from folder/filename)", "document_type (inferred)", "report_number", "well_name", "rig_name", "project_name"],
+      "dates": ["report_date_iso", "period_start", "period_end", "date_range_text"],
+      "language": ["language_detected", "requires_translation (boolean)"]
+    },
+    
+    "financial_data": {
+      "description": "CRITICAL - Extract ALL cost/budget data regardless of field name in source",
+      "fields": [
+        "daily_cost (number with currency)",
+        "cumulative_cost (number with currency)",
+        "approved_budget_afe (number with currency)",
+        "estimated_total_cost",
+        "cost_breakdown (array of {category, amount, currency})",
+        "rates (array of {item, rate, unit, currency})",
+        "expenditures (array of {description, amount, currency, date})"
+      ],
+      "extraction_notes": "Search for: cost, expenditure, budget, AFE, rate, total, cumulative, daily, estimate. Capture the NUMBER and CURRENCY. If cost is in table, extract entire table."
+    },
+    
+    "events": {
+      "description": "CRITICAL - Extract EVERY event with bilingual content and cost impact",
+      "fields": [
+        "event_id (sequential within document)",
+        "timestamp_iso",
+        "event_type (operational/safety/equipment/weather/delay/other)",
+        "event_category (drilling/NPT/downtime/incident/maintenance/etc)",
+        "severity (critical/high/medium/low/informational)",
+        "description_original (exact text from document)",
+        "description_english (professional translation)",
+        "duration_hours",
+        "downtime_hours",
+        "financial_impact_usd (estimated if possible)",
+        "equipment_involved",
+        "personnel_involved",
+        "location",
+        "root_cause",
+        "corrective_actions",
+        "preventive_measures"
+      ],
+      "extraction_notes": "An 'event' is anything noteworthy: incidents, equipment issues, operational decisions, delays, safety moments, weather impacts, well control events, etc. Extract ALL."
+    },
+    
+    "operations": {
+      "description": "Detailed operational logs (hourly/activity-based)",
+      "fields": [
+        "operation_id",
+        "start_time_iso",
+        "end_time_iso",
+        "duration_hours",
+        "activity_type (drilling/tripping/circulating/NPT/etc)",
+        "activity_category (productive/non_productive/waiting)",
+        "description_original",
+        "description_english",
+        "equipment_used",
+        "depth_start", "depth_end", "depth_unit",
+        "parameters (object with technical parameters)",
+        "personnel_count"
+      ]
+    },
+    
+    "tables": {
+      "description": "ALL tables extracted with full fidelity",
+      "fields": ["table_id", "page_number", "title", "headers (array)", "rows (array of arrays)", "context"]
+    },
+    
+    "measurements": {
+      "description": "ALL numeric KPIs and measurements",
+      "fields": ["measurement_name", "value", "unit", "context", "timestamp"]
+    },
+    
+    "personnel": {
+      "fields": ["role", "name", "company", "count", "hours_worked"]
+    },
+    
+    "equipment": {
+      "fields": ["equipment_name", "type", "specifications", "quantity", "status"]
+    },
+    
+    "materials": {
+      "fields": ["material_name", "quantity", "unit", "cost_usd", "supplier"]
+    },
+    
+    "safety_hse": {
+      "fields": ["safety_moment_topic", "incidents_count", "ltis (lost time injuries)", "near_misses", "safety_meetings_count", "observations"]
+    },
+    
+    "raw_content": {
+      "fields": ["raw_text_pages (array - full OCR text per page)", "sections (array of {title, text})"],
+      "purpose": "Preserve complete document content for auditability"
+    }
+  },
+  
+  "html_report_specifications": {
+    "individual_company_reports": {
+      "scope": "ONE report per discovered organization/source aggregating ALL documents from that source",
+      "file_naming": "outputs/reports/{organization_name}_comprehensive_report.html",
+      "quality_level": "PREMIUM CONSULTING DELIVERABLE - Board presentation quality",
+      
+      "structure": {
+        "header": "Organization name, document count, date range, total pages analyzed",
+        "executive_dashboard": "Hero section with 8-10 KPI cards: Total Cost, Avg Daily Cost, Total Events, Critical Events, Total Downtime Hours, NPT%, Total Operations, Document Count",
+        
+        "cost_analysis_section": {
+          "title": "Financial Analysis & Cost Breakdown",
+          "content": [
+            "Total Cost Summary (card with large number, currency, trend indicator)",
+            "Cost Trend Chart (line chart: daily costs over time with cumulative overlay)",
+            "Cost by Category (pie/donut chart if breakdown available)",
+            "Cost per Document (bar chart comparing individual document costs)",
+            "Budget vs Actual (if AFE data available)",
+            "Top 5 Cost Drivers (horizontal bar chart with event descriptions)"
+          ],
+          "table": "Detailed Cost Ledger - sortable table with columns: Date, Document, Category, Amount (USD), Description, Link to Source"
+        },
+        
+        "event_analysis_section": {
+          "title": "Events Breakdown & Financial Impact",
+          "content": [
+            "Event Summary Cards (count by severity: critical, high, medium, low)",
+            "Events Timeline (gantt chart showing events over time, colored by type, sized by duration)",
+            "Event Category Distribution (pie chart: event types percentages)",
+            "Event Financial Impact (bar chart: total cost impact by event type)",
+            "Severity vs Duration (scatter plot: severity on x, duration on y, bubble size = cost)",
+            "Top 10 High-Impact Events (table with cost, duration, description)"
+          ],
+          "table": "Complete Events Register - sortable/filterable table with columns: Date/Time, Type, Severity, Description (English), Description (Original), Duration (hrs), Cost Impact (USD), Equipment, Personnel, Corrective Action. DEFAULT SORT: Cost Impact DESC"
+        },
+        
+        "operations_section": {
+          "title": "Operations Summary",
+          "content": [
+            "Activity Distribution (stacked bar: productive vs NPT hours by day)",
+            "Top Activities by Time (horizontal bar: activity types ranked by hours)",
+            "Operations Efficiency Metrics (gauge charts: drilling efficiency, NPT ratio)"
+          ],
+          "table": "Operations Log - chronological table with bilingual descriptions"
+        },
+        
+        "technical_details_section": {
+          "title": "Technical Data & Tables",
+          "content": "ALL extracted tables rendered with professional styling. Personnel rosters. Equipment lists. Material inventories. Measurements grids."
+        },
+        
+        "document_index_section": {
+          "title": "Source Documents",
+          "content": "Table listing ALL documents from this organization with: filename, date, pages, cost, events count, link to raw data JSON"
+        }
+      },
+      
+      "styling_requirements": {
+        "layout": "Responsive card-based design with sidebar navigation",
+        "colors": "Professional palette: costs=emerald (#10b981), events=rose (#f43f5e), operations=blue (#3b82f6), metrics=violet (#8b5cf6)",
+        "typography": "System font stack (Segoe UI, Inter, SF Pro). Clear hierarchy. Bold KPIs.",
+        "charts": "Inline SVG with gradients, shadows, smooth curves, professional legends, tooltips",
+        "tables": "Zebra striping, sortable headers, search box, pagination, hover highlights",
+        "interactivity": "Smooth CSS transitions, expandable sections, sticky header navigation"
+      },
+      
+      "technical_requirements": "Self-contained HTML. Inline CSS (< 50KB). Inline SVG charts OR Chart.js CDN. No external dependencies except optional CDN. Works offline after initial load."
+    },
+    
+    "master_index_dashboard": {
+      "scope": "Single index.html aggregating ALL documents from ALL organizations",
+      "file_path": "outputs/reports/index.html",
+      "quality_level": "EXECUTIVE C-SUITE DASHBOARD - Investment committee presentation quality",
+      
+      "structure": {
+        "hero_banner": "Total Documents Analyzed, Total Organizations, Date Range (earliest to latest), Grand Total Cost (USD), Total Events, Total Critical Events, Total Downtime Hours",
+        
+        "organization_comparison": "Grid of cards, one per organization showing: logo placeholder, name, doc count, total cost, event count, avg daily cost, quality score, 'View Details' link",
+        
+        "consolidated_cost_analysis": {
+          "title": "Enterprise-Wide Cost Intelligence",
+          "charts": [
+            "Total Cost by Organization (bar chart, sorted desc)",
+            "Cumulative Cost Over Time (line chart with series per organization)",
+            "Daily Cost Trends (line chart showing daily rates across all orgs)",
+            "Cost Category Breakdown (stacked bar if categorized data available)",
+            "Cost Distribution Histogram (frequency distribution of daily costs)"
+          ]
+        },
+        
+        "consolidated_events_analysis": {
+          "title": "Enterprise Event Registry & Financial Impact",
+          "charts": [
+            "Event Count by Organization (bar chart)",
+            "Event Count by Type (pie chart aggregating all events)",
+            "Event Severity Distribution (donut chart)",
+            "Events Over Time (timeline gantt with ALL events, filterable by org)",
+            "Top 20 Costliest Events (horizontal bar chart across all docs)"
+          ],
+          "master_table": {
+            "title": "MASTER EVENTS & COSTS TABLE",
+            "description": "EVERY event from EVERY document in ONE sortable, searchable table",
+            "columns": [
+              "Date/Time (ISO format, sortable)",
+              "Organization",
+              "Document/Rig/Well",
+              "Event Type",
+              "Severity",
+              "Description (English)",
+              "Description (Original Language)",
+              "Duration (hours)",
+              "Cost Impact (USD)",
+              "Equipment",
+              "Personnel",
+              "Link to Detail Report"
+            ],
+            "features": "Sortable by ANY column. Search filter. Pagination (25 rows/page). Export to CSV. DEFAULT SORT: Cost Impact (USD) descending",
+            "row_count": "ALL events from ALL documents (could be 100s or 1000s of rows)",
+            "styling": "Professional table with alternating rows, bold headers, currency formatting, severity color indicators"
+          }
+        },
+        
+        "operations_benchmarking": {
+          "title": "Cross-Organization Performance",
+          "charts": [
+            "Total Hours by Organization and Activity Type (grouped bar)",
+            "NPT Ratio Comparison (horizontal bar: NPT% by organization)",
+            "Efficiency Metrics (scatter plot or comparative table)"
+          ]
+        },
+        
+        "data_quality_report": {
+          "title": "Data Completeness & Validation",
+          "content": "Table showing: Organization, Documents, Fields Extracted, Cost Data %, Event Data %, Translation %, Overall Quality Score"
+        }
+      },
+      
+      "navigation": {
+        "sidebar": "Quick links to: Executive Summary, Cost Analysis, Events Registry, Operations, Organizations (with links to individual reports), Data Quality",
+        "breadcrumbs": "Always show current section",
+        "back_to_top": "Floating button",
+        "search": "Global search box (searches event descriptions, org names)"
+      },
+      
+      "styling_requirements": {
+        "layout": "Three-column responsive: Left nav (sticky), Main content (scrollable), Right sidebar (summary stats/filters)",
+        "design": "Modern, professional, clean. Gradient headers. Card shadows. Smooth animations.",
+        "responsiveness": "Desktop-optimized but adapts to tablet (stacks columns)",
+        "branding": "Neutral professional theme (not org-specific)"
+      }
+    }
+  },
+  
+  "quality_validation_requirements": {
+    "mandatory_checks": [
+      "Data Extraction Completeness: Verify EVERY document has JSON with non-empty financial_data and events arrays (unless truly absent in source)",
+      "Cost Data Accuracy: Sum all costs from JSONs, verify master index total matches (tolerance ±0.1%)",
+      "Event Count: Count events in all JSONs, verify master table row count matches",
+      "Translation Quality: Verify all non-English event descriptions have english_translation field populated",
+      "Chart Rendering: Verify all charts display data (not empty placeholders)",
+      "Table Functionality: Test sorting on master events table (click column headers)",
+      "Link Integrity: Verify all 'Link to Detail Report' URLs point to existing files",
+      "Visual Quality: Check for broken layouts, missing CSS, rendering errors",
+      "Data Integrity: Spot check 5 random events - verify description, cost, timestamp present and accurate"
+    ],
+    "validation_output": "Create validation_report.json with pass/fail status for each check, error details if any, overall quality score (0-100)",
+    "failure_handling": "If ANY critical check fails (cost mismatch > 1%, missing translations, broken links), report to Boss with specific issues for remediation before declaring success"
+  },
+  
+  "verification_requirements": "STRICT ACCEPTANCE CRITERIA:\n- Every JSON has: complete metadata, financial_data array with actual values, events array with bilingual descriptions\n- Every organization has: premium HTML report with minimum 5 cost charts, minimum 5 event charts, sortable events table, ALL data visible\n- Master index has: aggregated cost analytics, master events table with ALL events, sortable/searchable interface, links to all org reports\n- Validation report shows: 100% pass rate on critical checks OR documented exceptions with justification\n- Zero placeholder content. Zero 'Lorem ipsum'. Zero empty charts. Zero broken links.",
+  
+  "workflow_instructions": "**ADAPTIVE GENERAL WORKFLOW:**\n\n**PHASE 1 - INTELLIGENT DISCOVERY (15-20 min):**\n- Unpack archive, recursively scan for all files\n- Identify file types (PDF, Excel, etc.), languages, organizational groupings (by subfolder/filename patterns)\n- Sample 2-3 representative documents from each discovered group\n- Analyze: What fields are present? What's the cost data format? What events are recorded? What language(s)?\n- Create dynamic extraction strategy: group documents by similarity, adapt json_schema per group\n- Output: discovery_report.json with findings\n\n**PHASE 1.5 - PDF OPTIMIZATION FOR EFFICIENT PROCESSING (CRITICAL FOR PERFORMANCE):**\n- **Analyze PDF sizes**: Check total page count across all discovered PDFs\n- **MERGE SMALL PDFs for efficiency**: If you have many small PDFs (1-5 pages each):\n  - Use PyPDF2/pypdf library to merge similar PDFs into chunks of ~30 pages each\n  - Group by organization/type before merging (e.g., merge all Pemex PDFs into 1-2 chunks, all Petrobras PDFs into 1 chunk)\n  - Create merged PDFs: outputs/merged_for_extraction/{org_name}_merged_chunk{N}.pdf\n  - Create mapping file: outputs/merged_for_extraction/merge_map.json documenting which original PDFs are in each merged file\n- **Benefits**: \n  - Fewer API calls (process 30 pages in 1 call vs 30 separate calls)\n  - Better context for extraction (see patterns across related documents)\n  - Faster processing (parallel calls on merged chunks vs sequential on tiny PDFs)\n  - Lower cost (fewer tool invocations)\n- **When to skip merging**: If PDFs are already large (>10 pages each), process individually\n- **Preserve traceability**: Always maintain mapping from merged PDF back to original source files\n- Output: merged PDFs (if applicable) + merge_map.json\n\n**PHASE 2 - BATCH EXTRACTION BY DISCOVERED PATTERNS (30-60 min):**\n- **Use MERGED PDFs if created in Phase 1.5**, otherwise use original PDFs\n- For EACH discovered document group:\n  - Prepare json_schema based on this manifest's guidance + discovery findings\n  - Add page_range metadata to schema if using merged PDFs (e.g., {start_page: 0, end_page: 5, source_file: 'doc1.pdf'})\n  - Call extract_multiple_pdfs with ALL documents in group (merged or original)\n  - CRITICAL schema elements: financial_data, events (with description_original + description_english), operations (bilingual), tables\n  - Emphasize in tool call: 'TRANSLATE all non-English content. Extract EVERY cost field. Capture ALL events with maximum detail.'\n  - **Post-extraction (if merged PDFs used)**: Parse merged PDF extraction output, use merge_map.json to identify which pages belong to which original document, split the extracted data accordingly, create separate JSON for each original source file\n  - Save: outputs/extracted/{org_name}/{original_filename}.json (ALWAYS preserve original document identity, even if data came from merged PDF)\n- Verify: Check JSON completeness (are financial_data and events populated?)\n- Verify: If merged PDFs were used, confirm data was correctly split and attributed to correct original source files (check file count matches original PDF count)\n\n**PHASE 3 - INDIVIDUAL ORGANIZATION REPORTS (30-45 min per org):**\n- For EACH discovered organization:\n  - Load ALL JSONs for that organization\n  - Aggregate: sum costs, count events by type/severity, extract unique equipment/personnel\n  - Generate premium HTML per html_report_specifications.individual_company_reports\n  - CRITICAL: Create cost analysis section (5+ charts), events section (5+ charts, bilingual table)\n  - Use inline SVG or Chart.js for professional visualizations\n  - Implement sortable tables with search\n  - Save: outputs/reports/{org_name}_comprehensive_report.html\n\n**PHASE 4 - MASTER INDEX DASHBOARD (45-60 min):**\n- Load ALL JSONs from ALL organizations\n- Build master events registry: flatten all events into single array, add org/document identifiers\n- Compute enterprise totals: sum all costs, count all events, calculate averages\n- Generate master index.html per html_report_specifications.master_index_dashboard\n- CRITICAL: Create MASTER EVENTS & COSTS TABLE with ALL events (sortable, searchable, paginated)\n- Create 7+ aggregate charts (cost by org, cumulative trends, event distribution, etc.)\n- Implement navigation to individual org reports\n- Save: outputs/reports/index.html\n\n**PHASE 5 - VALIDATION & QUALITY ASSURANCE (10-15 min):**\n- Execute all quality_validation_requirements checks\n- Generate validation_report.json\n- If critical failures: report issues to Boss\n- If all pass: declare success with summary\n\n**CRITICAL REMINDERS:**\n- NEVER hardcode document counts, filenames, or organizational names\n- ALWAYS translate non-English content (use Claude's built-in translation)\n- ALWAYS show both original and English side-by-side in tables\n- ALWAYS extract costs with numbers and currency (search for cost/budget/AFE/rate)\n- ALWAYS link events to financial impact when possible\n- ALWAYS use sortable tables for events (default sort: cost impact desc)\n- Charts must be BEAUTIFUL (gradients, professional styling, not basic/ugly)\n- HTML must be SELF-CONTAINED (inline CSS, inline charts, works offline)\n- Use file catalog or rglob for paths - NEVER guess filenames"
+}
+

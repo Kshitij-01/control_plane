@@ -1,0 +1,3205 @@
+[
+  {
+    "pdf_path": "C:/Users/Kshitij.Patil/OneDrive - ENCORA/Desktop/control_plane/runs/run_20251102_010239/phase2/prepare_workspace_and_classify_pdfs/workspace/source/halliburton_ddr/Petrobras/BDP Parceiro - 15.10.2020.pdf",
+    "pdf_name": "BDP Parceiro - 15.10.2020.pdf",
+    "data": {
+      "filename": "Daily_Drilling_Report_LIBRA_8-MRO-8-RJS_Report_39.pdf",
+      "language": "Portuguese",
+      "page_count": 6,
+      "pages": [
+        {
+          "page_number": 1,
+          "text_blocks": [
+            {
+              "text": "Daily Drilling Report (LIBRA)",
+              "translated_text": "Daily Drilling Report (LIBRA)"
+            },
+            {
+              "text": "MP: Retirando BHA 8 1/2\" a 3500 m.\nMA: Montando e estaleirando BHA 8 1/2\".",
+              "translated_text": "MP: Pulling out BHA 8 1/2\" at 3500 m.\nMA: Assembling and racking BHA 8 1/2\"."
+            },
+            {
+              "text": "MP: Retirado BHA 8 1/2\" de 4550 até 3500 m.\nMA: Efetuada leitura das ferramentas eletrônicas do BHA #4.",
+              "translated_text": "MP: Pulled out BHA 8 1/2\" from 4550 to 3500 m.\nMA: Performed reading of BHA #4 electronic tools."
+            },
+            {
+              "text": "MP: Retirar BHA 8 1/2\" até superfície.\nMA: Montar BHA 8 1/2\" para a terceira corrida.",
+              "translated_text": "MP: Pull out BHA 8 1/2\" to surface.\nMA: Assemble BHA 8 1/2\" for third run."
+            }
+          ],
+          "tables": [
+            {
+              "name": "Header Information",
+              "headers": [
+                "Field",
+                "Value"
+              ],
+              "rows": [
+                {
+                  "Field": "WELL",
+                  "Value": "8-MRO-8-RJS"
+                },
+                {
+                  "Field": "REPORT No",
+                  "Value": "39"
+                },
+                {
+                  "Field": "REPORT DATE",
+                  "Value": "15/10/2020"
+                },
+                {
+                  "Field": "WELLBORE No",
+                  "Value": "OH"
+                },
+                {
+                  "Field": "WELLBORE NAME",
+                  "Value": "8-MRO-8-RJS"
+                },
+                {
+                  "Field": "RIG NAME/No",
+                  "Value": "DEEPWATER MYKONOS / 39"
+                },
+                {
+                  "Field": "PROJECT",
+                  "Value": "LIBRA-NW"
+                },
+                {
+                  "Field": "SITE",
+                  "Value": "8-MRO-8-RJS"
+                },
+                {
+                  "Field": "ESTIMATED END DATE",
+                  "Value": "12/12/2020"
+                },
+                {
+                  "Field": "EVENT",
+                  "Value": "ORIG DRILLING"
+                },
+                {
+                  "Field": "START DATE",
+                  "Value": "07/09/2020"
+                },
+                {
+                  "Field": "SPUD DATE",
+                  "Value": "08/09/2020"
+                },
+                {
+                  "Field": "ACTIVE DATUM",
+                  "Value": "NS-39 @ 25,00m"
+                },
+                {
+                  "Field": "GROUND ELEVATION/WATER DEPTH (m)",
+                  "Value": "25,00 / 2.046,00"
+                }
+              ]
+            },
+            {
+              "name": "Well Info",
+              "headers": [
+                "Field",
+                "Value"
+              ],
+              "rows": [
+                {
+                  "Field": "BLOCK",
+                  "Value": "LIBRA"
+                },
+                {
+                  "Field": "GEP",
+                  "Value": "Gabriel Rosa"
+                },
+                {
+                  "Field": "FISCAL",
+                  "Value": "Daniel Martincoski/ Júlio Sperb / Diogo Rossetto"
+                },
+                {
+                  "Field": "MD (m)",
+                  "Value": "5.560,00"
+                },
+                {
+                  "Field": "TVD (m)",
+                  "Value": ""
+                },
+                {
+                  "Field": "PROGRESS (m)",
+                  "Value": ""
+                },
+                {
+                  "Field": "AVG. ROP. (m/hr)",
+                  "Value": "0,00"
+                },
+                {
+                  "Field": "ROTATING Hrs (hr)",
+                  "Value": ""
+                },
+                {
+                  "Field": "CUM. ROT. Hrs (hr)",
+                  "Value": "131,50"
+                },
+                {
+                  "Field": "DFS. (days)",
+                  "Value": "38,00"
+                },
+                {
+                  "Field": "EST. DAYS",
+                  "Value": "74.3"
+                }
+              ]
+            },
+            {
+              "name": "Critical Path Operations Summary",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "00:00",
+                  "TO": "11:00",
+                  "DUR. (hr)": "11,00",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Drilling with 8 1/2\" BHA from 5721 m to 5742 m, with 15-30 klbf, 80-120 rpm, 25-33 klbf.ft, 600 gpm / 2550 psi.\n\nNotes:\n- EDS#4 (CSR+UBSR).\n- Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%.\n- MPD in AP mode @ 5547 m with 9,80 ppg.\n- Using PWD internal gauge to estimate ECD and to calibrate MPD model.\n- Backreaming 20 m at 5723 m and 5731 m due to surface torque increasing.\n- Backreaming 5 m at 5737 m due to low ROP and backreaming 30 m at 5740 due to low ROP and BHA vibration.\n- Observing stall with 33 klbf.ft at 5739 m.\n- Observing MRIL tool failure at 5739 m."
+                },
+                {
+                  "FROM": "11:00",
+                  "TO": "12:30",
+                  "DUR. (hr)": "1,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Troubleshooting MRIL tool.\n\nObs.:\n- Performing downlinks and manual mode switch, without sucess."
+                },
+                {
+                  "FROM": "12:30",
+                  "TO": "15:00",
+                  "DUR. (hr)": "2,50",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Drilling with 8 1/2\" BHA from 5742 m to 5747 m, with 15-37 klbf, 80 rpm, 25-32 klbf.ft, 600 gpm / 2550 psi.\n\nNotes:\n- Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%.\n- MPD in AP mode @ 5547 m with 9,80 ppg.\n- Observing failure to receive M/LWD signal."
+                },
+                {
+                  "FROM": "15:00",
+                  "TO": "16:00",
+                  "DUR. (hr)": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Troubleshooting M/LWD tools.\n\nObs.:\n- Performing downlinks and manual mode switch, with sucess."
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "WELL",
+              "value": "8-MRO-8-RJS"
+            },
+            {
+              "key": "REPORT No",
+              "value": "39"
+            },
+            {
+              "key": "REPORT DATE",
+              "value": "15/10/2020"
+            },
+            {
+              "key": "WELLBORE No",
+              "value": "OH"
+            },
+            {
+              "key": "RIG NAME/No",
+              "value": "DEEPWATER MYKONOS / 39"
+            },
+            {
+              "key": "PROJECT",
+              "value": "LIBRA-NW"
+            },
+            {
+              "key": "ESTIMATED END DATE",
+              "value": "12/12/2020"
+            },
+            {
+              "key": "SPUD DATE",
+              "value": "08/09/2020"
+            },
+            {
+              "key": "WATER DEPTH (m)",
+              "value": "2.046,00"
+            },
+            {
+              "key": "MD (m)",
+              "value": "5.560,00"
+            },
+            {
+              "key": "DFS. (days)",
+              "value": "38,00"
+            },
+            {
+              "key": "EST. DAYS",
+              "value": "74.3"
+            },
+            {
+              "key": "ESTIMATED DAILY COST",
+              "value": "315.383,87"
+            },
+            {
+              "key": "CUMULATIVE COST",
+              "value": "15.635.985,08"
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "text_blocks": [
+            {
+              "text": "MW: Perfurando com BHA 8 1/2\" de 5747 m a 5749 m",
+              "translated_text": "MW: Drilling with 8 1/2\" BHA from 5747 m to 5749 m"
+            },
+            {
+              "text": "Circulando 9.0 ppg WBM @ 600 gpm",
+              "translated_text": "Circulating 9.0 ppg WBM @ 600 gpm"
+            },
+            {
+              "text": "POOH 8 1/2\" BHA com DP 5 1/2\" + DP 5 7/8\"",
+              "translated_text": "POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\""
+            },
+            {
+              "text": "Tentando assentar string nas cunhas, sem sucesso. Tentando ajustar balanço da sonda, sem sucesso.\nNota: Foi necessário mudar o rumo da sonda para permitir operação com barco de apoio.",
+              "translated_text": "Trying to set string on slips, without success. Trying to adjust rig balance, without success.\nNote: It was necessary to change rig heading to allow operation with supply boat."
+            }
+          ],
+          "tables": [
+            {
+              "name": "Critical Path Operations Summary (continued)",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "16:00",
+                  "TO": "16:30",
+                  "DUR. (hr)": "0,50",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Drilling with 8 1/2\" BHA from 5747 m to 5749 m, with 12-15 klbf, 70 rpm, 24-25 klbf.ft, 600 gpm / 2600 psi.\n\nNotes:\n- Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%.\n- MPD in AP mode @ 5547 m with 9,80 ppg.\n- Flushing kill and choke lines.\n- Observing another failure to receive M/LWD signal."
+                },
+                {
+                  "FROM": "16:30",
+                  "TO": "17:30",
+                  "DUR. (hr)": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Troubleshooting M/LWD tools.\n\nObs.:\n- Performing downlinks and manual mode switch, without sucess."
+                },
+                {
+                  "FROM": "17:30",
+                  "TO": "18:30",
+                  "DUR. (hr)": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Performing dynamic flow check during 15 min, OK. POOH 1 stand keeping SBP to pressurize well with 9.8 ppg + 120 psi at the casing shoe. B/D drilling stand.\n\nObs.:\n- Selecting EDS#5 (CSR+LBSR / EHBS: LBSR).\n- In parallel, holding a pre job safety meeting prior to POOH BHA #5."
+                },
+                {
+                  "FROM": "18:30",
+                  "TO": "19:00",
+                  "DUR. (hr)": "0,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: POOH 8 1/2\" BHA on DP 5 1/2\" + DP 5 7/8\" from 5741 m to 5702 m in open hole, at restricted speed of 2 min/stand."
+                },
+                {
+                  "FROM": "19:00",
+                  "TO": "20:00",
+                  "DUR. (hr)": "1,00",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Connecting TDS and recording torque:\n\n80 rpm  100 rpm  120 rpm\n5676 m  23,5 klbs.ft  24 klbs.ft  26 klbs.ft\n5666 m  22 klbs.ft  24 klbs.ft  25 klbs.ft\n5656 m  23 klbs.ft  24,5 klbs.ft  25,5 klbs.ft\n5642 m  23 klbs.ft  25 klbs.ft  25,5 klbs.ft\n5632 m  23 klbs.ft  25,5 klbs.ft  25,5 klbs.ft\n5622 m  24 klbs.ft  25 klbs.ft  25,5 klbs.ft\n\nNotes:\n- Circulating 9.0 ppg WBM @ 600 gpm.\n- Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%.\n- MPD in AP mode @ 5547 m with 9,80 ppg."
+                },
+                {
+                  "FROM": "20:00",
+                  "TO": "21:00",
+                  "DUR. (hr)": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 5622 m to 5435 m in open hole, at restricted speed of 2 min/stand."
+                },
+                {
+                  "FROM": "21:00",
+                  "TO": "21:30",
+                  "DUR. (hr)": "0,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Performing dynamic flow check during 15 min, well static."
+                },
+                {
+                  "FROM": "21:30",
+                  "TO": "23:30",
+                  "DUR. (hr)": "2,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 5435 m to 4450 m inside casing, at restricted speed of 2 min/stand."
+                },
+                {
+                  "FROM": "23:30",
+                  "TO": "00:00",
+                  "DUR. (hr)": "0,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Trying set string on slips, without success. Trying adjust rig balance, without success.\n\nNote: It was necessary change rig heading to allowed operate with supply boat."
+                }
+              ]
+            },
+            {
+              "name": "Parallel Operations Summary",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "00:00",
+                  "TO": "08:00",
+                  "DUR. (hr)": "8,00",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: L/D 6 5/8\" DP GPDS65 landing string (53 out of 53 stands)."
+                },
+                {
+                  "FROM": "08:00",
+                  "TO": "09:30",
+                  "DUR. (hr)": "1,50",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: Changing out elevator inserts to 5\". Removing PS-16 slips from the rotary table and installing bushing."
+                },
+                {
+                  "FROM": "09:30",
+                  "TO": "18:00",
+                  "DUR. (hr)": "8,50",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: L/D 5\" DP (16 out of 16 stands)."
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "DURAÇÃO TOTAL",
+              "value": "24,00"
+            }
+          ]
+        },
+        {
+          "page_number": 3,
+          "text_blocks": [
+            {
+              "text": "AW: Sem atividade.",
+              "translated_text": "AW: No activity."
+            },
+            {
+              "text": "AW: Movendo BHA #4 do derrick para mesa rotativa e realizando troubleshooting. Ferramentas eletrônicas do BHA #4 disponíveis para uso.",
+              "translated_text": "AW: Moving BHA #4 from derrick to rotary and performing troubleshooting. BHA #4 electronic tools available to use."
+            },
+            {
+              "text": "Perfurar fase IV - 8 1/2\"",
+              "translated_text": "Drill phase IV - 8 1/2\""
+            }
+          ],
+          "tables": [
+            {
+              "name": "Parallel Operations Summary (continued)",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "18:00",
+                  "TO": "21:00",
+                  "DUR. (hr)": "3,00",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: No activity."
+                },
+                {
+                  "FROM": "21:00",
+                  "TO": "00:00",
+                  "DUR. (hr)": "3,00",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: Moving BHA #4 from derrick to rotary and performing troubleshooting. BHA #4 electronic tools available to use."
+                }
+              ]
+            },
+            {
+              "name": "Hole Section",
+              "headers": [
+                "SECTION NAME",
+                "SECTION TYPE",
+                "EFFECTIVE HOLE DIAMETER (\")",
+                "ID (\")",
+                "TOP MD (m)",
+                "BASE MD (m)",
+                "HOLE SECTION START DATE/TIME",
+                "HOLE SECTION END DATE/TIME"
+              ],
+              "rows": [
+                {
+                  "SECTION NAME": "CONDUCTOR",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "42,00",
+                  "ID": "",
+                  "TOP MD": "2.071,00",
+                  "BASE MD": "2.151,80",
+                  "HOLE SECTION START DATE/TIME": "08/09/2020 04:30",
+                  "HOLE SECTION END DATE/TIME": "10/09/2020 05:00"
+                },
+                {
+                  "SECTION NAME": "SURFACE",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "17,50",
+                  "ID": "",
+                  "TOP MD": "2.151,80",
+                  "BASE MD": "3.440,00",
+                  "HOLE SECTION START DATE/TIME": "10/09/2020 05:00",
+                  "HOLE SECTION END DATE/TIME": "25/09/2020 14:00"
+                },
+                {
+                  "SECTION NAME": "CASING 3",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "14,75",
+                  "ID": "",
+                  "TOP MD": "3.440,00",
+                  "BASE MD": "5.464,00",
+                  "HOLE SECTION START DATE/TIME": "25/09/2020 14:00",
+                  "HOLE SECTION END DATE/TIME": "02/10/2020 12:00"
+                },
+                {
+                  "SECTION NAME": "CASING 4",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "8,50",
+                  "ID": "",
+                  "TOP MD": "5.464,00",
+                  "BASE MD": "",
+                  "HOLE SECTION START DATE/TIME": "10/10/2020 12:30",
+                  "HOLE SECTION END DATE/TIME": ""
+                }
+              ]
+            },
+            {
+              "name": "Mud",
+              "headers": [
+                "MUD DESC.",
+                "DENSITY (ppg)",
+                "VISCOSITY (s/qt)",
+                "DATE/TIME",
+                "MD CHECK (m)",
+                "PV (cp)",
+                "YP (lbf/100ft²)",
+                "Cl- (mg/L)",
+                "Ca+ (mg/L)",
+                "ph",
+                "Pm",
+                "Pf (mL)",
+                "Mf (mL)"
+              ],
+              "rows": [
+                {
+                  "MUD DESC.": "FPBA Pol GX + Amido",
+                  "DENSITY (ppg)": "9,00",
+                  "VISCOSITY (s/qt)": "44,00",
+                  "DATE/TIME": "15/10/2020",
+                  "MD CHECK (m)": "5.746,00",
+                  "PV (cp)": "8,00",
+                  "YP (lbf/100ft²)": "16,00",
+                  "Cl- (mg/L)": "40.000,00",
+                  "Ca+ (mg/L)": "320,00",
+                  "ph": "9,50",
+                  "Pm": "0,80",
+                  "Pf (mL)": "0,10",
+                  "Mf (mL)": "0,20"
+                },
+                {
+                  "MUD DESC.": "FPBA Pol GX + Amido",
+                  "DENSITY (ppg)": "9,00",
+                  "VISCOSITY (s/qt)": "47,00",
+                  "DATE/TIME": "15/10/2020",
+                  "MD CHECK (m)": "5.732,00",
+                  "PV (cp)": "10,00",
+                  "YP (lbf/100ft²)": "16,00",
+                  "Cl- (mg/L)": "40.000,00",
+                  "Ca+ (mg/L)": "320,00",
+                  "ph": "9,50",
+                  "Pm": "1,00",
+                  "Pf (mL)": "0,10",
+                  "Mf (mL)": "0,20"
+                },
+                {
+                  "MUD DESC.": "FPBA Pol GX + Amido",
+                  "DENSITY (ppg)": "9,00",
+                  "VISCOSITY (s/qt)": "45,00",
+                  "DATE/TIME": "15/10/2020",
+                  "MD CHECK (m)": "5.749,00",
+                  "PV (cp)": "9,00",
+                  "YP (lbf/100ft²)": "16,00",
+                  "Cl- (mg/L)": "40.000,00",
+                  "Ca+ (mg/L)": "320,00",
+                  "ph": "9,50",
+                  "Pm": "1,00",
+                  "Pf (mL)": "0,10",
+                  "Mf (mL)": "0,20"
+                }
+              ]
+            },
+            {
+              "name": "Assembly Components",
+              "headers": [
+                "ITEM DESCRIPTION",
+                "No. of JOINTS",
+                "LENGHT (m)",
+                "OD (\")",
+                "ID (\")",
+                "CONNECTION",
+                "WEIGHT (ppf)",
+                "SERIAL No."
+              ],
+              "rows": [
+                {
+                  "ITEM DESCRIPTION": "8 1/2\" PDC IADC M0713 NS: 13469116",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "0,31",
+                  "OD": "8,00",
+                  "ID": "2,00",
+                  "CONNECTION": "4 1/2 REG",
+                  "WEIGHT (ppf)": "103,86",
+                  "SERIAL No.": "13269163"
+                },
+                {
+                  "ITEM DESCRIPTION": "8 1/2\" EZ-Sleeve NS: 13208141",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "0,38",
+                  "OD": "8,00",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 REG",
+                  "WEIGHT (ppf)": "147,22",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "But sub",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,14",
+                  "OD": "6,75",
+                  "ID": "2,88",
+                  "CONNECTION": "4 1/2 REG",
+                  "WEIGHT (ppf)": "99,83",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" SperryDrill Lobe 6/7 - 5.0 stg NS: 11020003",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "3,00",
+                  "OD": "6,75",
+                  "ID": "4,50",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "87,63",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "8 3/8\" Stabilizer NS: 12106103",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,67",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,86",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" DrillDOC NS: 11962903",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "2,17",
+                  "OD": "7,13",
+                  "ID": "2,06",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "108,41",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" DGR Collar NS: 13084110",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "2,51",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,80",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" PWD NS: 11468867",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,32",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "96,30",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" DM Collar NS: 11675252",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "2,69",
+                  "OD": "6,75",
+                  "ID": "3,13",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "103,40",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" Inline Stabilizer (8 3/8\") NS: 11264786",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "0,54",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,86",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" ADR Collar NS: 11264786",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "7,44",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "109,40",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" X-Over Stabilized (8 3/8\") NS: 11443422",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "0,57",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,86",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" BAT Collar NS: 11820602",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "6,19",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,70",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" X-Over Stabilized (8 3/8\") NS: 11535505",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "0,57",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,86",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" MRIL-WD NS: 11535505",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "11,21",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "105,40",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" Inline Stabilizer (8 3/8\") NS: 11554881",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "0,60",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,86",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" NEGATIVE PULSER NS: 11554881",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "4,04",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "108,90",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "8 3/8\" Stabilizer NS: 12106117",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,66",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "100,77",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" PBL (Esfera de ativação 2\") NS: WESSBP786",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "2,72",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "97,86",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" Float Sub (Ported Flapper) NS: 12095337",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,30",
+                  "OD": "6,75",
+                  "ID": "2,75",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "101,71",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "(01) x 6 3/4\" Drill Collar",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "9,43",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "100,50",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6 3/4\" Float Sub (Non Ported Flapper) NS: 12095353",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,41",
+                  "OD": "6,75",
+                  "ID": "2,75",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "101,71",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "(02) x 6 3/4\" Drill Collar",
+                  "No. of JOINTS": "2",
+                  "LENGHT (m)": "18,94",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "100,50",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "(12) x Spiral 6 3/4\" Drill Collar",
+                  "No. of JOINTS": "12",
+                  "LENGHT (m)": "113,39",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "100,50",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "6-3/4\" Drilling Jar NS: 474651001",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "8,81",
+                  "OD": "6,88",
+                  "ID": "2,75",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "94,62",
+                  "SERIAL No.": ""
+                },
+                {
+                  "ITEM DESCRIPTION": "(04) x 6 3/4\"Spiral Drill Collar",
+                  "No. of JOINTS": "4",
+                  "LENGHT (m)": "37,86",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT (ppf)": "100,50",
+                  "SERIAL No.": ""
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "BHA No.",
+              "value": "5"
+            },
+            {
+              "key": "LENGTH(m)",
+              "value": "357,35"
+            },
+            {
+              "key": "DATE IN",
+              "value": "12/10/2020 21:00"
+            },
+            {
+              "key": "PURPOSE",
+              "value": "Perfurar fase IV - 8 1/2\""
+            },
+            {
+              "key": "DURAÇÃO TOTAL",
+              "value": "24,00"
+            }
+          ]
+        },
+        {
+          "page_number": 4,
+          "text_blocks": [],
+          "tables": [
+            {
+              "name": "Assembly Components (continued)",
+              "headers": [
+                "ITEM DESCRIPTION",
+                "No. of JOINTS",
+                "LENGHT (m)",
+                "OD (\")",
+                "ID (\")",
+                "CONNECTION",
+                "WEIGHT (ppf)"
+              ],
+              "rows": [
+                {
+                  "ITEM DESCRIPTION": "X-Over Sub",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,13",
+                  "OD": "6,50",
+                  "ID": "2,50",
+                  "CONNECTION": "Delta 544",
+                  "WEIGHT (ppf)": "96,36"
+                },
+                {
+                  "ITEM DESCRIPTION": "(12) x 5-1/2\" HWDP",
+                  "No. of JOINTS": "12",
+                  "LENGHT (m)": "112,91",
+                  "OD": "5,00",
+                  "ID": "3,00",
+                  "CONNECTION": "Delta 544",
+                  "WEIGHT (ppf)": "57,00"
+                },
+                {
+                  "ITEM DESCRIPTION": "Drill Pipe 5 1/2\"",
+                  "No. of JOINTS": "",
+                  "LENGHT (m)": "494,88",
+                  "OD": "5,50",
+                  "ID": "4,50",
+                  "CONNECTION": "Delta 544",
+                  "WEIGHT (ppf)": "26,77"
+                },
+                {
+                  "ITEM DESCRIPTION": "X-Over Sub",
+                  "No. of JOINTS": "1",
+                  "LENGHT (m)": "1,44",
+                  "OD": "5,50",
+                  "ID": "4,50",
+                  "CONNECTION": "Delta 576",
+                  "WEIGHT (ppf)": "26,77"
+                },
+                {
+                  "ITEM DESCRIPTION": "Drill Pipe 5 7/8'' S135 (D576)",
+                  "No. of JOINTS": "",
+                  "LENGHT (m)": "2.800,00",
+                  "OD": "7,13",
+                  "ID": "4,63",
+                  "CONNECTION": "Delta 576",
+                  "WEIGHT (ppf)": "34,75"
+                },
+                {
+                  "ITEM DESCRIPTION": "Drill Pipe 5 7/8'' Z140 (D576)",
+                  "No. of JOINTS": "",
+                  "LENGHT (m)": "1.903,12",
+                  "OD": "7,00",
+                  "ID": "4,00",
+                  "CONNECTION": "Delta 576",
+                  "WEIGHT (ppf)": "40,71"
+                }
+              ]
+            },
+            {
+              "name": "Mud Products",
+              "headers": [
+                "PRODUCT",
+                "UNITS",
+                "USED",
+                "QUANTITY END"
+              ],
+              "rows": [
+                {
+                  "PRODUCT": "ÁCIDO CÍTRICO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "47,00"
+                },
+                {
+                  "PRODUCT": "ADAPTA L",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "ÁGUA DO MAR",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "ANTIESPUMANTE",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "45,00"
+                },
+                {
+                  "PRODUCT": "BARABLEND-657",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "286,00"
+                },
+                {
+                  "PRODUCT": "BARABLEND-665",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "95,00"
+                },
+                {
+                  "PRODUCT": "BARACOR 100",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "5,00"
+                },
+                {
+                  "PRODUCT": "BARAKLEAN 934",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "2,00"
+                },
+                {
+                  "PRODUCT": "BARALOCK-666 FINO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "25,00"
+                },
+                {
+                  "PRODUCT": "BARALOCK-666 MÉDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "25,00"
+                },
+                {
+                  "PRODUCT": "BARALOCK-666 GROSSO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "62,00"
+                },
+                {
+                  "PRODUCT": "BARAZAN D-PLUS",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "206,00"
+                },
+                {
+                  "PRODUCT": "BARITINA",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "2.002,00"
+                },
+                {
+                  "PRODUCT": "BENTONITA",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "253,60"
+                },
+                {
+                  "PRODUCT": "BICARBONATO DE SÓDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "107,00"
+                },
+                {
+                  "PRODUCT": "BISSULFITO DE SÓDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "35,00"
+                },
+                {
+                  "PRODUCT": "CALCÁRIO 2-44",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "3.468,00"
+                },
+                {
+                  "PRODUCT": "CALCITA / CALCÁRIO FINO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "168,00"
+                },
+                {
+                  "PRODUCT": "CALCITA / CALCÁRIO MÉDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "128,00"
+                },
+                {
+                  "PRODUCT": "CALCITA / CALCÁRIO GROSSO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "285,00"
+                },
+                {
+                  "PRODUCT": "CFS 1006",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "11,00"
+                },
+                {
+                  "PRODUCT": "CMC-LV",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "DRILTREAT",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "4,00"
+                },
+                {
+                  "PRODUCT": "GLUTARALDEÍDO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "61,00"
+                },
+                {
+                  "PRODUCT": "HIDROXPROPILAMIDO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "219,00"
+                },
+                {
+                  "PRODUCT": "N-PLEX",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "10,00"
+                },
+                {
+                  "PRODUCT": "N-SEAL",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "150,00"
+                },
+                {
+                  "PRODUCT": "ÓXIDO DE MAGNÉSIO",
+                  "UNITS": "Kg",
+                  "USED": "12,00",
+                  "QUANTITY END": "154,00"
+                },
+                {
+                  "PRODUCT": "PAC L",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "130,00"
+                },
+                {
+                  "PRODUCT": "SODA CÁUSTICA",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "57,00"
+                },
+                {
+                  "PRODUCT": "SOLUÇÃO SATURADA DE CaCl2",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "2.150,00"
+                },
+                {
+                  "PRODUCT": "SOLUÇÃO SATURADA DE NaCl",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "3.900,00"
+                },
+                {
+                  "PRODUCT": "SOURSCAV",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "52,00"
+                },
+                {
+                  "PRODUCT": "STARCIDE",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "STEELSEAL 100",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "60,00"
+                },
+                {
+                  "PRODUCT": "STEELSEAL 400",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "25,00"
+                },
+                {
+                  "PRODUCT": "ULTRAWET 70",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "3,00"
+                },
+                {
+                  "PRODUCT": "ÁGUA INDUSTRIAL",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "-6.489,00"
+                }
+              ]
+            },
+            {
+              "name": "Personnel - Petrobras",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Alan Armele",
+                  "Role": "GEÓLOGO"
+                },
+                {
+                  "Name": "Daniel Henrique Martincoski",
+                  "Role": "FISCAL"
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "PERSONNEL Total",
+              "value": "46 people"
+            }
+          ]
+        },
+        {
+          "page_number": 5,
+          "text_blocks": [],
+          "tables": [
+            {
+              "name": "Personnel - Petrobras (continued)",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Diogo José Rosseto",
+                  "Role": "FISCAL"
+                },
+                {
+                  "Name": "Julio Emanuel Klafke Sperb",
+                  "Role": "FISCAL"
+                },
+                {
+                  "Name": "Leandro de Oliveira Abreu",
+                  "Role": "GEÓLOGO"
+                },
+                {
+                  "Name": "Robson Luiz de Souza Mariano",
+                  "Role": "FISCAL DE SONDAGEM"
+                }
+              ]
+            },
+            {
+              "name": "Personnel - Halliburton",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Aderilson Vicente Carvalho Jr.",
+                  "Role": "LWD"
+                },
+                {
+                  "Name": "Adriana Aquino Roldan",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Alexandre da Silva Francisco",
+                  "Role": "GÁS AVANÇADO"
+                },
+                {
+                  "Name": "Ana Carolina Damelia de Andrade Pereira",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Analice dos Santos Dias",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Breno Santuzzi Tebaldi",
+                  "Role": "CPM"
+                },
+                {
+                  "Name": "Carolina Peterle de Nadai",
+                  "Role": "GEOQUÍMICA"
+                },
+                {
+                  "Name": "Claudio Melo Tasso",
+                  "Role": "DIRECIONAL"
+                },
+                {
+                  "Name": "Flavio dos Santos Machado",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Henrique Borba Garcia",
+                  "Role": "PERFILAGEM"
+                },
+                {
+                  "Name": "Idalio Brasil de Souza Neto",
+                  "Role": "OPERADOR COMPLETAÇÃO"
+                },
+                {
+                  "Name": "Isaac Thompson Chagas Santos",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Jean Carlos dos Santos Marques de Azevedo",
+                  "Role": "SAMPLE CATCHER"
+                },
+                {
+                  "Name": "Jonas Santos da Silva",
+                  "Role": "BATCH MIXER"
+                },
+                {
+                  "Name": "José Antônio Pena Castellano",
+                  "Role": "GÁS AVANÇADO"
+                },
+                {
+                  "Name": "Josue Nunes da Silva",
+                  "Role": "PERFILAGEM"
+                },
+                {
+                  "Name": "Lindemberg Varela Marques",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Luiz Gustavo da Cruz Rezende",
+                  "Role": "GÁS AVANÇADO"
+                },
+                {
+                  "Name": "Luiz Henrique Ribeiro da Conceição",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Marcelo Ferreira Nazar",
+                  "Role": "SAMPLE CATCHER"
+                },
+                {
+                  "Name": "Nicholas Jeferson Fernandes da Silva",
+                  "Role": "MWD"
+                },
+                {
+                  "Name": "Regilnaldo Cavalcante da Silva",
+                  "Role": "BATCH MIXER"
+                },
+                {
+                  "Name": "Renato Rodrigues Silva",
+                  "Role": "PERFILAGEM"
+                },
+                {
+                  "Name": "Renato Vinha Dalvi",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Rogerio Daudt de Almeida",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Stenio Hermmson freire da Silva",
+                  "Role": "BATCH MIXER"
+                },
+                {
+                  "Name": "Thiago Henrique Guedes Rodrigues",
+                  "Role": "LWD"
+                },
+                {
+                  "Name": "Thiago Rodrigues Santos da Silva",
+                  "Role": "QUÍMICO"
+                },
+                {
+                  "Name": "Vanessa Rodrigues Pacheco",
+                  "Role": "GEOQUÍMICA"
+                },
+                {
+                  "Name": "Victor Emanuel Simmer",
+                  "Role": "DIRECIONAL"
+                },
+                {
+                  "Name": "Yuri Lima de Brito",
+                  "Role": "QUÍMICO"
+                }
+              ]
+            },
+            {
+              "name": "Personnel - FMC",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Gabriel Costa Telles da Silva",
+                  "Role": "CABP"
+                },
+                {
+                  "Name": "Raufe Xavier Marcello",
+                  "Role": "CABP"
+                }
+              ]
+            },
+            {
+              "name": "Personnel - Oceaneering",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Eurico Manuel Shou",
+                  "Role": "ROV"
+                },
+                {
+                  "Name": "Fabricio Cezario Oliveira",
+                  "Role": "ROV"
+                },
+                {
+                  "Name": "Marcio de Miranda Lima",
+                  "Role": "ROV"
+                }
+              ]
+            },
+            {
+              "name": "Personnel - Weatherford",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Angelo Pio Gomes Manhães",
+                  "Role": "MPD"
+                },
+                {
+                  "Name": "Carlos Alberto do Nascimento Junior",
+                  "Role": "MPD"
+                },
+                {
+                  "Name": "Renato Oliveira Barreto",
+                  "Role": "MPD"
+                },
+                {
+                  "Name": "Vitor Albano Campanharo",
+                  "Role": "MPD"
+                }
+              ]
+            },
+            {
+              "name": "Materials",
+              "headers": [
+                "PRODUCT NAME",
+                "WEIGHT/VOL. PER UNIT",
+                "USAGE",
+                "QUANTITY END"
+              ],
+              "rows": [
+                {
+                  "PRODUCT NAME": "DIESEL P/ UNIDADE",
+                  "WEIGHT/VOL. PER UNIT": "",
+                  "USAGE": "55,00",
+                  "QUANTITY END": "2.171,00"
+                },
+                {
+                  "PRODUCT NAME": "ÁGUA POTÁVEL",
+                  "WEIGHT/VOL. PER UNIT": "",
+                  "USAGE": "37,00",
+                  "QUANTITY END": "1.757,00"
+                }
+              ]
+            }
+          ],
+          "key_values": []
+        },
+        {
+          "page_number": 6,
+          "text_blocks": [
+            {
+              "text": "Auditorias Realizadas pela equipe da segurança durante acompanhamento das operações:\n- Auditorias Leading Indicators;\n- Verificação dos trabalhos aprovados via permissão de trabalho;\n\nReunião Pré-turno:\n- Programação semanal dos Indicadores;\n- Treinamentos pendentes;\n- Operações futuras.\n\nEstatísticas de Acidente:\nAcidente sem afastamento = 419 dias.\nAcidente com afastamento = 1044 dias.\nPerda de contenção =63 dias.",
+              "translated_text": "Audits Carried out by the safety team during operations monitoring:\n- Leading Indicators Audits;\n- Verification of work approved via work permit;\n\nPre-shift Meeting:\n- Weekly Indicators Schedule;\n- Pending Training;\n- Future Operations.\n\nAccident Statistics:\nAccident without leave = 419 days.\nAccident with leave = 1044 days.\nLoss of containment = 63 days."
+            }
+          ],
+          "tables": [
+            {
+              "name": "Materials (continued)",
+              "headers": [
+                "PRODUCT NAME",
+                "WEIGHT/VOL. PER UNIT",
+                "USAGE",
+                "QUANTITY END"
+              ],
+              "rows": [
+                {
+                  "PRODUCT NAME": "ÁGUA INDUSTRIAL",
+                  "WEIGHT/VOL. PER UNIT": "",
+                  "USAGE": "31,00",
+                  "QUANTITY END": "1.297,00"
+                },
+                {
+                  "PRODUCT NAME": "CIMENTO SILO B",
+                  "WEIGHT/VOL. PER UNIT": "",
+                  "USAGE": "0,10",
+                  "QUANTITY END": "3.555,00"
+                }
+              ]
+            },
+            {
+              "name": "Safety",
+              "headers": [
+                "Field",
+                "Value"
+              ],
+              "rows": [
+                {
+                  "Field": "STOP CARDS",
+                  "Value": ""
+                },
+                {
+                  "Field": "DAYS SINCE LOST TIME / INCIDENT",
+                  "Value": "1044.0"
+                },
+                {
+                  "Field": "TOPIC",
+                  "Value": "Pré-turno"
+                },
+                {
+                  "Field": "KEYWORDS",
+                  "Value": "Alerta de Segurança"
+                }
+              ]
+            },
+            {
+              "name": "Equipment Detection Tests",
+              "headers": [
+                "Field",
+                "RIG",
+                "MUD LOG"
+              ],
+              "rows": [
+                {
+                  "Field": "TRANSF. VOL. (bbl)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "VOLUME DETECTED (bbl)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "RESP. TIME (hr)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "10% INCREASE?",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "FLOW RATE DETECTED (gpm)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "VACUUM WORKING PRINCIPLE",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "PARTIAL VACUUM (mmHg)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Field": "VACUUM PRESSURE DROP (psi)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                }
+              ]
+            },
+            {
+              "name": "Weather",
+              "headers": [
+                "TIME",
+                "WEATHER",
+                "DAILY HIGH/LOW TEMP (C°)",
+                "VISIBILITY",
+                "CEILING",
+                "10M WIND SPD.",
+                "GUST SPD.",
+                "CURRENTS SPEED (knots)",
+                "DIR (°)",
+                "SIG/MAX WAVE HT. (m)",
+                "DIR (°)",
+                "SWELL PERIOD (sec)",
+                "HT. (m)"
+              ],
+              "rows": []
+            },
+            {
+              "name": "Vessel",
+              "headers": [
+                "HEAVE (m)",
+                "PITCH (°)",
+                "ROLL (°)",
+                "OFFSET (m)",
+                "HEADING (°)"
+              ],
+              "rows": []
+            }
+          ],
+          "key_values": [
+            {
+              "key": "STOP CARDS",
+              "value": ""
+            },
+            {
+              "key": "DAYS SINCE LOST TIME / INCIDENT",
+              "value": "1044.0"
+            },
+            {
+              "key": "Acidente sem afastamento",
+              "value": "419 dias"
+            },
+            {
+              "key": "Acidente com afastamento",
+              "value": "1044 dias"
+            },
+            {
+              "key": "Perda de contenção",
+              "value": "63 dias"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:/Users/Kshitij.Patil/OneDrive - ENCORA/Desktop/control_plane/runs/run_20251102_010239/phase2/prepare_workspace_and_classify_pdfs/workspace/source/halliburton_ddr/Petrobras/BDP_Parceiro-036-8-MRO-8-RJS-12-10-2020 (1).pdf",
+    "pdf_name": "BDP_Parceiro-036-8-MRO-8-RJS-12-10-2020 (1).pdf",
+    "data": null,
+    "success": false,
+    "error": "Timeout: PDF processing exceeded 180 seconds"
+  },
+  {
+    "pdf_path": "C:/Users/Kshitij.Patil/OneDrive - ENCORA/Desktop/control_plane/runs/run_20251102_010239/phase2/prepare_workspace_and_classify_pdfs/workspace/source/halliburton_ddr/Petrobras/BDP_Parceiro-039-8-MRO-8-RJS-15-10-2020 (1).pdf",
+    "pdf_name": "BDP_Parceiro-039-8-MRO-8-RJS-15-10-2020 (1).pdf",
+    "data": {
+      "filename": "Daily_Drilling_Report_LIBRA_Report_39_15-10-2020.pdf",
+      "language": "Portuguese",
+      "page_count": 6,
+      "pages": [
+        {
+          "page_number": 1,
+          "text_blocks": [
+            {
+              "text": "Daily Drilling Report (LIBRA)",
+              "translated_text": "Daily Drilling Report (LIBRA)"
+            },
+            {
+              "text": "MP: Retirando BHA 8 1/2\" a 3500 m.\nMA: Montando e estaleirando BHA 8 1/2\".",
+              "translated_text": "MP: Pulling out BHA 8 1/2\" at 3500 m.\nMA: Assembling and racking BHA 8 1/2\"."
+            },
+            {
+              "text": "MP: Retirado BHA 8 1/2\" de 4550 até 3500 m.\nMA: Efetuada leitura das ferramentas eletrônicas do BHA #4.",
+              "translated_text": "MP: Pulled out BHA 8 1/2\" from 4550 to 3500 m.\nMA: Reading of electronic tools from BHA #4 performed."
+            },
+            {
+              "text": "MP: Retirar BHA 8 1/2\" até superfície.\nMA: Montar BHA 8 1/2\" para a terceira corrida.",
+              "translated_text": "MP: Pull out BHA 8 1/2\" to surface.\nMA: Assemble BHA 8 1/2\" for the third run."
+            }
+          ],
+          "tables": [
+            {
+              "title": "CRITICAL PATH OPERATIONS SUMMARY",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "00:00",
+                  "TO": "11:00",
+                  "DUR": "11,00",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Drilling with 8 1/2\" BHA from 5721 m to 5742 m, with 15-30 klbf, 80-120 rpm, 25-33 klbf.ft, 600 gpm / 2550 psi. Notes: - EDS#4 (CSR+UBSR). - Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%. - MPD in AP mode @ 5547 m with 9,80 ppg. - Using PWD internal gauge to estimate ECD and to calibrate MPD model. - Backreaming 20 m at 5723 m and 5731 m due to surface torque increasing. - Backreaming 5 m at 5737 m due to low ROP and backreaming 30 m at 5740 due to low ROP and BHA vibration. - Observing stall with 33 klbf.ft at 5739 m. - Observing MRIL tool failure at 5739 m."
+                },
+                {
+                  "FROM": "11:00",
+                  "TO": "12:30",
+                  "DUR": "1,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Troubleshooting MRIL tool. Obs.: - Performing downlinks and manual mode switch, without sucess."
+                },
+                {
+                  "FROM": "12:30",
+                  "TO": "15:00",
+                  "DUR": "2,50",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Drilling with 8 1/2\" BHA from 5742 m to 5747 m, with 15-37 klbf, 80 rpm, 25-32 klbf.ft, 600 gpm / 2550 psi. Notes: - Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%. - MPD in AP mode @ 5547 m with 9,80 ppg. - Observing failure to receive M/LWD signal."
+                },
+                {
+                  "FROM": "15:00",
+                  "TO": "16:00",
+                  "DUR": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Troubleshooting M/LWD tools. Obs.: - Performing downlinks and manual mode switch, with sucess."
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "WELL",
+              "value": "8-MRO-8-RJS"
+            },
+            {
+              "key": "REPORT No",
+              "value": "39"
+            },
+            {
+              "key": "REPORT DATE",
+              "value": "15/10/2020"
+            },
+            {
+              "key": "WELLBORE No",
+              "value": "OH"
+            },
+            {
+              "key": "WELLBORE NAME",
+              "value": "8-MRO-8-RJS"
+            },
+            {
+              "key": "RIG NAME/No",
+              "value": "DEEPWATER MYKONOS / 39"
+            },
+            {
+              "key": "PROJECT",
+              "value": "LIBRA-NW"
+            },
+            {
+              "key": "SITE",
+              "value": "8-MRO-8-RJS"
+            },
+            {
+              "key": "ESTIMATED END DATE",
+              "value": "12/12/2020"
+            },
+            {
+              "key": "EVENT",
+              "value": "ORIG DRILLING"
+            },
+            {
+              "key": "START DATE",
+              "value": "07/09/2020"
+            },
+            {
+              "key": "SPUD DATE",
+              "value": "08/09/2020"
+            },
+            {
+              "key": "ACTIVE DATUM",
+              "value": "NS-39 @ 25,00m"
+            },
+            {
+              "key": "GROUND ELEVATION/WATER DEPTH (m)",
+              "value": "25,00 / 2.046,00"
+            },
+            {
+              "key": "BLOCK",
+              "value": "LIBRA"
+            },
+            {
+              "key": "GEP",
+              "value": "Gabriel Rosa"
+            },
+            {
+              "key": "FISCAL",
+              "value": "Daniel Martincoski/ Júlio Sperb / Diogo Rossetto"
+            },
+            {
+              "key": "MD (m)",
+              "value": "5.560,00"
+            },
+            {
+              "key": "PROGRESS (m)",
+              "value": ""
+            },
+            {
+              "key": "AVG. ROP. (m/hr)",
+              "value": "0,00"
+            },
+            {
+              "key": "ROTATING Hrs (hr)",
+              "value": ""
+            },
+            {
+              "key": "CUM. ROT. Hrs (hr)",
+              "value": "131,50"
+            },
+            {
+              "key": "DFS. (days)",
+              "value": "38,00"
+            },
+            {
+              "key": "EST. DAYS",
+              "value": "74.3"
+            },
+            {
+              "key": "ESTIMATED DAILY COST",
+              "value": "315.383,87"
+            },
+            {
+              "key": "APPROVED AFE",
+              "value": ""
+            },
+            {
+              "key": "CUMULATIVE COST",
+              "value": "15.635.985,08"
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "text_blocks": [
+            {
+              "text": "MW: Perfazendo verificação dinâmica de fluxo durante 15 min, OK. POOH 1 stand mantendo SBP para pressurizar poço com 9.8 ppg + 120 psi na sapata do revestimento. B/D drilling stand.",
+              "translated_text": "MW: Performing dynamic flow check during 15 min, OK. POOH 1 stand keeping SBP to pressurize well with 9.8 ppg + 120 psi at the casing shoe. B/D drilling stand."
+            },
+            {
+              "text": "Obs.: - Selecionando EDS#5 (CSR+LBSR / EHBS: LBSR). - Em paralelo, realizando reunião de segurança pré-trabalho antes de POOH BHA #5.",
+              "translated_text": "Obs.: - Selecting EDS#5 (CSR+LBSR / EHBS: LBSR). - In parallel, holding a pre job safety meeting prior to POOH BHA #5."
+            }
+          ],
+          "tables": [
+            {
+              "title": "CRITICAL PATH OPERATIONS SUMMARY (continued)",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "16:00",
+                  "TO": "16:30",
+                  "DUR": "0,50",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Drilling with 8 1/2\" BHA from 5747 m to 5749 m, with 12-15 klbf, 70 rpm, 24-25 klbf.ft, 600 gpm / 2600 psi. Notes: - Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%. - MPD in AP mode @ 5547 m with 9,80 ppg. - Flushing kill and choke lines. - Observing another failure to receive M/LWD signal."
+                },
+                {
+                  "FROM": "16:30",
+                  "TO": "17:30",
+                  "DUR": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Troubleshooting M/LWD tools. Obs.: - Performing downlinks and manual mode switch, without sucess."
+                },
+                {
+                  "FROM": "17:30",
+                  "TO": "18:30",
+                  "DUR": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Performing dynamic flow check during 15 min, OK. POOH 1 stand keeping SBP to pressurize well with 9.8 ppg + 120 psi at the casing shoe. B/D drilling stand. Obs.: - Selecting EDS#5 (CSR+LBSR / EHBS: LBSR). - In parallel, holding a pre job safety meeting prior to POOH BHA #5."
+                },
+                {
+                  "FROM": "18:30",
+                  "TO": "19:00",
+                  "DUR": "0,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: POOH 8 1/2\" BHA on DP 5 1/2\" + DP 5 7/8\" from 5741 m to 5702 m in open hole, at restricted speed of 2 min/stand."
+                },
+                {
+                  "FROM": "19:00",
+                  "TO": "20:00",
+                  "DUR": "1,00",
+                  "CLASS": "PT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Connecting TDS and recording torque: 5676m 80rpm 23,5klbs.ft 100rpm 24klbs.ft 120rpm 26klbs.ft; 5666m 22klbs.ft 24klbs.ft 25klbs.ft; 5656m 23klbs.ft 24,5klbs.ft 25,5klbs.ft; 5642m 23klbs.ft 25klbs.ft 25,5klbs.ft; 5632m 23klbs.ft 25,5klbs.ft 25,5klbs.ft; 5622m 24klbs.ft 25klbs.ft 25,5klbs.ft. Notes: - Circulating 9.0 ppg WBM @ 600 gpm. - Keeping booster with 350 gpm / 550 psi, SBP 300 psi, Choke A 46-48%. - MPD in AP mode @ 5547 m with 9,80 ppg."
+                },
+                {
+                  "FROM": "20:00",
+                  "TO": "21:00",
+                  "DUR": "1,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 5622 m to 5435 m in open hole, at restricted speed of 2 min/stand."
+                },
+                {
+                  "FROM": "21:00",
+                  "TO": "21:30",
+                  "DUR": "0,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Performing dynamic flow check during 15 min, well static."
+                },
+                {
+                  "FROM": "21:30",
+                  "TO": "23:30",
+                  "DUR": "2,00",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 5435 m to 4450 m inside casing, at restricted speed of 2 min/stand."
+                },
+                {
+                  "FROM": "23:30",
+                  "TO": "00:00",
+                  "DUR": "0,50",
+                  "CLASS": "NPT",
+                  "RIG": "MAIN",
+                  "DESCRIPTION": "MW: Trying set string on slips, without success. Trying adjust rig balance, without success. Note: It was necessary change rig heading to allowed operate with supply boat."
+                }
+              ]
+            },
+            {
+              "title": "PARALLEL OPERATIONS SUMMARY",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "00:00",
+                  "TO": "08:00",
+                  "DUR": "8,00",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: L/D 6 5/8\" DP GPDS65 landing string (53 out of 53 stands)."
+                },
+                {
+                  "FROM": "08:00",
+                  "TO": "09:30",
+                  "DUR": "1,50",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: Changing out elevator inserts to 5\". Removing PS-16 slips from the rotary table and installing bushing."
+                },
+                {
+                  "FROM": "09:30",
+                  "TO": "18:00",
+                  "DUR": "8,50",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: L/D 5\" DP (16 out of 16 stands)."
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "DURAÇÃO TOTAL",
+              "value": "24,00"
+            },
+            {
+              "key": "DURAÇÃO TOTAL (Translation)",
+              "value": "TOTAL DURATION"
+            }
+          ]
+        },
+        {
+          "page_number": 3,
+          "text_blocks": [
+            {
+              "text": "AW: Sem atividade.",
+              "translated_text": "AW: No activity."
+            },
+            {
+              "text": "AW: Movendo BHA #4 da torre para o rotativo e realizando troubleshooting. Ferramentas eletrônicas do BHA #4 disponíveis para uso.",
+              "translated_text": "AW: Moving BHA #4 from derrick to rotary and performing troubleshooting. BHA #4 electronic tools available to use."
+            }
+          ],
+          "tables": [
+            {
+              "title": "PARALLEL OPERATIONS SUMMARY (continued)",
+              "headers": [
+                "FROM",
+                "TO",
+                "DUR. (hr)",
+                "CLASS",
+                "RIG",
+                "DESCRIPTION"
+              ],
+              "rows": [
+                {
+                  "FROM": "18:00",
+                  "TO": "21:00",
+                  "DUR": "3,00",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: No activity."
+                },
+                {
+                  "FROM": "21:00",
+                  "TO": "00:00",
+                  "DUR": "3,00",
+                  "CLASS": "PT",
+                  "RIG": "AUX",
+                  "DESCRIPTION": "AW: Moving BHA #4 from derrick to rotary and performing troubleshooting. BHA #4 electronic tools available to use."
+                }
+              ]
+            },
+            {
+              "title": "HOLE SECTION",
+              "headers": [
+                "SECTION NAME",
+                "SECTION TYPE",
+                "EFFECTIVE HOLE DIAMETER (\")",
+                "ID (\")",
+                "MD (m) TOP",
+                "MD (m) BASE",
+                "HOLE SECTION START DATE/TIME",
+                "HOLE SECTION END DATE/TIME"
+              ],
+              "rows": [
+                {
+                  "SECTION NAME": "CONDUCTOR",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "42,00",
+                  "ID": "",
+                  "TOP": "2.071,00",
+                  "BASE": "2.151,80",
+                  "START": "08/09/2020 04:30",
+                  "END": "10/09/2020 05:00"
+                },
+                {
+                  "SECTION NAME": "SURFACE",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "17,50",
+                  "ID": "",
+                  "TOP": "2.151,80",
+                  "BASE": "3.440,00",
+                  "START": "10/09/2020 05:00",
+                  "END": "25/09/2020 14:00"
+                },
+                {
+                  "SECTION NAME": "CASING 3",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "14,75",
+                  "ID": "",
+                  "TOP": "3.440,00",
+                  "BASE": "5.464,00",
+                  "START": "25/09/2020 14:00",
+                  "END": "02/10/2020 12:00"
+                },
+                {
+                  "SECTION NAME": "CASING 4",
+                  "SECTION TYPE": "OH",
+                  "EFFECTIVE HOLE DIAMETER": "8,50",
+                  "ID": "",
+                  "TOP": "5.464,00",
+                  "BASE": "",
+                  "START": "10/10/2020 12:30",
+                  "END": ""
+                }
+              ]
+            },
+            {
+              "title": "MUD",
+              "headers": [
+                "MUD DESC.",
+                "DENSITY (ppg)",
+                "VISCOSITY (s/qt)",
+                "DATE/TIME",
+                "MD CHECK (m)",
+                "PV (cp)",
+                "YP (lbf/100ft²)",
+                "Cl- (mg/L)",
+                "Ca+ (mg/L)",
+                "ph",
+                "Pm",
+                "Pf (mL)",
+                "Mf (mL)"
+              ],
+              "rows": [
+                {
+                  "MUD DESC": "FPBA Pol GX + Amido",
+                  "DENSITY": "9,00",
+                  "VISCOSITY": "44,00",
+                  "DATE/TIME": "15/10/2020",
+                  "MD CHECK": "5.746,00",
+                  "PV": "8,00",
+                  "YP": "16,00",
+                  "Cl-": "40.000,00",
+                  "Ca+": "320,00",
+                  "ph": "9,50",
+                  "Pm": "0,80",
+                  "Pf": "0,10",
+                  "Mf": "0,20"
+                },
+                {
+                  "MUD DESC": "FPBA Pol GX + Amido",
+                  "DENSITY": "9,00",
+                  "VISCOSITY": "47,00",
+                  "DATE/TIME": "15/10/2020",
+                  "MD CHECK": "5.732,00",
+                  "PV": "10,00",
+                  "YP": "16,00",
+                  "Cl-": "40.000,00",
+                  "Ca+": "320,00",
+                  "ph": "9,50",
+                  "Pm": "1,00",
+                  "Pf": "0,10",
+                  "Mf": "0,20"
+                },
+                {
+                  "MUD DESC": "FPBA Pol GX + Amido",
+                  "DENSITY": "9,00",
+                  "VISCOSITY": "45,00",
+                  "DATE/TIME": "15/10/2020",
+                  "MD CHECK": "5.749,00",
+                  "PV": "9,00",
+                  "YP": "16,00",
+                  "Cl-": "40.000,00",
+                  "Ca+": "320,00",
+                  "ph": "9,50",
+                  "Pm": "1,00",
+                  "Pf": "0,10",
+                  "Mf": "0,20"
+                }
+              ]
+            },
+            {
+              "title": "ASSEMBLY INFORMATION",
+              "key_values": [
+                {
+                  "key": "BHA No. #",
+                  "value": "5"
+                },
+                {
+                  "key": "LENGTH(m)",
+                  "value": "357,35"
+                },
+                {
+                  "key": "DATE IN",
+                  "value": "12/10/2020 21:00"
+                },
+                {
+                  "key": "DATE OUT",
+                  "value": ""
+                },
+                {
+                  "key": "PURPOSE",
+                  "value": "Perfurar fase IV - 8 1/2\" (Drill phase IV - 8 1/2\")"
+                }
+              ]
+            },
+            {
+              "title": "ASSEMBLY COMPONENTS",
+              "headers": [
+                "ITEM DESCRIPTION",
+                "No. of JOINTS",
+                "LENGHT (m)",
+                "OD (\")",
+                "ID (\")",
+                "CONNECTION",
+                "WEIGHT (ppf)",
+                "SERIAL No."
+              ],
+              "rows": [
+                {
+                  "ITEM": "8 1/2\" PDC IADC M0713 NS: 13469116",
+                  "JOINTS": "1",
+                  "LENGTH": "0,31",
+                  "OD": "8,00",
+                  "ID": "2,00",
+                  "CONNECTION": "4 1/2 REG",
+                  "WEIGHT": "103,86",
+                  "SERIAL": "13269163"
+                },
+                {
+                  "ITEM": "8 1/2\" EZ-Sleeve NS: 13208141",
+                  "JOINTS": "1",
+                  "LENGTH": "0,38",
+                  "OD": "8,00",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 REG",
+                  "WEIGHT": "147,22",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "But sub",
+                  "JOINTS": "1",
+                  "LENGTH": "1,14",
+                  "OD": "6,75",
+                  "ID": "2,88",
+                  "CONNECTION": "4 1/2 REG",
+                  "WEIGHT": "99,83",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" SperryDrill Lobe 6/7 - 5.0 stg NS: 11020003",
+                  "JOINTS": "1",
+                  "LENGTH": "3,00",
+                  "OD": "6,75",
+                  "ID": "4,50",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "87,63",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "8 3/8\" Stabilizer NS: 12106103",
+                  "JOINTS": "1",
+                  "LENGTH": "1,67",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,86",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" DrillDOC NS: 11962903",
+                  "JOINTS": "1",
+                  "LENGTH": "2,17",
+                  "OD": "7,13",
+                  "ID": "2,06",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "108,41",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" DGR Collar NS: 13084110",
+                  "JOINTS": "1",
+                  "LENGTH": "2,51",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,80",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" PWD NS: 11468867",
+                  "JOINTS": "1",
+                  "LENGTH": "1,32",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "96,30",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" DM Collar NS: 11675252",
+                  "JOINTS": "1",
+                  "LENGTH": "2,69",
+                  "OD": "6,75",
+                  "ID": "3,13",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "103,40",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" Inline Stabilizer (8 3/8\") NS: 11264786",
+                  "JOINTS": "1",
+                  "LENGTH": "0,54",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,86",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" ADR Collar NS: 11264786",
+                  "JOINTS": "1",
+                  "LENGTH": "7,44",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "109,40",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" X-Over Stabilized (8 3/8\") NS: 11443422",
+                  "JOINTS": "1",
+                  "LENGTH": "0,57",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,86",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" BAT Collar NS: 11820602",
+                  "JOINTS": "1",
+                  "LENGTH": "6,19",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,70",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" X-Over Stabilized (8 3/8\") NS: 11535505",
+                  "JOINTS": "1",
+                  "LENGTH": "0,57",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,86",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" MRIL-WD NS: 11535505",
+                  "JOINTS": "1",
+                  "LENGTH": "11,21",
+                  "OD": "6,75",
+                  "ID": "1,90",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "105,40",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" Inline Stabilizer (8 3/8\") NS: 11554881",
+                  "JOINTS": "1",
+                  "LENGTH": "0,60",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,86",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" NEGATIVE PULSER NS: 11554881",
+                  "JOINTS": "1",
+                  "LENGTH": "4,04",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "108,90",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "8 3/8\" Stabilizer NS: 12106117",
+                  "JOINTS": "1",
+                  "LENGTH": "1,66",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "100,77",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" PBL (Esfera de ativação 2\") NS: WESSBP786",
+                  "JOINTS": "1",
+                  "LENGTH": "2,72",
+                  "OD": "6,75",
+                  "ID": "3,00",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "97,86",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" Float Sub (Ported Flapper) NS: 12095337",
+                  "JOINTS": "1",
+                  "LENGTH": "1,30",
+                  "OD": "6,75",
+                  "ID": "2,75",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "101,71",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "(01) x 6 3/4\" Drill Collar",
+                  "JOINTS": "1",
+                  "LENGTH": "9,43",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "100,50",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6 3/4\" Float Sub (Non Ported Flapper) NS: 12095353",
+                  "JOINTS": "1",
+                  "LENGTH": "1,41",
+                  "OD": "6,75",
+                  "ID": "2,75",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "101,71",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "(02) x 6 3/4\" Drill Collar",
+                  "JOINTS": "2",
+                  "LENGTH": "18,94",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "100,50",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "(12) x Spiral 6 3/4\" Drill Collar",
+                  "JOINTS": "12",
+                  "LENGTH": "113,39",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "100,50",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "6-3/4\" Drilling Jar NS: 474651001",
+                  "JOINTS": "1",
+                  "LENGTH": "8,81",
+                  "OD": "6,88",
+                  "ID": "2,75",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "94,62",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "(04) x 6 3/4\"Spiral Drill Collar",
+                  "JOINTS": "4",
+                  "LENGTH": "37,86",
+                  "OD": "6,75",
+                  "ID": "2,81",
+                  "CONNECTION": "4 1/2 IF",
+                  "WEIGHT": "100,50",
+                  "SERIAL": ""
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "DURAÇÃO TOTAL",
+              "value": "24,00"
+            }
+          ]
+        },
+        {
+          "page_number": 4,
+          "text_blocks": [],
+          "tables": [
+            {
+              "title": "ASSEMBLY COMPONENTS (continued)",
+              "headers": [
+                "ITEM DESCRIPTION",
+                "No. of JOINTS",
+                "LENGHT (m)",
+                "OD (\")",
+                "ID (\")",
+                "CONNECTION",
+                "WEIGHT (ppf)",
+                "SERIAL No."
+              ],
+              "rows": [
+                {
+                  "ITEM": "X-Over Sub",
+                  "JOINTS": "1",
+                  "LENGTH": "1,13",
+                  "OD": "6,50",
+                  "ID": "2,50",
+                  "CONNECTION": "Delta 544",
+                  "WEIGHT": "96,36",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "(12) x 5-1/2\" HWDP",
+                  "JOINTS": "12",
+                  "LENGTH": "112,91",
+                  "OD": "5,00",
+                  "ID": "3,00",
+                  "CONNECTION": "Delta 544",
+                  "WEIGHT": "57,00",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "Drill Pipe 5 1/2\"",
+                  "JOINTS": "",
+                  "LENGTH": "494,88",
+                  "OD": "5,50",
+                  "ID": "4,50",
+                  "CONNECTION": "Delta 544",
+                  "WEIGHT": "26,77",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "X-Over Sub",
+                  "JOINTS": "1",
+                  "LENGTH": "1,44",
+                  "OD": "5,50",
+                  "ID": "4,50",
+                  "CONNECTION": "Delta 576",
+                  "WEIGHT": "26,77",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "Drill Pipe 5 7/8'' S135 (D576)",
+                  "JOINTS": "",
+                  "LENGTH": "2.800,00",
+                  "OD": "7,13",
+                  "ID": "4,63",
+                  "CONNECTION": "Delta 576",
+                  "WEIGHT": "34,75",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "Drill Pipe 5 7/8'' Z140 (D576)",
+                  "JOINTS": "",
+                  "LENGTH": "1.903,12",
+                  "OD": "7,00",
+                  "ID": "4,00",
+                  "CONNECTION": "Delta 576",
+                  "WEIGHT": "40,71",
+                  "SERIAL": ""
+                },
+                {
+                  "ITEM": "",
+                  "JOINTS": "",
+                  "LENGTH": "4,65",
+                  "OD": "",
+                  "ID": "",
+                  "CONNECTION": "",
+                  "WEIGHT": "",
+                  "SERIAL": ""
+                }
+              ]
+            },
+            {
+              "title": "MUD PRODUCTS",
+              "headers": [
+                "PRODUCT",
+                "UNITS",
+                "USED",
+                "QUANTITY END"
+              ],
+              "rows": [
+                {
+                  "PRODUCT": "ÁCIDO CÍTRICO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "47,00"
+                },
+                {
+                  "PRODUCT": "ADAPTA L",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "ÁGUA DO MAR",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "ANTIESPUMANTE",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "45,00"
+                },
+                {
+                  "PRODUCT": "BARABLEND-657",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "286,00"
+                },
+                {
+                  "PRODUCT": "BARABLEND-665",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "95,00"
+                },
+                {
+                  "PRODUCT": "BARACOR 100",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "5,00"
+                },
+                {
+                  "PRODUCT": "BARAKLEAN 934",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "2,00"
+                },
+                {
+                  "PRODUCT": "BARALOCK-666 FINO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "25,00"
+                },
+                {
+                  "PRODUCT": "BARALOCK-666 MÉDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "25,00"
+                },
+                {
+                  "PRODUCT": "BARALOCK-666 GROSSO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "62,00"
+                },
+                {
+                  "PRODUCT": "BARAZAN D-PLUS",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "206,00"
+                },
+                {
+                  "PRODUCT": "BARITINA",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "2.002,00"
+                },
+                {
+                  "PRODUCT": "BENTONITA",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "253,60"
+                },
+                {
+                  "PRODUCT": "BICARBONATO DE SÓDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "107,00"
+                },
+                {
+                  "PRODUCT": "BISSULFITO DE SÓDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "35,00"
+                },
+                {
+                  "PRODUCT": "CALCÁRIO 2-44",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "3.468,00"
+                },
+                {
+                  "PRODUCT": "CALCITA / CALCÁRIO FINO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "168,00"
+                },
+                {
+                  "PRODUCT": "CALCITA / CALCÁRIO MÉDIO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "128,00"
+                },
+                {
+                  "PRODUCT": "CALCITA / CALCÁRIO GROSSO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "285,00"
+                },
+                {
+                  "PRODUCT": "CFS 1006",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "11,00"
+                },
+                {
+                  "PRODUCT": "CMC-LV",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "DRILTREAT",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "4,00"
+                },
+                {
+                  "PRODUCT": "GLUTARALDEÍDO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "61,00"
+                },
+                {
+                  "PRODUCT": "HIDROXPROPILAMIDO",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "219,00"
+                },
+                {
+                  "PRODUCT": "N-PLEX",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "10,00"
+                },
+                {
+                  "PRODUCT": "N-SEAL",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "150,00"
+                },
+                {
+                  "PRODUCT": "ÓXIDO DE MAGNÉSIO",
+                  "UNITS": "Kg",
+                  "USED": "12,00",
+                  "QUANTITY END": "154,00"
+                },
+                {
+                  "PRODUCT": "PAC L",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "130,00"
+                },
+                {
+                  "PRODUCT": "SODA CÁUSTICA",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "57,00"
+                },
+                {
+                  "PRODUCT": "SOLUÇÃO SATURADA DE CaCl2",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "2.150,00"
+                },
+                {
+                  "PRODUCT": "SOLUÇÃO SATURADA DE NaCl",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "3.900,00"
+                },
+                {
+                  "PRODUCT": "SOURSCAV",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "52,00"
+                },
+                {
+                  "PRODUCT": "STARCIDE",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "0,00"
+                },
+                {
+                  "PRODUCT": "STEELSEAL 100",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "60,00"
+                },
+                {
+                  "PRODUCT": "STEELSEAL 400",
+                  "UNITS": "Kg",
+                  "USED": "",
+                  "QUANTITY END": "25,00"
+                },
+                {
+                  "PRODUCT": "ULTRAWET 70",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "3,00"
+                },
+                {
+                  "PRODUCT": "ÁGUA INDUSTRIAL",
+                  "UNITS": "Lt",
+                  "USED": "",
+                  "QUANTITY END": "-6.489,00"
+                }
+              ]
+            },
+            {
+              "title": "PERSONNEL - Petrobras",
+              "headers": [
+                "Name",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Alan Armele",
+                  "Role": "GEÓLOGO"
+                },
+                {
+                  "Name": "Daniel Henrique Martincoski",
+                  "Role": "FISCAL"
+                }
+              ]
+            }
+          ],
+          "key_values": [
+            {
+              "key": "PERSONNEL Total",
+              "value": "Total of 46 people: Petrobras - on board"
+            }
+          ]
+        },
+        {
+          "page_number": 5,
+          "text_blocks": [],
+          "tables": [
+            {
+              "title": "PERSONNEL (continued)",
+              "headers": [
+                "Name",
+                "Company",
+                "Role"
+              ],
+              "rows": [
+                {
+                  "Name": "Diogo José Rosseto",
+                  "Company": "Petrobras",
+                  "Role": "FISCAL"
+                },
+                {
+                  "Name": "Julio Emanuel Klafke Sperb",
+                  "Company": "Petrobras",
+                  "Role": "FISCAL"
+                },
+                {
+                  "Name": "Leandro de Oliveira Abreu",
+                  "Company": "Petrobras",
+                  "Role": "GEÓLOGO"
+                },
+                {
+                  "Name": "Robson Luiz de Souza Mariano",
+                  "Company": "Petrobras",
+                  "Role": "FISCAL DE SONDAGEM"
+                },
+                {
+                  "Name": "Aderilson Vicente Carvalho Jr.",
+                  "Company": "Halliburton",
+                  "Role": "LWD"
+                },
+                {
+                  "Name": "Adriana Aquino Roldan",
+                  "Company": "Halliburton",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Alexandre da Silva Francisco",
+                  "Company": "Halliburton",
+                  "Role": "GÁS AVANÇADO"
+                },
+                {
+                  "Name": "Ana Carolina Damelia de Andrade Pereira",
+                  "Company": "Halliburton",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Analice dos Santos Dias",
+                  "Company": "Halliburton",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Breno Santuzzi Tebaldi",
+                  "Company": "Halliburton",
+                  "Role": "CPM"
+                },
+                {
+                  "Name": "Carolina Peterle de Nadai",
+                  "Company": "Halliburton",
+                  "Role": "GEOQUÍMICA"
+                },
+                {
+                  "Name": "Claudio Melo Tasso",
+                  "Company": "Halliburton",
+                  "Role": "DIRECIONAL"
+                },
+                {
+                  "Name": "Flavio dos Santos Machado",
+                  "Company": "Halliburton",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Henrique Borba Garcia",
+                  "Company": "Halliburton",
+                  "Role": "PERFILAGEM"
+                },
+                {
+                  "Name": "Idalio Brasil de Souza Neto",
+                  "Company": "Halliburton",
+                  "Role": "OPERADOR COMPLETAÇÃO"
+                },
+                {
+                  "Name": "Isaac Thompson Chagas Santos",
+                  "Company": "Halliburton",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Jean Carlos dos Santos Marques de Azevedo",
+                  "Company": "Halliburton",
+                  "Role": "SAMPLE CATCHER"
+                },
+                {
+                  "Name": "Jonas Santos da Silva",
+                  "Company": "Halliburton",
+                  "Role": "BATCH MIXER"
+                },
+                {
+                  "Name": "José Antônio Pena Castellano",
+                  "Company": "Halliburton",
+                  "Role": "GÁS AVANÇADO"
+                },
+                {
+                  "Name": "Josue Nunes da Silva",
+                  "Company": "Halliburton",
+                  "Role": "PERFILAGEM"
+                },
+                {
+                  "Name": "Lindemberg Varela Marques",
+                  "Company": "Halliburton",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Luiz Gustavo da Cruz Rezende",
+                  "Company": "Halliburton",
+                  "Role": "GÁS AVANÇADO"
+                },
+                {
+                  "Name": "Luiz Henrique Ribeiro da Conceição",
+                  "Company": "Halliburton",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Marcelo Ferreira Nazar",
+                  "Company": "Halliburton",
+                  "Role": "SAMPLE CATCHER"
+                },
+                {
+                  "Name": "Nicholas Jeferson Fernandes da Silva",
+                  "Company": "Halliburton",
+                  "Role": "MWD"
+                },
+                {
+                  "Name": "Regilnaldo Cavalcante da Silva",
+                  "Company": "Halliburton",
+                  "Role": "BATCH MIXER"
+                },
+                {
+                  "Name": "Renato Rodrigues Silva",
+                  "Company": "Halliburton",
+                  "Role": "PERFILAGEM"
+                },
+                {
+                  "Name": "Renato Vinha Dalvi",
+                  "Company": "Halliburton",
+                  "Role": "MUD LOGGING"
+                },
+                {
+                  "Name": "Rogerio Daudt de Almeida",
+                  "Company": "Halliburton",
+                  "Role": "OPERADOR UNID. FILTRAÇÃO"
+                },
+                {
+                  "Name": "Stenio Hermmson freire da Silva",
+                  "Company": "Halliburton",
+                  "Role": "BATCH MIXER"
+                },
+                {
+                  "Name": "Thiago Henrique Guedes Rodrigues",
+                  "Company": "Halliburton",
+                  "Role": "LWD"
+                },
+                {
+                  "Name": "Thiago Rodrigues Santos da Silva",
+                  "Company": "Halliburton",
+                  "Role": "QUÍMICO"
+                },
+                {
+                  "Name": "Vanessa Rodrigues Pacheco",
+                  "Company": "Halliburton",
+                  "Role": "GEOQUÍMICA"
+                },
+                {
+                  "Name": "Victor Emanuel Simmer",
+                  "Company": "Halliburton",
+                  "Role": "DIRECIONAL"
+                },
+                {
+                  "Name": "Yuri Lima de Brito",
+                  "Company": "Halliburton",
+                  "Role": "QUÍMICO"
+                },
+                {
+                  "Name": "Gabriel Costa Telles da Silva",
+                  "Company": "FMC",
+                  "Role": "CABP"
+                },
+                {
+                  "Name": "Raufe Xavier Marcello",
+                  "Company": "FMC",
+                  "Role": "CABP"
+                },
+                {
+                  "Name": "Eurico Manuel Shou",
+                  "Company": "Oceaneering",
+                  "Role": "ROV"
+                },
+                {
+                  "Name": "Fabricio Cezario Oliveira",
+                  "Company": "Oceaneering",
+                  "Role": "ROV"
+                },
+                {
+                  "Name": "Marcio de Miranda Lima",
+                  "Company": "Oceaneering",
+                  "Role": "ROV"
+                },
+                {
+                  "Name": "Angelo Pio Gomes Manhães",
+                  "Company": "Weatherford",
+                  "Role": "MPD"
+                },
+                {
+                  "Name": "Carlos Alberto do Nascimento Junior",
+                  "Company": "Weatherford",
+                  "Role": "MPD"
+                },
+                {
+                  "Name": "Renato Oliveira Barreto",
+                  "Company": "Weatherford",
+                  "Role": "MPD"
+                },
+                {
+                  "Name": "Vitor Albano Campanharo",
+                  "Company": "Weatherford",
+                  "Role": "MPD"
+                }
+              ]
+            },
+            {
+              "title": "MATERIALS",
+              "headers": [
+                "PRODUCT NAME",
+                "WEIGHT/VOL. PER UNIT",
+                "USAGE",
+                "QUANTITY END"
+              ],
+              "rows": [
+                {
+                  "PRODUCT NAME": "DIESEL P/ UNIDADE",
+                  "WEIGHT/VOL": "",
+                  "USAGE": "55,00",
+                  "QUANTITY END": "2.171,00"
+                },
+                {
+                  "PRODUCT NAME": "ÁGUA POTÁVEL",
+                  "WEIGHT/VOL": "",
+                  "USAGE": "37,00",
+                  "QUANTITY END": "1.757,00"
+                }
+              ]
+            }
+          ],
+          "key_values": []
+        },
+        {
+          "page_number": 6,
+          "text_blocks": [
+            {
+              "text": "Auditorias Realizadas pela equipe da segurança durante acompanhamento das operações:\n- Auditorias Leading Indicators;\n- Verificação dos trabalhos aprovados via permissão de trabalho;\nReunião Pré-turno:\n- Programação semanal dos Indicadores;\n- Treinamentos pendentes;\n- Operações futuras.\nEstatísticas de Acidente:\nAcidente sem afastamento = 419 dias.\nAcidente com afastamento = 1044 dias.\nPerda de contenção = 63 dias.",
+              "translated_text": "Audits Performed by the safety team during operation monitoring:\n- Leading Indicators Audits;\n- Verification of work approved via work permit;\nPre-shift Meeting:\n- Weekly Indicator Schedule;\n- Pending training;\n- Future operations.\nAccident Statistics:\nAccident without leave = 419 days.\nAccident with leave = 1044 days.\nLoss of containment = 63 days."
+            }
+          ],
+          "tables": [
+            {
+              "title": "MATERIALS (continued)",
+              "headers": [
+                "PRODUCT NAME",
+                "WEIGHT/VOL. PER UNIT",
+                "USAGE",
+                "QUANTITY END"
+              ],
+              "rows": [
+                {
+                  "PRODUCT NAME": "ÁGUA INDUSTRIAL",
+                  "WEIGHT/VOL": "",
+                  "USAGE": "31,00",
+                  "QUANTITY END": "1.297,00"
+                },
+                {
+                  "PRODUCT NAME": "CIMENTO SILO B",
+                  "WEIGHT/VOL": "",
+                  "USAGE": "0,10",
+                  "QUANTITY END": "3.555,00"
+                }
+              ]
+            },
+            {
+              "title": "SAFETY",
+              "key_values": [
+                {
+                  "key": "STOP CARDS",
+                  "value": ""
+                },
+                {
+                  "key": "DAYS SINCE LOST TIME / INCIDENT",
+                  "value": "1044.0"
+                }
+              ]
+            },
+            {
+              "title": "SAFETY MOMENT",
+              "key_values": [
+                {
+                  "key": "TOPIC",
+                  "value": "Pré-turno (Pre-shift)"
+                },
+                {
+                  "key": "KEYWORDS",
+                  "value": "Alerta de Segurança (Safety Alert)"
+                }
+              ]
+            },
+            {
+              "title": "EQUIPMENT DETECTION TESTS",
+              "headers": [
+                "Test Type",
+                "RIG",
+                "MUD LOG"
+              ],
+              "rows": [
+                {
+                  "Test": "TRANSF. VOL. (bbl)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "VOLUME DETECTED (bbl)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "RESP. TIME (hr)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "10% INCREASE?",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "FLOW RATE DETECTED (gpm)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "VACUUM WORKING PRINCIPLE",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "PARTIAL VACUUM (mmHg)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                },
+                {
+                  "Test": "VACUUM PRESSURE DROP (psi)",
+                  "RIG": "",
+                  "MUD LOG": ""
+                }
+              ]
+            },
+            {
+              "title": "SUPPORT CRAFT",
+              "headers": [
+                "NAME",
+                "ARVL DATE",
+                "ARRIVAL REMARKS",
+                "DPRT DATE",
+                "DEPARTURE REMARKS",
+                "COMMENTS"
+              ],
+              "rows": []
+            },
+            {
+              "title": "WEATHER",
+              "headers": [
+                "TIME",
+                "WEATHER",
+                "COMMENTS",
+                "DAILY HIGHT/LOW TEMP (C°)",
+                "VISIBILITY",
+                "CEILING",
+                "10M WIND SPD.",
+                "GUST SPD.",
+                "CURRENTS SPEED (knots)",
+                "DIR (°)",
+                "SIG/MAX WAVE HT. (m)",
+                "DIR (°)",
+                "SWELL PERIOD (sec)",
+                "HT. (m)"
+              ],
+              "rows": []
+            },
+            {
+              "title": "VESSEL",
+              "headers": [
+                "HEAVE (m)",
+                "PITCH (°)",
+                "ROLL (°)",
+                "OFFSET (m)",
+                "HEADING (°)"
+              ],
+              "rows": []
+            }
+          ],
+          "key_values": []
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  }
+]

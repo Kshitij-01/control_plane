@@ -1,0 +1,364 @@
+{
+  "task_id": "enterprise_document_analysis_and_premium_reporting_v2",
+  "description": "MISSION: Extract structured data from document archives, normalize with ZERO data loss, and generate publication-grade interactive HTML reports with comprehensive tables, charts, and bilingual content.",
+  "user_uploads": ["source_documents.zip"],
+  "execution_preferences": {
+    "approach": "INTELLIGENT_DISCOVERY_THEN_BATCH_PROCESS",
+    "quality_priority": "MAXIMUM_DETAIL_AND_COMPLETENESS",
+    "allow_dynamic_planning": true,
+    "zero_data_loss": true
+  },
+  
+  "critical_data_extraction_requirements": {
+    "schema_design": "ADAPTIVE - Discover structure from documents, then design schema to capture ALL relevant data",
+    "required_data_types": [
+      "events (operational activities with timestamps, durations, descriptions)",
+      "costs (financial data with amounts, currencies, line items)",
+      "operations (production activities with volumes, durations)",
+      "metadata (document info, assets, dates, organizations)",
+      "tables (preserve ALL raw table data from source documents)",
+      "bilingual_content (original language + English translation for ALL text)"
+    ],
+    "extraction_rules": {
+      "preserve_original_language": "MANDATORY - Extract text in original language (Spanish/Portuguese/other) AND English translation. Store BOTH.",
+      "currency_detection": "CRITICAL - Always extract currency codes (USD, MXN, BRL, etc.). If not explicitly stated, infer from organization/document context.",
+      "category_extraction": "Extract ALL category/type fields from documents (PT/NPT, activity types, cost categories, etc.)",
+      "asset_tracking": "Extract asset/rig/vessel names from ALL documents",
+      "temporal_data": "Extract ALL dates, times, durations - preserve as ISO 8601",
+      "numeric_precision": "Preserve exact values, units, and context"
+    },
+    "quality_standards": {
+      "description_length": "FULL extraction - do not summarize or truncate. Capture complete descriptions (200+ chars expected)",
+      "table_extraction": "Extract ALL tables with headers and data rows. Expect 5-15 tables per document.",
+      "event_granularity": "Extract individual events, not summaries. Expect 5-20 events per operational report.",
+      "cost_detail": "Extract line-item costs AND document-level totals. Preserve both."
+    }
+  },
+
+  "normalization_requirements": {
+    "critical_fields_to_preserve": [
+      "organization (MUST be in ALL normalized records - events, costs, operations)",
+      "category (event type, cost type, operation type - PRESERVE from source)",
+      "subcategory (if present in source)",
+      "description_english (translated/English version)",
+      "description_original (MANDATORY - original Spanish/Portuguese/other language text)",
+      "asset_name (rig, vessel, equipment identifier)",
+      "filename (source document name for traceability)",
+      "duration_hours (for events and operations)",
+      "amount_original (cost in original currency)",
+      "currency_original (MXN, BRL, USD, etc.)",
+      "amount_usd (MUST convert to USD for cross-org comparison)"
+    ],
+    "master_dataset_schema": {
+      "purpose": "Unified dataset for reporting - MUST contain ALL fields needed downstream",
+      "required_fields": [
+        "record_type (event/cost/operation)",
+        "organization (Pemex/Petrobras/Petroecuador/etc - MANDATORY for filtering)",
+        "category (event category, cost category, operation type)",
+        "subcategory (optional, if available)",
+        "description_english (primary description)",
+        "description_original (MANDATORY - original language)",
+        "language (Spanish/Portuguese/English/etc)",
+        "filename (source document)",
+        "page (page number)",
+        "document_id (unique document identifier)",
+        "start_time, end_time (ISO 8601 if available)",
+        "duration_hours (for events/operations)",
+        "currency_original (for costs)",
+        "amount_original (for costs)",
+        "amount_usd (for costs - MUST convert)",
+        "related_assets (equipment/rig/vessel names)",
+        "notes (additional context)"
+      ],
+      "critical_rules": [
+        "NEVER omit organization field - reporting REQUIRES it for filtering",
+        "ALWAYS preserve both description_english AND description_original",
+        "Currency conversion: Apply conversion rates even if currency not specified (infer from org: Pemex=MXN, Petrobras=BRL, Petroecuador=USD)",
+        "For document-level costs: Create cost records from totals.cost_components (do NOT ignore these!)",
+        "Category normalization: Standardize casing but preserve all distinct categories"
+      ]
+    },
+    "currency_conversion": {
+      "rates": {
+        "BRL_to_USD": 0.25,
+        "MXN_to_USD": 0.055,
+        "USD_to_USD": 1.0
+      },
+      "inference_rules": [
+        "If currency field is null/empty AND organization is Pemex: Assume MXN",
+        "If currency field is null/empty AND organization is Petrobras: Assume BRL",
+        "If currency field is null/empty AND organization is Petroecuador: Assume USD",
+        "ALWAYS create amount_usd field with converted value",
+        "PRESERVE amount_original and currency_original for traceability"
+      ],
+      "special_handling": "If cost_components have no currency but represent TIME (hours), do NOT convert to USD. Flag as 'time_allocation' type."
+    },
+    "validation_requirements": {
+      "field_presence_check": "Verify organization, description_english, category fields are non-null in 95%+ of records",
+      "bilingual_completeness": "Verify description_original is present for all non-English source documents",
+      "cost_conversion_check": "Verify amount_usd is populated for all records with amount_original > 0",
+      "category_distribution": "Verify multiple distinct categories exist (expect 10-30 categories)",
+      "cross_reference": "Verify record counts match between raw extraction and normalized output"
+    }
+  },
+
+  "html_report_requirements": {
+    "overall_quality": "PUBLICATION-GRADE interactive dashboards with comprehensive data tables, charts, and bilingual content",
+    "theme": "CLEAN_WHITE_PROFESSIONAL with gradient accents, modern typography (Google Fonts), and responsive design",
+    "cors_compliance": "CRITICAL - Use embedded JavaScript data files (data.js), NOT fetch() to avoid CORS errors for file:// protocol",
+    
+    "master_index_sections": {
+      "required_sections": [
+        "Executive Summary with KPIs (6-8 metric cards: total docs, events, costs, downtime, categories, tables extracted)",
+        "All Events Table (complete list with: org, category, subcategory, duration, description_english, description_original, assets, source doc)",
+        "Events by Category Analysis (pie chart of top 10 categories + stacked bar by org + summary table)",
+        "Detailed Cost Breakdown (all cost items with: category, description, original amount, currency, USD amount, source)",
+        "PT vs NPT Analysis (if applicable: charts showing productive vs non-productive time by org + efficiency metrics)",
+        "Bilingual Content Showcase (side-by-side original + English for 25-50 sample events)",
+        "Asset Performance Summary (top 20 assets with event counts, durations, document counts)",
+        "Operations Log (all operations with activity types, durations, production volumes)",
+        "Data Download Section (links to JSON, Parquet, CSV files)"
+      ],
+      "interactivity_requirements": {
+        "all_tables_must_have": [
+          "DataTables library integration (sortable columns)",
+          "Search/filter functionality",
+          "Pagination (15-25 rows per page)",
+          "Export buttons (CSV, Excel, Copy)",
+          "Responsive design for mobile/tablet"
+        ],
+        "chart_requirements": [
+          "MINIMUM 5 charts in master index",
+          "Use Chart.js AND/OR Plotly for interactive charts",
+          "Chart types: pie (categories), bar (comparisons), doughnut (distributions), line (trends)",
+          "All charts must be responsive and have clear titles",
+          "Use consistent color palette"
+        ]
+      }
+    },
+
+    "individual_organization_reports": {
+      "required_sections": [
+        "Organization-specific KPIs (dynamic - load from data, NOT hardcoded)",
+        "Cost Breakdown Table (if org has financial data: show all costs with categories, amounts, sources)",
+        "Event Table with Bilingual Content (ALL events for that org: category, duration, English desc, Original desc, assets)",
+        "Time Allocation Table (if org has time tracking: show hours by activity type)",
+        "Asset-specific metrics (if multiple assets: break down by asset/rig)",
+        "Category distribution chart (pie or bar showing event types)",
+        "Links to other org reports and main index"
+      ],
+      "dynamic_data_loading": {
+        "critical_rule": "Load KPIs and table data from master_data.js using JavaScript - NEVER hardcode values",
+        "kpi_calculation": "Filter MASTER_DATA by organization, then compute: total events, total costs (sum amount_usd), total downtime (sum duration_hours), avg duration",
+        "table_population": "Filter MASTER_DATA by organization AND record_type, then populate tables dynamically",
+        "empty_state_handling": "If org has no cost data, show 'Time allocation data available' or 'Operational data only' - do NOT show 'No data available' if events exist"
+      }
+    },
+
+    "technical_implementation": {
+      "data_embedding_strategy": "Create assets/data/master_data.js with 'const MASTER_DATA = [...]' containing full normalized dataset. This avoids CORS issues.",
+      "cdn_libraries_required": [
+        "Chart.js v4+ (https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js)",
+        "jQuery v3.7+ (https://code.jquery.com/jquery-3.7.1.min.js)",
+        "DataTables v1.13+ (https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js)",
+        "DataTables Buttons (https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js)",
+        "JSZip for Excel export (https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js)",
+        "Google Fonts Inter (https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800)"
+      ],
+      "css_theme_requirements": {
+        "base_theme": "Clean white with professional gradients (blue/purple)",
+        "key_elements": [
+          "Gradient header (linear-gradient with org colors)",
+          "KPI cards with hover effects (lift + shadow)",
+          "Styled tables (gradient headers, hover rows, rounded corners)",
+          "Color-coded badges for organizations",
+          "Responsive grid layouts",
+          "Professional shadows and spacing",
+          "Print-friendly media queries"
+        ],
+        "accessibility": "WCAG AA contrast ratios, semantic HTML, proper alt text"
+      },
+      "javascript_data_flow": {
+        "pattern": "Load data → Filter by org/type → Compute stats → Populate tables → Initialize DataTables → Render charts",
+        "example_code": "const data = MASTER_DATA; const events = data.filter(r => r.record_type === 'event'); const pemexEvents = events.filter(e => e.organization === 'Pemex');",
+        "error_handling": "Use try-catch, provide fallback content if data loading fails",
+        "performance": "Limit initial table display to 25-50 rows, use pagination for rest"
+      }
+    }
+  },
+
+  "workflow_phases": {
+    "phase_1_discovery": {
+      "goal": "Analyze archive structure and design optimal extraction strategy",
+      "outputs": [
+        "Structure analysis (file types, organizations, counts)",
+        "Extraction plan with custom json_schema for PDF tool",
+        "Task breakdown (6-8 subtasks typical)"
+      ],
+      "critical_instructions": [
+        "Identify ALL organizations from directory structure or filenames",
+        "Count exact number of documents to process",
+        "Design json_schema with: metadata, events (with bilingual fields!), cost_items, operations, totals with cost_components",
+        "Include in schema: original language fields (description_original, notes_original, etc.)"
+      ]
+    },
+
+    "phase_2_extraction": {
+      "goal": "Batch extract ALL documents using native PDF tool with custom schema",
+      "critical_parameters": {
+        "json_schema": "MUST include bilingual fields (description + description_original OR source_text_snippet), currency field in all cost objects, organization field",
+        "table_extraction": "Enable table extraction to preserve raw tabular data",
+        "translation": "Auto-translate to English but PRESERVE original text in separate field"
+      },
+      "validation": "Verify: 100% extraction rate, bilingual content present, currency specified for financial docs, categories populated"
+    },
+
+    "phase_3_normalization": {
+      "goal": "Create unified master_dataset with ALL necessary fields for reporting",
+      "critical_outputs": [
+        "master_dataset.parquet - ALL records with: record_type, organization, category, description_english, description_original, duration_hours, amount_original, currency_original, amount_usd, filename, related_assets",
+        "master_data.js - JavaScript version: const MASTER_DATA = [...] for HTML embedding"
+      ],
+      "mandatory_field_preservation": [
+        "organization - MUST copy to ALL records (events, costs, operations)",
+        "description_original - MUST preserve for bilingual display",
+        "category - MUST preserve from source (do not over-normalize)",
+        "amount_usd - MUST calculate for ALL cost records using conversion rates + inference"
+      ],
+      "cost_component_extraction": "CRITICAL - Extract totals.cost_components from document-level data and create individual cost records. Do NOT ignore these!",
+      "validation_strictness": "Boss MUST verify: organization field present in 100% of records, bilingual content preserved, amount_usd calculated where amount_original exists"
+    },
+
+    "phase_4_analytics": {
+      "goal": "Compute statistics and generate chart data",
+      "outputs": [
+        "Category statistics (count, total duration, avg duration per category)",
+        "Organization statistics (events, costs, downtime per org)",
+        "PT vs NPT breakdown (if categories include PT/NPT)",
+        "Asset performance metrics (events, duration per asset)",
+        "Cost aggregations (by category, by org, by time period)"
+      ],
+      "chart_data_preparation": "Pre-compute data for charts but do NOT generate static images. Provide data in JSON for dynamic Chart.js rendering."
+    },
+
+    "phase_5_html_generation": {
+      "goal": "Generate interactive HTML reports with embedded data and comprehensive visualizations",
+      
+      "master_index_requirements": {
+        "structure": "Single self-contained HTML file with embedded CSS theme and JavaScript data",
+        "required_tables": [
+          "All Events Table: org, category, subcategory, duration, description_english, description_original, assets, source (DataTables: sortable, searchable, export)",
+          "Category Summary Table: category, event_count, total_duration, avg_duration, percentage (DataTables)",
+          "Cost Breakdown Table: category, description, amount_original, currency, amount_usd, source (DataTables: export to Excel)",
+          "PT vs NPT Table: org, pt_events, npt_events, pt_duration, npt_duration, efficiency% (if applicable)",
+          "Asset Performance Table: asset_name, org, event_count, total_duration, document_count (top 20)",
+          "Operations Table: org, activity, duration, production_volume, unit, notes"
+        ],
+        "required_charts": [
+          "Category Pie Chart: Top 10 event categories with counts (Chart.js)",
+          "Category by Org Bar Chart: Stacked bars showing category distribution per org (Chart.js)",
+          "PT vs NPT Bar Chart: Productive vs non-productive time by org (Chart.js)",
+          "Duration Distribution: Doughnut chart showing total hours by org (Chart.js)",
+          "Cost Distribution: If costs exist, show breakdown by category (Chart.js)"
+        ],
+        "minimum_charts": 5,
+        "data_loading_method": "Include <script src='assets/data/master_data.js'></script> in head, then use const data = MASTER_DATA in main script",
+        "table_initialization": "For each table: populate tbody with data, then call $('#tableId').DataTable({ pageLength: 25, order: [[col, 'desc']], dom: 'Bfrtip', buttons: ['copy', 'csv', 'excel'] })"
+      },
+
+      "organization_reports_requirements": {
+        "dynamic_kpis": "CRITICAL - Compute KPIs from data using JavaScript. Filter MASTER_DATA by organization, calculate: total_cost = sum(amount_usd), event_count = count(events), total_downtime = sum(duration_hours). Update HTML elements by ID.",
+        "required_tables": [
+          "Cost Table: Show costs for this org with category, description, original amount, USD amount, source (if org has costs)",
+          "Event Table: Show ALL events with bilingual columns: category, duration, description_english, description_original, assets",
+          "Time Allocation Table: If org has time data (Pemex), show hours by activity type instead of monetary costs"
+        ],
+        "special_handling": {
+          "organizations_without_costs": "If filtering costs by org returns 0 records, display message: 'This organization's reports contain operational/time tracking data. Financial data not available in source documents.' Then show time allocation or operational metrics.",
+          "bilingual_display": "ALWAYS show side-by-side columns: Description (English) | Description (Original Language)",
+          "category_badges": "Use color-coded badges for categories: PT=green, NPT=red, Drilling=blue, Maintenance=orange, etc."
+        }
+      },
+
+      "css_theme_instructions": {
+        "create_file": "assets/clean-white-theme.css (or similar name)",
+        "base_colors": "White background (#ffffff), light gray sections (#f8f9fa), dark text (#111827)",
+        "accent_colors": "Primary gradient: blue-to-purple (linear-gradient(135deg, #2563eb 0%, #7c3aed 100%))",
+        "components": [
+          "Header: Gradient background, centered text, professional typography",
+          "KPI Cards: White/gradient bg, hover lift effect, large numbers with gradient text",
+          "Tables: Gradient headers (blue-purple), hover row highlighting, rounded corners, shadows",
+          "Badges: Inline colored badges for organizations/categories",
+          "Navigation: Card-style links with hover effects",
+          "Charts: Rounded containers with shadows",
+          "Footer: Dark background with gradient border"
+        ],
+        "responsive_breakpoints": {
+          "mobile": "< 768px: single column, smaller fonts",
+          "tablet": "768-1024px: 2-column grids",
+          "desktop": "> 1024px: multi-column grids, max-width 1400px container"
+        }
+      }
+    }
+  },
+
+  "boss_agent_critical_instructions": {
+    "for_normalization_task": [
+      "MUST explicitly list ALL required fields in master_dataset schema in your instructions to Worker",
+      "MUST instruct Worker to preserve organization field in ALL records",
+      "MUST instruct Worker to preserve description_original for bilingual content",
+      "MUST instruct Worker to create amount_usd field with currency conversion",
+      "MUST instruct Worker to extract cost_components from document totals",
+      "In verification: CHECK that organization field exists in sample records, NOT just file exists"
+    ],
+    "for_html_generation_task": [
+      "MUST instruct Worker to create master_data.js from normalized data: const MASTER_DATA = [data]",
+      "MUST provide example code for filtering data: const events = MASTER_DATA.filter(r => r.record_type === 'event')",
+      "MUST specify minimum 5 tables and 5 charts",
+      "MUST require bilingual tables with side-by-side columns",
+      "MUST instruct dynamic KPI loading (not hardcoded values)",
+      "In verification: CHECK that HTML contains actual data in tables (sample 5 rows), NOT just empty templates"
+    ],
+    "verification_depth": {
+      "shallow_checks": "File exists, size > threshold, valid HTML/JSON",
+      "deep_checks_required": [
+        "Open and parse data files - check for required fields (organization, description_original, amount_usd)",
+        "Verify field completeness: organization non-null in 100% of records",
+        "Check bilingual content: description_original populated for non-English sources",
+        "Verify cost conversion: amount_usd calculated where amount_original > 0",
+        "For HTML: verify tables have data-loading JavaScript code, not just empty tbody"
+      ]
+    }
+  },
+
+  "common_pitfalls_to_avoid": {
+    "normalization_pitfalls": [
+      "Omitting organization field from master_dataset (causes filtering to fail in reports)",
+      "Dropping description_original (loses bilingual capability)",
+      "Not converting costs to USD (prevents cross-org comparison)",
+      "Ignoring cost_components in document totals (loses 30-50% of cost data)",
+      "Over-aggressive category normalization (reduces 29 categories to 5)"
+    ],
+    "html_generation_pitfalls": [
+      "Using fetch() for local files (CORS error)",
+      "Hardcoding KPI values instead of computing from data",
+      "Not including DataTables library or not initializing tables",
+      "Showing 'No data available' when data exists but requires filtering",
+      "Not providing export buttons for tables",
+      "Using only static PNG charts instead of interactive Chart.js/Plotly"
+    ],
+    "boss_verification_pitfalls": [
+      "Accepting normalized data without checking field presence",
+      "Not verifying bilingual content was preserved",
+      "Not checking if master_dataset has organization field",
+      "Accepting HTML reports without verifying tables have data-loading code"
+    ]
+  },
+
+  "success_criteria": {
+    "data_extraction": "24/24 documents extracted, 200+ events, bilingual content 100%, categories populated",
+    "normalization": "master_dataset with organization in ALL records, bilingual fields preserved, USD conversion complete",
+    "html_reports": "Interactive tables (sortable, searchable, export), 5+ charts, bilingual content displayed, dynamic KPIs, professional theme, NO CORS errors"
+  }
+}
+

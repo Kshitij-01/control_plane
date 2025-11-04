@@ -398,10 +398,27 @@ class TaskAgentTools:
             Returns JSON string of extracted data matching the schema.
             """
             import json
+            from pathlib import Path
+            from datetime import datetime
+            
             result_dict = await self._pdf_tool.extract_structured_data(
                 pdf_path, json.loads(json_schema), extraction_instructions
             )
-            return json.dumps(result_dict, indent=2)
+            
+            # CRITICAL: Save to file for Python code access
+            tool_results_dir = Path.cwd() / "tool_results"
+            tool_results_dir.mkdir(exist_ok=True)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+            output_file = tool_results_dir / f"pdf_extraction_{timestamp}.json"
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(result_dict, f, indent=2, ensure_ascii=False)
+            
+            logger.info(f"[PDF_TOOL] Saved extraction results to: {output_file}")
+            
+            # Return file path + data preview
+            data_preview = json.dumps(result_dict, ensure_ascii=False)[:500]
+            return f"PDF extraction completed. Results saved to: {output_file}\n\nData preview (first 500 chars):\n{data_preview}..."
         
         async def extract_multiple_pdfs(
             pdf_paths: Annotated[str, "JSON array of PDF file paths"],
@@ -414,11 +431,30 @@ class TaskAgentTools:
             Returns JSON array with results for each PDF.
             """
             import json
+            from pathlib import Path
+            from datetime import datetime
+            
             paths_list = json.loads(pdf_paths)
             results = await self._pdf_tool.extract_from_multiple_pdfs(
                 paths_list, json.loads(json_schema), extraction_instructions
             )
-            return json.dumps(results, indent=2)
+            
+            # CRITICAL: Save to file for Python code access
+            tool_results_dir = Path.cwd() / "tool_results"
+            tool_results_dir.mkdir(exist_ok=True)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+            output_file = tool_results_dir / f"batch_extraction_{timestamp}.json"
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            
+            logger.info(f"[PDF_TOOL] Saved batch extraction results to: {output_file}")
+            logger.info(f"[PDF_TOOL] Extracted data from {len(results)} PDFs")
+            
+            # Return file path + summary
+            pdf_count = len(results)
+            data_preview = json.dumps(results, ensure_ascii=False)[:500]
+            return f"Batch PDF extraction completed. Extracted {pdf_count} PDFs. Results saved to: {output_file}\n\nData preview (first 500 chars):\n{data_preview}..."
         
         return [
             FunctionTool(

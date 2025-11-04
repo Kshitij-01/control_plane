@@ -1,0 +1,2224 @@
+[
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "pdf_name": "01 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA_CORREGIDO.pdf",
+    "data": {
+      "filename": "daily_drilling_report_01-feb-2015.pdf",
+      "relative_path": null,
+      "source_company": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+      "file_size_bytes": null,
+      "sha256": null,
+      "num_pages": 1,
+      "detected_language": "es",
+      "translation_language": "en",
+      "document_text_full": "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 01-feb-2015 Proyecto: Alianza DISTRITO:\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\n\nHrs 01-feb-2015\n00:00 - 03:00 3.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712MTS A 5719 MTS (AMPLIANDO A 5691 MTS). CON PSB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI.\nNOTA1: PERFORANDO EL METRO 5717M, OBSERVO DISMINUCIÓN EN EL TIEMPO DE PENETRACIÓN DE 9 MIN POR METRO. POSTERIORMENTE PERFORO METRO A METRO DE 5717M HASTA 5719M LEVANTANDO SARTA POR SEGURIDAD LEVANTANDO LIBRE. PARÁMETROS CONTROLADOS DE TORQUE 17,000-19,000 FT-LB Y PSB: 5 TON.\nNOTA2: OBSERVO RESISTENCIA PARA REGRESAR AL FONDO DESDE 5718.6 HASTA 5719M CON TORQUE DE 17,000 - 19,000 FT-LB.\nNOTA3: DECIDIO LEVANTAR SARTA A 5690M PARA RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR CON GEOLOGÍA.\n03:00 - 06:00 3.00 LEVANTO SARTA Y BARRENA DE 10 5/8\" A DE 5,719 A 5,692 M PARA CIRCULAR POZO Y RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR POR GEOLOGÍA.\n06:00 - 00:00 18.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,719 MTS HASTA 5752 MTS (AMPLIANDO A 5724 MTS). CON PSB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI.\nRECORD BNA: 352 M EN 166:00 HRS.\nRHINO: 318 M EN 144:44 HRS. ULT.3.MTS: 36' - 32' - 44'. PROM: 32.78 MIN/M.\nNOTA: INCREMENTO DENSIDAD DE LODO DE 2.0 GR/CC A 2.02 GR/CC.\nNOTA1: LEVANTO CON CIRCULACION Y SIN ROTACION A 5,712 M PARA VERIFICAR PESOS, LIBRE. PESOS DE SARTA: ESTATICO 206 TON, ARRIBA 222 TON, TQ FUERA DE FONDO 13,500 FT-LB.\nNOTA2: SUSPENDE POR OBTENER 100 HRS CONTINUAS DE PERFORACION PARA REALIZAR VIAJE DE CORTO DE ACUERDO A PROGRAMA.\nNOTA3: OBSERVO PERDIDA DE SENAL DE LA HTTA MWD A 5752M. REALIZO PRUEBA ANTIJAMMING RECUPERANDO SENAL DE LAS HERRAMIENTAS (MWD) SATISFACTORIAMENTE.\n* LODO PERDIDO DIA: 0 M3. * ACUMULADO ETAPA: 527:4 M3. *UNIDADES DE GAS: 10\n**MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n\nTemblo #1 2 3 120/120/120/120\nTemblo #4 y 5 120/120/120/120\nTemblo #6 y 7 120/120/120/120\n\nIng. de Pozo Omar Vilchez Cunha\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nTlf. Equipo 9932792088\nITP-PM\nRSC-SLB\n\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 595.23\nNPT PERFORACIÓN (HRS) 6,395.00\nPERFORACIÓN (SIN NPT) 328.77\nTOTAL DÍAS @ LOC 619.38\n\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 221.00\nPerforación 5,891.00\nCabezal y BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\n\nCmp. y Eq.Aux.\nBBA 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Prof: 5623 mts - Dens: 2.00 gr/cc.\nCamisa 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Prof: 5623 mts - Dens: 2.00 gr/cc.\nCamisa 2:\nCamisa 3:\nBBA 2:\nBBA 3:\n\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\n\nP.S.B.: 9 ton\nRotaria: 120 RPM\nPr. Bomba: 4,000 psi\nTorque: 17 1000 ft.lbf\nP. Sarta (est.): 200 ton\nP. Sarta (+) (-): 221 200\n\nGasto: 500.00 gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 629\n\nT.R. Dia (in) Prf (m) Nuc (m) Int. Prog. Int Disp (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp. C2\n\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-ene-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: 79 degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 6 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 16 Gel 10: 31 Gel 30: 39 Cloruros: 9,989 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 63 cP Vis Pl.: 53 cP P. Ced.: 20 lbf/100ft2 Alcalinidad: 5.00 Densidad Equiv. Circ.: 2.10 g/cm3\nEmul: 1,349 V RAA: 87 / 13 Sal.: 370,900 ppm POM: 5.00 Fecha de Prueba: 17-ene-2015\nRPM600: 126 deg RPM300: 73 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\n\nLitología\n5740 M: 100% HALITA BLANCA CON TRAZAS DE LUTITA GRIS OSCURO, SEMIDURA A DURA LIGERAMENTE CALCAREO.\n\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,712\n14:00 hrs 5,719\n24:00 hrs 5,752\nPrm/día 40\nUlt. Cont.\nPrx. Cont.\n\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13 (4)12\nMts. Perf. 167 m\nHrs. Op. 44:45\nProm x m 16.08\n3 Ult. Mts. 36'-32'-44'\n$/m\nAmp. Inc\nDesgaste ------- -------\n\nResumen: PERFORO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5752 MTS (AMPLIANDO A 5724 MTS).\nSGTE. OPERACIÓN: PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS.\nOBSERVACIONES:\nMAT. REQUERIDOS:\n\nRESUM.DIA ANTER.: CONTINUO PERFORANDO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712 MTS (AMPLIANDO A 5684 MTS).\n\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+      "document_text_full_en": "PEMEX EXPLORATION PRODUCTION DRILLING AND WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT FROM: 01-Feb-2015 Project: Alianza DISTRICT:\nEquipment: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Start of Activity\nObj: JSK Depth Pgm: 7,211 m Days Pg: 331.1 Elevation: 11.00 m Next Move: End of Previous Well\n\nHrs 01-Feb-2015\n00:00 - 03:00 3.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" AT DEPTH FROM 5712MTS TO 5719 MTS (REAMING TO 5691 MTS). WITH WOB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI.\nNOTE1: DRILLING METER 5717M, OBSERVED DECREASE IN PENETRATION TIME OF 9 MIN PER METER. SUBSEQUENTLY DRILLED METER BY METER FROM 5717M TO 5719M PULLING UP STRING FOR SAFETY PULLING FREE. CONTROLLED TORQUE PARAMETERS 17,000-19,000 FT-LB AND WOB: 5 TON.\nNOTE2: OBSERVED RESISTANCE TO RETURN TO BOTTOM FROM 5718.6 TO 5719M WITH TORQUE OF 17,000 - 19,000 FT-LB.\nNOTE3: DECIDED TO PULL STRING TO 5690M TO RECOVER BOTTOM SAMPLE AND CHARACTERIZE WITH GEOLOGY.\n03:00 - 06:00 3.00 PULLED STRING AND BIT 10 5/8\" FROM 5,719 TO 5,692 M TO CIRCULATE WELL AND RECOVER BOTTOM SAMPLE AND CHARACTERIZE BY GEOLOGY.\n06:00 - 00:00 18.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5,719 MTS TO 5752 MTS (REAMING TO 5724 MTS). WITH WOB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI.\nBIT RECORD: 352 M IN 166:00 HRS.\nRHINO: 318 M IN 144:44 HRS. LAST 3 MTS: 36' - 32' - 44'. AVG: 32.78 MIN/M.\nNOTE: INCREASED MUD DENSITY FROM 2.0 GR/CC TO 2.02 GR/CC.\nNOTE1: PULLED WITH CIRCULATION AND WITHOUT ROTATION TO 5,712 M TO VERIFY WEIGHTS, FREE. STRING WEIGHTS: STATIC 206 TON, UP 222 TON, TQ OFF BOTTOM 13,500 FT-LB.\nNOTE2: SUSPENDED AFTER OBTAINING 100 CONTINUOUS DRILLING HRS TO PERFORM SHORT TRIP ACCORDING TO PROGRAM.\nNOTE3: OBSERVED LOSS OF SIGNAL FROM HTTA MWD AT 5752M. PERFORMED ANTIJAMMING TEST RECOVERING TOOL SIGNAL (MWD) SATISFACTORILY.\n* MUD LOST DAY: 0 M3. * ACCUMULATED STAGE: 527:4 M3. *GAS UNITS: 10\n**MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CACO 3 M-200 AND 2 LT/M3 OF VERSACOAT.\n\nPump #1 2 3 120/120/120/120\nPump #4 and 5 120/120/120/120\nPump #6 and 7 120/120/120/120\n\nWell Engineer Omar Vilchez Cunha\nSupervisor IPM JOSE JUARISTI\nSupervisor PEMEX\nTelephone:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nEquipment Tel. 9932792088\nITP-PM\nRSC-SLB\n\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 595.23\nNPT DRILLING (HRS) 6,395.00\nDRILLING (WITHOUT NPT) 328.77\nTOTAL DAYS @ LOC 619.38\n\nDIST. TIME LOST Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nEquipment Repair 221.00\nDrilling 5,891.00\nWellhead and BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\n\nPump and Aux. Eq.\nPUMP 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Depth: 5623 mts - Dens: 2.00 gr/cc.\nLiner 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Depth: 5623 mts - Dens: 2.00 gr/cc.\nLiner 2:\nLiner 3:\nPUMP 2:\nPUMP 3:\n\nSIM.: (Fire) 14-Jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-Jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-Dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\n\nW.O.B.: 9 ton\nRotary: 120 RPM\nPump Pr.: 4,000 psi\nTorque: 17 1000 ft.lbf\nString P. (static): 200 ton\nString P. (+) (-): 221 200\n\nFlow: 500.00 gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-Jan-2015\nDays without Accidents: 629\n\nT.R. Dia (in) Depth (m) Core (m) Int. Prog. Int Disp (m)\nLast TR 11.875 5,386\nNext TR 9.875 6,681\nB.L. 11.875 3,521\nPacker C2\n\nDate Measured Depth (m) Vertical Depth (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n01-Feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-Jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-Jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-Jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-Jan-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: 79 degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Ex. Cal: 6 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 16 Gel 10: 31 Gel 30: 39 Chlorides: 9,989 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nVis. ap: 63 cP Vis Pl.: 53 cP Yield P.: 20 lbf/100ft2 Alkalinity: 5.00 Equivalent Circ. Density: 2.10 g/cm3\nEmul: 1,349 V RAA: 87 / 13 Salinity: 370,900 ppm POM: 5.00 Test Date: 17-Jan-2015\nRPM600: 126 deg RPM300: 73 deg LDP: 0 m3 TLDP: 755 m3\nComments: Kick Tolerance bbl\n\nLithology\n5740 M: 100% WHITE HALITE WITH TRACES OF DARK GREY SHALE, SEMI-HARD TO HARD SLIGHTLY CALCAREOUS.\n\nDepth Measured (m) Vert (m)\n00:00 hrs 5,712\n14:00 hrs 5,719\n24:00 hrs 5,752\nAvg/day 40\nLast Contact\nNext Contact\n\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty. I.D. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nMONEL DC 8\" NON MAG. 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINATION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBIT Current Previous\nBrand Smith Smith\nSeries JJ1604 R70962\nDia 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13 (4)12\nMeters Drilled 167 m\nOp. Hours 44:45\nAvg per m 16.08\nLast 3 Mts. 36'-32'-44'\n$/m\nReam Inc\nWear ------- -------\n\nSummary: DRILLED WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5752 MTS (REAMING TO 5724 MTS).\nNEXT OPERATION: DRILL DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" TO DEPTH OF 6165 MTS.\nOBSERVATIONS:\nREQUIRED MATERIALS:\n\nPREVIOUS DAY SUMMARY: CONTINUED DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5712 MTS (REAMING TO 5684 MTS).\n\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_original": "PEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 01-feb-2015 Proyecto: Alianza DISTRITO:\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\n\nHrs 01-feb-2015\n00:00 - 03:00 3.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712MTS A 5719 MTS (AMPLIANDO A 5691 MTS). CON PSB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI.\nNOTA1: PERFORANDO EL METRO 5717M, OBSERVO DISMINUCIÓN EN EL TIEMPO DE PENETRACIÓN DE 9 MIN POR METRO. POSTERIORMENTE PERFORO METRO A METRO DE 5717M HASTA 5719M LEVANTANDO SARTA POR SEGURIDAD LEVANTANDO LIBRE. PARÁMETROS CONTROLADOS DE TORQUE 17,000-19,000 FT-LB Y PSB: 5 TON.\nNOTA2: OBSERVO RESISTENCIA PARA REGRESAR AL FONDO DESDE 5718.6 HASTA 5719M CON TORQUE DE 17,000 - 19,000 FT-LB.\nNOTA3: DECIDIO LEVANTAR SARTA A 5690M PARA RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR CON GEOLOGÍA.\n03:00 - 06:00 3.00 LEVANTO SARTA Y BARRENA DE 10 5/8\" A DE 5,719 A 5,692 M PARA CIRCULAR POZO Y RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR POR GEOLOGÍA.\n06:00 - 00:00 18.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,719 MTS HASTA 5752 MTS (AMPLIANDO A 5724 MTS). CON PSB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI.\nRECORD BNA: 352 M EN 166:00 HRS.\nRHINO: 318 M EN 144:44 HRS. ULT.3.MTS: 36' - 32' - 44'. PROM: 32.78 MIN/M.\nNOTA: INCREMENTO DENSIDAD DE LODO DE 2.0 GR/CC A 2.02 GR/CC.\nNOTA1: LEVANTO CON CIRCULACION Y SIN ROTACION A 5,712 M PARA VERIFICAR PESOS, LIBRE. PESOS DE SARTA: ESTATICO 206 TON, ARRIBA 222 TON, TQ FUERA DE FONDO 13,500 FT-LB.\nNOTA2: SUSPENDE POR OBTENER 100 HRS CONTINUAS DE PERFORACION PARA REALIZAR VIAJE DE CORTO DE ACUERDO A PROGRAMA.\nNOTA3: OBSERVO PERDIDA DE SENAL DE LA HTTA MWD A 5752M. REALIZO PRUEBA ANTIJAMMING RECUPERANDO SENAL DE LAS HERRAMIENTAS (MWD) SATISFACTORIAMENTE.\n* LODO PERDIDO DIA: 0 M3. * ACUMULADO ETAPA: 527:4 M3. *UNIDADES DE GAS: 10\n**MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n\nTemblo #1 2 3 120/120/120/120\nTemblo #4 y 5 120/120/120/120\nTemblo #6 y 7 120/120/120/120\n\nIng. de Pozo Omar Vilchez Cunha\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nTlf. Equipo 9932792088\nITP-PM\nRSC-SLB\n\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 595.23\nNPT PERFORACIÓN (HRS) 6,395.00\nPERFORACIÓN (SIN NPT) 328.77\nTOTAL DÍAS @ LOC 619.38\n\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 221.00\nPerforación 5,891.00\nCabezal y BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\n\nCmp. y Eq.Aux.\nBBA 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Prof: 5623 mts - Dens: 2.00 gr/cc.\nCamisa 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Prof: 5623 mts - Dens: 2.00 gr/cc.\nCamisa 2:\nCamisa 3:\nBBA 2:\nBBA 3:\n\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\n\nP.S.B.: 9 ton\nRotaria: 120 RPM\nPr. Bomba: 4,000 psi\nTorque: 17 1000 ft.lbf\nP. Sarta (est.): 200 ton\nP. Sarta (+) (-): 221 200\n\nGasto: 500.00 gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 629\n\nT.R. Dia (in) Prf (m) Nuc (m) Int. Prog. Int Disp (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp. C2\n\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-ene-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: 79 degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 6 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 16 Gel 10: 31 Gel 30: 39 Cloruros: 9,989 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 63 cP Vis Pl.: 53 cP P. Ced.: 20 lbf/100ft2 Alcalinidad: 5.00 Densidad Equiv. Circ.: 2.10 g/cm3\nEmul: 1,349 V RAA: 87 / 13 Sal.: 370,900 ppm POM: 5.00 Fecha de Prueba: 17-ene-2015\nRPM600: 126 deg RPM300: 73 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\n\nLitología\n5740 M: 100% HALITA BLANCA CON TRAZAS DE LUTITA GRIS OSCURO, SEMIDURA A DURA LIGERAMENTE CALCAREO.\n\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,712\n14:00 hrs 5,719\n24:00 hrs 5,752\nPrm/día 40\nUlt. Cont.\nPrx. Cont.\n\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13 (4)12\nMts. Perf. 167 m\nHrs. Op. 44:45\nProm x m 16.08\n3 Ult. Mts. 36'-32'-44'\n$/m\nAmp. Inc\nDesgaste ------- -------\n\nResumen: PERFORO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5752 MTS (AMPLIANDO A 5724 MTS).\nSGTE. OPERACIÓN: PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS.\nOBSERVACIONES:\nMAT. REQUERIDOS:\n\nRESUM.DIA ANTER.: CONTINUO PERFORANDO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712 MTS (AMPLIANDO A 5684 MTS).\n\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+          "text_en": "PEMEX EXPLORATION PRODUCTION DRILLING AND WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT FROM: 01-Feb-2015 Project: Alianza DISTRICT:\nEquipment: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Start of Activity\nObj: JSK Depth Pgm: 7,211 m Days Pg: 331.1 Elevation: 11.00 m Next Move: End of Previous Well\n\nHrs 01-Feb-2015\n00:00 - 03:00 3.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" AT DEPTH FROM 5712MTS TO 5719 MTS (REAMING TO 5691 MTS). WITH WOB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI.\nNOTE1: DRILLING METER 5717M, OBSERVED DECREASE IN PENETRATION TIME OF 9 MIN PER METER. SUBSEQUENTLY DRILLED METER BY METER FROM 5717M TO 5719M PULLING UP STRING FOR SAFETY PULLING FREE. CONTROLLED TORQUE PARAMETERS 17,000-19,000 FT-LB AND WOB: 5 TON.\nNOTE2: OBSERVED RESISTANCE TO RETURN TO BOTTOM FROM 5718.6 TO 5719M WITH TORQUE OF 17,000 - 19,000 FT-LB.\nNOTE3: DECIDED TO PULL STRING TO 5690M TO RECOVER BOTTOM SAMPLE AND CHARACTERIZE WITH GEOLOGY.\n03:00 - 06:00 3.00 PULLED STRING AND BIT 10 5/8\" FROM 5,719 TO 5,692 M TO CIRCULATE WELL AND RECOVER BOTTOM SAMPLE AND CHARACTERIZE BY GEOLOGY.\n06:00 - 00:00 18.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5,719 MTS TO 5752 MTS (REAMING TO 5724 MTS). WITH WOB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI.\nBIT RECORD: 352 M IN 166:00 HRS.\nRHINO: 318 M IN 144:44 HRS. LAST 3 MTS: 36' - 32' - 44'. AVG: 32.78 MIN/M.\nNOTE: INCREASED MUD DENSITY FROM 2.0 GR/CC TO 2.02 GR/CC.\nNOTE1: PULLED WITH CIRCULATION AND WITHOUT ROTATION TO 5,712 M TO VERIFY WEIGHTS, FREE. STRING WEIGHTS: STATIC 206 TON, UP 222 TON, TQ OFF BOTTOM 13,500 FT-LB.\nNOTE2: SUSPENDED AFTER OBTAINING 100 CONTINUOUS DRILLING HRS TO PERFORM SHORT TRIP ACCORDING TO PROGRAM.\nNOTE3: OBSERVED LOSS OF SIGNAL FROM HTTA MWD AT 5752M. PERFORMED ANTIJAMMING TEST RECOVERING TOOL SIGNAL (MWD) SATISFACTORILY.\n* MUD LOST DAY: 0 M3. * ACCUMULATED STAGE: 527:4 M3. *GAS UNITS: 10\n**MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CACO 3 M-200 AND 2 LT/M3 OF VERSACOAT.\n\nPump #1 2 3 120/120/120/120\nPump #4 and 5 120/120/120/120\nPump #6 and 7 120/120/120/120\n\nWell Engineer Omar Vilchez Cunha\nSupervisor IPM JOSE JUARISTI\nSupervisor PEMEX\nTelephone:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nEquipment Tel. 9932792088\nITP-PM\nRSC-SLB\n\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 595.23\nNPT DRILLING (HRS) 6,395.00\nDRILLING (WITHOUT NPT) 328.77\nTOTAL DAYS @ LOC 619.38\n\nDIST. TIME LOST Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nEquipment Repair 221.00\nDrilling 5,891.00\nWellhead and BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\n\nPump and Aux. Eq.\nPUMP 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Depth: 5623 mts - Dens: 2.00 gr/cc.\nLiner 1: 6.000 x 11.000 65 EPM 40 EPM @ 650 psi Depth: 5623 mts - Dens: 2.00 gr/cc.\nLiner 2:\nLiner 3:\nPUMP 2:\nPUMP 3:\n\nSIM.: (Fire) 14-Jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-Jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-Dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\n\nW.O.B.: 9 ton\nRotary: 120 RPM\nPump Pr.: 4,000 psi\nTorque: 17 1000 ft.lbf\nString P. (static): 200 ton\nString P. (+) (-): 221 200\n\nFlow: 500.00 gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-Jan-2015\nDays without Accidents: 629\n\nT.R. Dia (in) Depth (m) Core (m) Int. Prog. Int Disp (m)\nLast TR 11.875 5,386\nNext TR 9.875 6,681\nB.L. 11.875 3,521\nPacker C2\n\nDate Measured Depth (m) Vertical Depth (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n01-Feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-Jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-Jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-Jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-Jan-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: 79 degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Ex. Cal: 6 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 16 Gel 10: 31 Gel 30: 39 Chlorides: 9,989 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nVis. ap: 63 cP Vis Pl.: 53 cP Yield P.: 20 lbf/100ft2 Alkalinity: 5.00 Equivalent Circ. Density: 2.10 g/cm3\nEmul: 1,349 V RAA: 87 / 13 Salinity: 370,900 ppm POM: 5.00 Test Date: 17-Jan-2015\nRPM600: 126 deg RPM300: 73 deg LDP: 0 m3 TLDP: 755 m3\nComments: Kick Tolerance bbl\n\nLithology\n5740 M: 100% WHITE HALITE WITH TRACES OF DARK GREY SHALE, SEMI-HARD TO HARD SLIGHTLY CALCAREOUS.\n\nDepth Measured (m) Vert (m)\n00:00 hrs 5,712\n14:00 hrs 5,719\n24:00 hrs 5,752\nAvg/day 40\nLast Contact\nNext Contact\n\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty. I.D. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nMONEL DC 8\" NON MAG. 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINATION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBIT Current Previous\nBrand Smith Smith\nSeries JJ1604 R70962\nDia 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13 (4)12\nMeters Drilled 167 m\nOp. Hours 44:45\nAvg per m 16.08\nLast 3 Mts. 36'-32'-44'\n$/m\nReam Inc\nWear ------- -------\n\nSummary: DRILLED WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5752 MTS (REAMING TO 5724 MTS).\nNEXT OPERATION: DRILL DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" TO DEPTH OF 6165 MTS.\nOBSERVATIONS:\nREQUIRED MATERIALS:\n\nPREVIOUS DAY SUMMARY: CONTINUED DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5712 MTS (REAMING TO 5684 MTS).\n\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+          "tables": [
+            {
+              "name": "Daily Operations Log",
+              "header": [
+                "Hrs",
+                "01-feb-2015",
+                "Duration",
+                "Description"
+              ],
+              "rows": [
+                [
+                  "00:00 - 03:00",
+                  "3.00",
+                  "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5712MTS A 5719 MTS (AMPLIANDO A 5691 MTS). CON PSB: 12-15 TON, 110-135 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 3900 PSI."
+                ],
+                [
+                  "03:00 - 06:00",
+                  "3.00",
+                  "LEVANTO SARTA Y BARRENA DE 10 5/8\" A DE 5,719 A 5,692 M PARA CIRCULAR POZO Y RECUPERAR MUESTRA DE FONDO Y CARACTERIZAR POR GEOLOGÍA."
+                ],
+                [
+                  "06:00 - 00:00",
+                  "18.00",
+                  "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,719 MTS HASTA 5752 MTS (AMPLIANDO A 5724 MTS). CON PSB: 6-10 TON, 130 RPM, 14,000/16,500 FT-LB, 130 EPM, 500 GPM, 4000 PSI."
+                ]
+              ]
+            },
+            {
+              "name": "Operations Days Summary",
+              "header": [
+                "Ops.",
+                "Días"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "595.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,395.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "328.77"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "619.38"
+                ]
+              ]
+            },
+            {
+              "name": "Time Lost Distribution",
+              "header": [
+                "DIST. TIEMPO PERDIDO",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "221.00"
+                ],
+                [
+                  "Perforación",
+                  "5,891.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "name": "QHSE",
+              "header": [
+                "Category",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "name": "Casing Program",
+              "header": [
+                "T.R.",
+                "Dia (in)",
+                "Prf (m)",
+                "Nuc (m)",
+                "Int. Prog.",
+                "Int Disp (m)"
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386",
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681",
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521",
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "Emp.",
+                  "C2",
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              ]
+            },
+            {
+              "name": "Survey Data",
+              "header": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,610",
+                  "5,456.40",
+                  "25.47",
+                  "131.72",
+                  "693.55",
+                  "0.37"
+                ]
+              ]
+            },
+            {
+              "name": "Mud Properties",
+              "header": [
+                "Property",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Lodo",
+                  "Megadrill"
+                ],
+                [
+                  "Dens",
+                  "2.02 g/cm3"
+                ],
+                [
+                  "Visc",
+                  "70 s"
+                ],
+                [
+                  "Temp.",
+                  "79 degC"
+                ],
+                [
+                  "Arena",
+                  "%"
+                ],
+                [
+                  "Filtrado",
+                  "1.4 cm3"
+                ],
+                [
+                  "Ex. Cal",
+                  "6 lbm/bbl"
+                ],
+                [
+                  "Gel 0",
+                  "16"
+                ],
+                [
+                  "Gel 10",
+                  "31"
+                ],
+                [
+                  "Gel 30",
+                  "39"
+                ],
+                [
+                  "Cloruros",
+                  "9,989 lbm/bbl"
+                ],
+                [
+                  "Sólidos",
+                  "38 %"
+                ],
+                [
+                  "Aceite",
+                  "54 %"
+                ],
+                [
+                  "Agua",
+                  "8 %"
+                ],
+                [
+                  "Vis. ap",
+                  "63 cP"
+                ],
+                [
+                  "Vis Pl.",
+                  "53 cP"
+                ],
+                [
+                  "P. Ced.",
+                  "20 lbf/100ft2"
+                ],
+                [
+                  "Alcalinidad",
+                  "5.00"
+                ],
+                [
+                  "Densidad Equiv. Circ.",
+                  "2.10 g/cm3"
+                ],
+                [
+                  "Emul",
+                  "1,349 V"
+                ],
+                [
+                  "RAA",
+                  "87 / 13"
+                ],
+                [
+                  "Sal.",
+                  "370,900 ppm"
+                ],
+                [
+                  "POM",
+                  "5.00"
+                ],
+                [
+                  "Fecha de Prueba",
+                  "17-ene-2015"
+                ],
+                [
+                  "RPM600",
+                  "126 deg"
+                ],
+                [
+                  "RPM300",
+                  "73 deg"
+                ],
+                [
+                  "LDP",
+                  "0 m3"
+                ],
+                [
+                  "TLDP",
+                  "755 m3"
+                ]
+              ]
+            },
+            {
+              "name": "Depth Progress",
+              "header": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,712",
+                  null
+                ],
+                [
+                  "14:00 hrs",
+                  "5,719",
+                  null
+                ],
+                [
+                  "24:00 hrs",
+                  "5,752",
+                  null
+                ],
+                [
+                  "Prm/día",
+                  "40",
+                  null
+                ]
+              ]
+            },
+            {
+              "name": "BHA Composition",
+              "header": [
+                "Component",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  null,
+                  null,
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "name": "Bit Information",
+              "header": [
+                "Property",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "167 m",
+                  null
+                ],
+                [
+                  "Hrs. Op.",
+                  "44:45",
+                  null
+                ],
+                [
+                  "Prom x m",
+                  "16.08",
+                  null
+                ],
+                [
+                  "3 Ult. Mts.",
+                  "36'-32'-44'",
+                  null
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "02 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "filename": "drilling_report_02-feb-2015.pdf",
+      "relative_path": "document_1.pdf",
+      "source_company": "PEMEX",
+      "file_size_bytes": null,
+      "sha256": null,
+      "num_pages": 1,
+      "detected_language": "es",
+      "translation_language": "en",
+      "document_text_full": "Hrs 02-feb-2015\n00:00 - 03:00 3.00 CON BARRENA DE 10 5/8\" A 5,740 M, CIRCULO POZO HASTA RETORNOS LIMPIOS 130 EPM, 500 GPM , 4000 PSI, 80 RPM RECIPROCANDO SARTA.\n03:00 - 06:00 3.00 EN VIAJE CORTO SACO BARRENA DE 10 5/8\" DESDE 5752 MT HASTA 5330 MT, LIBRE. LLENO A CADA 5 LINGADAS VOLUMEN DE ACERO EXTRAÍDO DEL POZO.\nNOTA: POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS A LA TP 5 7/8\" XT-57\n06:00 - 08:00 2.00 CON BARRENA PDC 10 5/8\" A 5,330 M, CIA TESCO CAMBIO CARATULA Y SENSOR DE RPM DEL TOP DRIVE EN LA CONSOLA DE PARÁMETROS DEL PERFORADOR.\nEN EL INTER CIRCULO POZO CON BOTELLA A TP CON 25 EPM, 100 GPM Y 600 PSI.\n08:00 - 12:00 4.00 BAJO BARRENA DESDE 5330 HASTA 5752 M (FONDO PERFORADO) LIBRE. POR SEGURIDAD BAJO CON CON ROTACIÓN Y CIRCULACIÓN ULTIMAS DOS LINGADAS CON 110 RPM, 490 GPM, 3900 PSI.\n12:00 - 00:00 12.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,752 HASTA 5765 M (AMPLIANDO A 5737 M). CON PSB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nRECORD BNA: 365 M EN 177:25 HRS, 1.08 MPH, ULT.3.MTS: 85-68-22.\nRHINO: 330 M EN 156:02 HRS. .\n* VOL. LODO PERDIDO DIA: 0 M3.\n* VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3.\n**MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n** A PARTIR DE 5762 MT REALIZO PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP. VARIANDO PARÁMETROS DE LA SIGUIENTE MANERA: PSB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n\nTemblo #1 2 3 120/120/120/120\nTemblo #4 y 5 120/120/120/120\nTemblo #6 y 7 120/120/120/120 120/120/120/120\n\nIng. de Pozo Omar Vilchez Cunha\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nTlf. Equipo 9932792088\nITP-PM\nRSC-SLB\n\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 596.23\nNPT PERFORACIÓN (HRS) 6,397.00\nPERFORACIÓN (SIN NPT) 329.69\nTOTAL DÍAS @ LOC 620.38\n\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 223.00\nPerforación 5,891.00\nCabezal y BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\n\nCmp. y Eq.Aux.\nBBA 1: 6.000 x 11.000 65 EPM 40 EPM @ 680 psi Prof: 5743 mts - Dens: 2.02 gr/cc.\nCamisa 1: 6.000 x 11.000 65 EPM 40 EPM @ 660 psi Prof: 5743 mts - Dens: 2.02 gr/cc.\nCamisa 2:\nCamisa 3:\nBBA 2:\nBBA 3:\n\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\n\nGasto: 500.00 gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 630\n\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 02-feb-2015 Proyecto: Alianza DISTRITO:\n\nT.R. Dia (in) Prf (m) Nuc (m) Int. Prog. Int Disp (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp.\nC2\n\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-ene-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\n\nP.S.B.: 13 ton\nRotaria: 120 RPM\nPr. Bomba: 3,854 psi\nTorque: 18 1000 ft.lbf\nP. Sarta (est.): 202 ton\nPARAM.TON 220 202 202\n\nResumen: CIRCULO POZO. LEVANTO BNA DE 10 5/8\" A 5330 M, LIBRE. CAMBIO SENSOR DE RPM. BAJO BNA A 5752 M, LIBRE. PERFORO AGUJERO 10 5/8\" HASTA 5765 M (AMPLIANDO HASTA 5737 M).\nSGTE. OPERACIÓN: PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS.\nOBSERVACIONES:\nMAT. REQUERIDOS:\n\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2\n\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 72 s Temp.: 80 degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 7 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 17 Gel 10: 33 Gel 30: 40 Cloruros: 10,165 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 65 cP Vis Pl.: 56 cP P. Ced.: 18 lbf/100ft2 Alcalinidad: 5.10 Densidad Equiv. Circ.: 2.10 g/cm3\nEmul: 1,376 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Fecha de Prueba: 17-ene-2015\nRPM600: 130 deg RPM300: 74 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\n\nLitología\n5761 M: 60% YESO, 20% LUTITA CAFE CLARO, LIGERAMENTE CALCAREA Y 20% ANHIDRITA BLANCA Y/O YESO\n\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,752\n14:00 hrs 5,752\n24:00 hrs 5,765\nPrm/día 13\nUlt. Cont.\nPrx. Cont.\n\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13 (4)12\nMts. Perf. 180 m\nHrs. Op. 44:45\nProm x m 14.92\n3 Ult. Mts. 85'-68'-22'\n$/m\nAmp. Inc\nDesgaste ------- -------\n\nRESUM.DIA ANTER.: PERFORO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5752 MTS (AMPLIANDO A 5724 MTS).",
+      "document_text_full_en": "Hrs 02-Feb-2015\n00:00 - 03:00 3.00 WITH 10 5/8\" BIT AT 5,740 M, CIRCULATED WELL UNTIL CLEAN RETURNS 130 EPM, 500 GPM, 4000 PSI, 80 RPM RECIPROCATING STRING.\n03:00 - 06:00 3.00 ON SHORT TRIP PULLED 10 5/8\" BIT FROM 5752 MT TO 5330 MT, FREE. FILLED EVERY 5 STANDS VOLUME OF STEEL REMOVED FROM WELL.\nNOTE: BY REQUEST OF THE OPERATING UNIT, THREAD PROTECTORS WERE NOT PLACED ON 5 7/8\" XT-57 TP\n06:00 - 08:00 2.00 WITH PDC BIT 10 5/8\" AT 5,330 M, TESCO COMPANY CHANGED DISPLAY AND RPM SENSOR OF TOP DRIVE IN DRILLER'S PARAMETER CONSOLE.\nIN THE MEANTIME CIRCULATED WELL WITH BOTTLE TO TP WITH 25 EPM, 100 GPM AND 600 PSI.\n08:00 - 12:00 4.00 RAN BIT FROM 5330 TO 5752 M (DRILLED DEPTH) FREE. FOR SAFETY RAN WITH ROTATION AND CIRCULATION LAST TWO STANDS WITH 110 RPM, 490 GPM, 3900 PSI.\n12:00 - 00:00 12.00 DRILLED DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5,752 TO 5765 M (REAMING TO 5737 M). WITH WOB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nBIT RECORD: 365 M IN 177:25 HRS, 1.08 MPH, LAST 3 MTS: 85-68-22.\nRHINO: 330 M IN 156:02 HRS.\n* MUD LOST VOLUME DAY: 0 M3.\n* MUD LOST VOLUME ACCUMULATED STAGE: 527:4 M3.\n**MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CACO 3 M-200 AND 2 LT/M3 OF VERSACOAT.\n** FROM 5762 MT PERFORMED DRILLABILITY TESTS TO OPTIMIZE ROP. VARYING PARAMETERS AS FOLLOWS: WOB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n\nShaker #1 2 3 120/120/120/120\nShaker #4 and 5 120/120/120/120\nShaker #6 and 7 120/120/120/120 120/120/120/120\n\nWell Eng. Omar Vilchez Cunha\nIPM Sup. JOSE JUARISTI\nPEMEX Sup.\nTelephone:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nRig Phone 9932792088\nITP-PM\nRSC-SLB\n\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 596.23\nNPT DRILLING (HRS) 6,397.00\nDRILLING (WITHOUT NPT) 329.69\nTOTAL DAYS @ LOC 620.38\n\nLOST TIME DIST. Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nRig Repair 223.00\nDrilling 5,891.00\nWellhead and BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\n\nPumps & Aux. Eq.\nPUMP 1: 6.000 x 11.000 65 EPM 40 EPM @ 680 psi Depth: 5743 mts - Dens: 2.02 gr/cc.\nLiner 1: 6.000 x 11.000 65 EPM 40 EPM @ 660 psi Depth: 5743 mts - Dens: 2.02 gr/cc.\nLiner 2:\nLiner 3:\nPUMP 2:\nPUMP 3:\n\nDRILL: (Fire) 14-Jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-Jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Choke Line: Manifold:\nKoomey - 31-Dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\n\nFlow Rate: 500.00 gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-Jan-2015\nDays Without Accidents: 630\n\nPEMEX EXPLORATION PRODUCTION DRILLING & WELL MAINTENANCE MGT., S.D.\nDAILY OPERATIONS REPORT OF: 02-Feb-2015 Project: Alianza DISTRICT:\n\nCasing Dia (in) Depth (m) Core (m) Int. Prog. Int Avail (m)\nLast Csg 11.875 5,386\nNext Csg 9.875 6,681\nB.L. 11.875 3,521\nPacker\nC2\n\nDate Measured Depth (m) True Vert (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n01-Feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-Jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-Jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-Jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-Jan-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nRig: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Activity Start\nObj: JSK Programmed Depth: 7,211 m Programmed Days: 331.1 Elevation: 11.00 m Next Move: Previous Well End\n\nW.O.B.: 13 ton\nRotary: 120 RPM\nPump Press.: 3,854 psi\nTorque: 18 1000 ft.lbf\nString Weight (est.): 202 ton\nPARAM.TON 220 202 202\n\nSummary: CIRCULATED WELL. PULLED 10 5/8\" BIT TO 5330 M, FREE. CHANGED RPM SENSOR. RAN BIT TO 5752 M, FREE. DRILLED 10 5/8\" HOLE TO 5765 M (REAMING TO 5737 M).\nNEXT OPERATION: DRILL DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" TO DEPTH OF 6165 MTS.\nOBSERVATIONS:\nREQUIRED MAT.:\n\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2\n\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 72 s Temp.: 80 degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Lime Ex.: 7 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 17 Gel 10: 33 Gel 30: 40 Chlorides: 10,165 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nApp. Vis: 65 cP Pl. Vis.: 56 cP Yield Pt.: 18 lbf/100ft2 Alkalinity: 5.10 Equiv. Circ. Density: 2.10 g/cm3\nEmul: 1,376 V O/W: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Test Date: 17-Jan-2015\nRPM600: 130 deg RPM300: 74 deg Lost Mud: 0 m3 Total Lost Mud: 755 m3\nComments: Kick Tolerance bbl\n\nLithology\n5761 M: 60% GYPSUM, 20% LIGHT BROWN SHALE, SLIGHTLY CALCAREOUS AND 20% WHITE ANHYDRITE AND/OR GYPSUM\n\nMeas. Depth (m) Vert (m)\n00:00 hrs 5,752\n14:00 hrs 5,752\n24:00 hrs 5,765\nAvg/day 13\nLast Record\nNext Record\n\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty. I.D. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nNON-MAG MONEL DC 8\" 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER ENLARGER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCROSSOVER 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBIT Current Previous\nMake Smith Smith\nSerial JJ1604 R70962\nSize 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13 (4)12\nMeters Drilled 180 m\nOp. Hours 44:45\nAvg per m 14.92\nLast 3 Mts. 85'-68'-22'\n$/m\nEnlarg. Inc\nWear ------- -------\n\nPREVIOUS DAY SUMMARY: DRILLED WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5752 MTS (REAMING TO 5724 MTS).",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_original": "Hrs 02-feb-2015\n00:00 - 03:00 3.00 CON BARRENA DE 10 5/8\" A 5,740 M, CIRCULO POZO HASTA RETORNOS LIMPIOS 130 EPM, 500 GPM , 4000 PSI, 80 RPM RECIPROCANDO SARTA.\n03:00 - 06:00 3.00 EN VIAJE CORTO SACO BARRENA DE 10 5/8\" DESDE 5752 MT HASTA 5330 MT, LIBRE. LLENO A CADA 5 LINGADAS VOLUMEN DE ACERO EXTRAÍDO DEL POZO.\nNOTA: POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS A LA TP 5 7/8\" XT-57\n06:00 - 08:00 2.00 CON BARRENA PDC 10 5/8\" A 5,330 M, CIA TESCO CAMBIO CARATULA Y SENSOR DE RPM DEL TOP DRIVE EN LA CONSOLA DE PARÁMETROS DEL PERFORADOR.\nEN EL INTER CIRCULO POZO CON BOTELLA A TP CON 25 EPM, 100 GPM Y 600 PSI.\n08:00 - 12:00 4.00 BAJO BARRENA DESDE 5330 HASTA 5752 M (FONDO PERFORADO) LIBRE. POR SEGURIDAD BAJO CON CON ROTACIÓN Y CIRCULACIÓN ULTIMAS DOS LINGADAS CON 110 RPM, 490 GPM, 3900 PSI.\n12:00 - 00:00 12.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,752 HASTA 5765 M (AMPLIANDO A 5737 M). CON PSB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nRECORD BNA: 365 M EN 177:25 HRS, 1.08 MPH, ULT.3.MTS: 85-68-22.\nRHINO: 330 M EN 156:02 HRS. .\n* VOL. LODO PERDIDO DIA: 0 M3.\n* VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3.\n**MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n** A PARTIR DE 5762 MT REALIZO PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP. VARIANDO PARÁMETROS DE LA SIGUIENTE MANERA: PSB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n\nTemblo #1 2 3 120/120/120/120\nTemblo #4 y 5 120/120/120/120\nTemblo #6 y 7 120/120/120/120 120/120/120/120\n\nIng. de Pozo Omar Vilchez Cunha\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nTlf. Equipo 9932792088\nITP-PM\nRSC-SLB\n\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 596.23\nNPT PERFORACIÓN (HRS) 6,397.00\nPERFORACIÓN (SIN NPT) 329.69\nTOTAL DÍAS @ LOC 620.38\n\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 223.00\nPerforación 5,891.00\nCabezal y BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\n\nCmp. y Eq.Aux.\nBBA 1: 6.000 x 11.000 65 EPM 40 EPM @ 680 psi Prof: 5743 mts - Dens: 2.02 gr/cc.\nCamisa 1: 6.000 x 11.000 65 EPM 40 EPM @ 660 psi Prof: 5743 mts - Dens: 2.02 gr/cc.\nCamisa 2:\nCamisa 3:\nBBA 2:\nBBA 3:\n\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\n\nGasto: 500.00 gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 630\n\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 02-feb-2015 Proyecto: Alianza DISTRITO:\n\nT.R. Dia (in) Prf (m) Nuc (m) Int. Prog. Int Disp (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp.\nC2\n\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-ene-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\n\nP.S.B.: 13 ton\nRotaria: 120 RPM\nPr. Bomba: 3,854 psi\nTorque: 18 1000 ft.lbf\nP. Sarta (est.): 202 ton\nPARAM.TON 220 202 202\n\nResumen: CIRCULO POZO. LEVANTO BNA DE 10 5/8\" A 5330 M, LIBRE. CAMBIO SENSOR DE RPM. BAJO BNA A 5752 M, LIBRE. PERFORO AGUJERO 10 5/8\" HASTA 5765 M (AMPLIANDO HASTA 5737 M).\nSGTE. OPERACIÓN: PERFORAR DIRECCIONALMENTE CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" HASTA LA PROFUNDIDAD DE 6165 MTS.\nOBSERVACIONES:\nMAT. REQUERIDOS:\n\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2\n\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 72 s Temp.: 80 degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 7 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 17 Gel 10: 33 Gel 30: 40 Cloruros: 10,165 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 65 cP Vis Pl.: 56 cP P. Ced.: 18 lbf/100ft2 Alcalinidad: 5.10 Densidad Equiv. Circ.: 2.10 g/cm3\nEmul: 1,376 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Fecha de Prueba: 17-ene-2015\nRPM600: 130 deg RPM300: 74 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\n\nLitología\n5761 M: 60% YESO, 20% LUTITA CAFE CLARO, LIGERAMENTE CALCAREA Y 20% ANHIDRITA BLANCA Y/O YESO\n\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,752\n14:00 hrs 5,752\n24:00 hrs 5,765\nPrm/día 13\nUlt. Cont.\nPrx. Cont.\n\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13 (4)12\nMts. Perf. 180 m\nHrs. Op. 44:45\nProm x m 14.92\n3 Ult. Mts. 85'-68'-22'\n$/m\nAmp. Inc\nDesgaste ------- -------\n\nRESUM.DIA ANTER.: PERFORO CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" A LA PROFUNDIDAD DE 5752 MTS (AMPLIANDO A 5724 MTS).",
+          "text_en": "Hrs 02-Feb-2015\n00:00 - 03:00 3.00 WITH 10 5/8\" BIT AT 5,740 M, CIRCULATED WELL UNTIL CLEAN RETURNS 130 EPM, 500 GPM, 4000 PSI, 80 RPM RECIPROCATING STRING.\n03:00 - 06:00 3.00 ON SHORT TRIP PULLED 10 5/8\" BIT FROM 5752 MT TO 5330 MT, FREE. FILLED EVERY 5 STANDS VOLUME OF STEEL REMOVED FROM WELL.\nNOTE: BY REQUEST OF THE OPERATING UNIT, THREAD PROTECTORS WERE NOT PLACED ON 5 7/8\" XT-57 TP\n06:00 - 08:00 2.00 WITH PDC BIT 10 5/8\" AT 5,330 M, TESCO COMPANY CHANGED DISPLAY AND RPM SENSOR OF TOP DRIVE IN DRILLER'S PARAMETER CONSOLE.\nIN THE MEANTIME CIRCULATED WELL WITH BOTTLE TO TP WITH 25 EPM, 100 GPM AND 600 PSI.\n08:00 - 12:00 4.00 RAN BIT FROM 5330 TO 5752 M (DRILLED DEPTH) FREE. FOR SAFETY RAN WITH ROTATION AND CIRCULATION LAST TWO STANDS WITH 110 RPM, 490 GPM, 3900 PSI.\n12:00 - 00:00 12.00 DRILLED DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5,752 TO 5765 M (REAMING TO 5737 M). WITH WOB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI.\nBIT RECORD: 365 M IN 177:25 HRS, 1.08 MPH, LAST 3 MTS: 85-68-22.\nRHINO: 330 M IN 156:02 HRS.\n* MUD LOST VOLUME DAY: 0 M3.\n* MUD LOST VOLUME ACCUMULATED STAGE: 527:4 M3.\n**MAINTAINS IN CIRCULATING SYSTEM 15 KG/M3 OF CACO 3 M-200 AND 2 LT/M3 OF VERSACOAT.\n** FROM 5762 MT PERFORMED DRILLABILITY TESTS TO OPTIMIZE ROP. VARYING PARAMETERS AS FOLLOWS: WOB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n\nShaker #1 2 3 120/120/120/120\nShaker #4 and 5 120/120/120/120\nShaker #6 and 7 120/120/120/120 120/120/120/120\n\nWell Eng. Omar Vilchez Cunha\nIPM Sup. JOSE JUARISTI\nPEMEX Sup.\nTelephone:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nRig Phone 9932792088\nITP-PM\nRSC-SLB\n\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 596.23\nNPT DRILLING (HRS) 6,397.00\nDRILLING (WITHOUT NPT) 329.69\nTOTAL DAYS @ LOC 620.38\n\nLOST TIME DIST. Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nRig Repair 223.00\nDrilling 5,891.00\nWellhead and BOP's 309.00\n\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\n\nPumps & Aux. Eq.\nPUMP 1: 6.000 x 11.000 65 EPM 40 EPM @ 680 psi Depth: 5743 mts - Dens: 2.02 gr/cc.\nLiner 1: 6.000 x 11.000 65 EPM 40 EPM @ 660 psi Depth: 5743 mts - Dens: 2.02 gr/cc.\nLiner 2:\nLiner 3:\nPUMP 2:\nPUMP 3:\n\nDRILL: (Fire) 14-Jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-Jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Choke Line: Manifold:\nKoomey - 31-Dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\n\nFlow Rate: 500.00 gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-Jan-2015\nDays Without Accidents: 630\n\nPEMEX EXPLORATION PRODUCTION DRILLING & WELL MAINTENANCE MGT., S.D.\nDAILY OPERATIONS REPORT OF: 02-Feb-2015 Project: Alianza DISTRICT:\n\nCasing Dia (in) Depth (m) Core (m) Int. Prog. Int Avail (m)\nLast Csg 11.875 5,386\nNext Csg 9.875 6,681\nB.L. 11.875 3,521\nPacker\nC2\n\nDate Measured Depth (m) True Vert (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n01-Feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-Jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-Jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-Jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\n30-Jan-2015 5,610 5,456.40 25.47 131.72 693.55 0.37\n\nRig: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Activity Start\nObj: JSK Programmed Depth: 7,211 m Programmed Days: 331.1 Elevation: 11.00 m Next Move: Previous Well End\n\nW.O.B.: 13 ton\nRotary: 120 RPM\nPump Press.: 3,854 psi\nTorque: 18 1000 ft.lbf\nString Weight (est.): 202 ton\nPARAM.TON 220 202 202\n\nSummary: CIRCULATED WELL. PULLED 10 5/8\" BIT TO 5330 M, FREE. CHANGED RPM SENSOR. RAN BIT TO 5752 M, FREE. DRILLED 10 5/8\" HOLE TO 5765 M (REAMING TO 5737 M).\nNEXT OPERATION: DRILL DIRECTIONALLY WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO 12 1/4\" TO DEPTH OF 6165 MTS.\nOBSERVATIONS:\nREQUIRED MAT.:\n\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2\n\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 72 s Temp.: 80 degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Lime Ex.: 7 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 17 Gel 10: 33 Gel 30: 40 Chlorides: 10,165 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nApp. Vis: 65 cP Pl. Vis.: 56 cP Yield Pt.: 18 lbf/100ft2 Alkalinity: 5.10 Equiv. Circ. Density: 2.10 g/cm3\nEmul: 1,376 V O/W: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Test Date: 17-Jan-2015\nRPM600: 130 deg RPM300: 74 deg Lost Mud: 0 m3 Total Lost Mud: 755 m3\nComments: Kick Tolerance bbl\n\nLithology\n5761 M: 60% GYPSUM, 20% LIGHT BROWN SHALE, SLIGHTLY CALCAREOUS AND 20% WHITE ANHYDRITE AND/OR GYPSUM\n\nMeas. Depth (m) Vert (m)\n00:00 hrs 5,752\n14:00 hrs 5,752\n24:00 hrs 5,765\nAvg/day 13\nLast Record\nNext Record\n\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty. I.D. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nNON-MAG MONEL DC 8\" 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER ENLARGER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCROSSOVER 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\n\nBIT Current Previous\nMake Smith Smith\nSerial JJ1604 R70962\nSize 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13 (4)12\nMeters Drilled 180 m\nOp. Hours 44:45\nAvg per m 14.92\nLast 3 Mts. 85'-68'-22'\n$/m\nEnlarg. Inc\nWear ------- -------\n\nPREVIOUS DAY SUMMARY: DRILLED WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" TO DEPTH OF 5752 MTS (REAMING TO 5724 MTS).",
+          "tables": [
+            {
+              "name": "Daily Time Activity Log",
+              "header": [
+                "Hrs",
+                "Duration",
+                "Activity"
+              ],
+              "rows": [
+                [
+                  "00:00 - 03:00",
+                  "3.00",
+                  "CON BARRENA DE 10 5/8\" A 5,740 M, CIRCULO POZO HASTA RETORNOS LIMPIOS 130 EPM, 500 GPM , 4000 PSI, 80 RPM RECIPROCANDO SARTA."
+                ],
+                [
+                  "03:00 - 06:00",
+                  "3.00",
+                  "EN VIAJE CORTO SACO BARRENA DE 10 5/8\" DESDE 5752 MT HASTA 5330 MT, LIBRE. LLENO A CADA 5 LINGADAS VOLUMEN DE ACERO EXTRAÍDO DEL POZO."
+                ],
+                [
+                  "06:00 - 08:00",
+                  "2.00",
+                  "CON BARRENA PDC 10 5/8\" A 5,330 M, CIA TESCO CAMBIO CARATULA Y SENSOR DE RPM DEL TOP DRIVE EN LA CONSOLA DE PARÁMETROS DEL PERFORADOR. EN EL INTER CIRCULO POZO CON BOTELLA A TP CON 25 EPM, 100 GPM Y 600 PSI."
+                ],
+                [
+                  "08:00 - 12:00",
+                  "4.00",
+                  "BAJO BARRENA DESDE 5330 HASTA 5752 M (FONDO PERFORADO) LIBRE. POR SEGURIDAD BAJO CON CON ROTACIÓN Y CIRCULACIÓN ULTIMAS DOS LINGADAS CON 110 RPM, 490 GPM, 3900 PSI."
+                ],
+                [
+                  "12:00 - 00:00",
+                  "12.00",
+                  "PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5,752 HASTA 5765 M (AMPLIANDO A 5737 M). CON PSB: 6-10-17 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI."
+                ]
+              ]
+            },
+            {
+              "name": "Operations Days Summary",
+              "header": [
+                "Ops.",
+                "Días"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "596.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,397.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "329.69"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "620.38"
+                ]
+              ]
+            },
+            {
+              "name": "Lost Time Distribution",
+              "header": [
+                "DIST. TIEMPO PERDIDO",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "223.00"
+                ],
+                [
+                  "Perforación",
+                  "5,891.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "name": "QHSE",
+              "header": [
+                "QHSE",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "name": "Casing Data",
+              "header": [
+                "T.R.",
+                "Dia (in)",
+                "Prf (m)",
+                "Nuc (m)",
+                "Int. Prog.",
+                "Int Disp (m)"
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386",
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681",
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521",
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "Emp.",
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                [
+                  "C2",
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              ]
+            },
+            {
+              "name": "Directional Survey Data",
+              "header": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,610",
+                  "5,456.40",
+                  "25.47",
+                  "131.72",
+                  "693.55",
+                  "0.37"
+                ]
+              ]
+            },
+            {
+              "name": "Mud Properties",
+              "header": [
+                "Property",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Lodo",
+                  "Megadrill"
+                ],
+                [
+                  "Dens",
+                  "2.02 g/cm3"
+                ],
+                [
+                  "Visc",
+                  "72 s"
+                ],
+                [
+                  "Temp.",
+                  "80 degC"
+                ],
+                [
+                  "Arena",
+                  "%"
+                ],
+                [
+                  "Filtrado",
+                  "1.4 cm3"
+                ],
+                [
+                  "Ex. Cal",
+                  "7 lbm/bbl"
+                ],
+                [
+                  "Enj.",
+                  "1 1/32 in"
+                ],
+                [
+                  "Gel 0",
+                  "17"
+                ],
+                [
+                  "Gel 10",
+                  "33"
+                ],
+                [
+                  "Gel 30",
+                  "40"
+                ],
+                [
+                  "Cloruros",
+                  "10,165 lbm/bbl"
+                ],
+                [
+                  "Sólidos",
+                  "38 %"
+                ],
+                [
+                  "Aceite",
+                  "54 %"
+                ],
+                [
+                  "Agua",
+                  "8 %"
+                ],
+                [
+                  "Vis. ap",
+                  "65 cP"
+                ],
+                [
+                  "Vis Pl.",
+                  "56 cP"
+                ],
+                [
+                  "P. Ced.",
+                  "18 lbf/100ft2"
+                ],
+                [
+                  "Alcalinidad",
+                  "5.10"
+                ],
+                [
+                  "Densidad Equiv. Circ.",
+                  "2.10 g/cm3"
+                ],
+                [
+                  "Emul",
+                  "1,376 V"
+                ],
+                [
+                  "RAA",
+                  "87 / 13"
+                ],
+                [
+                  "Sal.",
+                  "375,000 ppm"
+                ],
+                [
+                  "POM",
+                  "5.10"
+                ],
+                [
+                  "Fecha de Prueba",
+                  "17-ene-2015"
+                ],
+                [
+                  "RPM600",
+                  "130 deg"
+                ],
+                [
+                  "RPM300",
+                  "74 deg"
+                ],
+                [
+                  "LDP",
+                  "0 m3"
+                ],
+                [
+                  "TLDP",
+                  "755 m3"
+                ]
+              ]
+            },
+            {
+              "name": "Depth Progress",
+              "header": [
+                "Time",
+                "Profun. Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,752",
+                  null
+                ],
+                [
+                  "14:00 hrs",
+                  "5,752",
+                  null
+                ],
+                [
+                  "24:00 hrs",
+                  "5,765",
+                  null
+                ],
+                [
+                  "Prm/día",
+                  "13",
+                  null
+                ]
+              ]
+            },
+            {
+              "name": "BHA Configuration",
+              "header": [
+                "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  null,
+                  null,
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "name": "Bit Data",
+              "header": [
+                "BNA",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "180 m",
+                  null
+                ],
+                [
+                  "Hrs. Op.",
+                  "44:45",
+                  null
+                ],
+                [
+                  "Prom x m",
+                  "14.92",
+                  null
+                ],
+                [
+                  "3 Ult. Mts.",
+                  "85'-68'-22'",
+                  null
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\03 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "03 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "filename": "drilling_report_03_feb_2015.pdf",
+      "relative_path": "",
+      "source_company": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+      "file_size_bytes": null,
+      "sha256": null,
+      "num_pages": 2,
+      "detected_language": "es",
+      "translation_language": "en",
+      "document_text_full": "Hrs 03-feb-2015\n00:00 - 08:00 8.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5765 HASTA 5771 M \n(AMPLIANDO A 5742 M). CON PSB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI. \nRECORD\n- BNA: 371 M EN 181:45 HRS, 2.03 MPH. U3M: 60-55-55. \n- RHINO: 336 M EN 161:17 HRS. \n** MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n** A PARTIR DE 5762 MT REALIZO PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP. VARIANDO PARÁMETROS DE LA \nSIGUIENTE MANERA: PSB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n08:00 - 12:00 4.00 BOMBEO 8 M3 DE BACHE ANTIPERDIDA-VISCOSO 250 SEG (30 KG/M3 DE OPTISEAL Y 20 KG/M3 DE CaCO3) Y CIRCULO POZO \nHASTA OBSERVAR RETORNOS LIMPIOS EN TEMBLORINAS CON 20 RPM, 480 GPM, 3850 PSI.\n12:00 - 00:00 12.00 LEVANTO BARRENA DE 10 5/8\" DESDE 5571 A 3,100 M LIBRE, LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL \nCON HOJA Y TANQUE DE VIAJES. \n* VOL. LODO PERDIDO DIA: 0 M3. \n* VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3. \nTemblo #1 2 3\nTemblo #4 y 5\nTemblo #6 y 7\n120/120/120/120\n120/120/120\n/120\n120/120/120\n/120\n120/120/120\n/120\nIng. de Pozo OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nTlf. Equipo 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 597.23\nNPT PERFORACIÓN (HRS) 6,397.00\nPERFORACIÓN (SIN NPT) 330.69\nTOTAL DÍAS @ LOC 621.38\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 223.00\nPerforación 5,891.00\nCabezal y BOP's 309.00\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\nCmp. y Eq.Aux.\n6.000 x 11.000 65 EPM\nCamisa 1: 6.000 x 11.000 65 EPM\nCamisa 2:\nCamisa 3:\n30 EPM @ 600 psi Prof: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Prof: 5752 m - Dens: 2.02 gr/cc.\nBBA 1:\nBBA 2:\nBBA 3:\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\nGasto: 500.00 gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 631\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 03-feb-2015 Proyecto: Alianza DISTRITO:\nT.R. Dia (in) Prf (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp.\nC2\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n03-feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nNuc (m) Int. Prog. Int Disp (m)\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\nP.S.B.: 15 ton\nRotaria: 130 RPM\nPr. Bomba: 3,900 psi\nTorque: 15,000 1000 ft.lbf\nP. Sarta (est.): 195 ton\n36DUWDĹĺĻ721 222 210 195\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 6 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 17 Gel 10: 36 Gel 30: 40 Cloruros: 10,165 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 66 cP Vis Pl.: 56 cP P. Ced.: 19 lbf/100ft2 Alcalinidad: 5.00 Densidad Equiv. Circ.: g/cm3\nEmul: 1,374 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.00 Fecha de Prueba: 17-ene-2015\nRPM600: 131 deg RPM300: 75 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\nLitología\n@ 5771 M.\n- 80 % LUTITA GRIS OSCURO, \nSEMIDURA A DURA, LIGERAMENTE \nCALCAREA.\n- 20 % YESO BLANCO.\nTRAZAS DE HALITA BLANCA\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,765\n14:00 hrs 5,771\n24:00 hrs 5,771\nPrm/día 6\nUlt. Cont.\nPrx. Cont.\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 \n1/4\"\n1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13\n(4)12\nMts. Perf. 180 m\nHrs. Op. 181:45\nProm x m 60.58\n3 Ult. Mts. 55' - 60' - 55'.\n$/m\nAmp. Inc\nDesgaste ------- -------\nRESUM.DIA ANTER.: CIRCULO POZO. LEVANTO BNA DE 10 5/8\" A 5330 M, LIBRE. CAMBIO SENSOR DE RPM. BAJO BNA A 5752 M, LIBRE. PERFORO AGUJERO 10 5/8\" HASTA 5765 M \n(AMPLIANDO HASTA 5737 M).\n\nResumen: PERFO CON BNA PDC 10 5/8\" DESDE 5765 M HASTA LA PROFUNDIDAD DE 5771 M (AMPLIANDO A 5743 M). CIRCULO POZO HASTA RETORNOS LIMPIOS. SACO BNA PDC \n10 5/8\" + BHA DIRECCIONAL HASTA 3100 M.\nSGTE. OPERACIÓN: SACAR BNA A SUPERFICIE. PROBAR CONJUNTO DE PREVENTORES. ARMAR Y BAJAR BHA DIRECCIONAL CON BNA PDC 10 5/8\" + AMPLIADOR RHINO HASTA 5771 M.\nOBSERVACIONES:\nMAT. REQUERIDOS: HERRAMIENTAS DIRECCIONALES, MARTILLO 8\".\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+      "document_text_full_en": "Hrs 03-Feb-2015\n00:00 - 08:00 8.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5765 TO 5771 M \n(REAMING TO 5742 M). WITH WOB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI. \nRECORD\n- BIT: 371 M IN 181:45 HRS, 2.03 MPH. U3M: 60-55-55. \n- RHINO: 336 M IN 161:17 HRS. \n** MAINTAINING IN THE CIRCULATING SYSTEM 15 KG/M3 OF CACO3 M-200 AND 2 LT/M3 OF VERSACOAT.\n** FROM 5762 MT PERFORMED DRILLABILITY TESTS TO OPTIMIZE ROP. VARYING PARAMETERS AS \nFOLLOWS: WOB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n08:00 - 12:00 4.00 PUMPED 8 M3 OF LOSS PREVENTION-VISCOUS PILL 250 SEC (30 KG/M3 OF OPTISEAL AND 20 KG/M3 OF CaCO3) AND CIRCULATED WELL \nUNTIL OBSERVING CLEAN RETURNS ON SHAKERS WITH 20 RPM, 480 GPM, 3850 PSI.\n12:00 - 00:00 12.00 PULLED BIT 10 5/8\" FROM 5571 TO 3,100 M FREE, FILLING WELL EVERY 5 STANDS AND KEEPING CONTROL \nWITH TRIP SHEET AND TRIP TANK. \n* DAILY MUD VOLUME LOST: 0 M3. \n* CUMULATIVE MUD VOLUME LOST STAGE: 527:4 M3. \nShaker #1 2 3\nShaker #4 and 5\nShaker #6 and 7\n120/120/120/120\n120/120/120\n/120\n120/120/120\n/120\n120/120/120\n/120\nWell Eng. OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTelephone:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nRig Phone 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 597.23\nNPT DRILLING (HRS) 6,397.00\nDRILLING (WITHOUT NPT) 330.69\nTOTAL DAYS @ LOC 621.38\nDIST. LOST TIME Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nRig Repair 223.00\nDrilling 5,891.00\nWellhead and BOP's 309.00\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\nPumps & Aux.Eq.\n6.000 x 11.000 65 EPM\nLiner 1: 6.000 x 11.000 65 EPM\nLiner 2:\nLiner 3:\n30 EPM @ 600 psi Depth: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Depth: 5752 m - Dens: 2.02 gr/cc.\nPUMP 1:\nPUMP 2:\nPUMP 3:\nDRILL: (Fire) 14-Jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-Jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Choke Line: Manifold:\nKoomey - 31-Dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\nFlow Rate: 500.00 gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-Jan-2015\nDays without Accidents: 631\nPEMEX EXPLORATION PRODUCTION DRILLING & WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT OF: 03-Feb-2015 Project: Alianza DISTRICT:\nCasing Dia (in) Depth (m)\nLast Csg 11.875 5,386\nNext Csg 9.875 6,681\nShoe 11.875 3,521\nCement\nC2\nDate Measured Depth (m) True Vert Depth (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n03-Feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-Feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-Jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-Jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-Jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nCore (m) Planned Int. Available Int (m)\nRig: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in R.K.B.: 9.20 m Activity: Drilling Activity Start\nObj: JSK Planned Depth: 7,211 m Planned Days: 331.1 Elevation: 11.00 m Next Move: End of Previous Well\nW.O.B.: 15 ton\nRotary: 130 RPM\nPump Press.: 3,900 psi\nTorque: 15,000 1000 ft.lbf\nString Weight (est.): 195 ton\n36DUWDĹĺĻ721 222 210 195\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Excess Cal: 6 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 17 Gel 10: 36 Gel 30: 40 Chlorides: 10,165 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nApp. Vis: 66 cP Plast. Vis: 56 cP Yield Point: 19 lbf/100ft2 Alkalinity: 5.00 Equiv. Circ. Density: g/cm3\nEmul: 1,374 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.00 Test Date: 17-Jan-2015\nRPM600: 131 deg RPM300: 75 deg Daily Mud Loss: 0 m3 Total Mud Loss: 755 m3\nComments: Kick Tolerance bbl\nLithology\n@ 5771 M.\n- 80 % DARK GRAY SHALE, \nSEMI-HARD TO HARD, SLIGHTLY \nCALCAREOUS.\n- 20 % WHITE GYPSUM.\nTRACES OF WHITE HALITE\nMeas. Depth (m) Vert (m)\n00:00 hrs 5,765\n14:00 hrs 5,771\n24:00 hrs 5,771\nAvg/day 6\nLast Report\nNext Report\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty. I.D. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nMONEL DC 8\" NON MAG. 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER ENLARGER 8 1/2\" x 12 \n1/4\"\n1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINATION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBIT Current Previous\nBrand Smith Smith\nSerial JJ1604 R70962\nDia 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13\n(4)12\nMeters Drilled 180 m\nOp. Hours 181:45\nAvg per m 60.58\nLast 3 Meters 55' - 60' - 55'.\n$/m\nEnlrg. Inc\nWear ------- -------\nPREVIOUS DAY SUMMARY: CIRCULATED WELL. PULLED BIT 10 5/8\" TO 5330 M, FREE. CHANGED RPM SENSOR. RAN BIT TO 5752 M, FREE. DRILLED 10 5/8\" HOLE TO 5765 M \n(REAMING TO 5737 M).\n\nSummary: DRILLED WITH PDC BIT 10 5/8\" FROM 5765 M TO DEPTH OF 5771 M (REAMING TO 5743 M). CIRCULATED WELL TO CLEAN RETURNS. PULLED PDC BIT \n10 5/8\" + DIRECTIONAL BHA TO 3100 M.\nNEXT OPERATION: PULL BIT TO SURFACE. TEST BOP STACK. RIG UP AND RUN DIRECTIONAL BHA WITH PDC BIT 10 5/8\" + RHINO ENLARGER TO 5771 M.\nOBSERVATIONS:\nREQUIRED MATERIALS: DIRECTIONAL TOOLS, 8\" HAMMER.\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_original": "Hrs 03-feb-2015\n00:00 - 08:00 8.00 PERFORO DIRECCIONAL CON BNA PDC 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" DESDE 5765 HASTA 5771 M \n(AMPLIANDO A 5742 M). CON PSB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI. \nRECORD\n- BNA: 371 M EN 181:45 HRS, 2.03 MPH. U3M: 60-55-55. \n- RHINO: 336 M EN 161:17 HRS. \n** MANTIENE EN EL SISTEMA CIRCULANTE 15 KG/M3 DE CACO 3 M-200 Y 2 LT/M3 DE VERSACOAT.\n** A PARTIR DE 5762 MT REALIZO PRUEBAS DE PERFORABILIDAD PARA OPTIMIZAR ROP. VARIANDO PARÁMETROS DE LA \nSIGUIENTE MANERA: PSB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n08:00 - 12:00 4.00 BOMBEO 8 M3 DE BACHE ANTIPERDIDA-VISCOSO 250 SEG (30 KG/M3 DE OPTISEAL Y 20 KG/M3 DE CaCO3) Y CIRCULO POZO \nHASTA OBSERVAR RETORNOS LIMPIOS EN TEMBLORINAS CON 20 RPM, 480 GPM, 3850 PSI.\n12:00 - 00:00 12.00 LEVANTO BARRENA DE 10 5/8\" DESDE 5571 A 3,100 M LIBRE, LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL \nCON HOJA Y TANQUE DE VIAJES. \n* VOL. LODO PERDIDO DIA: 0 M3. \n* VOL. LODO PERDIDO ACUMULADO ETAPA: 527:4 M3. \nTemblo #1 2 3\nTemblo #4 y 5\nTemblo #6 y 7\n120/120/120/120\n120/120/120\n/120\n120/120/120\n/120\n120/120/120\n/120\nIng. de Pozo OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nTlf. Equipo 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 597.23\nNPT PERFORACIÓN (HRS) 6,397.00\nPERFORACIÓN (SIN NPT) 330.69\nTOTAL DÍAS @ LOC 621.38\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 223.00\nPerforación 5,891.00\nCabezal y BOP's 309.00\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\nCmp. y Eq.Aux.\n6.000 x 11.000 65 EPM\nCamisa 1: 6.000 x 11.000 65 EPM\nCamisa 2:\nCamisa 3:\n30 EPM @ 600 psi Prof: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Prof: 5752 m - Dens: 2.02 gr/cc.\nBBA 1:\nBBA 2:\nBBA 3:\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\nGasto: 500.00 gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 631\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 03-feb-2015 Proyecto: Alianza DISTRITO:\nT.R. Dia (in) Prf (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp.\nC2\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n03-feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nNuc (m) Int. Prog. Int Disp (m)\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\nP.S.B.: 15 ton\nRotaria: 130 RPM\nPr. Bomba: 3,900 psi\nTorque: 15,000 1000 ft.lbf\nP. Sarta (est.): 195 ton\n36DUWDĹĺĻ721 222 210 195\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 6 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 17 Gel 10: 36 Gel 30: 40 Cloruros: 10,165 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 66 cP Vis Pl.: 56 cP P. Ced.: 19 lbf/100ft2 Alcalinidad: 5.00 Densidad Equiv. Circ.: g/cm3\nEmul: 1,374 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.00 Fecha de Prueba: 17-ene-2015\nRPM600: 131 deg RPM300: 75 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\nLitología\n@ 5771 M.\n- 80 % LUTITA GRIS OSCURO, \nSEMIDURA A DURA, LIGERAMENTE \nCALCAREA.\n- 20 % YESO BLANCO.\nTRAZAS DE HALITA BLANCA\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,765\n14:00 hrs 5,771\n24:00 hrs 5,771\nPrm/día 6\nUlt. Cont.\nPrx. Cont.\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 \n1/4\"\n1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13\n(4)12\nMts. Perf. 180 m\nHrs. Op. 181:45\nProm x m 60.58\n3 Ult. Mts. 55' - 60' - 55'.\n$/m\nAmp. Inc\nDesgaste ------- -------\nRESUM.DIA ANTER.: CIRCULO POZO. LEVANTO BNA DE 10 5/8\" A 5330 M, LIBRE. CAMBIO SENSOR DE RPM. BAJO BNA A 5752 M, LIBRE. PERFORO AGUJERO 10 5/8\" HASTA 5765 M \n(AMPLIANDO HASTA 5737 M).",
+          "text_en": "Hrs 03-Feb-2015\n00:00 - 08:00 8.00 DIRECTIONAL DRILLING WITH PDC BIT 10 5/8\" + PD + HTTA MWD + RHINO REAMER 12 1/4\" FROM 5765 TO 5771 M \n(REAMING TO 5742 M). WITH WOB: 6-10-16 TON, 130 RPM, 15,000-17,500 FT-LB, 500 GPM, 3854 PSI. \nRECORD\n- BIT: 371 M IN 181:45 HRS, 2.03 MPH. U3M: 60-55-55. \n- RHINO: 336 M IN 161:17 HRS. \n** MAINTAINING IN THE CIRCULATING SYSTEM 15 KG/M3 OF CACO3 M-200 AND 2 LT/M3 OF VERSACOAT.\n** FROM 5762 MT PERFORMED DRILLABILITY TESTS TO OPTIMIZE ROP. VARYING PARAMETERS AS \nFOLLOWS: WOB 8-17 TON, RPM: 110-140, TQ: 15,000/17,500 FT-LB, 130 EPM, 500 GPM, 3854 PSI.\n08:00 - 12:00 4.00 PUMPED 8 M3 OF LOSS PREVENTION-VISCOUS PILL 250 SEC (30 KG/M3 OF OPTISEAL AND 20 KG/M3 OF CaCO3) AND CIRCULATED WELL \nUNTIL OBSERVING CLEAN RETURNS ON SHAKERS WITH 20 RPM, 480 GPM, 3850 PSI.\n12:00 - 00:00 12.00 PULLED BIT 10 5/8\" FROM 5571 TO 3,100 M FREE, FILLING WELL EVERY 5 STANDS AND KEEPING CONTROL \nWITH TRIP SHEET AND TRIP TANK. \n* DAILY MUD VOLUME LOST: 0 M3. \n* CUMULATIVE MUD VOLUME LOST STAGE: 527:4 M3. \nShaker #1 2 3\nShaker #4 and 5\nShaker #6 and 7\n120/120/120/120\n120/120/120\n/120\n120/120/120\n/120\n120/120/120\n/120\nWell Eng. OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTelephone:\nWSS-SLB O. NEGRETE/ M. PEREZ\nAWSS-SLB V.SANCHEZ/ E.ARAUJO\nRig Phone 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 597.23\nNPT DRILLING (HRS) 6,397.00\nDRILLING (WITHOUT NPT) 330.69\nTOTAL DAYS @ LOC 621.38\nDIST. LOST TIME Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nRig Repair 223.00\nDrilling 5,891.00\nWellhead and BOP's 309.00\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\nPumps & Aux.Eq.\n6.000 x 11.000 65 EPM\nLiner 1: 6.000 x 11.000 65 EPM\nLiner 2:\nLiner 3:\n30 EPM @ 600 psi Depth: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Depth: 5752 m - Dens: 2.02 gr/cc.\nPUMP 1:\nPUMP 2:\nPUMP 3:\nDRILL: (Fire) 14-Jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-Jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Choke Line: Manifold:\nKoomey - 31-Dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\nFlow Rate: 500.00 gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-Jan-2015\nDays without Accidents: 631\nPEMEX EXPLORATION PRODUCTION DRILLING & WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT OF: 03-Feb-2015 Project: Alianza DISTRICT:\nCasing Dia (in) Depth (m)\nLast Csg 11.875 5,386\nNext Csg 9.875 6,681\nShoe 11.875 3,521\nCement\nC2\nDate Measured Depth (m) True Vert Depth (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n03-Feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-Feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-Jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-Jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-Jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nCore (m) Planned Int. Available Int (m)\nRig: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in R.K.B.: 9.20 m Activity: Drilling Activity Start\nObj: JSK Planned Depth: 7,211 m Planned Days: 331.1 Elevation: 11.00 m Next Move: End of Previous Well\nW.O.B.: 15 ton\nRotary: 130 RPM\nPump Press.: 3,900 psi\nTorque: 15,000 1000 ft.lbf\nString Weight (est.): 195 ton\n36DUWDĹĺĻ721 222 210 195\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 70 s Temp.: degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Excess Cal: 6 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 17 Gel 10: 36 Gel 30: 40 Chlorides: 10,165 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nApp. Vis: 66 cP Plast. Vis: 56 cP Yield Point: 19 lbf/100ft2 Alkalinity: 5.00 Equiv. Circ. Density: g/cm3\nEmul: 1,374 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.00 Test Date: 17-Jan-2015\nRPM600: 131 deg RPM300: 75 deg Daily Mud Loss: 0 m3 Total Mud Loss: 755 m3\nComments: Kick Tolerance bbl\nLithology\n@ 5771 M.\n- 80 % DARK GRAY SHALE, \nSEMI-HARD TO HARD, SLIGHTLY \nCALCAREOUS.\n- 20 % WHITE GYPSUM.\nTRACES OF WHITE HALITE\nMeas. Depth (m) Vert (m)\n00:00 hrs 5,765\n14:00 hrs 5,771\n24:00 hrs 5,771\nAvg/day 6\nLast Report\nNext Report\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty. I.D. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nMONEL DC 8\" NON MAG. 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER ENLARGER 8 1/2\" x 12 \n1/4\"\n1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINATION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBIT Current Previous\nBrand Smith Smith\nSerial JJ1604 R70962\nDia 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13\n(4)12\nMeters Drilled 180 m\nOp. Hours 181:45\nAvg per m 60.58\nLast 3 Meters 55' - 60' - 55'.\n$/m\nEnlrg. Inc\nWear ------- -------\nPREVIOUS DAY SUMMARY: CIRCULATED WELL. PULLED BIT 10 5/8\" TO 5330 M, FREE. CHANGED RPM SENSOR. RAN BIT TO 5752 M, FREE. DRILLED 10 5/8\" HOLE TO 5765 M \n(REAMING TO 5737 M).",
+          "tables": [
+            {
+              "name": "Casing Data",
+              "header": [
+                "T.R.",
+                "Dia (in)",
+                "Prf (m)"
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386"
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681"
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521"
+                ]
+              ]
+            },
+            {
+              "name": "Survey Data",
+              "header": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "03-feb-2015",
+                  "5,758",
+                  "5,589.99",
+                  "24.91",
+                  "129.02",
+                  "755.74",
+                  "0.57"
+                ],
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ]
+              ]
+            },
+            {
+              "name": "Operations Time Distribution",
+              "header": [
+                "Ops.",
+                "Días"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "597.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,397.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "330.69"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "621.38"
+                ]
+              ]
+            },
+            {
+              "name": "Lost Time Distribution",
+              "header": [
+                "DIST. TIEMPO PERDIDO",
+                "Horas"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "223.00"
+                ],
+                [
+                  "Perforación",
+                  "5,891.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "name": "QHSE Statistics",
+              "header": [
+                "QHSE",
+                null
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "name": "BHA Composition",
+              "header": [
+                "BHA CON BNA PDC 10 5/8\" + PD + RHINO",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  null,
+                  null,
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "name": "Bit Comparison",
+              "header": [
+                "BNA",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "180 m",
+                  null
+                ],
+                [
+                  "Hrs. Op.",
+                  "181:45",
+                  null
+                ],
+                [
+                  "Prom x m",
+                  "60.58",
+                  null
+                ],
+                [
+                  "3 Ult. Mts.",
+                  "55' - 60' - 55'.",
+                  null
+                ],
+                [
+                  "$/m",
+                  null,
+                  null
+                ],
+                [
+                  "Amp. Inc",
+                  null,
+                  null
+                ],
+                [
+                  "Desgaste",
+                  "-------",
+                  "-------"
+                ]
+              ]
+            },
+            {
+              "name": "Depth Progress",
+              "header": [
+                "Profun.",
+                "Desrr (m)",
+                "Vert (m)"
+              ],
+              "rows": [
+                [
+                  "00:00 hrs",
+                  "5,765",
+                  null
+                ],
+                [
+                  "14:00 hrs",
+                  "5,771",
+                  null
+                ],
+                [
+                  "24:00 hrs",
+                  "5,771",
+                  null
+                ],
+                [
+                  "Prm/día",
+                  "6",
+                  null
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "text_original": "Resumen: PERFO CON BNA PDC 10 5/8\" DESDE 5765 M HASTA LA PROFUNDIDAD DE 5771 M (AMPLIANDO A 5743 M). CIRCULO POZO HASTA RETORNOS LIMPIOS. SACO BNA PDC \n10 5/8\" + BHA DIRECCIONAL HASTA 3100 M.\nSGTE. OPERACIÓN: SACAR BNA A SUPERFICIE. PROBAR CONJUNTO DE PREVENTORES. ARMAR Y BAJAR BHA DIRECCIONAL CON BNA PDC 10 5/8\" + AMPLIADOR RHINO HASTA 5771 M.\nOBSERVACIONES:\nMAT. REQUERIDOS: HERRAMIENTAS DIRECCIONALES, MARTILLO 8\".\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+          "text_en": "Summary: DRILLED WITH PDC BIT 10 5/8\" FROM 5765 M TO DEPTH OF 5771 M (REAMING TO 5743 M). CIRCULATED WELL TO CLEAN RETURNS. PULLED PDC BIT \n10 5/8\" + DIRECTIONAL BHA TO 3100 M.\nNEXT OPERATION: PULL BIT TO SURFACE. TEST BOP STACK. RIG UP AND RUN DIRECTIONAL BHA WITH PDC BIT 10 5/8\" + RHINO ENLARGER TO 5771 M.\nOBSERVATIONS:\nREQUIRED MATERIALS: DIRECTIONAL TOOLS, 8\" HAMMER.\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+          "tables": []
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\04 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "04 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": {
+      "filename": "drilling_report_04-feb-2015.pdf",
+      "relative_path": "",
+      "source_company": "PEMEX EXPLORACIÓN PRODUCCIÓN",
+      "file_size_bytes": null,
+      "sha256": null,
+      "num_pages": 2,
+      "detected_language": "es",
+      "translation_language": "en",
+      "document_text_full": "Hrs 04-feb-2015\n00:00 - 06:00 6.00 LEVANTO BARRENA DE 10 5/8\" DESDE 3100 A 1,100 M LIBRE, LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL CON HOJA Y TANQUE DE VIAJES.\n06:00 - 09:00 3.00 TESCO REALIZO CAMBIO DE ACEITE AL TOP DRIVE Y CAMBIO DE ROTO ACTUADOR HIDRAULICO. * CAMBIO DOBLE PIN 6-5/8\" REG x XT-57 * VERIFICO FUNCIONAMIENTO DEL SISTEMA, OK. \n09:00 - 11:00 2.00 PERSONAL DE CIA IPC DESLIZO CABLE DE PERFORACION DE 1-1/2\" 16.5 MT Y VERIFICO NIVEL DE ACEITE EN CUELLO DE GANZO. \n11:00 - 13:00 2.00 LEVANTO BNA PDC 10 5/8\" + PD CON AMPLIADOR RHINO DE 1100 A 275 M, LLENADO POZO POR E.A CON TANQUE DE VIAJE Y LLEVA CONTROL CON HOJA DE VIAJE.\n13:00 - 18:00 5.00 SACO BNA PDC 10 5/8\" DESCONECTANDO COMPONENTES DEL BHA HASTA 26 M, DESCONECTANDO: 5 LING HWDP 5\" + 1 LING DC 8\" + MARTILLO 8\" + 2 LING DC 8\" + EST DE 8 X 10 1/2\" + 1 DC 8\" + RHINO RAMER.\n18:00 - 21:00 3.00 NPT.- CIA TITSA.- ESPERA POR GRUA POR BLOQUEO DEL SISTEMA DE SEGURIDAD, POR NO RECONOCER HUELLA DE OPERADOR.\n21:00 - 23:00 2.00 SACO BNA 10 5/8\" DE 26 M A SUPERFICIE, DESCONECTANDO EST. 8\" X 10 1/2\" + F. FONDO + DC MONEL 8\" + MWD 8\" + MISC. SUB. + POWER DRIVE 10 5/8\" X 10 1/2\" + BNA PDC 10 5/8\" \nNOTA: *DESGASTE DE BNA: 0-1-WT-S-X-I-PN-BHA *DESGASTE DE RHINO: 0-0-NO-A-X-I-NO-BHA *POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS A LA TP 5 7/8\" XT-57\nNOTA: PERSONAL DE CIA. PROPESA PROBO ENSAMBLE DE ESTRANGULACIÓN VÁLVULA POR VÁLVULA DE 3 1/16\"10M CON 300 PSI X 5 MIN Y 8000 PSI X 10 MIN, OK Y VÁLVULAS DE 3 1/8\" 5M CON 300 PSI X 5 MIN Y 4000 PSI X 10 MIN, OK.\n23:00 - 00:00 1.00 REALIZO ORDEN Y LIMPIEZA EN PISO DE PERFORACION.\nTemblo #1 2 3 120/120/120/120\nTemblo #4 y 5 120/120/120/120\nTemblo #6 y 7 120/120/120/120\nIng. de Pozo OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. PRADO / L. GARCIA\nAWSS-SLB L.POLANCO/G.SALAZAR\nTlf. Equipo 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 598.23\nNPT PERFORACIÓN (HRS) 6,400.00\nPERFORACIÓN (SIN NPT) 331.56\nTOTAL DÍAS @ LOC 622.38\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 223.00\nPerforación 5,894.00\nCabezal y BOP's 309.00\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\nCmp. y Eq.Aux.\n6.000 x 11.000 65 EPM\nCamisa 1: 6.000 x 11.000 65 EPM\nCamisa 2:\nCamisa 3:\n30 EPM @ 600 psi Prof: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Prof: 5752 m - Dens: 2.02 gr/cc.\nBBA 1:\nBBA 2:\nBBA 3:\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\nGasto: gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 632\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 04-feb-2015 Proyecto: Alianza DISTRITO:\nT.R. Dia (in) Prf (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp. C2\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n03-feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nNuc (m) Int. Prog. Int Disp (m)\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\nP.S.B.: ton\nRotaria: RPM\nPr. Bomba: psi\nTorque: 1000 ft.lbf\nP. Sarta (est.): ton\n36DUWDĹĺĻ721\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 90 s Temp.: degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 7 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 18 Gel 10: 36 Gel 30: 43 Cloruros: 10,165 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 68 cP Vis Pl.: 58 cP P. Ced.: 20 lbf/100ft2 Alcalinidad: 5.10 Densidad Equiv. Circ.: g/cm3\nEmul: 1,340 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Fecha de Prueba: 17-ene-2015\nRPM600: 136 deg RPM300: 78 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\nLitología @ 5771 M.\n- 80 % LUTITA GRIS OSCURO, SEMIDURA A DURA, LIGERAMENTE CALCAREA.\n- 20 % YESO BLANCO.\nTRAZAS DE HALITA BLANCA\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,771\n14:00 hrs 5,771\n24:00 hrs 5,771\nPrm/día 0\nUlt. Cont.\nPrx. Cont.\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13 (4)12\nMts. Perf. 180 m\nHrs. Op. 181:45\nProm x m 60.58\n3 Ult. Mts.\n$/m\nAmp. Inc\nDesgaste 0-1-WT-S-X-I-PN-BHA -------\nRESUM.DIA ANTER.: PERFO CON BNA PDC 10 5/8\" DESDE 5765 M HASTA LA PROFUNDIDAD DE 5771 M (AMPLIANDO A 5743 M). CIRCULO POZO HASTA RETORNOS LIMPIOS. SACO BNA PDC 10 5/8\" + BHA DIRECCIONAL HASTA 3100 M.\n\nResumen: SACA BNA PDC 10 5/8\" + BHA DIRECCIONAL HASTA LA PROFUNDIDAD DE 1100 M, DESLIZO 16.5 M DE CABLE, VERIFICO NIVELES DE ACEITE EN CUELLO DE GANSO, SACO BNA HASTA 26 M, ESPERO POR FALLA DE GRUA, SACO BNA HASTA SUPERFICIE, DESCONECTANDO COMPONENTES DEL BHA, REALIZO ORDEN Y LIMPIEZA.\nSGTE. OPERACIÓN: PROBAR CONJUNTO DE PREVENTORES, ARMAR Y BAJAR BHA DIRECCIONAL CON BNA PDC 10 5/8\" + AMPLIADOR RHINO HASTA 5771 M.\nOBSERVACIONES:\nMAT. REQUERIDOS:\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+      "document_text_full_en": "Hrs 04-feb-2015\n00:00 - 06:00 6.00 RAISED 10 5/8\" BIT FROM 3100 TO 1,100 M FREE, FILLING HOLE EVERY 5 JOINTS AND KEEPING CONTROL WITH SHEET AND TRIP TANK.\n06:00 - 09:00 3.00 TESCO PERFORMED OIL CHANGE ON TOP DRIVE AND CHANGED HYDRAULIC ACTUATOR ROTOR. * CHANGED DOUBLE PIN 6-5/8\" REG x XT-57 * VERIFIED SYSTEM OPERATION, OK. \n09:00 - 11:00 2.00 IPC COMPANY PERSONNEL SLIPPED 1-1/2\" DRILLING CABLE 16.5 M AND VERIFIED OIL LEVEL IN GOOSENECK. \n11:00 - 13:00 2.00 RAISED PDC BIT 10 5/8\" + PD WITH RHINO REAMER FROM 1100 TO 275 M, FILLED HOLE THROUGH E.A WITH TRIP TANK AND KEPT CONTROL WITH TRIP SHEET.\n13:00 - 18:00 5.00 PULLED PDC BIT 10 5/8\" DISCONNECTING BHA COMPONENTS TO 26 M, DISCONNECTING: 5 JOINTS HWDP 5\" + 1 JOINT DC 8\" + HAMMER 8\" + 2 JOINTS DC 8\" + STAB 8 X 10 1/2\" + 1 DC 8\" + RHINO REAMER.\n18:00 - 21:00 3.00 NPT.- TITSA COMPANY.- WAIT FOR CRANE DUE TO SAFETY SYSTEM LOCK, FOR NOT RECOGNIZING OPERATOR FINGERPRINT.\n21:00 - 23:00 2.00 PULLED BIT 10 5/8\" FROM 26 M TO SURFACE, DISCONNECTING STAB. 8\" X 10 1/2\" + BOTTOM FILTER + DC MONEL 8\" + MWD 8\" + MISC. SUB. + POWER DRIVE 10 5/8\" X 10 1/2\" + PDC BIT 10 5/8\" \nNOTE: *BIT WEAR: 0-1-WT-S-X-I-PN-BHA *RHINO WEAR: 0-0-NO-A-X-I-NO-BHA *BY REQUEST OF THE OPERATING UNIT, THREAD PROTECTORS WERE NOT PLACED ON TP 5 7/8\" XT-57\nNOTE: PROPESA COMPANY PERSONNEL TESTED CHOKE ASSEMBLY VALVE BY VALVE OF 3 1/16\"10M WITH 300 PSI X 5 MIN AND 8000 PSI X 10 MIN, OK AND VALVES OF 3 1/8\" 5M WITH 300 PSI X 5 MIN AND 4000 PSI X 10 MIN, OK.\n23:00 - 00:00 1.00 PERFORMED ORDER AND CLEANING ON RIG FLOOR.\nShaker #1 2 3 120/120/120/120\nShaker #4 and 5 120/120/120/120\nShaker #6 and 7 120/120/120/120\nWell Eng. OMAR VILCHEZ\nIPM Sup. JOSE JUARISTI\nPEMEX Sup.\nTelephone:\nWSS-SLB O. PRADO / L. GARCIA\nAWSS-SLB L.POLANCO/G.SALAZAR\nEquip. Tel 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 598.23\nNPT DRILLING (HRS) 6,400.00\nDRILLING (WITHOUT NPT) 331.56\nTOTAL DAYS @ LOC 622.38\nLOST TIME DIST. Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nEquipment Repair 223.00\nDrilling 5,894.00\nWellhead and BOP's 309.00\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\nPumps & Aux.Eq.\n6.000 x 11.000 65 EPM\nLiner 1: 6.000 x 11.000 65 EPM\nLiner 2:\nLiner 3:\n30 EPM @ 600 psi Depth: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Depth: 5752 m - Dens: 2.02 gr/cc.\nPUMP 1:\nPUMP 2:\nPUMP 3:\nDRILL: (Fire) 14-jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\nRate: gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-jan-2015\nDays without Accidents: 632\nPEMEX EXPLORATION PRODUCTION DRILLING & WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT OF: 04-feb-2015 Project: Alliance DISTRICT:\nT.R. Dia (in) Depth (m)\nLast TR 11.875 5,386\nNext TR 9.875 6,681\nB.L. 11.875 3,521\nComp. C2\nDate Depth Devel (m) Depth Vert (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n03-feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nCore (m) Prog. Int. Avail Int (m)\nEquipment: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Activity Start\nObj: JSK Pgm Depth: 7,211 m Pg Days: 331.1 Elevation: 11.00 m Next Move: Previous Well End\nP.S.B.: ton\nRotary: RPM\nPump Pr.: psi\nTorque: 1000 ft.lbf\nString P. (est.): ton\n36DUWDĹĺĻ721\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 90 s Temp.: degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Ex. Cal: 7 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 18 Gel 10: 36 Gel 30: 43 Chlorides: 10,165 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nAp. Vis: 68 cP Pl. Vis.: 58 cP Y. P.: 20 lbf/100ft2 Alkalinity: 5.10 Equiv. Circ. Density: g/cm3\nEmul: 1,340 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Test Date: 17-jan-2015\nRPM600: 136 deg RPM300: 78 deg LDP: 0 m3 TLDP: 755 m3\nComments: Kick Tolerance bbl\nLithology @ 5771 M.\n- 80 % DARK GRAY SHALE, SEMI-HARD TO HARD, SLIGHTLY CALCAREOUS.\n- 20 % WHITE GYPSUM.\nTRACES OF WHITE HALITE\nDepth Devel (m) Vert (m)\n00:00 hrs 5,771\n14:00 hrs 5,771\n24:00 hrs 5,771\nAvg/day 0\nLast Cont.\nNext Cont.\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty D.I. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NON MAG. 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER ENLARGER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINATION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBIT Current Previous\nMake Smith Smith\nSerial JJ1604 R70962\nDia 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13 (4)12\nMts. Drill. 180 m\nOp. Hrs. 181:45\nAvg per m 60.58\n3 Last Mts.\n$/m\nEnlarg. Inc\nWear 0-1-WT-S-X-I-PN-BHA -------\nPREV.DAY SUMMARY: DRILLED WITH PDC BIT 10 5/8\" FROM 5765 M TO DEPTH OF 5771 M (ENLARGING TO 5743 M). CIRCULATED HOLE UNTIL CLEAN RETURNS. PULLED PDC BIT 10 5/8\" + DIRECTIONAL BHA TO 3100 M.\n\nSummary: PULLS PDC BIT 10 5/8\" + DIRECTIONAL BHA TO DEPTH OF 1100 M, SLIPPED 16.5 M OF CABLE, VERIFIED OIL LEVELS IN GOOSENECK, PULLED BIT TO 26 M, WAIT FOR CRANE FAILURE, PULLED BIT TO SURFACE, DISCONNECTING BHA COMPONENTS, PERFORMED ORDER AND CLEANING.\nNEXT OPERATION: TEST PREVENTER ASSEMBLY, RIG UP AND RUN DIRECTIONAL BHA WITH PDC BIT 10 5/8\" + RHINO REAMER TO 5771 M.\nOBSERVATIONS:\nREQUIRED MATERIALS:\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_original": "Hrs 04-feb-2015\n00:00 - 06:00 6.00 LEVANTO BARRENA DE 10 5/8\" DESDE 3100 A 1,100 M LIBRE, LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL CON HOJA Y TANQUE DE VIAJES.\n06:00 - 09:00 3.00 TESCO REALIZO CAMBIO DE ACEITE AL TOP DRIVE Y CAMBIO DE ROTO ACTUADOR HIDRAULICO. * CAMBIO DOBLE PIN 6-5/8\" REG x XT-57 * VERIFICO FUNCIONAMIENTO DEL SISTEMA, OK. \n09:00 - 11:00 2.00 PERSONAL DE CIA IPC DESLIZO CABLE DE PERFORACION DE 1-1/2\" 16.5 MT Y VERIFICO NIVEL DE ACEITE EN CUELLO DE GANZO. \n11:00 - 13:00 2.00 LEVANTO BNA PDC 10 5/8\" + PD CON AMPLIADOR RHINO DE 1100 A 275 M, LLENADO POZO POR E.A CON TANQUE DE VIAJE Y LLEVA CONTROL CON HOJA DE VIAJE.\n13:00 - 18:00 5.00 SACO BNA PDC 10 5/8\" DESCONECTANDO COMPONENTES DEL BHA HASTA 26 M, DESCONECTANDO: 5 LING HWDP 5\" + 1 LING DC 8\" + MARTILLO 8\" + 2 LING DC 8\" + EST DE 8 X 10 1/2\" + 1 DC 8\" + RHINO RAMER.\n18:00 - 21:00 3.00 NPT.- CIA TITSA.- ESPERA POR GRUA POR BLOQUEO DEL SISTEMA DE SEGURIDAD, POR NO RECONOCER HUELLA DE OPERADOR.\n21:00 - 23:00 2.00 SACO BNA 10 5/8\" DE 26 M A SUPERFICIE, DESCONECTANDO EST. 8\" X 10 1/2\" + F. FONDO + DC MONEL 8\" + MWD 8\" + MISC. SUB. + POWER DRIVE 10 5/8\" X 10 1/2\" + BNA PDC 10 5/8\" \nNOTA: *DESGASTE DE BNA: 0-1-WT-S-X-I-PN-BHA *DESGASTE DE RHINO: 0-0-NO-A-X-I-NO-BHA *POR PETICIÓN DE LA UNIDAD OPERATIVA, NO SE COLOCO GUARDA ROSCAS A LA TP 5 7/8\" XT-57\nNOTA: PERSONAL DE CIA. PROPESA PROBO ENSAMBLE DE ESTRANGULACIÓN VÁLVULA POR VÁLVULA DE 3 1/16\"10M CON 300 PSI X 5 MIN Y 8000 PSI X 10 MIN, OK Y VÁLVULAS DE 3 1/8\" 5M CON 300 PSI X 5 MIN Y 4000 PSI X 10 MIN, OK.\n23:00 - 00:00 1.00 REALIZO ORDEN Y LIMPIEZA EN PISO DE PERFORACION.\nTemblo #1 2 3 120/120/120/120\nTemblo #4 y 5 120/120/120/120\nTemblo #6 y 7 120/120/120/120\nIng. de Pozo OMAR VILCHEZ\nSup. IPM JOSE JUARISTI\nSup. PEMEX\nTeléfono:\nWSS-SLB O. PRADO / L. GARCIA\nAWSS-SLB L.POLANCO/G.SALAZAR\nTlf. Equipo 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Días\nMOVIMIENTO 11.42\nNPT MOVIMIENTO (HRS) 138.00\nMOVIMIENTO (SIN NPT) 5.67\nPERFORACIÓN 598.23\nNPT PERFORACIÓN (HRS) 6,400.00\nPERFORACIÓN (SIN NPT) 331.56\nTOTAL DÍAS @ LOC 622.38\nDIST. TIEMPO PERDIDO Horas\nCódigos de Espera 1,940.50\nMovilización 138.00\nReparación del Equipo 223.00\nPerforación 5,894.00\nCabezal y BOP's 309.00\nQHSE\nRIR's/STOP's 0\nJTAS. DE SEGURIDAD 2\nSIMULACROS 0\nTOTAL 2\nCmp. y Eq.Aux.\n6.000 x 11.000 65 EPM\nCamisa 1: 6.000 x 11.000 65 EPM\nCamisa 2:\nCamisa 3:\n30 EPM @ 600 psi Prof: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Prof: 5752 m - Dens: 2.02 gr/cc.\nBBA 1:\nBBA 2:\nBBA 3:\nSIM.: (Fuego) 14-ene-2015 Tiempo: TIEMPO DE RESPUESTA 03 MIN.\nFunction 16-ene-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dic-2014 Manifold: 1,500 psi Acumulador 3,000 psi Esférico: 800 psi\nGasto: gal/min 130 EPM\nVelocidad Anular: PPM\nPrueba BOPs: 16-ene-2015\nDías sin Accidentes: 632\nPEMEX EXPLORACIÓN PRODUCCIÓN GCIA. DE PERFORACIÓN Y MANTTO. A POZOS, D.S.\nREPORTE DIARIO DE OPERACIONES DEL: 04-feb-2015 Proyecto: Alianza DISTRITO:\nT.R. Dia (in) Prf (m)\nUlt TR 11.875 5,386\nPrx TR 9.875 6,681\nB.L. 11.875 3,521\nEmp. C2\nFecha Prof. Desarr (m) Prof. Vert (m) Ángulo Azimuth Closure (m) Severidad (deg/100ft)\n03-feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-ene-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-ene-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-ene-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nNuc (m) Int. Prog. Int Disp (m)\nEquipo: IPC-776 Pozo: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Actividad: Perforación Inicio de Actividad\nObj: JSK Prof Pgm: 7,211 m Días Pg: 331.1 Elevac.: 11.00 m Prox. Mov: Fin del Pozo Anterior\nP.S.B.: ton\nRotaria: RPM\nPr. Bomba: psi\nTorque: 1000 ft.lbf\nP. Sarta (est.): ton\n36DUWDĹĺĻ721\nLodo: Megadrill Dens: 2.02 g/cm3 Visc: 90 s Temp.: degC Pruebas Formación Barita 113.4 ton\nArena: % Filtrado: 1.4 cm3 Ex. Cal: 7 lbm/bbl Enj.: 1 1/32 in Prueba Integridad: 2.04 g/cm3\nGel 0: 18 Gel 10: 36 Gel 30: 43 Cloruros: 10,165 lbm/bbl Gradiente de Formación: g/cm3\npH: Sólidos: 38 % Aceite: 54 % Agua: 8 % Gradiente de Fractura: g/cm3\nVis. ap: 68 cP Vis Pl.: 58 cP P. Ced.: 20 lbf/100ft2 Alcalinidad: 5.10 Densidad Equiv. Circ.: g/cm3\nEmul: 1,340 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Fecha de Prueba: 17-ene-2015\nRPM600: 136 deg RPM300: 78 deg LDP: 0 m3 TLDP: 755 m3\nComentarios: Kick Tolerance bbl\nLitología @ 5771 M.\n- 80 % LUTITA GRIS OSCURO, SEMIDURA A DURA, LIGERAMENTE CALCAREA.\n- 20 % YESO BLANCO.\nTRAZAS DE HALITA BLANCA\nProfun. Desrr (m) Vert (m)\n00:00 hrs 5,771\n14:00 hrs 5,771\n24:00 hrs 5,771\nPrm/día 0\nUlt. Cont.\nPrx. Cont.\nBHA CON BNA PDC 10 5/8\" + PD + RHINO Cant. D.I. (in) D.E. (in) Long (m) Total (m)\nBNA PDC 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NO MAG. 1 3.375 8.250 8.42 22.60\nFILTRO DE FONDO 1 3.500 8.000 2.23 24.83\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nAMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nESTABILIZADOR 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nMARTILLO 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINACION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBNA Actual Anterior\nMarca Smith Smith\nSerie JJ1604 R70962\nDia 10.625 in 10.625 in\nTipo MDSi813LBPX WINDOW MILL\nToberas (in) (4)13 (4)12\nMts. Perf. 180 m\nHrs. Op. 181:45\nProm x m 60.58\n3 Ult. Mts.\n$/m\nAmp. Inc\nDesgaste 0-1-WT-S-X-I-PN-BHA -------\nRESUM.DIA ANTER.: PERFO CON BNA PDC 10 5/8\" DESDE 5765 M HASTA LA PROFUNDIDAD DE 5771 M (AMPLIANDO A 5743 M). CIRCULO POZO HASTA RETORNOS LIMPIOS. SACO BNA PDC 10 5/8\" + BHA DIRECCIONAL HASTA 3100 M.",
+          "text_en": "Hrs 04-feb-2015\n00:00 - 06:00 6.00 RAISED 10 5/8\" BIT FROM 3100 TO 1,100 M FREE, FILLING HOLE EVERY 5 JOINTS AND KEEPING CONTROL WITH SHEET AND TRIP TANK.\n06:00 - 09:00 3.00 TESCO PERFORMED OIL CHANGE ON TOP DRIVE AND CHANGED HYDRAULIC ACTUATOR ROTOR. * CHANGED DOUBLE PIN 6-5/8\" REG x XT-57 * VERIFIED SYSTEM OPERATION, OK. \n09:00 - 11:00 2.00 IPC COMPANY PERSONNEL SLIPPED 1-1/2\" DRILLING CABLE 16.5 M AND VERIFIED OIL LEVEL IN GOOSENECK. \n11:00 - 13:00 2.00 RAISED PDC BIT 10 5/8\" + PD WITH RHINO REAMER FROM 1100 TO 275 M, FILLED HOLE THROUGH E.A WITH TRIP TANK AND KEPT CONTROL WITH TRIP SHEET.\n13:00 - 18:00 5.00 PULLED PDC BIT 10 5/8\" DISCONNECTING BHA COMPONENTS TO 26 M, DISCONNECTING: 5 JOINTS HWDP 5\" + 1 JOINT DC 8\" + HAMMER 8\" + 2 JOINTS DC 8\" + STAB 8 X 10 1/2\" + 1 DC 8\" + RHINO REAMER.\n18:00 - 21:00 3.00 NPT.- TITSA COMPANY.- WAIT FOR CRANE DUE TO SAFETY SYSTEM LOCK, FOR NOT RECOGNIZING OPERATOR FINGERPRINT.\n21:00 - 23:00 2.00 PULLED BIT 10 5/8\" FROM 26 M TO SURFACE, DISCONNECTING STAB. 8\" X 10 1/2\" + BOTTOM FILTER + DC MONEL 8\" + MWD 8\" + MISC. SUB. + POWER DRIVE 10 5/8\" X 10 1/2\" + PDC BIT 10 5/8\" \nNOTE: *BIT WEAR: 0-1-WT-S-X-I-PN-BHA *RHINO WEAR: 0-0-NO-A-X-I-NO-BHA *BY REQUEST OF THE OPERATING UNIT, THREAD PROTECTORS WERE NOT PLACED ON TP 5 7/8\" XT-57\nNOTE: PROPESA COMPANY PERSONNEL TESTED CHOKE ASSEMBLY VALVE BY VALVE OF 3 1/16\"10M WITH 300 PSI X 5 MIN AND 8000 PSI X 10 MIN, OK AND VALVES OF 3 1/8\" 5M WITH 300 PSI X 5 MIN AND 4000 PSI X 10 MIN, OK.\n23:00 - 00:00 1.00 PERFORMED ORDER AND CLEANING ON RIG FLOOR.\nShaker #1 2 3 120/120/120/120\nShaker #4 and 5 120/120/120/120\nShaker #6 and 7 120/120/120/120\nWell Eng. OMAR VILCHEZ\nIPM Sup. JOSE JUARISTI\nPEMEX Sup.\nTelephone:\nWSS-SLB O. PRADO / L. GARCIA\nAWSS-SLB L.POLANCO/G.SALAZAR\nEquip. Tel 9932792088\nITP-PM OSCAR VERA\nRSC-SLB\nOps. Days\nMOVEMENT 11.42\nNPT MOVEMENT (HRS) 138.00\nMOVEMENT (WITHOUT NPT) 5.67\nDRILLING 598.23\nNPT DRILLING (HRS) 6,400.00\nDRILLING (WITHOUT NPT) 331.56\nTOTAL DAYS @ LOC 622.38\nLOST TIME DIST. Hours\nWaiting Codes 1,940.50\nMobilization 138.00\nEquipment Repair 223.00\nDrilling 5,894.00\nWellhead and BOP's 309.00\nQHSE\nRIR's/STOP's 0\nSAFETY MEETINGS 2\nDRILLS 0\nTOTAL 2\nPumps & Aux.Eq.\n6.000 x 11.000 65 EPM\nLiner 1: 6.000 x 11.000 65 EPM\nLiner 2:\nLiner 3:\n30 EPM @ 600 psi Depth: 5752 m - Dens: 2.02 gr/cc.\n30 EPM @ 540 psi Depth: 5752 m - Dens: 2.02 gr/cc.\nPUMP 1:\nPUMP 2:\nPUMP 3:\nDRILL: (Fire) 14-jan-2015 Time: RESPONSE TIME 03 MIN.\nFunction 16-jan-2015 Standpipe Kelly Hose Diverter:\nAnnular: 5,000 psi Rams: 8,000 psi Chok Line: Manifold:\nKoomey - 31-dec-2014 Manifold: 1,500 psi Accumulator 3,000 psi Spherical: 800 psi\nRate: gal/min 130 EPM\nAnnular Velocity: PPM\nBOPs Test: 16-jan-2015\nDays without Accidents: 632\nPEMEX EXPLORATION PRODUCTION DRILLING & WELL MAINTENANCE MANAGEMENT, D.S.\nDAILY OPERATIONS REPORT OF: 04-feb-2015 Project: Alliance DISTRICT:\nT.R. Dia (in) Depth (m)\nLast TR 11.875 5,386\nNext TR 9.875 6,681\nB.L. 11.875 3,521\nComp. C2\nDate Depth Devel (m) Depth Vert (m) Angle Azimuth Closure (m) Severity (deg/100ft)\n03-feb-2015 5,758 5,589.99 24.91 129.02 755.74 0.57\n01-feb-2015 5,728 5,562.57 24.89 130.38 743.01 0.32\n31-jan-2015 5,698 5,536.13 24.85 131.11 730.75 0.34\n31-jan-2015 5,669 5,509.09 24.85 131.92 718.23 0.33\n30-jan-2015 5,640 5,483.48 25.08 132.43 706.32 0.49\nCore (m) Prog. Int. Avail Int (m)\nEquipment: IPC-776 Well: NAVEGANTE 0001DL Conductor: 42 m 30.000 in E.M.R.: 9.20 m Activity: Drilling Activity Start\nObj: JSK Pgm Depth: 7,211 m Pg Days: 331.1 Elevation: 11.00 m Next Move: Previous Well End\nP.S.B.: ton\nRotary: RPM\nPump Pr.: psi\nTorque: 1000 ft.lbf\nString P. (est.): ton\n36DUWDĹĺĻ721\nMud: Megadrill Dens: 2.02 g/cm3 Visc: 90 s Temp.: degC Formation Tests Barite 113.4 ton\nSand: % Filtrate: 1.4 cm3 Ex. Cal: 7 lbm/bbl Nozzle: 1 1/32 in Integrity Test: 2.04 g/cm3\nGel 0: 18 Gel 10: 36 Gel 30: 43 Chlorides: 10,165 lbm/bbl Formation Gradient: g/cm3\npH: Solids: 38 % Oil: 54 % Water: 8 % Fracture Gradient: g/cm3\nAp. Vis: 68 cP Pl. Vis.: 58 cP Y. P.: 20 lbf/100ft2 Alkalinity: 5.10 Equiv. Circ. Density: g/cm3\nEmul: 1,340 V RAA: 87 / 13 Sal.: 375,000 ppm POM: 5.10 Test Date: 17-jan-2015\nRPM600: 136 deg RPM300: 78 deg LDP: 0 m3 TLDP: 755 m3\nComments: Kick Tolerance bbl\nLithology @ 5771 M.\n- 80 % DARK GRAY SHALE, SEMI-HARD TO HARD, SLIGHTLY CALCAREOUS.\n- 20 % WHITE GYPSUM.\nTRACES OF WHITE HALITE\nDepth Devel (m) Vert (m)\n00:00 hrs 5,771\n14:00 hrs 5,771\n24:00 hrs 5,771\nAvg/day 0\nLast Cont.\nNext Cont.\nBHA WITH PDC BIT 10 5/8\" + PD + RHINO Qty D.I. (in) O.D. (in) Length (m) Total (m)\nPDC BIT 10 5/8\" MDSi813 10.625 0.29 0.29\nPOWER DRIVE 10 5/8\" x 10 1/2\" 1 3.250 8.250 4.21 4.50\nMISC. SUB. 1 3.000 8.250 1.88 6.38\nMWD 8\" 1 4.250 8.000 7.80 14.18\nDC MONEL 8\" NON MAG. 1 3.375 8.250 8.42 22.60\nBOTTOM FILTER 1 3.500 8.000 2.23 24.83\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.57 26.40\nRHINO REAMER ENLARGER 8 1/2\" x 12 1/4\" 1 3.000 8.250 4.04 30.44\nDC 8\" 1 2.750 8.000 9.40 39.84\nSTABILIZER 8\" x 10 1/2\" 1 3.000 8.000 1.80 41.64\nDC 8\" 6 2.750 8.000 53.89 95.53\nHAMMER 8\" 1 3.000 8.000 9.99 105.52\nDC 8\" 3 2.750 8.000 27.42 132.94\nCOMBINATION 6 5/8\" REG x NC50 1 3.250 6.875 1.30 134.24\nHWDP 5\" 15 3.000 5.000 140.92 275.16\nBIT Current Previous\nMake Smith Smith\nSerial JJ1604 R70962\nDia 10.625 in 10.625 in\nType MDSi813LBPX WINDOW MILL\nNozzles (in) (4)13 (4)12\nMts. Drill. 180 m\nOp. Hrs. 181:45\nAvg per m 60.58\n3 Last Mts.\n$/m\nEnlarg. Inc\nWear 0-1-WT-S-X-I-PN-BHA -------\nPREV.DAY SUMMARY: DRILLED WITH PDC BIT 10 5/8\" FROM 5765 M TO DEPTH OF 5771 M (ENLARGING TO 5743 M). CIRCULATED HOLE UNTIL CLEAN RETURNS. PULLED PDC BIT 10 5/8\" + DIRECTIONAL BHA TO 3100 M.",
+          "tables": [
+            {
+              "name": "Daily Operations Schedule",
+              "header": [
+                "Time",
+                "Hours",
+                "Activity"
+              ],
+              "rows": [
+                [
+                  "00:00 - 06:00",
+                  "6.00",
+                  "LEVANTO BARRENA DE 10 5/8\" DESDE 3100 A 1,100 M LIBRE, LLENANDO POZO CADA 5 LINGADAS Y LLEVANDO CONTROL CON HOJA Y TANQUE DE VIAJES"
+                ],
+                [
+                  "06:00 - 09:00",
+                  "3.00",
+                  "TESCO REALIZO CAMBIO DE ACEITE AL TOP DRIVE Y CAMBIO DE ROTO ACTUADOR HIDRAULICO"
+                ],
+                [
+                  "09:00 - 11:00",
+                  "2.00",
+                  "PERSONAL DE CIA IPC DESLIZO CABLE DE PERFORACION DE 1-1/2\" 16.5 MT Y VERIFICO NIVEL DE ACEITE EN CUELLO DE GANZO"
+                ],
+                [
+                  "11:00 - 13:00",
+                  "2.00",
+                  "LEVANTO BNA PDC 10 5/8\" + PD CON AMPLIADOR RHINO DE 1100 A 275 M"
+                ],
+                [
+                  "13:00 - 18:00",
+                  "5.00",
+                  "SACO BNA PDC 10 5/8\" DESCONECTANDO COMPONENTES DEL BHA HASTA 26 M"
+                ],
+                [
+                  "18:00 - 21:00",
+                  "3.00",
+                  "NPT.- CIA TITSA.- ESPERA POR GRUA POR BLOQUEO DEL SISTEMA DE SEGURIDAD"
+                ],
+                [
+                  "21:00 - 23:00",
+                  "2.00",
+                  "SACO BNA 10 5/8\" DE 26 M A SUPERFICIE"
+                ],
+                [
+                  "23:00 - 00:00",
+                  "1.00",
+                  "REALIZO ORDEN Y LIMPIEZA EN PISO DE PERFORACION"
+                ]
+              ]
+            },
+            {
+              "name": "Operations Days Summary",
+              "header": [
+                "Category",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "MOVIMIENTO",
+                  "11.42"
+                ],
+                [
+                  "NPT MOVIMIENTO (HRS)",
+                  "138.00"
+                ],
+                [
+                  "MOVIMIENTO (SIN NPT)",
+                  "5.67"
+                ],
+                [
+                  "PERFORACIÓN",
+                  "598.23"
+                ],
+                [
+                  "NPT PERFORACIÓN (HRS)",
+                  "6,400.00"
+                ],
+                [
+                  "PERFORACIÓN (SIN NPT)",
+                  "331.56"
+                ],
+                [
+                  "TOTAL DÍAS @ LOC",
+                  "622.38"
+                ]
+              ]
+            },
+            {
+              "name": "Lost Time Distribution",
+              "header": [
+                "Category",
+                "Hours"
+              ],
+              "rows": [
+                [
+                  "Códigos de Espera",
+                  "1,940.50"
+                ],
+                [
+                  "Movilización",
+                  "138.00"
+                ],
+                [
+                  "Reparación del Equipo",
+                  "223.00"
+                ],
+                [
+                  "Perforación",
+                  "5,894.00"
+                ],
+                [
+                  "Cabezal y BOP's",
+                  "309.00"
+                ]
+              ]
+            },
+            {
+              "name": "QHSE",
+              "header": [
+                "Item",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "RIR's/STOP's",
+                  "0"
+                ],
+                [
+                  "JTAS. DE SEGURIDAD",
+                  "2"
+                ],
+                [
+                  "SIMULACROS",
+                  "0"
+                ],
+                [
+                  "TOTAL",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "name": "Tubular Data",
+              "header": [
+                "T.R.",
+                "Dia (in)",
+                "Prf (m)"
+              ],
+              "rows": [
+                [
+                  "Ult TR",
+                  "11.875",
+                  "5,386"
+                ],
+                [
+                  "Prx TR",
+                  "9.875",
+                  "6,681"
+                ],
+                [
+                  "B.L.",
+                  "11.875",
+                  "3,521"
+                ]
+              ]
+            },
+            {
+              "name": "Directional Survey",
+              "header": [
+                "Fecha",
+                "Prof. Desarr (m)",
+                "Prof. Vert (m)",
+                "Ángulo",
+                "Azimuth",
+                "Closure (m)",
+                "Severidad (deg/100ft)"
+              ],
+              "rows": [
+                [
+                  "03-feb-2015",
+                  "5,758",
+                  "5,589.99",
+                  "24.91",
+                  "129.02",
+                  "755.74",
+                  "0.57"
+                ],
+                [
+                  "01-feb-2015",
+                  "5,728",
+                  "5,562.57",
+                  "24.89",
+                  "130.38",
+                  "743.01",
+                  "0.32"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,698",
+                  "5,536.13",
+                  "24.85",
+                  "131.11",
+                  "730.75",
+                  "0.34"
+                ],
+                [
+                  "31-ene-2015",
+                  "5,669",
+                  "5,509.09",
+                  "24.85",
+                  "131.92",
+                  "718.23",
+                  "0.33"
+                ],
+                [
+                  "30-ene-2015",
+                  "5,640",
+                  "5,483.48",
+                  "25.08",
+                  "132.43",
+                  "706.32",
+                  "0.49"
+                ]
+              ]
+            },
+            {
+              "name": "BHA Configuration",
+              "header": [
+                "Component",
+                "Cant.",
+                "D.I. (in)",
+                "D.E. (in)",
+                "Long (m)",
+                "Total (m)"
+              ],
+              "rows": [
+                [
+                  "BNA PDC 10 5/8\" MDSi813",
+                  null,
+                  null,
+                  "10.625",
+                  "0.29",
+                  "0.29"
+                ],
+                [
+                  "POWER DRIVE 10 5/8\" x 10 1/2\"",
+                  "1",
+                  "3.250",
+                  "8.250",
+                  "4.21",
+                  "4.50"
+                ],
+                [
+                  "MISC. SUB.",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "1.88",
+                  "6.38"
+                ],
+                [
+                  "MWD 8\"",
+                  "1",
+                  "4.250",
+                  "8.000",
+                  "7.80",
+                  "14.18"
+                ],
+                [
+                  "DC MONEL 8\" NO MAG.",
+                  "1",
+                  "3.375",
+                  "8.250",
+                  "8.42",
+                  "22.60"
+                ],
+                [
+                  "FILTRO DE FONDO",
+                  "1",
+                  "3.500",
+                  "8.000",
+                  "2.23",
+                  "24.83"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.57",
+                  "26.40"
+                ],
+                [
+                  "AMPLIADOR RHINO REAMER 8 1/2\" x 12 1/4\"",
+                  "1",
+                  "3.000",
+                  "8.250",
+                  "4.04",
+                  "30.44"
+                ],
+                [
+                  "DC 8\"",
+                  "1",
+                  "2.750",
+                  "8.000",
+                  "9.40",
+                  "39.84"
+                ],
+                [
+                  "ESTABILIZADOR 8\" x 10 1/2\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "1.80",
+                  "41.64"
+                ],
+                [
+                  "DC 8\"",
+                  "6",
+                  "2.750",
+                  "8.000",
+                  "53.89",
+                  "95.53"
+                ],
+                [
+                  "MARTILLO 8\"",
+                  "1",
+                  "3.000",
+                  "8.000",
+                  "9.99",
+                  "105.52"
+                ],
+                [
+                  "DC 8\"",
+                  "3",
+                  "2.750",
+                  "8.000",
+                  "27.42",
+                  "132.94"
+                ],
+                [
+                  "COMBINACION 6 5/8\" REG x NC50",
+                  "1",
+                  "3.250",
+                  "6.875",
+                  "1.30",
+                  "134.24"
+                ],
+                [
+                  "HWDP 5\"",
+                  "15",
+                  "3.000",
+                  "5.000",
+                  "140.92",
+                  "275.16"
+                ]
+              ]
+            },
+            {
+              "name": "Bit Comparison",
+              "header": [
+                "Parameter",
+                "Actual",
+                "Anterior"
+              ],
+              "rows": [
+                [
+                  "Marca",
+                  "Smith",
+                  "Smith"
+                ],
+                [
+                  "Serie",
+                  "JJ1604",
+                  "R70962"
+                ],
+                [
+                  "Dia",
+                  "10.625 in",
+                  "10.625 in"
+                ],
+                [
+                  "Tipo",
+                  "MDSi813LBPX",
+                  "WINDOW MILL"
+                ],
+                [
+                  "Toberas (in)",
+                  "(4)13",
+                  "(4)12"
+                ],
+                [
+                  "Mts. Perf.",
+                  "180 m",
+                  null
+                ],
+                [
+                  "Hrs. Op.",
+                  "181:45",
+                  null
+                ],
+                [
+                  "Prom x m",
+                  "60.58",
+                  null
+                ],
+                [
+                  "Desgaste",
+                  "0-1-WT-S-X-I-PN-BHA",
+                  "-------"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "page_number": 2,
+          "text_original": "Resumen: SACA BNA PDC 10 5/8\" + BHA DIRECCIONAL HASTA LA PROFUNDIDAD DE 1100 M, DESLIZO 16.5 M DE CABLE, VERIFICO NIVELES DE ACEITE EN CUELLO DE GANSO, SACO BNA HASTA 26 M, ESPERO POR FALLA DE GRUA, SACO BNA HASTA SUPERFICIE, DESCONECTANDO COMPONENTES DEL BHA, REALIZO ORDEN Y LIMPIEZA.\nSGTE. OPERACIÓN: PROBAR CONJUNTO DE PREVENTORES, ARMAR Y BAJAR BHA DIRECCIONAL CON BNA PDC 10 5/8\" + AMPLIADOR RHINO HASTA 5771 M.\nOBSERVACIONES:\nMAT. REQUERIDOS:\nCON SEGURIDAD ... SERVIMOS MEJOR 2013.1 03Jul2013 v3.2",
+          "text_en": "Summary: PULLS PDC BIT 10 5/8\" + DIRECTIONAL BHA TO DEPTH OF 1100 M, SLIPPED 16.5 M OF CABLE, VERIFIED OIL LEVELS IN GOOSENECK, PULLED BIT TO 26 M, WAIT FOR CRANE FAILURE, PULLED BIT TO SURFACE, DISCONNECTING BHA COMPONENTS, PERFORMED ORDER AND CLEANING.\nNEXT OPERATION: TEST PREVENTER ASSEMBLY, RIG UP AND RUN DIRECTIONAL BHA WITH PDC BIT 10 5/8\" + RHINO REAMER TO 5771 M.\nOBSERVATIONS:\nREQUIRED MATERIALS:\nWITH SAFETY ... WE SERVE BETTER 2013.1 03Jul2013 v3.2",
+          "tables": []
+        }
+      ]
+    },
+    "success": true,
+    "error": null
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\05 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "05 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\05 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\06 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\07 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\08 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\09 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\10 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\11 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "11 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\11 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\12 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "12 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\12 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\13 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "13 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\13 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Pemex\\14 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "pdf_name": "14 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Pemex\\\\14 FEBRERO -2015,  24HRS, NAVEGANTE 1DL - MCA.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras - Atividades diarias.pdf",
+    "pdf_name": "Petrobras - Atividades diarias.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras - Atividades diarias.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-13.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-13.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-13.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-14.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-14.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-14.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-15.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-15.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-15.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-16.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-16.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-16.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-17.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-17.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-17.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-18.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-18.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-18.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-19.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-19.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-19.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-20.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-20.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-20.pdf'"
+  },
+  {
+    "pdf_path": "C:\\Users\\Kshitij.Patil\\OneDrive - ENCORA\\Desktop\\control_plane\\runs\\run_20251102_121834\\phase2\\prepare_workspace_unzip\\data\\source_unpacked\\Petrobras\\Petrobras_Daily_Report_2024-01-21.pdf",
+    "pdf_name": "Petrobras_Daily_Report_2024-01-21.pdf",
+    "data": null,
+    "success": false,
+    "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Kshitij.Patil\\\\OneDrive - ENCORA\\\\Desktop\\\\control_plane\\\\runs\\\\run_20251102_121834\\\\phase2\\\\prepare_workspace_unzip\\\\data\\\\source_unpacked\\\\Petrobras\\\\Petrobras_Daily_Report_2024-01-21.pdf'"
+  }
+]

@@ -5,6 +5,7 @@ Simple wrapper around AWS Bedrock's Claude models.
 Supports PDF processing via Claude Sonnet 4.5+
 """
 
+import asyncio
 import json
 import base64
 from pathlib import Path
@@ -236,10 +237,15 @@ class BedrockClaudeClient(ChatCompletionClient):
         
         # Invoke Bedrock with error handling
         try:
-            response = self._client.invoke_model(
-                modelId=self._model_id,
-                body=json.dumps(body)
-            )
+            # Define sync function to run in thread pool
+            def _invoke_bedrock_sync():
+                return self._client.invoke_model(
+                    modelId=self._model_id,
+                    body=json.dumps(body)
+                )
+            
+            # Run synchronous boto3 call in thread pool (enables parallelism)
+            response = await asyncio.to_thread(_invoke_bedrock_sync)
             
             # Parse response
             response_body = json.loads(response['body'].read())

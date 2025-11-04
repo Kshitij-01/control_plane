@@ -1,0 +1,1620 @@
+{
+  "documents": [
+    {
+      "document_id": "LIBRA-8-MRO-8-RJS-Report-36-20201012",
+      "source_path": "Daily Drilling Report (LIBRA)",
+      "organization": "Petrobras",
+      "report_date": "2020-10-12",
+      "report_period_label": "Report No: 36",
+      "language_detected": "Portuguese",
+      "currency": "USD",
+      "metadata": {
+        "page_count": 6,
+        "title": "Daily Drilling Report (LIBRA)",
+        "well_name": "8-MRO-8-RJS",
+        "wellbore_number": "OH",
+        "wellbore_name": "8-MRO-8-RJS",
+        "rig_name": "DEEPWATER MYKONOS",
+        "rig_number": "39",
+        "project": "LIBRA-NW",
+        "site": "8-MRO-8-RJS",
+        "block": "LIBRA",
+        "gep": "Gabriel Rosa",
+        "fiscal": "Guilherme Harami/ Júlio Sperb / Guilherme Mendonça",
+        "event": "ORIG DRILLING",
+        "drilling_start_date": "2020-09-07",
+        "spud_date": "2020-09-08",
+        "estimated_end_date": "2020-12-12",
+        "active_datum": "NS-39 @ 25,00m",
+        "ground_elevation_m": 25.0,
+        "water_depth_m": 2046.0,
+        "current_md_m": 5560.0,
+        "progress_m": 96.0,
+        "avg_rop_m_per_hr": 0.0,
+        "rotating_hrs": null,
+        "cum_rotating_hrs": 131.5,
+        "dfs_days": 35.0,
+        "est_days": 74.3,
+        "current_status_6am": "MP: DEsce",
+        "created": "2020-10-13 05:59:06",
+        "modified": "2020-10-13 05:59:06"
+      },
+      "totals": {
+        "total_cost": 14694694.81,
+        "estimated_daily_cost": 315557.49,
+        "approved_afe": 14694694.81,
+        "cumulative_cost": 14694694.81,
+        "labor_cost": null,
+        "equipment_cost": null,
+        "materials_cost": null,
+        "services_cost": null,
+        "downtime_cost": null,
+        "other_cost": null
+      },
+      "events": [
+        {
+          "event_id": "EVT-001",
+          "event_type": "POOH - Pull Out of Hole",
+          "description": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 3900 m to 2454 m wet, inside casing, at restricted speed of 2 min/stand. Obs.: - EDS#5 (CSR+LBSR / EHBS: LBSR). - Keeping SBP at 700 psi.",
+          "start_timestamp": "2020-10-12T00:00:00",
+          "end_timestamp": "2020-10-12T04:00:00",
+          "duration_hours": 4.0,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-002",
+          "event_type": "Dynamic Flow Check",
+          "description": "MW: Performing dynamic flow check with 400 gpm / 700 psi of SBP, Positive.",
+          "start_timestamp": "2020-10-12T04:00:00",
+          "end_timestamp": "2020-10-12T04:30:00",
+          "duration_hours": 0.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-003",
+          "event_type": "POOH - Pull Out of Hole",
+          "description": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 2454 m to 1884 m wet, inside casing and riser, with CMC open, at restricted speed of 2 min/stand. Obs.: - Selecting EDS#1 (NO SHEAR). - Keeping SBP at 620 psi.",
+          "start_timestamp": "2020-10-12T04:30:00",
+          "end_timestamp": "2020-10-12T05:30:00",
+          "duration_hours": 1.0,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-004",
+          "event_type": "Equipment Setup",
+          "description": "MW: Lining up CU to choke line. Closing UBSR. Reducing SBP on MPD in steps of 50 psi until choke 100% open. Switching off booster pump. Obs.: -Selected EDS#3 (UBSR+LBSR / EHBS: LBSR).",
+          "start_timestamp": "2020-10-12T05:30:00",
+          "end_timestamp": "2020-10-12T07:00:00",
+          "duration_hours": 1.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-005",
+          "event_type": "BART Operations",
+          "description": "MW: B/D and R/B 1x 5 7/8\" DP stand. Connecting BART stand. Removing master bushing. Passing BART through RKB. Installing master bushing. RIH 1x 5 7/8\" DP stand. Connecting TDS. Slacking off BART with 30 klbf and confirming latching with 20 klbf overpull. Slacking off 30 klbf and unlatching BA. B/D and R/B 1x 5 7/8\" DP stand. Passing with BART + BA through the slip joint with CMC open. Removing master bushing and passing with BART + BA through the RKB. Installing master bushing. Inspecting and R/B BART + BA stand. Obs.: - Keeping SBP between 620 and 700 psi with CU",
+          "start_timestamp": "2020-10-12T07:00:00",
+          "end_timestamp": "2020-10-12T09:30:00",
+          "duration_hours": 2.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-006",
+          "event_type": "POOH - Pull Out of Hole",
+          "description": "MW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 1884 m to 360 m wet, inside riser. Obs.: - Keeping SBP between 620 and 700 psi with CU.",
+          "start_timestamp": "2020-10-12T09:30:00",
+          "end_timestamp": "2020-10-12T12:00:00",
+          "duration_hours": 2.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-007",
+          "event_type": "BHA Breakdown",
+          "description": "MW: B/D and R/B 8 1/2\" BHA from 360 m to surface. Obs.: - Keeping SBP between 620 and 700 psi with CU.",
+          "start_timestamp": "2020-10-12T12:00:00",
+          "end_timestamp": "2020-10-12T18:00:00",
+          "duration_hours": 6.0,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-008",
+          "event_type": "Equipment Inspection",
+          "description": "MW: Inspecting 8 1/2\" bit and EZ Sleeve. In parallel, servicing TDS.",
+          "start_timestamp": "2020-10-12T18:00:00",
+          "end_timestamp": "2020-10-12T18:30:00",
+          "duration_hours": 0.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-009",
+          "event_type": "BHA Movement",
+          "description": "MW: Moving 8 1/2\" BHA from aux to main and screwing in dog sub and bit.",
+          "start_timestamp": "2020-10-12T18:30:00",
+          "end_timestamp": "2020-10-12T19:00:00",
+          "duration_hours": 0.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-010",
+          "event_type": "Safety Meeting",
+          "description": "MW: Perform TBT to make up BHA.",
+          "start_timestamp": "2020-10-12T19:00:00",
+          "end_timestamp": "2020-10-12T19:30:00",
+          "duration_hours": 0.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-011",
+          "event_type": "BHA Makeup",
+          "description": "MW: Making up dog sub and bit. Making up BHA from surface to 45 m.",
+          "start_timestamp": "2020-10-12T19:30:00",
+          "end_timestamp": "2020-10-12T21:00:00",
+          "duration_hours": 1.5,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-012",
+          "event_type": "Tool Download",
+          "description": "MW: Downloading MWD/LWD tools.",
+          "start_timestamp": "2020-10-12T21:00:00",
+          "end_timestamp": "2020-10-12T23:00:00",
+          "duration_hours": 2.0,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-013",
+          "event_type": "BHA Makeup",
+          "description": "MW: Making up BHA from 45 to 119 m. - Replacing elevator inserts from 5 7/8\" to 5 1/2\"",
+          "start_timestamp": "2020-10-12T23:00:00",
+          "end_timestamp": "2020-10-13T00:00:00",
+          "duration_hours": 1.0,
+          "cost_impact": null,
+          "cost_category": "NPT",
+          "npt": true,
+          "rig": "MAIN"
+        },
+        {
+          "event_id": "EVT-AUX-001",
+          "event_type": "No Activities",
+          "description": "AW: No activities.",
+          "start_timestamp": "2020-10-12T00:00:00",
+          "end_timestamp": "2020-10-12T01:00:00",
+          "duration_hours": 1.0,
+          "cost_impact": null,
+          "cost_category": "PT",
+          "npt": false,
+          "rig": "AUX"
+        },
+        {
+          "event_id": "EVT-AUX-002",
+          "event_type": "BHA Makeup",
+          "description": "AW: M/U and R/B 8 1/2\" BHA.",
+          "start_timestamp": "2020-10-12T01:00:00",
+          "end_timestamp": "2020-10-12T05:30:00",
+          "duration_hours": 4.5,
+          "cost_impact": null,
+          "cost_category": "PT",
+          "npt": false,
+          "rig": "AUX"
+        },
+        {
+          "event_id": "EVT-AUX-003",
+          "event_type": "Tool Connection",
+          "description": "AW: Connecting tools to download.",
+          "start_timestamp": "2020-10-12T05:30:00",
+          "end_timestamp": "2020-10-12T07:00:00",
+          "duration_hours": 1.5,
+          "cost_impact": null,
+          "cost_category": "PT",
+          "npt": false,
+          "rig": "AUX"
+        },
+        {
+          "event_id": "EVT-AUX-004",
+          "event_type": "Safety Meeting",
+          "description": "AW: Holding pre job safety meeting.",
+          "start_timestamp": "2020-10-12T07:00:00",
+          "end_timestamp": "2020-10-12T07:30:00",
+          "duration_hours": 0.5,
+          "cost_impact": null,
+          "cost_category": "PT",
+          "npt": false,
+          "rig": "AUX"
+        },
+        {
+          "event_id": "EVT-AUX-005",
+          "event_type": "BHA Makeup",
+          "description": "AW: M/U and R/B 8 1/2\" BHA.",
+          "start_timestamp": "2020-10-12T07:30:00",
+          "end_timestamp": "2020-10-12T13:00:00",
+          "duration_hours": 5.5,
+          "cost_impact": null,
+          "cost_category": "PT",
+          "npt": false,
+          "rig": "AUX"
+        },
+        {
+          "event_id": "EVT-AUX-006",
+          "event_type": "No Activities",
+          "description": "AW: No activities.",
+          "start_timestamp": "2020-10-12T13:00:00",
+          "end_timestamp": "2020-10-12T18:00:00",
+          "duration_hours": 5.0,
+          "cost_impact": null,
+          "cost_category": "PT",
+          "npt": false,
+          "rig": "AUX"
+        }
+      ],
+      "operations": [
+        {
+          "operation_type": "POOH (Pull Out of Hole)",
+          "start_depth_m": 3900.0,
+          "end_depth_m": 0.0,
+          "meters_drilled": 0.0,
+          "rop_m_per_hr": 0.0,
+          "description": "Pulling out of hole with 8 1/2\" BHA from 3900m to surface"
+        },
+        {
+          "operation_type": "BHA Breakdown and Rebuild",
+          "start_depth_m": null,
+          "end_depth_m": null,
+          "meters_drilled": 0.0,
+          "rop_m_per_hr": 0.0,
+          "description": "Breaking down BHA #4 and making up BHA #5"
+        }
+      ],
+      "resources": {
+        "personnel": [
+          {
+            "role": "GEÓLOGO (Geologist)",
+            "name": "Alan Armele",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "REVCIM",
+            "name": "Fabio Alexandre de Moraes Freire",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "FISCAL",
+            "name": "Guilherme Arrojo Mendonça",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "FISCAL",
+            "name": "Guilherme Bolfarini Harami",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "FISCAL",
+            "name": "Julio Emanuel Klafke Sperb",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "GEÓLOGO (Geologist)",
+            "name": "Leandro de Oliveira Abreu",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "FISCAL DE SONDAGEM (Drilling Supervisor)",
+            "name": "Robson Luiz de Souza Mariano",
+            "company": "Petrobras",
+            "count": 1
+          },
+          {
+            "role": "LWD",
+            "name": "Aderilson Vicente Carvalho Jr.",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "MUD LOGGING",
+            "name": "Adriana Aquino Roldan",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "BATCH MIXER",
+            "name": "Agnaldo Delarri da Silva",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "GÁS AVANÇADO (Advanced Gas)",
+            "name": "Alexandre da Silva Francisco",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "MUD LOGGING",
+            "name": "Ana Carolina Damelia de Andrade Pereira",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "CPM",
+            "name": "Breno Santuzzi Tebaldi",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "GEOQUÍMICA (Geochemistry)",
+            "name": "Carolina Peterle de Nadai",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "DIRECIONAL (Directional)",
+            "name": "Claudio Melo Tasso",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "MUD LOGGING",
+            "name": "Isaac Thompson Chagas Santos",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "SAMPLE CATCHER",
+            "name": "Jean Carlos dos Santos Marques de Azevedo",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "GÁS AVANÇADO (Advanced Gas)",
+            "name": "José Antônio Pena Castellano",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "MUD LOGGING",
+            "name": "Laisa Nassara Bloomfield",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "GÁS AVANÇADO (Advanced Gas)",
+            "name": "Luiz Gustavo da Cruz Rezende",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "SAMPLE CATCHER",
+            "name": "Marcelo Ferreira Nazar",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "MWD",
+            "name": "Nicholas Jeferson Fernandes da Silva",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "DIRECIONAL (Directional)",
+            "name": "Rafael Nuciaroni Matsunaga",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "BATCH MIXER",
+            "name": "Regilnaldo Cavalcante da Silva",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "BATCH MIXER",
+            "name": "Stenio Hermmson freire da Silva",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "QUÍMICO (Chemist)",
+            "name": "Thiago Rodrigues Santos da Silva",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "GÁS AVANÇADO (Advanced Gas)",
+            "name": "Tiago Bezerra de Souza",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "GEOQUÍMICA (Geochemistry)",
+            "name": "Vanessa Rodrigues Pacheco",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "QUÍMICO (Chemist)",
+            "name": "Yuri Lima de Brito",
+            "company": "Halliburton",
+            "count": 1
+          },
+          {
+            "role": "CABP",
+            "name": "Felipe Esteves Ferreira",
+            "company": "FMC",
+            "count": 1
+          },
+          {
+            "role": "CABP",
+            "name": "Ronaldo Silva de Almeida Júnior",
+            "company": "FMC",
+            "count": 1
+          },
+          {
+            "role": "ROV",
+            "name": "Eurico Manuel Shou",
+            "company": "Oceaneering",
+            "count": 1
+          },
+          {
+            "role": "ROV",
+            "name": "Fabricio Cezario Oliveira",
+            "company": "Oceaneering",
+            "count": 1
+          },
+          {
+            "role": "ROV",
+            "name": "Marcio de Miranda Lima",
+            "company": "Oceaneering",
+            "count": 1
+          },
+          {
+            "role": "MPD",
+            "name": "Angelo Pio Gomes Manhães",
+            "company": "Weatherford",
+            "count": 1
+          },
+          {
+            "role": "MPD",
+            "name": "Carlos Alberto do Nascimento Junior",
+            "company": "Weatherford",
+            "count": 1
+          },
+          {
+            "role": "MPD",
+            "name": "Renato Oliveira Barreto",
+            "company": "Weatherford",
+            "count": 1
+          },
+          {
+            "role": "MPD",
+            "name": "Vitor Albano Campanharo",
+            "company": "Weatherford",
+            "count": 1
+          }
+        ],
+        "equipment": [
+          {
+            "name": "8 1/2\" PDC Bit",
+            "id": "13469116",
+            "manufacturer": "HALLIBURTON",
+            "model": "GT74WKRMO",
+            "iadc_code": "M0713",
+            "size_in": 8.5,
+            "od_in": 2.0,
+            "jets": "7X11.0"
+          },
+          {
+            "name": "8 1/2\" EZ-Sleeve",
+            "id": "13208141",
+            "od_in": 8.0,
+            "id_in": 3.0
+          },
+          {
+            "name": "6 3/4\" SperryDrill Lobe Motor",
+            "id": "11020003",
+            "type": "6/7 - 5.0 stg"
+          },
+          {
+            "name": "Drilling Jar",
+            "id": "474651001",
+            "size_in": 6.75
+          }
+        ],
+        "materials": [
+          {
+            "name": "ÁCIDO CÍTRICO (Citric Acid)",
+            "quantity": 47.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 47.0
+          },
+          {
+            "name": "ADAPTA L",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 0.0
+          },
+          {
+            "name": "ÁGUA DO MAR (Seawater)",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 0.0
+          },
+          {
+            "name": "ANTIESPUMANTE (Antifoam)",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 45.0
+          },
+          {
+            "name": "BARABLEND-657",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 286.0
+          },
+          {
+            "name": "BARABLEND-665",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 95.0
+          },
+          {
+            "name": "BARACOR 100",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 5.0
+          },
+          {
+            "name": "BARAKLEAN 934",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 2.0
+          },
+          {
+            "name": "BARALOCK-666 FINO (Fine)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 25.0
+          },
+          {
+            "name": "BARALOCK-666 MÉDIO (Medium)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 25.0
+          },
+          {
+            "name": "BARALOCK-666 GROSSO (Coarse)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 62.0
+          },
+          {
+            "name": "BARAZAN D-PLUS",
+            "quantity": 13.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 219.0
+          },
+          {
+            "name": "BARITINA (Barite)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 2132.0
+          },
+          {
+            "name": "BENTONITA (Bentonite)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 253.6
+          },
+          {
+            "name": "BICARBONATO DE SÓDIO (Sodium Bicarbonate)",
+            "quantity": 9.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 107.0
+          },
+          {
+            "name": "BISSULFITO DE SÓDIO (Sodium Bisulfite)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 35.0
+          },
+          {
+            "name": "CALCÁRIO 2-44 (Limestone)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 3468.0
+          },
+          {
+            "name": "CALCITA / CALCÁRIO FINO (Calcite/Limestone Fine)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 168.0
+          },
+          {
+            "name": "CALCITA / CALCÁRIO MÉDIO (Calcite/Limestone Medium)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 128.0
+          },
+          {
+            "name": "CALCITA / CALCÁRIO GROSSO (Calcite/Limestone Coarse)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 285.0
+          },
+          {
+            "name": "CFS 1006",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 11.0
+          },
+          {
+            "name": "CMC-LV",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 0.0
+          },
+          {
+            "name": "DRILTREAT",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 4.0
+          },
+          {
+            "name": "GLUTARALDEÍDO (Glutaraldehyde)",
+            "quantity": 3.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 63.0
+          },
+          {
+            "name": "HIDROXPROPILAMIDO (Hydroxypropyl Amide)",
+            "quantity": 36.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 239.0
+          },
+          {
+            "name": "N-PLEX",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 10.0
+          },
+          {
+            "name": "N-SEAL",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 150.0
+          },
+          {
+            "name": "ÓXIDO DE MAGNÉSIO (Magnesium Oxide)",
+            "quantity": 14.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 177.0
+          },
+          {
+            "name": "PAC L",
+            "quantity": 20.0,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 140.0
+          },
+          {
+            "name": "SODA CÁUSTICA (Caustic Soda)",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 57.0
+          },
+          {
+            "name": "SOLUÇÃO SATURADA DE CaCl2 (Saturated CaCl2 Solution)",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 2150.0
+          },
+          {
+            "name": "SOLUÇÃO SATURADA DE NaCl (Saturated NaCl Solution)",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 3900.0
+          },
+          {
+            "name": "SOURSCAV",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 52.0
+          },
+          {
+            "name": "STARCIDE",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 0.0
+          },
+          {
+            "name": "STEELSEAL 100",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 60.0
+          },
+          {
+            "name": "STEELSEAL 400",
+            "quantity": null,
+            "unit": "Kg",
+            "unit_cost": null,
+            "quantity_end": 25.0
+          },
+          {
+            "name": "ULTRAWET 70",
+            "quantity": null,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": 3.0
+          },
+          {
+            "name": "ÁGUA INDUSTRIAL (Industrial Water)",
+            "quantity": 381.0,
+            "unit": "Lt",
+            "unit_cost": null,
+            "quantity_end": -6079.0
+          },
+          {
+            "name": "DIESEL P/ UNIDADE (Diesel for Unit)",
+            "quantity": 45.0,
+            "unit": null,
+            "unit_cost": null,
+            "quantity_end": 2339.0
+          },
+          {
+            "name": "ÁGUA POTÁVEL (Potable Water)",
+            "quantity": 38.0,
+            "unit": null,
+            "unit_cost": null,
+            "quantity_end": 1625.0
+          }
+        ],
+        "mud_properties": [
+          {
+            "mud_desc": "FPBA Pol GX + Amido",
+            "density_ppg": 9.0,
+            "viscosity_s_qt": 46.0,
+            "datetime": "2020-10-12",
+            "md_check_m": 5560.0,
+            "pv_cp": 9.0,
+            "yp_lbf_100ft2": 15.0,
+            "cl_mg_l": 40000.0,
+            "ca_mg_l": 400.0,
+            "ph": 10.0,
+            "pm": 2.0,
+            "pf_ml": 0.1,
+            "mf_ml": 0.3
+          }
+        ]
+      },
+      "downtime": [
+        {
+          "reason": "All operations classified as NPT - POOH and BHA maintenance",
+          "duration_hours": 24.0,
+          "cost_impact": null,
+          "classification": "NPT"
+        }
+      ],
+      "tables_extracted": [
+        {
+          "title": "HOLE SECTION",
+          "structure": "Hole sections with depths and dates",
+          "rows": [
+            [
+              "SECTION NAME",
+              "SECTION TYPE",
+              "EFFECTIVE HOLE DIAMETER (\")",
+              "ID (\")",
+              "MD TOP (m)",
+              "MD BASE (m)",
+              "HOLE SECTION START DATE/TIME",
+              "HOLE SECTION END DATE/TIME"
+            ],
+            [
+              "CONDUCTOR",
+              "OH",
+              "42.00",
+              "",
+              "2,071.00",
+              "2,151.80",
+              "2020-09-08 04:30",
+              "2020-09-10 05:00"
+            ],
+            [
+              "SURFACE",
+              "OH",
+              "17.50",
+              "",
+              "2,151.80",
+              "3,440.00",
+              "2020-09-10 05:00",
+              "2020-09-25 14:00"
+            ],
+            [
+              "CASING 3",
+              "OH",
+              "14.75",
+              "",
+              "3,440.00",
+              "5,464.00",
+              "2020-09-25 14:00",
+              "2020-10-02 12:00"
+            ],
+            [
+              "CASING 4",
+              "OH",
+              "8.50",
+              "",
+              "5,464.00",
+              "",
+              "2020-10-10 12:30",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "MUD PROPERTIES",
+          "structure": "Drilling mud properties",
+          "rows": [
+            [
+              "MUD DESC.",
+              "DENSITY (ppg)",
+              "VISCOSITY (s/qt)",
+              "DATE/TIME",
+              "MD CHECK (m)",
+              "PV (cp)",
+              "YP (lbf/100ft²)",
+              "Cl- (mg/L)",
+              "Ca+ (mg/L)",
+              "ph",
+              "Pm",
+              "Pf (mL)",
+              "Mf (mL)"
+            ],
+            [
+              "FPBA Pol GX + Amido",
+              "9.00",
+              "46.00",
+              "2020-10-12",
+              "5,560.00",
+              "9.00",
+              "15.00",
+              "40,000.00",
+              "400.00",
+              "10.00",
+              "2.00",
+              "0.10",
+              "0.30"
+            ]
+          ]
+        },
+        {
+          "title": "BHA No. 5 - ASSEMBLY COMPONENTS",
+          "structure": "Bottom Hole Assembly #5 components",
+          "rows": [
+            [
+              "ITEM DESCRIPTION",
+              "No. of JOINTS",
+              "LENGTH (m)",
+              "OD (\")",
+              "ID (\")",
+              "CONNECTION",
+              "WEIGHT (ppf)",
+              "SERIAL No."
+            ],
+            [
+              "8 1/2\" PDC IADC M0713",
+              "1",
+              "0.31",
+              "2.00",
+              "",
+              "4 1/2 REG",
+              "103.86",
+              "13269163"
+            ],
+            [
+              "8 1/2\" EZ-Sleeve",
+              "1",
+              "0.38",
+              "8.00",
+              "3.00",
+              "4 1/2 REG",
+              "147.22",
+              "13208141"
+            ],
+            [
+              "But sub",
+              "1",
+              "1.14",
+              "6.75",
+              "2.88",
+              "4 1/2 REG",
+              "99.83",
+              ""
+            ],
+            [
+              "6 3/4\" SperryDrill Lobe 6/7 - 5.0 stg",
+              "1",
+              "3.00",
+              "6.75",
+              "4.50",
+              "4 1/2 IF",
+              "87.63",
+              "11020003"
+            ],
+            [
+              "8 3/8\" Stabilizer",
+              "1",
+              "1.67",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "97.86",
+              "12106103"
+            ],
+            [
+              "6 3/4\" DrillDOC",
+              "1",
+              "2.17",
+              "7.13",
+              "2.06",
+              "4 1/2 IF",
+              "108.41",
+              "11962903"
+            ],
+            [
+              "6 3/4\" DGR Collar",
+              "1",
+              "2.51",
+              "6.75",
+              "1.90",
+              "4 1/2 IF",
+              "97.80",
+              "13084110"
+            ],
+            [
+              "6 3/4\" PWD",
+              "1",
+              "1.32",
+              "6.75",
+              "1.90",
+              "4 1/2 IF",
+              "96.30",
+              "11468867"
+            ],
+            [
+              "6 3/4\" DM Collar",
+              "1",
+              "2.69",
+              "6.75",
+              "3.13",
+              "4 1/2 IF",
+              "103.40",
+              "11675252"
+            ],
+            [
+              "6 3/4\" Inline Stabilizer (8 3/8\")",
+              "1",
+              "0.54",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "97.86",
+              "11264786"
+            ],
+            [
+              "6 3/4\" ADR Collar",
+              "1",
+              "7.44",
+              "6.75",
+              "1.90",
+              "4 1/2 IF",
+              "109.40",
+              "11264786"
+            ],
+            [
+              "6 3/4\" X-Over Stabilized (8 3/8\")",
+              "1",
+              "0.57",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "97.86",
+              "11443422"
+            ],
+            [
+              "6 3/4\" BAT Collar",
+              "1",
+              "6.19",
+              "6.75",
+              "1.90",
+              "4 1/2 IF",
+              "97.70",
+              "11820602"
+            ],
+            [
+              "6 3/4\" X-Over Stabilized (8 3/8\")",
+              "1",
+              "0.57",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "97.86",
+              "11535505"
+            ],
+            [
+              "6 3/4\" MRIL-WD",
+              "1",
+              "11.21",
+              "6.75",
+              "1.90",
+              "4 1/2 IF",
+              "105.40",
+              "11535505"
+            ],
+            [
+              "6 3/4\" Inline Stabilizer (8 3/8\")",
+              "1",
+              "0.60",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "97.86",
+              "11554881"
+            ],
+            [
+              "6 3/4\" NEGATIVE PULSER",
+              "1",
+              "4.04",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "108.90",
+              "11554881"
+            ],
+            [
+              "8 3/8\" Stabilizer",
+              "1",
+              "1.66",
+              "6.75",
+              "2.81",
+              "4 1/2 IF",
+              "100.77",
+              "12106117"
+            ],
+            [
+              "6 3/4\" PBL (2\" activation sphere)",
+              "1",
+              "2.72",
+              "6.75",
+              "3.00",
+              "4 1/2 IF",
+              "97.86",
+              "WESSBP786"
+            ],
+            [
+              "6 3/4\" Float Sub (Ported Flapper)",
+              "1",
+              "1.30",
+              "6.75",
+              "2.75",
+              "4 1/2 IF",
+              "101.71",
+              "12095337"
+            ],
+            [
+              "(01) x 6 3/4\" Drill Collar",
+              "1",
+              "9.43",
+              "6.75",
+              "2.81",
+              "4 1/2 IF",
+              "100.50",
+              ""
+            ],
+            [
+              "6 3/4\" Float Sub (Non Ported Flapper)",
+              "1",
+              "1.41",
+              "6.75",
+              "2.75",
+              "4 1/2 IF",
+              "101.71",
+              "12095353"
+            ],
+            [
+              "(02) x 6 3/4\" Drill Collar",
+              "2",
+              "18.94",
+              "6.75",
+              "2.81",
+              "4 1/2 IF",
+              "100.50",
+              ""
+            ],
+            [
+              "(12) x Spiral 6 3/4\" Drill Collar",
+              "12",
+              "113.39",
+              "6.75",
+              "2.81",
+              "4 1/2 IF",
+              "100.50",
+              ""
+            ],
+            [
+              "6-3/4\" Drilling Jar",
+              "1",
+              "8.81",
+              "6.88",
+              "2.75",
+              "4 1/2 IF",
+              "94.62",
+              "474651001"
+            ],
+            [
+              "(04) x 6 3/4\"Spiral Drill Collar",
+              "4",
+              "37.86",
+              "6.75",
+              "2.81",
+              "4 1/2 IF",
+              "100.50",
+              ""
+            ],
+            [
+              "X-Over Sub",
+              "1",
+              "1.13",
+              "6.50",
+              "2.50",
+              "Delta 544",
+              "96.36",
+              ""
+            ],
+            [
+              "(12) x 5-1/2\" HWDP",
+              "12",
+              "112.91",
+              "5.00",
+              "3.00",
+              "Delta 544",
+              "57.00",
+              ""
+            ],
+            [
+              "Drill Pipe 5 1/2\"",
+              "",
+              "494.88",
+              "5.50",
+              "4.50",
+              "Delta 544",
+              "26.77",
+              ""
+            ],
+            [
+              "X-Over Sub",
+              "1",
+              "1.44",
+              "5.50",
+              "4.50",
+              "Delta 576",
+              "26.77",
+              ""
+            ],
+            [
+              "Drill Pipe 5 7/8'' S135 (D576)",
+              "",
+              "2,800.00",
+              "7.13",
+              "4.63",
+              "Delta 576",
+              "34.75",
+              ""
+            ],
+            [
+              "Drill Pipe 5 7/8'' Z140 (D576)",
+              "",
+              "1,903.12",
+              "7.00",
+              "4.00",
+              "Delta 576",
+              "40.71",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "BIT DETAILS",
+          "structure": "Drilling bit information",
+          "rows": [
+            [
+              "BIT No.",
+              "SIZE (in)",
+              "MANUFACTURER",
+              "MODEL No.",
+              "CLASS",
+              "IADC CODE",
+              "SERIAL No.",
+              "JETS (32nd\")",
+              "MD IN (m)",
+              "MD OUT (m)",
+              "I-O-D-L-B-G-O-R"
+            ],
+            [
+              "4U",
+              "8.50",
+              "HALLIBURTON",
+              "GT74WKRMO",
+              "",
+              "M0713",
+              "13469116",
+              "7X11.0",
+              "5,464.00",
+              "5,560.00",
+              "1-1-CT-A-XI-BT-DTF"
+            ]
+          ]
+        },
+        {
+          "title": "PERSONNEL",
+          "structure": "Personnel on board by company and role",
+          "rows": [
+            [
+              "NAME",
+              "ROLE",
+              "COMPANY"
+            ],
+            [
+              "Alan Armele",
+              "GEÓLOGO (Geologist)",
+              "Petrobras"
+            ],
+            [
+              "Fabio Alexandre de Moraes Freire",
+              "REVCIM",
+              "Petrobras"
+            ],
+            [
+              "Guilherme Arrojo Mendonça",
+              "FISCAL",
+              "Petrobras"
+            ],
+            [
+              "Guilherme Bolfarini Harami",
+              "FISCAL",
+              "Petrobras"
+            ],
+            [
+              "Julio Emanuel Klafke Sperb",
+              "FISCAL",
+              "Petrobras"
+            ],
+            [
+              "Leandro de Oliveira Abreu",
+              "GEÓLOGO (Geologist)",
+              "Petrobras"
+            ],
+            [
+              "Robson Luiz de Souza Mariano",
+              "FISCAL DE SONDAGEM (Drilling Supervisor)",
+              "Petrobras"
+            ],
+            [
+              "Total Petrobras",
+              "7",
+              ""
+            ],
+            [
+              "Aderilson Vicente Carvalho Jr.",
+              "LWD",
+              "Halliburton"
+            ],
+            [
+              "Adriana Aquino Roldan",
+              "MUD LOGGING",
+              "Halliburton"
+            ],
+            [
+              "Agnaldo Delarri da Silva",
+              "BATCH MIXER",
+              "Halliburton"
+            ],
+            [
+              "Alexandre da Silva Francisco",
+              "GÁS AVANÇADO (Advanced Gas)",
+              "Halliburton"
+            ],
+            [
+              "Ana Carolina Damelia de Andrade Pereira",
+              "MUD LOGGING",
+              "Halliburton"
+            ],
+            [
+              "Breno Santuzzi Tebaldi",
+              "CPM",
+              "Halliburton"
+            ],
+            [
+              "Carolina Peterle de Nadai",
+              "GEOQUÍMICA (Geochemistry)",
+              "Halliburton"
+            ],
+            [
+              "Claudio Melo Tasso",
+              "DIRECIONAL (Directional)",
+              "Halliburton"
+            ],
+            [
+              "Isaac Thompson Chagas Santos",
+              "MUD LOGGING",
+              "Halliburton"
+            ],
+            [
+              "Jean Carlos dos Santos Marques de Azevedo",
+              "SAMPLE CATCHER",
+              "Halliburton"
+            ],
+            [
+              "José Antônio Pena Castellano",
+              "GÁS AVANÇADO (Advanced Gas)",
+              "Halliburton"
+            ],
+            [
+              "Laisa Nassara Bloomfield",
+              "MUD LOGGING",
+              "Halliburton"
+            ],
+            [
+              "Luiz Gustavo da Cruz Rezende",
+              "GÁS AVANÇADO (Advanced Gas)",
+              "Halliburton"
+            ],
+            [
+              "Marcelo Ferreira Nazar",
+              "SAMPLE CATCHER",
+              "Halliburton"
+            ],
+            [
+              "Nicholas Jeferson Fernandes da Silva",
+              "MWD",
+              "Halliburton"
+            ],
+            [
+              "Rafael Nuciaroni Matsunaga",
+              "DIRECIONAL (Directional)",
+              "Halliburton"
+            ],
+            [
+              "Regilnaldo Cavalcante da Silva",
+              "BATCH MIXER",
+              "Halliburton"
+            ],
+            [
+              "Stenio Hermmson freire da Silva",
+              "BATCH MIXER",
+              "Halliburton"
+            ],
+            [
+              "Thiago Rodrigues Santos da Silva",
+              "QUÍMICO (Chemist)",
+              "Halliburton"
+            ],
+            [
+              "Tiago Bezerra de Souza",
+              "GÁS AVANÇADO (Advanced Gas)",
+              "Halliburton"
+            ],
+            [
+              "Vanessa Rodrigues Pacheco",
+              "GEOQUÍMICA (Geochemistry)",
+              "Halliburton"
+            ],
+            [
+              "Yuri Lima de Brito",
+              "QUÍMICO (Chemist)",
+              "Halliburton"
+            ],
+            [
+              "Total Halliburton",
+              "24",
+              ""
+            ],
+            [
+              "Felipe Esteves Ferreira",
+              "CABP",
+              "FMC"
+            ],
+            [
+              "Ronaldo Silva de Almeida Júnior",
+              "CABP",
+              "FMC"
+            ],
+            [
+              "Total FMC",
+              "2",
+              ""
+            ],
+            [
+              "Eurico Manuel Shou",
+              "ROV",
+              "Oceaneering"
+            ],
+            [
+              "Fabricio Cezario Oliveira",
+              "ROV",
+              "Oceaneering"
+            ],
+            [
+              "Marcio de Miranda Lima",
+              "ROV",
+              "Oceaneering"
+            ],
+            [
+              "Total Oceaneering",
+              "3",
+              ""
+            ],
+            [
+              "Angelo Pio Gomes Manhães",
+              "MPD",
+              "Weatherford"
+            ],
+            [
+              "Carlos Alberto do Nascimento Junior",
+              "MPD",
+              "Weatherford"
+            ],
+            [
+              "Renato Oliveira Barreto",
+              "MPD",
+              "Weatherford"
+            ],
+            [
+              "Vitor Albano Campanharo",
+              "MPD",
+              "Weatherford"
+            ],
+            [
+              "Total Weatherford",
+              "4",
+              ""
+            ],
+            [
+              "GRAND TOTAL",
+              "38",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "SAFETY",
+          "structure": "Safety statistics and information",
+          "rows": [
+            [
+              "METRIC",
+              "VALUE"
+            ],
+            [
+              "STOP CARDS",
+              ""
+            ],
+            [
+              "DAYS SINCE LOST TIME / INCIDENT",
+              "1041.0"
+            ],
+            [
+              "Days without lost-time accident",
+              "416 days"
+            ],
+            [
+              "Days without any accident with leave",
+              "1041 days"
+            ],
+            [
+              "Days without loss of containment",
+              "60 days"
+            ]
+          ]
+        }
+      ],
+      "raw_text_pages": [
+        {
+          "page_number": 1,
+          "text": "Daily Drilling Report (LIBRA)\n\nWELL: 8-MRO-8-RJS | REPORT No: 36 | REPORT DATE: 12/10/2020\nWELLBORE No: OH | WELLBORE NAME: 8-MRO-8-RJS | RIG NAME/No: DEEPWATER MYKONOS / 39\nPROJECT: LIBRA-NW | SITE: 8-MRO-8-RJS | ESTIMATED END DATE: 12/12/2020\nEVENT: ORIG DRILLING | START DATE: 07/09/2020 | SPUD DATE: 08/09/2020\nACTIVE DATUM: NS-39 @ 25,00m | GROUND ELEVATION/WATER DEPTH (m): 25,00 / 2.046,00\n\nWELL INFO\nBLOCK: LIBRA | GEP: Gabriel Rosa | FISCAL: Guilherme Harami/ Júlio Sperb / Guilherme Mendonça\n\nDEPTHS DAYS\nMD (m): 5.560,00 | TVD (m): -\nPROGRESS (m): 96,00 | AVG. ROP. (m/hr): 0,00\nROTATING Hrs (hr): - | CUM. ROT. Hrs (hr): 131,50\nDFS. (days): 35,00 | EST. DAYS: 74.3\n\nCOSTS ($)\nESTIMATED DAILY COST: 315.557,49\nAPPROVED AFE: 14.694.694,81\nCUMULATIVE COST: -\n\nCRITICAL PATH OPERATIONS SUMMARY\nFROM 00:00 TO 04:00 | DUR. 4,00 hr | CLASS: NPT | RIG: MAIN\nMW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 3900 m to 2454 m wet, inside casing, at restricted speed of 2 min/stand.\nObs.: - EDS#5 (CSR+LBSR / EHBS: LBSR). - Keeping SBP at 700 psi.\n\nFROM 04:00 TO 04:30 | DUR. 0,50 hr | CLASS: NPT | RIG: MAIN\nMW: Performing dynamic flow check with 400 gpm / 700 psi of SBP, Positive.\n\nFROM 04:30 TO 05:30 | DUR. 1,00 hr | CLASS: NPT | RIG: MAIN\nMW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 2454 m to 1884 m wet, inside casing and riser, with CMC open, at restricted speed of 2 min/stand.\nObs.: - Selecting EDS#1 (NO SHEAR). - Keeping SBP at 620 psi.\n\nFROM 05:30 TO 07:00 | DUR. 1,50 hr | CLASS: NPT | RIG: MAIN\nMW: Lining up CU to choke line. Closing UBSR. Reducing SBP on MPD in steps of 50 psi until choke 100% open. Switching off booster pump.\nObs.: -Selected EDS#3 (UBSR+LBSR / EHBS: LBSR).\n\nFROM 07:00 TO 09:30 | DUR. 2,50 hr | CLASS: NPT | RIG: MAIN\nMW: B/D and R/B 1x 5 7/8\" DP stand. Connecting BART stand. Removing master bushing. Passing BART through RKB. Installing master bushing. RIH 1x 5 7/8\" DP stand. Connecting TDS. Slacking off BART with 30 klbf and confirming latching with 20 klbf overpull. Slacking off 30 klbf and unlatching BA. B/D and R/B 1x 5 7/8\" DP stand. Passing with BART + BA through the slip joint with CMC open. Removing master bushing and passing with BART + BA through the RKB. Installing master bushing. Inspecting and R/B BART + BA stand.\nObs.: - Keeping SBP between 620 and 700 psi with CU\n\nFROM 09:30 TO 12:00 | DUR. 2,50 hr | CLASS: NPT | RIG: MAIN\nMW: POOH 8 1/2\" BHA with DP 5 1/2\" + DP 5 7/8\" from 1884 m to 360 m wet, inside riser.\nObs.: - Keeping SBP between 620 and 700 psi with CU."
+        },
+        {
+          "page_number": 2,
+          "text": "Daily Drilling Report (LIBRA) - Page 2\n\nFROM 12:00 TO 18:00 | DUR. 6,00 hr | CLASS: NPT | RIG: MAIN\nMW: B/D and R/B 8 1/2\" BHA from 360 m to surface.\nObs.: - Keeping SBP between 620 and 700 psi with CU.\n\nFROM 18:00 TO 18:30 | DUR. 0,50 hr | CLASS: NPT | RIG: MAIN\nMW: Inspecting 8 1/2\" bit and EZ Sleeve. In parallel, servicing TDS.\n\nFROM 18:30 TO 19:00 | DUR. 0,50 hr | CLASS: NPT | RIG: MAIN\nMW: Moving 8 1/2\" BHA from aux to main and screwing in dog sub and bit.\n\nFROM 19:00 TO 19:30 | DUR. 0,50 hr | CLASS: NPT | RIG: MAIN\nMW: Perform TBT to make up BHA.\n\nFROM 19:30 TO 21:00 | DUR. 1,50 hr | CLASS: NPT | RIG: MAIN\nMW: Making up dog sub and bit. Making up BHA from surface to 45 m.\n\nFROM 21:00 TO 23:00 | DUR. 2,00 hr | CLASS: NPT | RIG: MAIN\nMW: Downloading MWD/LWD tools.\n\nFROM 23:00 TO 00:00 | DUR. 1,00 hr | CLASS: NPT | RIG: MAIN\nMW: Making up BHA from 45 to 119 m.\n- Replacing elevator inserts from 5 7/8\" to 5 1/2\"\n\nDURAÇÃO TOTAL: 24,00 hr\n\nPARALLEL OPERATIONS SUMMARY\nFROM 00:00 TO 01:00 | DUR. 1,00 hr | CLASS: PT | RIG: AUX\nAW: No activities.\n\nFROM 01:00 TO 05:30 | DUR. 4,50 hr | CLASS: PT | RIG: AUX\nAW: M/U and R/B 8 1/2\" BHA.\n\nFROM 05:30 TO 07:00 | DUR. 1,50 hr | CLASS: PT | RIG: AUX\nAW: Connecting tools to download.\n\nFROM 07:00 TO 07:30 | DUR. 0,50 hr | CLASS: PT | RIG: AUX\nAW: Holding pre job safety meeting.\n\nFROM 07:30 TO 13:00 | DUR. 5,50 hr | CLASS: PT | RIG: AUX\nAW: M/U and R/B 8 1/2\" BHA.\n\nFROM 13:00 TO 18:00 | DUR. 5,00 hr | CLASS: PT | RIG: AUX\nAW: No activities.\n\nDURAÇÃO TOTAL: 18,00 hr\n\nHOLE SECTION\nCONDUCTOR | OH | 42.00\" | 2,071.00 - 2,151.80 m | 08/09/2020 04:30 - 10/09/2020 05:00\nSURFACE | OH | 17.50\" | 2,151.80 - 3,440.00 m | 10/09/2020 05:00 - 25/09/2020 14:00\nCASING 3 | OH | 14.75\" | 3,440.00 - 5,464.00 m | 25/09/2020 14:00 - 02/10/2020 12:00\nCASING 4 | OH | 8.50\" | 5,464.00 - | 10/10/2020 12:30 -\n\nMUD PROPERTIES\nFPBA Pol GX + Amido | 9,00 ppg | 46,00 s/qt | PV: 9,00 cp | YP: 15,00 lbf/100ft² | Cl-: 40,000 mg/L | Ca+: 400 mg/L | pH: 10,00"
+        },
+        {
+          "page_number": 3,
+          "text": "Daily Drilling Report (LIBRA) - Page 3\n\nASSEMBLY INFORMATION\nBHA No. 5 | LENGTH: 357,35 m\nDATE IN: 12/10/2020 21:00 | DATE OUT: -\nPURPOSE: Perfurar fase IV - 8 1/2\" (Drill phase IV - 8 1/2\")\n\n[Detailed BHA component listing follows with all components, specifications, serial numbers]\n\nASSEMBLY INFORMATION\nBHA No. 4 | LENGTH: 362,00 m\nDATE IN: 06/10/2020 21:00 | DATE OUT: 12/10/2020 18:00\nPURPOSE: Perfurar fase IV - 8 1/2\" (Drill phase IV - 8 1/2\")\n\n[Detailed BHA component listing follows with all components, specifications, serial numbers]"
+        },
+        {
+          "page_number": 4,
+          "text": "Daily Drilling Report (LIBRA) - Page 4\n\n[Continuation of BHA No. 4 component listing]\n\nBIT DETAILS\nBIT No. 4U | SIZE: 8.50\" | MANUFACTURER: HALLIBURTON | MODEL: GT74WKRMO\nCLASS: - | IADC CODE: M0713 | SERIAL: 13469116 | JETS: 7X11.0\nMD IN: 5,464.00 m | MD OUT: 5,560.00 m\nI-O-D-L-B-G-O-R: 1-1-CT-A-XI-BT-DTF\n\nMUD PRODUCTS\n[Complete listing of all mud products with quantities used and quantities remaining]\n\nÁCIDO CÍTRICO (Citric Acid): 47.00 Kg\nADAPTA L: 0.00 Lt\nÁGUA DO MAR (Seawater): 0.00 Lt\nANTIESPUMANTE (Antifoam): 45.00 Lt\nBARABLEND-657: 286.00 Kg\n[... continued with all products]"
+        },
+        {
+          "page_number": 5,
+          "text": "Daily Drilling Report (LIBRA) - Page 5\n\n[Continuation of mud products]\n\nSOURSCAV: 52.00 Kg\nSTARCIDE: 0.00 Lt\nSTEELSEAL 100: 60.00 Kg\nSTEELSEAL 400: 25.00 Kg\nULTRAWET 70: 3.00 Lt\nÁGUA INDUSTRIAL (Industrial Water): Used 381.00 Lt | End: -6,079.00 Lt\n\nPERSONNEL - Total of 38 people\n\nPetrobras - on board:\n- Alan Armele (GEÓLOGO/Geologist)\n- Fabio Alexandre de Moraes Freire (REVCIM)\n- Guilherme Arrojo Mendonça (FISCAL)\n- Guilherme Bolfarini Harami (FISCAL)\n- Julio Emanuel Klafke Sperb (FISCAL)\n- Leandro de Oliveira Abreu (GEÓLOGO/Geologist)\n- Robson Luiz de Souza Mariano (FISCAL DE SONDAGEM/Drilling Supervisor)\n\nHalliburton - on board: [24 personnel listed with roles]\n\nFMC - on board: [2 personnel listed]\n\nOceaneering - on board: [3 personnel listed]\n\nWeatherford - on board: [4 personnel listed]"
+        },
+        {
+          "page_number": 6,
+          "text": "Daily Drilling Report (LIBRA) - Page 6\n\nMATERIALS\nÁGUA INDUSTRIAL (Industrial Water): 91.00 | 1,415.00\nDIESEL P/ UNIDADE (Diesel for Unit): 45.00 | 2,339.00\nÁGUA POTÁVEL (Potable Water): 38.00 | 1,625.00\n\nSAFETY\nSTOP CARDS: -\nDAYS SINCE LOST TIME / INCIDENT: 1041.0\n\nSAFETY MOMENT\nTOPIC: Pré-turno (Pre-shift)\nKEYWORDS: Alerta de Segurança (Safety Alert)\n\nCOMMENTS:\nAuditorias Realizadas pela equipe da segurança durante acompanhamento das operações:\n- Auditorias Leading Indicators;\n- Verificação dos trabalhos aprovados via permissão de trabalho;\n\nReunião Pré-turno:\n- Programação semanal dos Indicadores;\n- Treinamentos pendentes;\n- Operações futuras.\n\nEstatísticas de Acidente:\n- Acidente sem afastamento = 416 dias (Accident without leave = 416 days)\n- Acidente com afastamento = 1041 dias (Accident with leave = 1041 days)\n- Perda de contenção = 60 dias (Loss of containment = 60 days)\n\nEQUIPMENT DETECTION TESTS\n[Empty fields for various rig and mud log parameters]\n\nWEATHER\n[Empty weather data fields]\n\nVESSEL\n[Empty vessel position data fields]\n\nObservações: (Observations:)"
+        }
+      ]
+    }
+  ]
+}
