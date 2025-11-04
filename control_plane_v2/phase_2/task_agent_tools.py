@@ -205,10 +205,11 @@ async def scan_directory(
 class TaskAgentTools:
     """Real tool implementations for task agents"""
     
-    def __init__(self, workspace_path: Path, catalog, vector_store):
+    def __init__(self, workspace_path: Path, catalog, vector_store, bedrock_client=None):
         self.workspace_path = workspace_path
         self.catalog = catalog
         self.vector_store = vector_store
+        self._bedrock_client = bedrock_client
         self.code_executor = LocalCommandLineCodeExecutor(
             work_dir=str(workspace_path),
             timeout=1800  # 30 minutes for code execution
@@ -225,6 +226,13 @@ class TaskAgentTools:
             todo_write_function,
             description="Write and update TODO list for task tracking. Use this to enumerate all tasks upfront and track progress."
         )
+        
+        # Create PDF extraction tool if bedrock_client is provided
+        self._pdf_tool = None
+        if self._bedrock_client:
+            from control_plane_v2.tools.pdf_tool import PDFExtractionTool
+            self._pdf_tool = PDFExtractionTool(self._bedrock_client)
+            logger.info("[TOOLS] PDF extraction tool initialized")
     
     async def access_catalog(
         self,
@@ -365,9 +373,75 @@ class TaskAgentTools:
         return await scan_directory(base_path, max_depth, include_files, include_dirs, file_extensions)
     
     
+    def get_file_editing_tools(self) -> List[FunctionTool]:
+        """Get universal file editing tools"""
+        from control_plane_v2.tools.universal_file_editor import UniversalFileEditor
+        return UniversalFileEditor.get_all_tools()
+    
+    def get_pdf_tools(self) -> List[FunctionTool]:
+        """Get PDF extraction tools"""
+        if not self._pdf_tool:
+            logger.warning("[TOOLS] PDF tool not available - bedrock_client not provided")
+            return []
+        
+        from typing_extensions import Annotated
+        
+        # Wrapper functions for FunctionTool compatibility
+        async def extract_pdf_data(
+            pdf_path: Annotated[str, "Path to PDF file to extract data from"],
+            json_schema: Annotated[str, "JSON schema string defining expected output structure"],
+            extraction_instructions: Annotated[str, "Detailed instructions for what to extract"] = ""
+        ) -> Annotated[str, "Extracted data as JSON string"]:
+            """
+            Extract structured data from a PDF using Claude 4.5's native PDF reading.
+            
+            Returns JSON string of extracted data matching the schema.
+            """
+            import json
+            result_dict = await self._pdf_tool.extract_structured_data(
+                pdf_path, json.loads(json_schema), extraction_instructions
+            )
+            return json.dumps(result_dict, indent=2)
+        
+        async def extract_multiple_pdfs(
+            pdf_paths: Annotated[str, "JSON array of PDF file paths"],
+            json_schema: Annotated[str, "JSON schema string for output structure"],
+            extraction_instructions: Annotated[str, "Extraction instructions"] = ""
+        ) -> Annotated[str, "JSON array of extracted data, one per PDF"]:
+            """
+            Extract structured data from multiple PDFs in parallel.
+            
+            Returns JSON array with results for each PDF.
+            """
+            import json
+            paths_list = json.loads(pdf_paths)
+            results = await self._pdf_tool.extract_from_multiple_pdfs(
+                paths_list, json.loads(json_schema), extraction_instructions
+            )
+            return json.dumps(results, indent=2)
+        
+        return [
+            FunctionTool(
+                extract_pdf_data,
+                description="Extract structured data from a PDF using Claude 4.5 native PDF reading. Translates non-English text automatically."
+            ),
+            FunctionTool(
+                extract_multiple_pdfs,
+                description="Batch extract structured data from multiple PDFs in parallel using Claude 4.5 native PDF reading."
+            )
+        ]
+    
     def get_all_tools(self):
         """Get all tools as FunctionTool list for model client"""
-        return [self.scan_directory_tool, self.todo_write_tool]
+        tools = [self.scan_directory_tool, self.todo_write_tool]
+        
+        # Add file editing tools
+        tools.extend(self.get_file_editing_tools())
+        
+        # Add PDF extraction tools
+        tools.extend(self.get_pdf_tools())
+        
+        return tools
     
     async def cleanup(self):
         """Cleanup resources"""

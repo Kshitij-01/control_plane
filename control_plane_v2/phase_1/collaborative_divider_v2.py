@@ -66,6 +66,7 @@ GUIDANCE (use your best judgment):
 6. Discover field names dynamically rather than hardcoding assumptions
 7. For JSON serialization: convert bytes to strings (b'5' -> '5'), use JSON-serializable types
 8. Take whatever approach works best to understand the data structure
+9. **CRITICAL: DO NOT print binary data (PDF contents, images, etc.) - only print metadata/summaries**
 
 YOUR WORKFLOW (GO SLOW, STEP BY STEP):
 
@@ -100,11 +101,40 @@ Start now - ANALYZE FIRST, SAVE SECOND!
     # Phase 1b: Task Division Prompts (Claude + GPT-5 Debate)
     CLAUDE_PHASE1B_PROPOSAL_PROMPT = """You are dividing the work into tasks for Phase 2Z orchestrator.
 
-CONTEXT: Each task will be executed by an independent AI agent.
+CONTEXT: Each task will be executed by an independent AI agent (Worker powered by Claude 4.5).
 - Make task descriptions self-contained with complete instructions
 - Specify explicit dependencies (agents can't infer relationships)
 - Include all necessary context in work_scope
 - Agents only see their own task, not others
+
+WORKER AGENT CAPABILITIES (Plan tasks accordingly):
+Worker agents executing your tasks have access to these powerful tools:
+
+1. NATIVE PDF EXTRACTION (Claude 4.5 built-in):
+   - extract_pdf_data: Extract structured data from a single PDF with native reading
+   - extract_multiple_pdfs: Batch process MULTIPLE PDFs in parallel (can handle dozens at once!)
+   - Auto-translates Spanish/Portuguese to English
+   - Handles complex layouts, tables, multi-column formats
+   - IMPLICATION: Don't create separate tasks per PDF! Worker can process many PDFs in one task.
+   
+2. FILE EDITING TOOLS:
+   - Can edit ANY file type without regenerating (HTML, JSON, Python, YAML, CSV, etc.)
+   - Precise search/replace, insert, delete operations
+   - IMPLICATION: Can create "fix report styling" tasks instead of "regenerate entire report"
+
+3. CODE EXECUTION:
+   - Full Python with pandas, numpy, matplotlib, visualization libraries
+   - Can install additional packages via pip
+   - Persistent kernel across retry attempts
+   
+4. WORKSPACE TOOLS:
+   - Directory scanning, TODO tracking, file management
+
+TASK PLANNING BEST PRACTICES:
+- For 10-20 PDFs: Create ONE task that processes all PDFs (Worker uses extract_multiple_pdfs)
+- For large HTML generation: Worker can use templates + file editing for efficiency
+- For data pipelines: Worker can handle multi-step transformations in one task
+- Don't over-divide work - Worker is powerful and can handle complex tasks
 
 CRITICAL - CHECK SKIP_SIDE_TASKS:
 - If manifest has transformation_config.skip_side_tasks: true, ONLY create transformation/core tasks
@@ -178,6 +208,8 @@ Output JSON only.
 
 Your job: Check for CRITICAL BLOCKERS only, not to redesign the plan.
 
+REMEMBER: Workers have powerful capabilities (see below), so simple tasks are fine.
+
 CHECK FOR (3 questions):
 1. CIRCULAR dependencies? (A→B→A) - If YES, REJECT
 2. MISSING dependencies? (Task reads file X but no task creates X) - If YES, REJECT  
@@ -190,6 +222,13 @@ DO NOT REJECT FOR:
 - Architectural choices, task grouping, complexity level
 - DSL ambiguities or reasonable assumptions about data
 - Any issue a competent worker can resolve during execution
+- Tasks that seem "too big" (Workers can batch process many PDFs, handle complex operations)
+
+WORKER CAPABILITIES TO CONSIDER:
+- Workers can process dozens of PDFs in ONE task (extract_multiple_pdfs tool)
+- Workers can edit files without regenerating them (file editing tools)
+- Workers have full Python capabilities with libraries
+- Don't require tasks to be overly granular
 
 RESPOND WITH JSON:
 {

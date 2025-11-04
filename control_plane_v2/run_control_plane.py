@@ -442,74 +442,98 @@ async def main():
     )
     logger.info(f"  Task: {description[:80]}...")
     
-    # [6/12] Run classification
-    logger.info("\n[6/12] Running task classification (Claude + GPT-5 + Overseer)...")
-    classifier = TaskClassifier(
-        claude_client=clients['claude-4.5'],
-        gpt5_client=clients['gpt-5-low'],
-        runtime=runtime,
-        overseer_client=clients['gpt-5-medium'],
-        max_negotiation_iterations=3,
-        max_overseer_iterations=5  # Increased from default 2 to give more chances
-    )
-    
-    classification_result = await classifier.classify_task(phase0_request)
-    
-    logger.info("\n[PHASE 0 COMPLETE]")
-    logger.info(f"  Core tasks identified: {len(classification_result.core_tasks)}")
-    logger.info(f"  Side tasks identified: {len(classification_result.side_tasks)}")
+    # [6/12] Run classification OR skip to Phase 1
+    if manifest.get('skip_phase_0', False):
+        logger.info("\n[6/12] SKIPPING Phase 0 - skip_phase_0=true in manifest")
+        logger.info("  Creating synthetic classification result...")
+        
+        # Create a synthetic classification result with one core task
+        from control_plane_v2.phase_0.messages import TaskClassification, CoreTask
+        
+        classification_result = TaskClassification(
+            task_id=task_id,
+            core_tasks=[
+                CoreTask(
+                    id="core_1",
+                    description=description,
+                    can_be_divided=True,
+                    estimated_duration="varies",
+                    dependencies=[]
+                )
+            ],
+            side_tasks=[],
+            execution_order=["core_1"],
+            confidence=1.0,
+            negotiation_summary="Phase 0 skipped per manifest configuration"
+        )
+        
+        logger.info("  Synthetic core task created")
+        logger.info("  Proceeding directly to Phase 1...")
+    else:
+        logger.info("\n[6/12] Running task classification (Claude + GPT-5 + Overseer)...")
+        classifier = TaskClassifier(
+            claude_client=clients['claude-4.5'],
+            gpt5_client=clients['gpt-5-low'],
+            runtime=runtime,
+            overseer_client=clients['gpt-5-medium'],
+            max_negotiation_iterations=3,
+            max_overseer_iterations=5  # Increased from default 2 to give more chances
+        )
+        
+        classification_result = await classifier.classify_task(phase0_request)
+        
+        logger.info("\n[PHASE 0 COMPLETE]")
+        logger.info(f"  Core tasks identified: {len(classification_result.core_tasks)}")
+        logger.info(f"  Side tasks identified: {len(classification_result.side_tasks)}")
     
     # [7/12] Execute side tasks (if not skipped)
     logger.info("\n[7/12] Handling side tasks...")
     
-    if manifest.get('transformation_config', {}).get('skip_side_tasks', False):
-        logger.info("  [SKIPPED] Manifest specifies skip_side_tasks=true")
+    if manifest.get('skip_phase_0', False) or manifest.get('skip_side_tasks', False) or manifest.get('transformation_config', {}).get('skip_side_tasks', False):
+        logger.info("  [SKIPPED] Phase 0 or side tasks skipped by manifest")
         logger.info("  Proceeding directly to Phase 1...")
-        decision = {'proceed': True, 'reason': 'Side tasks skipped by manifest'}
+    elif not classification_result.side_tasks:
+        logger.info("  [SKIPPED] No side tasks identified")
     else:
-        if not classification_result.side_tasks:
-            logger.info("  [SKIPPED] No side tasks identified")
-            decision = {'proceed': True, 'reason': 'No side tasks to execute'}
-        else:
-            logger.info(f"  Executing {len(classification_result.side_tasks)} side tasks...")
-            
-            # Create AgentFactory for Phase 0 side tasks using WorkspaceManager
-            phase0_workspace = workspace_manager.get_phase_directory('phase0', create=True)
-            
-            factory = AgentFactory(
-                generator_client=clients['claude-4.5'],
-                executor_clients=clients,
-                verifier_client=clients['claude-4.5'],
-                runtime=runtime,
-                base_work_dir=phase0_workspace / "agents"
-            )
-            
-            solver = SideTaskSolver(
-                agent_factory=factory,
-                workspace_dir=phase0_workspace,
-                max_concurrent=3
-            )
-            
-            # Extract connections from manifest (if any)
-            connections = parse_manifest_connections(manifest, project_root)
-            
-            await solver.solve_all_tasks(
-                classification_result.side_tasks,
-                connections,
-                additional_context
-            )
-            
-            # Verify using the same workspace as the solver
-            verifier = SideTaskVerifier(workspace_dir=phase0_workspace)
-            decision = verifier.verify_and_decide(classification_result.side_tasks)
-            
-            logger.info(f"\n[SIDE TASKS COMPLETE]")
-            logger.info(f"  Decision: {'PROCEED' if decision['proceed'] else 'HALT'}")
-            logger.info(f"  Reason: {decision['reason']}")
-            
-            if not decision['proceed']:
-                logger.error("Side tasks verification failed. Halting execution.")
-                sys.exit(1)
+        logger.info(f"  Executing {len(classification_result.side_tasks)} side tasks...")
+        
+        # Create AgentFactory for Phase 0 side tasks using WorkspaceManager
+        phase0_workspace = workspace_manager.get_phase_directory('phase0', create=True)
+        
+        factory = AgentFactory(
+            generator_client=clients['claude-4.5'],
+            executor_clients=clients,
+            verifier_client=clients['claude-4.5'],
+            runtime=runtime,
+            base_work_dir=phase0_workspace / "agents"
+        )
+        
+        solver = SideTaskSolver(
+            agent_factory=factory,
+            workspace_dir=phase0_workspace,
+            max_concurrent=3
+        )
+        
+        # Extract connections from manifest (if any)
+        connections = parse_manifest_connections(manifest, project_root)
+        
+        await solver.solve_all_tasks(
+            classification_result.side_tasks,
+            connections,
+            additional_context
+        )
+        
+        # Verify using the same workspace as the solver
+        verifier = SideTaskVerifier(workspace_dir=phase0_workspace)
+        decision = verifier.verify_and_decide(classification_result.side_tasks)
+        
+        logger.info(f"\n[SIDE TASKS COMPLETE]")
+        logger.info(f"  Decision: {'PROCEED' if decision['proceed'] else 'HALT'}")
+        logger.info(f"  Reason: {decision['reason']}")
+        
+        if not decision['proceed']:
+            logger.error("Side tasks verification failed. Halting execution.")
+            sys.exit(1)
     
     # ==================================================
     # PHASE 1: TASK DIVISION
@@ -679,7 +703,10 @@ async def main():
     logger.info("="*80)
     
     logger.info(f"\nPhase 0 - Classification:")
-    logger.info(f"  Core tasks: {len(classification_result.core_tasks)}")
+    if manifest.get('skip_phase_0', False):
+        logger.info(f"  Status: SKIPPED (skip_phase_0=true)")
+    else:
+        logger.info(f"  Core tasks: {len(classification_result.core_tasks)}")
     
     logger.info(f"\nPhase 1 - Planning:")
     logger.info(f"  Status: {completion.overall_status}")
@@ -700,6 +727,7 @@ async def main():
         'task_id': task_id,
         'task_type': task_type,
         'phase0': {
+            'skipped': manifest.get('skip_phase_0', False),
             'core_tasks': len(classification_result.core_tasks),
             'side_tasks': len(classification_result.side_tasks)
         },

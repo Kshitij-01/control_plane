@@ -2,9 +2,12 @@
 Bedrock Claude Client for AutoGen
 
 Simple wrapper around AWS Bedrock's Claude models.
+Supports PDF processing via Claude Sonnet 4.5+
 """
 
 import json
+import base64
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Union
 
 import boto3
@@ -19,6 +22,30 @@ from autogen_core.models import (
     FunctionExecutionResultMessage
 )
 from autogen_core._types import FunctionCall
+
+
+class PDFDocument:
+    """Represents a PDF document for Claude processing"""
+    def __init__(self, pdf_path: str):
+        self.pdf_path = pdf_path
+        with open(pdf_path, 'rb') as f:
+            pdf_bytes = f.read()
+            self.pdf_base64 = base64.b64encode(pdf_bytes).decode('utf-8')
+        self.file_size_mb = len(pdf_bytes) / (1024 * 1024)
+        
+        if self.file_size_mb > 32:
+            raise ValueError(f"PDF file too large: {self.file_size_mb:.1f}MB (max 32MB)")
+    
+    def to_bedrock_content(self) -> dict:
+        """Convert to Bedrock API format"""
+        return {
+            "type": "document",
+            "source": {
+                "type": "base64",
+                "media_type": "application/pdf",
+                "data": self.pdf_base64
+            }
+        }
 
 
 class BedrockClaudeClient(ChatCompletionClient):
@@ -103,10 +130,22 @@ class BedrockClaudeClient(ChatCompletionClient):
             if isinstance(msg, SystemMessage):
                 system_messages.append(msg.content)
             elif isinstance(msg, UserMessage):
-                conversation_messages.append({
-                    "role": "user",
-                    "content": msg.content
-                })
+                # Handle PDF documents in user messages
+                content = msg.content
+                
+                # Check if content is a list (multimodal content)
+                if isinstance(content, list):
+                    # Content is already structured (e.g., [{"type": "document", ...}, {"type": "text", ...}])
+                    conversation_messages.append({
+                        "role": "user",
+                        "content": content
+                    })
+                else:
+                    # Regular text message
+                    conversation_messages.append({
+                        "role": "user",
+                        "content": content
+                    })
             elif isinstance(msg, AssistantMessage):
                 # Handle assistant messages with tool calls
                 if isinstance(msg.content, list) and all(isinstance(item, FunctionCall) for item in msg.content):
@@ -190,14 +229,33 @@ class BedrockClaudeClient(ChatCompletionClient):
             else:
                 body["system"] = "You MUST respond with valid JSON only. Do not include any text before or after the JSON object."
         
-        # Invoke Bedrock
-        response = self._client.invoke_model(
-            modelId=self._model_id,
-            body=json.dumps(body)
-        )
+        # Log before making API call
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.info(f"[BEDROCK] Calling Claude API - Model: {self._model_id}, Messages: {len(conversation_messages)}, Tools: {len(tools) if tools else 0}")
         
-        # Parse response
-        response_body = json.loads(response['body'].read())
+        # Invoke Bedrock with error handling
+        try:
+            response = self._client.invoke_model(
+                modelId=self._model_id,
+                body=json.dumps(body)
+            )
+            
+            # Parse response
+            response_body = json.loads(response['body'].read())
+            logger.info(f"[BEDROCK] Received response - Stop reason: {response_body.get('stop_reason', 'unknown')}")
+            
+        except Exception as e:
+            logger.error(f"[BEDROCK_ERROR] Bedrock API call failed: {type(e).__name__}: {str(e)}")
+            logger.error(f"[BEDROCK_ERROR] Model: {self._model_id}")
+            logger.error(f"[BEDROCK_ERROR] Message count: {len(conversation_messages)}")
+            logger.error(f"[BEDROCK_ERROR] Has tools: {bool(tools)}")
+            
+            # Raise a more descriptive error
+            raise RuntimeError(
+                f"Bedrock Claude API call failed: {type(e).__name__}: {str(e)}. "
+                f"Model: {self._model_id}, Messages: {len(conversation_messages)}"
+            ) from e
         
         # Extract content - handle extended thinking mode and tool calls
         content_blocks = response_body.get('content', [])
@@ -225,13 +283,25 @@ class BedrockClaudeClient(ChatCompletionClient):
                             arguments=json.dumps(block.get('input', {}))
                         ))
             
+            # Debug logging before deciding content
+            logger.info(f"[BEDROCK] text_parts: {len(text_parts)}, tool_calls: {len(tool_calls)}")
             if text_parts:
-                content = '\n'.join(text_parts)
-            elif tool_calls:
-                # If only tool calls, return them as content
+                logger.info(f"[BEDROCK] text_parts content: {text_parts[0][:100] if text_parts else 'N/A'}...")
+            
+            # CRITICAL: If there are tool calls, ALWAYS return them (even if there's also text)
+            # Claude often writes explanatory text BEFORE tool calls - we want the tool calls!
+            if tool_calls:
                 content = tool_calls
+                logger.info(f"[BEDROCK] Returning {len(tool_calls)} tool calls as content (ignoring text)")
+            elif text_parts:
+                # Only return text if there are NO tool calls
+                content = '\n'.join(text_parts)
+                logger.info(f"[BEDROCK] Returning text content (no tool calls)")
         else:
             content = ''
+        
+        # Debug logging for content type
+        logger.info(f"[BEDROCK] Final content type: {type(content).__name__}, Is list: {isinstance(content, list)}")
         
         # Extract usage
         usage_data = response_body.get('usage', {})

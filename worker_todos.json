@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": "task_1",
+      "content": "Create/generate: outputs/extracted/all_raw_by_pdf.json",
+      "status": "in_progress"
+    },
+    {
+      "id": "task_2",
+      "content": "Create/generate: outputs/extracted/Petroecuador_raw.json",
+      "status": "pending"
+    },
+    {
+      "id": "task_3",
+      "content": "Create/generate: outputs/extracted/Petrobras_raw.json",
+      "status": "pending"
+    },
+    {
+      "id": "task_4",
+      "content": "Create/generate: outputs/extracted/Pemex_raw.json",
+      "status": "pending"
+    },
+    {
+      "id": "task_5",
+      "content": "Create/generate: outputs/logs/extraction_errors.json",
+      "status": "pending"
+    },
+    {
+      "id": "task_6",
+      "content": "VERIFICATION (MANDATORY): Open and inspect ALL 5 output files. Load actual data samples and verify: (1) Files exist and non-empty, (2) Data makes sense for the task (not generic boilerplate), (3) Not mostly null/zero/placeholder values, (4) Text content is meaningful and varied, (5) Numeric values have realistic distributions. Report what you actually saw in the data.",
+      "status": "pending"
+    },
+    {
+      "id": "task_7",
+      "content": "If any files reference other files: verify all internal paths are correct and relative",
+      "status": "pending"
+    }
+  ]
+}

@@ -51,7 +51,8 @@ class BossAgent(RoutedAgent):
         self.tools = TaskAgentTools(
             workspace_path=workspace_path,
             catalog=knowledge_systems["catalog"],
-            vector_store=knowledge_systems["vector_store"]
+            vector_store=knowledge_systems["vector_store"],
+            bedrock_client=None  # Boss doesn't need PDF tool
         )
         
         # Initialize RAG injector for task artifacts
@@ -94,7 +95,40 @@ KEY CONSTRAINTS:
 - Check file catalog before planning - don't recreate existing files
 - You can clean up duplicate/intermediate files after subtasks complete
 
-AVAILABLE TOOLS:
+WORKER CAPABILITIES (Tools Available to Worker Agent):
+Boss, when planning subtasks, remember that Worker has access to these powerful tools:
+
+1. NATIVE PDF EXTRACTION TOOLS (Claude 4.5 built-in):
+   - extract_pdf_data: Read and extract structured data from a SINGLE PDF natively
+   - extract_multiple_pdfs: Batch extract from MULTIPLE PDFs in parallel (up to dozens at once!)
+   - Features: Automatic translation (Spanish/Portuguese -> English), table extraction, complex layouts
+   - NO OCR/image conversion needed - Claude reads PDFs directly
+   - Example: Worker can process 14 Pemex PDFs in ONE tool call (parallel processing)
+
+2. FILE EDITING TOOLS (Universal file editor):
+   - search_replace_in_file: Edit any file type (.py, .json, .html, .yaml, .md, .csv)
+   - insert_after_text, insert_before_text: Add content to files
+   - delete_section: Remove sections from files
+   - read_file_section: Preview file content before editing
+   - create_file_backup: Backup files before major edits
+   - Example: Worker can fix specific values in HTML/JSON without regenerating entire file
+
+3. WORKSPACE TOOLS:
+   - scan_directory: Explore directory structures
+   - todo_write_function: Track progress with TODO lists
+
+4. CODE EXECUTION (Python with libraries):
+   - Full Python environment with pandas, numpy, matplotlib, etc.
+   - Can install additional libraries via pip if needed
+   - Persistent Jupyter kernel across retry attempts
+
+BOSS PLANNING IMPLICATIONS:
+- For PDF tasks: Worker can batch process many PDFs efficiently (don't create separate subtasks per PDF!)
+- For file edits: Worker can make targeted changes without regenerating entire files
+- For data tasks: Worker has full Python capabilities
+- Design subtasks knowing Worker has these advanced capabilities
+
+AVAILABLE TOOLS FOR BOSS:
 - File catalog: Query to check what files exist from previous tasks
 - RAG system: Query previous task outputs with natural language
 - Code execution: Run Python to verify files or analyze data
@@ -935,31 +969,91 @@ Return JSON with "verification_code" field containing Python code."""
         if prompt_size > 10000:
             logger.warning(f"[VERIFY_STEP_3] Large prompt detected ({prompt_size} chars) - may be slow")
         
-        # CRITICAL: Timeout the GPT-5 call to prevent infinite hangs
+        # CRITICAL: Retry loop for GPT-5 verification code generation with syntax validation
         import asyncio
-        try:
-            logger.info(f"[VERIFY_STEP_3] Calling GPT-5 with timeout=180s...")
-            verify_response = await asyncio.wait_for(
-                self.model_client.create(
-                    messages=[self.system_prompt, UserMessage(content=verify_prompt, source="system")],
-                    json_output=VerificationCodeResponse
-                ),
-                timeout=180  # 3 minutes max for GPT-5 to generate verification code
-            )
-            logger.info(f"[VERIFY_STEP_3] GPT-5 responded successfully")
-        except asyncio.TimeoutError:
-            logger.error("[VERIFY_STEP_3] GPT-5 verification code generation timed out after 3 minutes")
-            logger.error("  FALLBACK: Skipping verification, trusting Worker's detailed summary")
+        max_retries = 3
+        verification_code = None
+        last_error = None
+        
+        for retry_attempt in range(1, max_retries + 1):
+            try:
+                logger.info(f"[VERIFY_STEP_3] Calling GPT-5 (attempt {retry_attempt}/{max_retries}) with timeout=180s...")
+                
+                # Add syntax error feedback to prompt if this is a retry
+                current_prompt = verify_prompt
+                if retry_attempt > 1 and last_error:
+                    current_prompt = f"""{verify_prompt}
+
+CRITICAL: Your previous attempt (#{retry_attempt - 1}) generated code with a SYNTAX ERROR:
+{last_error}
+
+Please fix this syntax error and generate valid Python code.
+Double-check:
+- All parentheses, brackets, and braces are balanced
+- All strings are properly quoted
+- All indentation is correct
+- No invalid escape sequences
+- No undefined variables
+"""
+                
+                verify_response = await asyncio.wait_for(
+                    self.model_client.create(
+                        messages=[self.system_prompt, UserMessage(content=current_prompt, source="system")],
+                        json_output=VerificationCodeResponse
+                    ),
+                    timeout=180  # 3 minutes max for GPT-5 to generate verification code
+                )
+                logger.info(f"[VERIFY_STEP_3] GPT-5 responded successfully (attempt {retry_attempt})")
+                
+                # Parse and validate the code
+                try:
+                    verify_data = json.loads(verify_response.content)
+                except json.JSONDecodeError:
+                    # Try to extract from markdown code block
+                    content = verify_response.content
+                    if "```" in content:
+                        content = content.split("```")[1].split("```")[0].strip()
+                        verify_data = json.loads(content)
+                    else:
+                        raise
+                
+                verification_code = verify_data.get("verification_code") or "print('No verification code generated')"
+                
+                # Validate verification_code is a non-empty string
+                if not verification_code or not isinstance(verification_code, str):
+                    logger.error(f"[VERIFICATION] Invalid verification_code: {type(verification_code)}")
+                    last_error = f"verification_code is not a string (type: {type(verification_code)})"
+                    continue
+                
+                # CRITICAL: Validate verification code syntax before accepting it
+                try:
+                    compile(verification_code, '<verification>', 'exec')
+                    logger.info(f"[VERIFICATION] Code syntax validation passed (attempt {retry_attempt})")
+                    break  # Success! Exit retry loop
+                except SyntaxError as syntax_err:
+                    logger.error(f"[VERIFICATION] Generated code has syntax error (attempt {retry_attempt}): {syntax_err}")
+                    logger.error(f"  Buggy code: {verification_code[:500]}...")
+                    last_error = f"{syntax_err.__class__.__name__}: {syntax_err}\nLine {syntax_err.lineno}: {syntax_err.text}"
+                    verification_code = None  # Reset for retry
+                    continue
+                    
+            except asyncio.TimeoutError:
+                logger.error(f"[VERIFY_STEP_3] GPT-5 verification code generation timed out (attempt {retry_attempt})")
+                last_error = "Timeout after 3 minutes"
+                continue
+            except Exception as gpt5_error:
+                logger.error(f"[VERIFY_STEP_3] GPT-5 call crashed (attempt {retry_attempt}): {gpt5_error}", exc_info=True)
+                last_error = str(gpt5_error)
+                continue
+        
+        # If all retries failed, trust Worker
+        if not verification_code:
+            logger.error(f"[VERIFY_STEP_3] All {max_retries} attempts to generate valid verification code failed")
+            logger.error(f"  Last error: {last_error}")
+            logger.error("  FALLBACK: Trusting Worker's detailed summary")
             return {
                 "scan": scan_result,
-                "verification_output": f"[GPT5_TIMEOUT] Verification code generation timed out. Trusting Worker:\n{completion_msg.summary[:500]}",
-                "verification_success": True  # Trust Worker
-            }
-        except Exception as gpt5_error:
-            logger.error(f"[VERIFY_STEP_3] GPT-5 call crashed: {gpt5_error}", exc_info=True)
-            return {
-                "scan": scan_result,
-                "verification_output": f"[GPT5_CRASH] GPT-5 crashed: {gpt5_error}\nTrusting Worker:\n{completion_msg.summary[:500]}",
+                "verification_output": f"[GPT5_FAILED] Failed to generate valid verification code after {max_retries} attempts.\nLast error: {last_error}\nTrusting Worker:\n{completion_msg.summary[:500]}",
                 "verification_success": True  # Trust Worker
             }
         

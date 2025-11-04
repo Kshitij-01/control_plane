@@ -6,6 +6,7 @@ Uses UserProxyAgent for reliable code execution
 
 import logging
 import json
+import re
 from pathlib import Path
 from typing import Dict, Any, Optional
 from pydantic import BaseModel, Field
@@ -69,7 +70,8 @@ class WorkerAgent(RoutedAgent):
         self.tools = TaskAgentTools(
             workspace_path=workspace_path,
             catalog=knowledge_systems["catalog"],
-            vector_store=knowledge_systems["vector_store"]
+            vector_store=knowledge_systems["vector_store"],
+            bedrock_client=model_client if hasattr(model_client, '_client') else None  # Pass bedrock client for PDF tool
         )
         
         # Initialize RAG injector for querying task artifacts
@@ -139,9 +141,99 @@ TOOL SYNTAX:
 - You can call it MULTIPLE times in one attempt
 - Each call updates the workspace TODO list file
 
+=== FILE EDITING TOOLS ===
+
+You have access to universal file editing tools that work with ANY file type:
+
+1. search_replace_in_file - PRIMARY method for editing files
+   - Use for precise text replacements
+   - MUST provide EXACT text including whitespace and indentation
+   - Include 2-3 lines of context to make search unique
+   - Works for: .py, .json, .html, .yaml, .md, .csv, ANY text file
+   - Example: Fix CSS color in HTML report, update JSON field, modify Python code
+
+2. insert_after_text / insert_before_text - Add new content
+   - Use for adding new sections or lines
+   - Specify exact text as anchor point
+   - Useful for adding new HTML sections, JSON fields, code blocks
+
+3. read_file_section - Preview before editing
+   - Use to see exact formatting and indentation
+   - Helps get the exact old_string for search_replace
+   - Returns context around search text with line numbers
+
+4. delete_section - Remove content between markers
+   - Delete sections by specifying start and end text
+   - Useful for removing outdated code or content
+
+5. create_file_backup - Create timestamped backup
+   - Use before major edits for safety
+   - Creates .bak file with timestamp
+
+6. get_file_info - Get file metadata
+   - Returns file type, size, line count, encoding
+   - Useful for understanding file structure
+
+BEST PRACTICES FOR FILE EDITING:
+- Always use read_file_section FIRST to see exact formatting
+- Include enough context to make search text unique (2-3 lines)
+- Preserve indentation and whitespace exactly
+- Use search_replace (not line numbers!) for reliability
+- For HTML reports: edit specific sections without regenerating entire file
+- For JSON: edit specific fields while preserving structure
+- For Python: edit specific functions or classes precisely
+
+WHEN TO USE FILE EDITING vs CODE EXECUTION:
+- Small fixes (typos, colors, single values): Use file editing tools
+- Large changes (regenerate report, reprocess data): Use code execution
+- File editing is FASTER and more precise for targeted changes
+
+=== PDF EXTRACTION TOOLS ===
+
+You have access to NATIVE PDF READING using Claude 4.5's built-in PDF capabilities:
+
+1. extract_pdf_data - Extract structured data from a SINGLE PDF
+   - Reads PDF natively (no OCR, no image conversion needed)
+   - Automatically translates non-English text to English
+   - Returns structured JSON matching your schema
+   - Example: Extract all activities, costs, events from a drilling report
+   - Usage:
+     schema = {"activities": [{"time": "str", "description_en": "str"}], "costs": {...}}
+     result = extract_pdf_data(
+         pdf_path="path/to/report.pdf",
+         json_schema=json.dumps(schema),
+         extraction_instructions="Extract ALL activities and costs. Translate Spanish to English."
+     )
+
+2. extract_multiple_pdfs - Batch extract from MULTIPLE PDFs in parallel
+   - Processes multiple PDFs simultaneously
+   - Same schema applied to all PDFs
+   - Returns array of results (one per PDF)
+   - Example: Process all Pemex PDFs at once
+   - Usage:
+     pdf_paths = ["pemex1.pdf", "pemex2.pdf", "pemex3.pdf"]
+     results = extract_multiple_pdfs(
+         pdf_paths=json.dumps(pdf_paths),
+         json_schema=json.dumps(schema),
+         extraction_instructions="Extract activities and translate to English"
+     )
+
+WHEN TO USE PDF TOOLS vs CODE EXECUTION:
+- PDF extraction/reading: Use PDF tools (Claude reads directly, better accuracy)
+- Traditional parsing (CSV, JSON, text): Use code execution
+- PDF tools are FASTER and MORE ACCURATE than PyPDF2/pdfplumber
+- PDF tools automatically handle: language detection, translation, complex layouts, tables
+
+BEST PRACTICES FOR PDF EXTRACTION:
+- Define a clear JSON schema for the data you want
+- Provide detailed extraction instructions
+- Request translations for non-English content
+- Use extract_multiple_pdfs for batch processing (faster than loops)
+- Validate extracted data before using it
+
 === CORE RULES ===
 
-1. TOOLS: You have todo_write_function and scan_directory tools available - use them!
+1. TOOLS: You have todo_write_function, scan_directory, file editing tools, and PDF extraction tools available - use them!
 
 2. DATA EXPLORATION (MANDATORY):
    - ALWAYS print/inspect structures BEFORE coding
@@ -199,15 +291,33 @@ TOOL SYNTAX:
 === RESPONSE FORMAT ===
 
 {
-  "code": "python code",
-  "explanation": "what this does",
+  "code": "ACTUAL EXECUTABLE PYTHON CODE (import os\\nprint('hello'))",
+    "explanation": "what this does",
   "retry": true/false,
   "gave_up": false/true,
   "gave_up_reason": "REQUIRED if gave_up=true (3+ sentences)",
   "verification_summary": "REQUIRED if retry=false (3+ sentences)"
 }
 
-CRITICAL: Valid JSON only. No markdown, no extra text. Start with { end with }.
+🚨 CRITICAL PYTHON SYNTAX RULES 🚨
+
+1. "code" field = EXECUTABLE PYTHON CODE ONLY
+   ❌ WRONG: "code": "Now let me extract the files..."  (This is English prose!)
+   ❌ WRONG: "code": "Good! The classification looks correct..."  (This is a comment!)
+   ❌ WRONG: "code": "The PDF files are not in my current working directory..."  (This is prose!)
+   ✅ RIGHT: "code": "import zipfile\\nwith zipfile.ZipFile(...) as z:\\n    z.extractall()"
+
+2. Use PYTHON boolean/null syntax (NOT JSON syntax in code!)
+   ❌ WRONG: "code": "result = {'success': true, 'value': null}"  (true/null are JSON!)
+   ✅ RIGHT: "code": "result = {'success': True, 'value': None}"  (True/None are Python!)
+
+3. NO BACKSLASHES in f-string expressions
+   ❌ WRONG: "code": "print(f'Check: {all('\\\\\\\\' not in p for p in paths)}')"
+   ✅ RIGHT: "code": "has_backslash = '\\\\\\\\' not in path\\nprint(f'Check: {has_backslash}')"
+
+4. Use "explanation" field for English descriptions, NOT "code" field
+
+5. Valid JSON response. No markdown, no extra text. Start with { end with }.
 
 === CHECKLIST BEFORE EVERY RESPONSE ===
 
@@ -252,9 +362,14 @@ Remember: 25 attempts. Read inputs first. Stay in scope. Complete fully.
                 output_dir=str(self.workspace_path)
             )
             
-            # CRITICAL: Start the executor before using it!
-            await code_executor.start()
-            logger.info(f"[KERNEL] Jupyter executor started successfully")
+            # CRITICAL: Start the executor before using it with timeout handling!
+            try:
+                logger.info(f"[KERNEL] Starting Jupyter executor...")
+                await code_executor.start()
+                logger.info(f"[KERNEL] Jupyter executor started successfully")
+            except Exception as e:
+                logger.error(f"[KERNEL_ERROR] Failed to start Jupyter kernel: {type(e).__name__}: {str(e)}")
+                raise RuntimeError(f"Jupyter kernel startup failed: {type(e).__name__}: {str(e)}") from e
             
             # CRITICAL: Change kernel's working directory to workspace (not project root!)
             # This prevents Worker from creating files in dangerous project root location
@@ -314,13 +429,13 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
             else:
                 logger.info(f"[INFO] Worker will create files as instructed by Boss")
                 worker_detail_logger.info(f"Boss will verify the created files")
-                    
+                            
         except Exception as init_error:
             logger.error(f"[INIT_ERROR] Failed to initialize Worker: {init_error}", exc_info=True)
             # Report immediate failure - cannot proceed without kernel/file paths
             await self._report_gave_up(message, [], {
                 "explanation": f"Worker initialization failed: {str(init_error)}. Cannot start Jupyter kernel or resolve file paths."
-            }, ctx)
+            }, ctx, actual_attempt_count=0)
             return
         
         # Autonomous retry loop
@@ -346,8 +461,11 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
             # On retries, feedback messages already tell Claude what to do
             # (avoids consecutive UserMessages which confuse the LLM)
             if attempt == 1:
+                logger.info(f"[PROMPT] Building full task prompt for attempt #1...")
                 prompt = self._build_full_task_prompt(message, file_paths)
-            conversation_history.append(UserMessage(content=prompt, source="boss"))
+                logger.info(f"[PROMPT] Prompt built, length: {len(prompt)} chars")
+                conversation_history.append(UserMessage(content=prompt, source="boss"))
+                logger.info(f"[PROMPT] Added prompt to conversation history")
             
             # Get response from Claude with tools (allow both tool calls and JSON responses)
             try:
@@ -358,6 +476,7 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
                 
                 while tool_iteration < max_tool_iterations:
                     tool_iteration += 1
+                    logger.info(f"[TOOL_LOOP] Tool iteration {tool_iteration}/{max_tool_iterations}, calling Claude...")
                     
                     response = await self.model_client.create(
                         messages=current_messages,
@@ -365,10 +484,17 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
                         cancellation_token=ctx.cancellation_token
                     )
                     
+                    logger.info(f"[RESPONSE] Got response from Claude, content type: {type(response.content).__name__}")
+                    logger.info(f"[RESPONSE] Is list: {isinstance(response.content, list)}")
+                    if isinstance(response.content, list):
+                        logger.info(f"[RESPONSE] List length: {len(response.content)}")
+                        logger.info(f"[RESPONSE] First item type: {type(response.content[0]).__name__ if response.content else 'N/A'}")
+                    
                     # Handle tool calls if present
                     if isinstance(response.content, list) and all(
                         isinstance(call, FunctionCall) for call in response.content
                     ):
+                        logger.info(f"[TOOL_CALLS_DETECTED] Detected {len(response.content)} tool call(s)")
                         # Execute tool calls
                         tool_results = await self._execute_tool_calls(response.content, ctx.cancellation_token)
                         
@@ -382,11 +508,10 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
                         continue
                     else:
                         # Regular JSON response - we're done with tools
-                        parsed = self._parse_response(response.content)
                         # Add Claude's response to conversation (CRITICAL: Use AssistantMessage!)
                         current_messages.append(AssistantMessage(content=response.content, source="worker"))
                         break
-                
+            
                 # Synchronize all messages back to conversation_history
                 # This ensures tool calls and their results are preserved across retry attempts
                 if len(current_messages) > len(conversation_history):
@@ -394,7 +519,10 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
                     new_messages = current_messages[len(conversation_history):]
                     conversation_history.extend(new_messages)
                     logger.info(f"Synchronized {len(new_messages)} messages from tool calls to conversation history")
-                
+            
+                # Parse the final response after tool calls are done
+                parsed = self._parse_response(response.content)
+            
                 # If we hit max iterations, fall back to parsing the last response
                 if tool_iteration >= max_tool_iterations:
                     logger.warning(f"Hit max tool iterations ({max_tool_iterations}), using last response")
@@ -408,7 +536,7 @@ print(f'Kernel working directory set to: {{os.getcwd()}}')
                             "retry": True,
                             "gave_up": False
                         }
-                
+            
                 # Check if Claude wants to give up
                 if parsed.get("gave_up", False):
                     # Enforce minimum attempts before allowing give-up
@@ -449,67 +577,103 @@ Provide a detailed gave_up_reason or continue debugging with gave_up=false.
                     
                     logger.error(f"[GIVE_UP] Worker decided to give up on {message.subtask_id} after {attempt} attempts")
                     logger.error(f"[GIVE_UP_REASON] {gave_up_reason}")
-                    await self._report_gave_up(message, all_attempts, parsed, ctx)
+                    await self._report_gave_up(message, all_attempts, parsed, ctx, actual_attempt_count=attempt)
                     return
-                
+            
                 # CRITICAL: Check if TODO file was created in attempt #1
                 if attempt == 1:
                     todo_file = self.workspace_path / "worker_todos.json"
-                    if not todo_file.exists():
-                        logger.error(f"[TODO_MISSING] Worker did NOT create TODO list in attempt #1!")
-                        # Check if Worker just printed instead of calling tool
-                        code_content = parsed.get("code", "")
-                        if "TODO" in code_content and "print" in code_content:
-                            logger.error(f"[TODO_PRINT_DETECTED] Worker printed about TODO instead of calling tool!")
-                            retry_feedback = """
-❌ CRITICAL FAILURE: You did NOT create the TODO list in attempt #1!
+                    
+                    # First check: Was the tool actually called?
+                    # Note: tool_results may not be defined if no tools were called in this iteration
+                    tool_was_called = False
+                    if 'tool_results' in locals() and tool_results:
+                        # Check if todo_write_function was called
+                        for call_id, result in tool_results.items():
+                            if "todo_write_function" in call_id or "todo" in str(result).lower():
+                                tool_was_called = True
+                                logger.info(f"[TODO_TOOL_CALLED] Detected todo_write_function call: {call_id}")
+                                break
+                    
+                        # Second check: Does the file exist?
+                        if not todo_file.exists():
+                            logger.error(f"[TODO_MISSING] Worker did NOT create TODO list in attempt #1!")
+                        
+                            # Check if Worker just printed instead of calling tool
+                            code_content = parsed.get("code", "")
+                            if "TODO" in code_content and "print" in code_content and not tool_was_called:
+                                logger.error(f"[TODO_PRINT_BYPASS] Worker printed about TODO but NEVER called the tool!")
+                                retry_feedback = """
+    ❌ CRITICAL FAILURE: You BYPASSED the TODO requirement by PRINTING instead of CALLING THE TOOL!
 
-I can see you PRINTED something about creating a TODO list, but you did NOT actually CALL the tool.
+    I can see you PRINTED something like:
+      print("=== ATTEMPT #1: TODO list created, now exploring task ===")
 
-PRINTING IS NOT THE SAME AS CALLING THE TOOL!
+    But you NEVER actually called the todo_write_function tool!
 
-What you did (WRONG):
-  print("=== TODO list will be created ===")
-  print("Creating TODO list...")
+    PRINTING IS NOT THE SAME AS CALLING THE TOOL!
+    THIS IS A CRITICAL VIOLATION OF THE SYSTEM REQUIREMENTS!
 
-What you MUST do (RIGHT):
-  Include "tool_calls" in your JSON response with todo_write_function
+    What you did (WRONG):
+      print("TODO list created")  # This is a LIE - you didn't create it!
+      # ... then you wrote code ...
 
-YOU MUST CALL THE TOOL using Claude's native tool calling mechanism.
+    What you MUST do (RIGHT):
+      Step 1: CALL todo_write_function tool FIRST
+      Step 2: WAIT for tool to execute
+      Step 3: THEN write your exploration code
 
-Steps:
-1. Find "MANDATORY TODO LIST (Boss-Created)" in your instructions
-2. Call todo_write_function tool with:
-   - workspace_path: (from Boss)
-   - merge: false
-   - todos: (exact JSON from Boss)
-3. After tool executes, return JSON response with code/explanation/retry
+    YOU MUST CALL THE TOOL using Claude's native tool calling mechanism.
 
-THIS IS MANDATORY. YOU CANNOT PROCEED WITHOUT CREATING THE TODO LIST.
-"""
-                        else:
-                            retry_feedback = """
-❌ CRITICAL FAILURE: You did NOT create the TODO list in attempt #1!
+    MANDATORY STEPS:
+    1. Find "MANDATORY TODO LIST (Boss-Created)" in your instructions
+    2. Call todo_write_function tool with:
+       - workspace_path: (from Boss)
+       - merge: false
+       - todos: (exact JSON from Boss)
+    3. After tool executes, THEN return JSON response with code/explanation/retry
 
-The worker_todos.json file does NOT exist in your workspace.
+    DO NOT PRINT ABOUT CREATING TODO - ACTUALLY CREATE IT BY CALLING THE TOOL!
+    THIS IS NON-NEGOTIABLE. THE SYSTEM WILL REJECT YOUR RESPONSE UNTIL YOU DO THIS.
+    """
+                            elif not tool_was_called:
+                                logger.error(f"[TODO_NEVER_CALLED] Worker never called todo_write_function!")
+                                retry_feedback = """
+    ❌ CRITICAL FAILURE: You did NOT call todo_write_function in attempt #1!
 
-This is MANDATORY. Your VERY FIRST ACTION must be calling todo_write_function tool.
+    The worker_todos.json file does NOT exist because you NEVER called the tool.
 
-Find the "MANDATORY TODO LIST (Boss-Created)" section in your instructions.
-Copy the JSON EXACTLY as Boss provides it.
-Call todo_write_function with that JSON.
+    This is MANDATORY. Your VERY FIRST ACTION must be calling todo_write_function tool.
 
-You must CALL THE TOOL using Claude's native tool calling.
+    Find the "MANDATORY TODO LIST (Boss-Created)" section in your instructions.
+    Copy the JSON EXACTLY as Boss provides it.
+    Call todo_write_function with that JSON.
 
-How to do it:
-1. Use the todo_write_function tool with these parameters:
-   - workspace_path: (from Boss's instructions)
-   - merge: false
-   - todos: (JSON string from Boss's instructions)
-2. After the tool executes, return your JSON response with code/explanation/retry
-"""
-                        conversation_history.append(UserMessage(content=retry_feedback, source="system"))
-                        continue
+    You must CALL THE TOOL using Claude's native tool calling.
+
+    How to do it:
+    1. Use the todo_write_function tool with these parameters:
+       - workspace_path: (from Boss's instructions)
+       - merge: false
+       - todos: (JSON string from Boss's instructions)
+    2. After the tool executes, return your JSON response with code/explanation/retry
+
+    DO NOT SKIP THIS STEP. THE SYSTEM REQUIRES IT.
+    """
+                            else:
+                                # Tool was called but file doesn't exist - tool execution failed
+                                logger.error(f"[TODO_TOOL_FAILED] todo_write_function was called but file doesn't exist!")
+                                retry_feedback = """
+    ❌ ERROR: You called todo_write_function but the file was not created!
+
+    This suggests the tool call failed or had incorrect parameters.
+
+    Check the tool execution result and fix any errors.
+    Make sure you're passing the correct workspace_path and todos JSON.
+    """
+                        
+                            conversation_history.append(UserMessage(content=retry_feedback, source="system"))
+                            continue
                 
                 # Check if Claude is claiming success too early (retry=false)
                 if not parsed.get("retry", True):
@@ -595,7 +759,7 @@ Provide a detailed verification_summary explaining your verification process and
                     logger.info(f"[EXPLICIT_SUCCESS] Worker claimed success with verification_summary")
                     logger.info(f"[VERIFICATION_SUMMARY] {verification_summary}")
                     # Report success immediately - no need to execute code again
-                    await self._report_success(message, all_attempts, parsed, ctx, baseline_files)
+                    await self._report_success(message, all_attempts, parsed, ctx, baseline_files, actual_attempt_count=attempt)
                     return
                 
                 # Execute the code
@@ -616,6 +780,119 @@ Please provide a valid response with the 'code' field containing executable Pyth
 """
                     conversation_history.append(UserMessage(content=error_feedback, source="system"))
                     continue
+                
+                # CRITICAL: Detect if Worker wrote English prose instead of Python code
+                # Common English words/patterns that indicate prose instead of code
+                prose_indicators = [
+                    "now let me", "let me", "i will", "i'll", "first,", "next,", 
+                    "then i", "i need to", "we should", "we need", "to do this",
+                    "in order to", "the first step", "step 1:", "here's how",
+                    "good!", "great!", "perfect!", "okay,", "the pdf files",
+                    "i see", "i notice", "looking at", "based on"
+                ]
+                code_lower = code.lower().strip()
+                first_100_chars = code_lower[:100]
+                
+                # Check if code starts with English prose
+                if any(indicator in first_100_chars for indicator in prose_indicators):
+                    logger.error(f"[PROSE_DETECTED] Worker wrote English prose instead of Python code!")
+                    logger.error(f"  Code starts with: {code[:100]}...")
+                    prose_feedback = f"""
+❌ CRITICAL ERROR: You wrote ENGLISH PROSE in the "code" field instead of PYTHON CODE!
+
+What you wrote:
+  "code": "{code[:200]}..."
+
+This is ENGLISH TEXT, not Python code! It will cause a SyntaxError when executed.
+
+CORRECT FORMAT:
+{{
+  "code": "import json\\nimport os\\nprint('Starting task...')\\n# actual Python code here",
+  "explanation": "Use THIS field for English descriptions of what the code does"
+}}
+
+RULES:
+- "code" field = EXECUTABLE PYTHON CODE ONLY (imports, variables, loops, functions)
+- "explanation" field = ENGLISH DESCRIPTIONS of what you're doing
+- Do NOT write instructions/prose in "code" field
+- Start with actual Python statements: import, print(), variable assignments, etc.
+
+Please rewrite your response with VALID PYTHON CODE in the "code" field.
+"""
+                    conversation_history.append(UserMessage(content=prose_feedback, source="system"))
+                    continue
+                
+                # Check for JSON boolean syntax (true/false/null) instead of Python (True/False/None)
+                json_syntax_issues = []
+                if re.search(r'\btrue\b', code):
+                    json_syntax_issues.append("'true' (should be 'True')")
+                if re.search(r'\bfalse\b', code):
+                    json_syntax_issues.append("'false' (should be 'False')")
+                if re.search(r'\bnull\b', code):
+                    json_syntax_issues.append("'null' (should be 'None')")
+                
+                if json_syntax_issues:
+                    logger.error(f"[JSON_SYNTAX] Worker used JSON syntax instead of Python: {', '.join(json_syntax_issues)}")
+                    json_feedback = f"""
+❌ SYNTAX ERROR: You used JSON syntax instead of PYTHON syntax!
+
+Issues found: {', '.join(json_syntax_issues)}
+
+WRONG (JSON syntax):
+  true, false, null
+
+RIGHT (Python syntax):
+  True, False, None
+
+Your code contains JSON boolean/null keywords which will cause NameError in Python.
+
+Please fix your code to use Python syntax:
+- Replace 'true' with 'True'
+- Replace 'false' with 'False'
+- Replace 'null' with 'None'
+"""
+                    conversation_history.append(UserMessage(content=json_feedback, source="system"))
+                    continue
+                
+                # Check for backslashes in f-string expressions (common error)
+                if 'f"' in code or "f'" in code:
+                    # Simple heuristic: look for patterns like f"...{...'\\...'...}"
+                    if re.search(r'f["\'].*\{[^}]*\\\\[^}]*\}', code):
+                        logger.error(f"[F_STRING_BACKSLASH] Worker used backslash in f-string expression!")
+                        fstring_feedback = """
+❌ SYNTAX ERROR: You cannot use backslashes inside f-string expressions!
+
+WRONG:
+  f"Check: {all('\\\\' not in p for p in paths)}"
+
+RIGHT (use a variable):
+  has_backslash = '\\\\' not in path
+  f"Check: {has_backslash}"
+
+Python does not allow backslashes in the {...} part of f-strings.
+Please extract the logic to a variable first, then use the variable in the f-string.
+"""
+                        conversation_history.append(UserMessage(content=fstring_feedback, source="system"))
+                        continue
+                
+                # Check if code has any Python-like syntax (imports, =, (), etc.)
+                has_python_syntax = any([
+                    'import ' in code,
+                    ' = ' in code or code.startswith('='),
+                    '(' in code and ')' in code,
+                    'def ' in code,
+                    'class ' in code,
+                    'print(' in code,
+                    'for ' in code,
+                    'if ' in code,
+                    'with ' in code
+                ])
+                
+                if not has_python_syntax and len(code) > 50:
+                    logger.warning(f"[SUSPICIOUS_CODE] Code doesn't contain typical Python syntax!")
+                    logger.warning(f"  Code: {code[:200]}...")
+                    logger.warning(f"  This might be English prose or invalid code")
+                    # Don't block, but warn - let execution fail and provide feedback
                 
                 logger.info(f"[EXECUTE] Executing code (attempt #{attempt})...")
                 logger.info(f"[CODE_PREVIEW] First 500 chars: {code[:500]}")
@@ -702,9 +979,9 @@ You have {25 - attempt} attempts remaining.
                     else:
                         # No expected outputs specified - fall back to delta scan
                         created_files = self._scan_created_files(baseline_files)
-                        
-                        if created_files:
-                            logger.info(f"[FILES_CREATED] Found {len(created_files)} file(s) (delta scan)")
+                    
+                    if created_files:
+                        logger.info(f"[FILES_CREATED] Found {len(created_files)} file(s) (delta scan)")
                     
                     if created_files:
                         # Files were created/updated! Claude must EXPLICITLY verify and claim success
@@ -720,8 +997,8 @@ You have {25 - attempt} attempts remaining.
                                     expected_outputs, baseline_files
                                 )
                                 created_files = files_found
-                            else:
-                                created_files = self._scan_created_files(baseline_files)
+                        else:
+                            created_files = self._scan_created_files(baseline_files)
                         
                         # Tell Claude to verify the files and claim success explicitly
                         created_files_list = [f.get("filename", str(f)) if isinstance(f, dict) else str(f.relative_to(self.workspace_path)) for f in created_files]
@@ -794,7 +1071,7 @@ DO NOT assume files are correct just because they exist - VERIFY THE CONTENT!
                             logger.error(f"[GIVE_UP] Giving up after {attempt} attempts with no valid file output")
                             await self._report_gave_up(message, all_attempts, {
                                 "explanation": f"Code executes successfully but produces no valid output files after {attempt} attempts"
-                            }, ctx)
+                            }, ctx, actual_attempt_count=attempt)
                             return
                         
                         # Add feedback and retry
@@ -832,8 +1109,10 @@ Add file-writing code incrementally - don't rewrite your entire transformation e
                         conversation_history.append(UserMessage(content=no_files_feedback, source="system"))
                         logger.info("[RETRY] Retrying with file creation requirement...")
                         continue
+                
+                # [ERROR] Code execution failed - prepare retry feedback
                 else:
-                    # [ERROR] Error - Check if Claude wants to retry
+                    # Error - Check if Claude wants to retry
                     logger.warning(f"[FAILED] Attempt #{attempt} failed")
                     logger.warning(f"Error: {exec_result.get('error', 'Unknown error')}")
                     
@@ -842,13 +1121,13 @@ Add file-writing code incrementally - don't rewrite your entire transformation e
                         logger.error(f"[GIVE_UP] Giving up after {attempt} attempts with persistent errors")
                         await self._report_gave_up(message, all_attempts, {
                             "explanation": f"Code execution failed after {attempt} attempts. Last error: {exec_result.get('error', 'Unknown')}"
-                        }, ctx)
+                        }, ctx, actual_attempt_count=attempt)
                         return
                     
                     if not parsed.get("retry", True):
                         # Claude doesn't want to retry
                         logger.error(f"[NO_RETRY] Worker decided not to retry {message.subtask_id}")
-                        await self._report_gave_up(message, all_attempts, parsed, ctx)
+                        await self._report_gave_up(message, all_attempts, parsed, ctx, actual_attempt_count=attempt)
                         return
                     
                     # Add error feedback for next iteration
@@ -922,6 +1201,57 @@ Analyze the error and fix it incrementally. You have {25 - attempt} attempts rem
                     
                     # Continue loop for retry
                     logger.info("[RETRY] Preparing to retry...")
+                
+                # PERIODIC REMINDER: Every 7 attempts, remind Worker of ALL available tools
+                if attempt % 7 == 0 and attempt > 0:
+                    logger.info(f"[REMINDER] Attempt #{attempt} - Sending periodic tools reminder")
+                    
+                    # Get list of all available tools
+                    all_tools = self.tools.get_all_tools()
+                    tool_names = [tool.name for tool in all_tools]
+                    
+                    # Categorize tools
+                    pdf_tools = [n for n in tool_names if 'pdf' in n.lower() or 'extract' in n.lower()]
+                    edit_tools = [n for n in tool_names if 'file' in n.lower() or 'replace' in n.lower() or 'insert' in n.lower() or 'delete' in n.lower() or 'backup' in n.lower()]
+                    workspace_tools = [n for n in tool_names if n not in pdf_tools and n not in edit_tools]
+                    
+                    tools_reminder = f"""
+=== PERIODIC REMINDER (Attempt #{attempt}) ===
+
+You've been working on this task for {attempt} attempts. Here's a reminder of ALL the powerful tools you have:
+
+PDF EXTRACTION TOOLS ({len(pdf_tools)}):
+{chr(10).join('  - ' + t for t in pdf_tools) if pdf_tools else '  (None available)'}
+  -> Use these for reading PDFs with Claude's native PDF support
+  -> Automatic translation, parallel batch processing available
+  -> Better than PyPDF2/pdfplumber for complex PDFs
+
+FILE EDITING TOOLS ({len(edit_tools)}):
+{chr(10).join('  - ' + t for t in edit_tools) if edit_tools else '  (None available)'}
+  -> Edit ANY file type without regenerating
+  -> Precise search/replace, insert, delete operations
+  -> Use read_file_section FIRST to see exact formatting
+
+WORKSPACE TOOLS ({len(workspace_tools)}):
+{chr(10).join('  - ' + t for t in workspace_tools) if workspace_tools else '  (None available)'}
+
+TOTAL AVAILABLE TOOLS: {len(all_tools)}
+
+REMEMBER:
+- You can CALL TOOLS multiple times in one attempt
+- Tools can solve problems faster than writing code
+- Check if a tool can help before writing complex parsing logic
+- Use extract_multiple_pdfs for batch PDF processing (handles dozens at once)
+- Use file editing tools to fix specific issues without regenerating
+
+Current status: Attempt #{attempt} of 25
+Keep debugging! You have {25 - attempt} attempts remaining.
+
+=== END REMINDER ===
+"""
+                    
+                    conversation_history.append(UserMessage(content=tools_reminder, source="system"))
+                    logger.info(f"[REMINDER] Sent tools reminder to Worker")
                     
             except Exception as e:
                 logger.error(f"Error in worker loop: {e}", exc_info=True)
@@ -1079,12 +1409,56 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                         "gave_up": True,
                         "gave_up_reason": f"Maximum continue attempts exceeded ({MAX_CONTINUE_ATTEMPTS})"
                     },
-                    ctx
+                    ctx,
+                    actual_attempt_count=attempt
                 )
                 return
             
             logger.info(f"[ATTEMPT] #{attempt} for subtask {message.subtask_id} (CONTINUE mode)")
             worker_detail_logger.info(f"\n{'='*80}\nATTEMPT #{attempt} (CONTINUE)\n{'='*80}")
+            
+            # PERIODIC REMINDER: Every 7 attempts, remind Worker of ALL available tools
+            if attempt % 7 == 0 and attempt > 0:
+                logger.info(f"[REMINDER] Attempt #{attempt} (CONTINUE mode) - Sending periodic tools reminder")
+                
+                all_tools = self.tools.get_all_tools()
+                tool_names = [tool.name for tool in all_tools]
+                
+                pdf_tools = [n for n in tool_names if 'pdf' in n.lower() or 'extract' in n.lower()]
+                edit_tools = [n for n in tool_names if 'file' in n.lower() or 'replace' in n.lower() or 'insert' in n.lower() or 'delete' in n.lower() or 'backup' in n.lower()]
+                workspace_tools = [n for n in tool_names if n not in pdf_tools and n not in edit_tools]
+                
+                tools_reminder = f"""
+=== PERIODIC REMINDER (Attempt #{attempt} - CONTINUE MODE) ===
+
+You've been working on this task for {attempt} attempts (including Boss's feedback).
+
+ALL YOUR AVAILABLE TOOLS:
+
+PDF EXTRACTION TOOLS ({len(pdf_tools)}):
+{chr(10).join('  - ' + t for t in pdf_tools) if pdf_tools else '  (None available)'}
+
+FILE EDITING TOOLS ({len(edit_tools)}):
+{chr(10).join('  - ' + t for t in edit_tools) if edit_tools else '  (None available)'}
+
+WORKSPACE TOOLS ({len(workspace_tools)}):
+{chr(10).join('  - ' + t for t in workspace_tools) if workspace_tools else '  (None available)'}
+
+TOTAL: {len(all_tools)} tools available
+
+REMEMBER:
+- Tools can solve problems faster than writing complex code
+- Use extract_multiple_pdfs for batch PDF processing
+- Use file editing tools to fix specific issues
+- You can call tools multiple times per attempt
+
+Attempts remaining: {MAX_CONTINUE_ATTEMPTS - attempt}
+
+=== END REMINDER ===
+"""
+                
+                conversation_history.append(UserMessage(content=tools_reminder, source="system"))
+                logger.info(f"[REMINDER] Sent tools reminder to Worker (CONTINUE mode)")
             
             # Get baseline of existing files
             baseline_files = self._get_baseline_files()
@@ -1117,12 +1491,20 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                             logger.info(f"[TOOLS] Worker calling {len(tool_calls)} tool(s)")
                             current_messages.append(AssistantMessage(content=response.content, source="worker"))
                             tool_results = await self._execute_tool_calls(tool_calls, ctx.cancellation_token)
-                            current_messages.append(UserMessage(content=tool_results, source="tool"))
+                            current_messages.append(FunctionExecutionResultMessage(content=tool_results))
                             continue
                     
                     # No more tool calls - save response and break
-                    conversation_history.append(AssistantMessage(content=response.content, source="worker"))
+                    current_messages.append(AssistantMessage(content=response.content, source="worker"))
                     break
+                
+                # Synchronize all messages back to conversation_history
+                # This ensures tool calls and their results are preserved across retry attempts
+                if len(current_messages) > len(conversation_history):
+                    # Add all new messages from current_messages to conversation_history
+                    new_messages = current_messages[len(conversation_history):]
+                    conversation_history.extend(new_messages)
+                    logger.info(f"[CONTINUE] Synchronized {len(new_messages)} messages from tool calls to conversation history")
                 
                 # Parse response
                 parsed = self._parse_response(response.content)
@@ -1130,9 +1512,82 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                 
                 # Execute code if present
                 if parsed.get("code"):
+                    code = parsed["code"]
+                    
+                    # CRITICAL: Detect English prose in code field (same validation as main loop)
+                    prose_indicators = [
+                        "now let me", "let me", "i will", "i'll", "first,", "next,", 
+                        "then i", "i need to", "we should", "we need", "to do this",
+                        "in order to", "the first step", "step 1:", "here's how",
+                        "good!", "great!", "perfect!", "okay,", "the pdf files",
+                        "i see", "i notice", "looking at", "based on"
+                    ]
+                    code_lower = code.lower().strip()
+                    first_100_chars = code_lower[:100]
+                    
+                    if any(indicator in first_100_chars for indicator in prose_indicators):
+                        logger.error(f"[PROSE_DETECTED] Worker wrote English prose in continue mode!")
+                        prose_feedback = f"""
+❌ CRITICAL ERROR: You wrote ENGLISH PROSE in the "code" field instead of PYTHON CODE!
+
+What you wrote:
+  "code": "{code[:200]}..."
+
+This is ENGLISH TEXT, not Python! Use the "explanation" field for descriptions.
+
+CORRECT FORMAT:
+{{
+  "code": "import json\\nprint('actual Python code here')",
+  "explanation": "English description goes here"
+}}
+
+Please rewrite with VALID PYTHON CODE in the "code" field.
+"""
+                        conversation_history.append(UserMessage(content=prose_feedback, source="system"))
+                        continue
+                    
+                    # Check for JSON boolean syntax (true/false/null) instead of Python (True/False/None)
+                    json_syntax_issues = []
+                    if re.search(r'\btrue\b', code):
+                        json_syntax_issues.append("'true' (should be 'True')")
+                    if re.search(r'\bfalse\b', code):
+                        json_syntax_issues.append("'false' (should be 'False')")
+                    if re.search(r'\bnull\b', code):
+                        json_syntax_issues.append("'null' (should be 'None')")
+                    
+                    if json_syntax_issues:
+                        logger.error(f"[JSON_SYNTAX] Worker used JSON syntax in continue mode: {', '.join(json_syntax_issues)}")
+                        json_feedback = f"""
+❌ SYNTAX ERROR: You used JSON syntax instead of PYTHON syntax!
+
+Issues: {', '.join(json_syntax_issues)}
+
+WRONG (JSON): true, false, null
+RIGHT (Python): True, False, None
+
+Please fix your code to use Python syntax.
+"""
+                        conversation_history.append(UserMessage(content=json_feedback, source="system"))
+                        continue
+                    
+                    # Check for backslashes in f-string expressions
+                    if 'f"' in code or "f'" in code:
+                        if re.search(r'f["\'].*\{[^}]*\\\\[^}]*\}', code):
+                            logger.error(f"[F_STRING_BACKSLASH] Worker used backslash in f-string in continue mode!")
+                            fstring_feedback = """
+❌ SYNTAX ERROR: You cannot use backslashes inside f-string expressions!
+
+WRONG: f"Check: {all('\\\\' not in p for p in paths)}"
+RIGHT: has_backslash = '\\\\' not in path; f"Check: {has_backslash}"
+
+Please extract the logic to a variable first.
+"""
+                            conversation_history.append(UserMessage(content=fstring_feedback, source="system"))
+                            continue
+                    
                     logger.info(f"[EXECUTE] Executing code (attempt #{attempt})...")
                     exec_result = await self._execute_code_with_proxy(
-                        parsed["code"],
+                        code,
                         ctx.cancellation_token
                     )
                     
@@ -1179,7 +1634,7 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                 
                 # Success - report completion
                 logger.info(f"[COMPLETE] Subtask completed successfully after {attempt} attempts (CONTINUE mode)")
-                await self._report_success(message, all_attempts, parsed, ctx, baseline_files)
+                await self._report_success(message, all_attempts, parsed, ctx, baseline_files, actual_attempt_count=attempt)
                 
                 # Store state for potential future continues
                 self._conversation_history = conversation_history
@@ -1196,7 +1651,7 @@ Focus ONLY on fixing the specific issues mentioned in feedback.
                 # Check if we should give up
                 if attempt >= 20:
                     logger.warning(f"[GIVE_UP] Reached maximum attempts in continue mode")
-                    await self._report_gave_up(message, all_attempts, parsed, ctx)
+                    await self._report_gave_up(message, all_attempts, parsed, ctx, actual_attempt_count=attempt)
                     return
                 
                 continue
@@ -1595,7 +2050,7 @@ Generate Python code to complete this subtask."""
             "gave_up": False
         }
     
-    async def _report_success(self, message: SubtaskMessage, all_attempts: list, parsed: Dict, ctx: MessageContext, baseline_files: set):
+    async def _report_success(self, message: SubtaskMessage, all_attempts: list, parsed: Dict, ctx: MessageContext, baseline_files: set, actual_attempt_count: int = None):
         """Report successful completion to Boss - Simple message, no stdout"""
         
         # Scan for ALL files matching expected outputs (not just delta)
@@ -1630,13 +2085,16 @@ Generate Python code to complete this subtask."""
         # Prefer verification_summary if provided, otherwise use explanation
         summary_to_send = verification_summary if verification_summary else explanation
         
+        # Use actual_attempt_count if provided (for continue mode), otherwise use len(all_attempts)
+        attempts_made = actual_attempt_count if actual_attempt_count is not None else len(all_attempts)
+        
         completion_msg = SubtaskCompletionMessage(
             subtask_id=message.subtask_id,
             status="success",
             files_created=created_files,
             summary=summary_to_send,
             gave_up=False,
-            attempts_made=len(all_attempts)
+            attempts_made=attempts_made
         )
         
         logger.info(f"[REPORT] Worker reporting to Boss: Completed {message.subtask_id}")
@@ -1644,15 +2102,18 @@ Generate Python code to complete this subtask."""
         for file_info in created_files:
             logger.info(f"      - {file_info['filename']}")
             logger.info(f"        Absolute: {file_info['absolute_path']}")
-        logger.info(f"   Attempts: {len(all_attempts)}")
+        logger.info(f"   Attempts: {attempts_made}")
         
         await self.publish_message(
             completion_msg,
             topic_id=TopicId(self.boss_topic_type, source=ctx.topic_id.source)
         )
     
-    async def _report_gave_up(self, message: SubtaskMessage, all_attempts: list, parsed: Dict, ctx: MessageContext):
+    async def _report_gave_up(self, message: SubtaskMessage, all_attempts: list, parsed: Dict, ctx: MessageContext, actual_attempt_count: int = None):
         """Report that worker gave up on the task"""
+        
+        # Use actual_attempt_count if provided (for continue mode), otherwise use len(all_attempts)
+        attempts_made = actual_attempt_count if actual_attempt_count is not None else len(all_attempts)
         
         completion_msg = SubtaskCompletionMessage(
             subtask_id=message.subtask_id,
@@ -1661,12 +2122,12 @@ Generate Python code to complete this subtask."""
             summary="Worker determined task is impossible or unfixable",
             gave_up=True,
             gave_up_reason=parsed.get("explanation", "Task appears impossible after multiple attempts"),
-            attempts_made=len(all_attempts)
+            attempts_made=attempts_made
         )
         
         logger.error(f"[GAVE_UP] Worker reporting to Boss: Gave up on {message.subtask_id}")
         logger.error(f"   Reason: {completion_msg.gave_up_reason}")
-        logger.error(f"   Attempts made: {len(all_attempts)}")
+        logger.error(f"   Attempts made: {attempts_made}")
         
         await self.publish_message(
             completion_msg,
@@ -1676,13 +2137,17 @@ Generate Python code to complete this subtask."""
     async def _execute_tool_calls(self, tool_calls: list, cancellation_token) -> list:
         """Execute tool calls and return results"""
         results = []
+        logger.info(f"[TOOLS] Starting execution of {len(tool_calls)} tool call(s)")
         
-        for call in tool_calls:
+        for idx, call in enumerate(tool_calls):
             try:
+                logger.info(f"[TOOLS] Tool {idx+1}/{len(tool_calls)}: {call.name}")
+                
                 # Find the tool by name
+                logger.info(f"[TOOLS] Looking up tool: {call.name}")
                 tool = next((tool for tool in self.tools.get_all_tools() if tool.name == call.name), None)
                 if tool is None:
-                    logger.error(f"Tool {call.name} not found")
+                    logger.error(f"[TOOLS] Tool {call.name} not found in available tools")
                     results.append(FunctionExecutionResult(
                         call_id=call.id,
                         name=call.name,
@@ -1690,23 +2155,30 @@ Generate Python code to complete this subtask."""
                     ))
                     continue
                 
+                logger.info(f"[TOOLS] Tool found, parsing arguments...")
                 # Parse arguments
                 arguments = json.loads(call.arguments)
-                logger.info(f"Executing tool {call.name} with args: {arguments}")
+                logger.info(f"[TOOLS] Executing tool {call.name} with args: {arguments}")
                 
                 # Execute the tool
+                logger.info(f"[TOOLS] Calling tool.run_json for {call.name}...")
                 if hasattr(tool, 'run_json'):
                     result = await tool.run_json(arguments, cancellation_token)
+                    logger.info(f"[TOOLS] Tool {call.name} completed, converting result to string...")
                     result_str = tool.return_value_as_string(result)
+                    logger.info(f"[TOOLS] Tool {call.name} finished successfully")
                 else:
                     # Fallback for tools without run_json
+                    logger.info(f"[TOOLS] Tool {call.name} using fallback execution...")
                     result_str = str(tool.function(**arguments))
+                    logger.info(f"[TOOLS] Tool {call.name} fallback completed")
                 
                 results.append(FunctionExecutionResult(
                     call_id=call.id,
                     name=call.name,
                     content=result_str
                 ))
+                logger.info(f"[TOOLS] Added result for {call.name} to results list")
                 
             except Exception as e:
                 logger.error(f"Error executing tool {call.name}: {e}")
@@ -1717,4 +2189,5 @@ Generate Python code to complete this subtask."""
                 ))
         
         return results
+
 
