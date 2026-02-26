@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Plane – Architecture Report</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <style>
+    :root {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      --text: #1a1a1a;
+      --text-muted: #555;
+      --border: #ddd;
+      --bg-section: #f8f9fa;
+      --bg-code: #f0f2f4;
+      --accent: #0d6efd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 2.5rem;
+      line-height: 1.6;
+      color: var(--text);
+      font-size: 15px;
+    }
+    .header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+    .header h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      margin: 0 0 0.35rem 0;
+      letter-spacing: -0.02em;
+    }
+    .header .subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+    nav.toc {
+      background: var(--bg-section);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+    }
+    nav.toc h2 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+      margin: 0 0 0.75rem 0;
+    }
+    nav.toc ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav.toc li { margin: 0.35rem 0; }
+    nav.toc a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    nav.toc a:hover { text-decoration: underline; }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+      scroll-margin-top: 1rem;
+    }
+    h2:first-of-type { margin-top: 0; }
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p { margin: 0.5rem 0 1rem; }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.95em;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+    }
+    th {
+      background: var(--bg-section);
+      font-weight: 600;
+    }
+    tbody tr:nth-child(even) { background: #fafafa; }
+    tbody tr:hover { background: #f5f5f5; }
+    ul, ol { margin: 0.5rem 0 1rem; padding-left: 1.5rem; }
+    li { margin: 0.35rem 0; }
+    .mermaid {
+      margin: 1.5rem 0;
+      text-align: center;
+      padding: 1rem;
+      background: var(--bg-section);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    code {
+      background: var(--bg-code);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.88em;
+      font-family: 'Consolas', 'Monaco', monospace;
+    }
+    .glance {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0 1.5rem;
+    }
+    .glance-item {
+      background: var(--bg-section);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .glance-item strong { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .glance-item span { font-size: 1rem; }
+    section { margin-bottom: 2rem; }
+    .run-dir {
+      background: var(--bg-code);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 0.9em;
+      overflow-x: auto;
+      white-space: pre;
+    }
+    @media print {
+      body { max-width: none; padding: 1rem; }
+      nav.toc { break-after: avoid; }
+      .mermaid { background: #fff; border: 1px solid #ccc; }
+      a { color: #000; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Control Plane – Architecture Report</h1>
+    <p class="subtitle">Multi-agent orchestration for data analysis and workflows</p>
+  </header>
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>Contents</h2>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#pipeline">Pipeline Diagram</a></li>
+      <li><a href="#phases">Phases</a></li>
+      <li><a href="#phase2-sequence">Phase 2 Boss–Worker Sequence</a></li>
+      <li><a href="#modules">Key Modules</a></li>
+      <li><a href="#component-overview">Component Overview</a></li>
+      <li><a href="#dataflow">Data Flow</a></li>
+      <li><a href="#run-structure">Run Directory Structure</a></li>
+      <li><a href="#model-clients">Model Clients and Config</a></li>
+      <li><a href="#manifest-config">Manifest and Config</a></li>
+      <li><a href="#file-reference">File Reference</a></li>
+    </ul>
+  </nav>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>
+      Control Plane is a multi-agent orchestration system for data analysis and workflows.
+      It uses <strong>GPT-5.1</strong> (Boss) and <strong>Claude Sonnet</strong> (Worker) to classify tasks,
+      split them into steps, and run them with verification and retries. The pipeline is manifest-driven:
+      you describe the task in a JSON manifest and run without code changes. Outputs are written under
+      a timestamped run directory with phase-specific artifacts, a file catalog, and an end-to-end summary.
+    </p>
+    <div class="glance">
+      <div class="glance-item"><strong>Entry</strong><span><code>run_control_plane.py --manifest &lt;path&gt;</code></span></div>
+      <div class="glance-item"><strong>Phases</strong><span>0 (Classify) → 1 (Divide) → 2 (Execute)</span></div>
+      <div class="glance-item"><strong>Models</strong><span>GPT-5.1 (Boss), Claude Sonnet (Worker)</span></div>
+      <div class="glance-item"><strong>Output</strong><span><code>runs/run_YYYYMMDD_HHMMSS/</code></span></div>
+    </div>
+    <p>
+      High-level flow: <strong>Manifest</strong> → <strong>Phase 0</strong> (task classification)
+      → <strong>Phase 1</strong> (task division / execution plan) → <strong>Phase 2</strong>
+      (Boss–Worker execution) → <strong>Outputs</strong>.
+    </p>
+  </section>
+
+  <section id="pipeline">
+    <h2>Pipeline Diagram</h2>
+    <div class="mermaid">
+flowchart LR
+  Manifest[Manifest]
+  Phase0[Phase 0: Classifier]
+  Phase1[Phase 1: Divider]
+  Phase2[Phase 2: Boss-Worker]
+  Outputs[Outputs]
+
+  Manifest -->|"task + user_uploads"| Phase0
+  Phase0 -->|"core vs side tasks"| Phase1
+  Phase1 -->|"execution_plan.json"| Phase2
+  Phase2 -->|"file_catalog, e2e_summary"| Outputs
+
+  subgraph phase2Detail [Phase 2 detail]
+    Boss[Boss: GPT-5.1]
+    Worker[Worker: Claude]
+    Boss -->|"delegate"| Worker
+    Worker -->|"results"| Boss
+  end
+    </div>
+    <h3>Detailed flow with artifacts</h3>
+    <div class="mermaid">
+flowchart TB
+  subgraph input [Input]
+    ManifestFile[manifest.json]
+    UserFiles[user_uploads]
+  end
+  subgraph phase0Block [Phase 0]
+    Classifier[TaskClassifier]
+    CoreTasks[core_tasks]
+    SideTasks[side_tasks]
+    Classifier --> CoreTasks
+    Classifier --> SideTasks
+  end
+  subgraph phase1Block [Phase 1]
+    Divider[CollaborativeTaskDivider]
+    Structure[structure_analysis.json]
+    Plan[execution_plan.json]
+    Divider --> Structure
+    Divider --> Plan
+  end
+  subgraph phase2Block [Phase 2]
+    Orchestrator[Orchestrator]
+    BossAgent[Boss]
+    WorkerAgent[Worker]
+    Orchestrator --> BossAgent
+    BossAgent --> WorkerAgent
+  end
+  subgraph output [Output]
+    FileCatalog[file_catalog.json]
+    VectorStore[vector_store.pkl]
+    E2ESummary[e2e_summary.json]
+  end
+  ManifestFile --> Classifier
+  UserFiles --> Classifier
+  CoreTasks --> Divider
+  Plan --> Orchestrator
+  WorkerAgent --> FileCatalog
+  Orchestrator --> E2ESummary
+    </div>
+  </section>
+
+  <section id="phases">
+    <h2>Phases</h2>
+    <h3>Phase 0: Classifier flow</h3>
+    <div class="mermaid">
+flowchart LR
+  Manifest[Manifest] --> Claude[Claude Understander]
+  Manifest --> GPT[GPT-5 Understander]
+  Claude --> Negotiation[Negotiation]
+  GPT --> Negotiation
+  Negotiation --> Overseer[Overseer: GPT-5.1]
+  Overseer --> Classification[TaskClassification]
+  Classification --> Core[core_tasks]
+  Classification --> Side[side_tasks]
+    </div>
+    <h3>Phase 1: Divider flow</h3>
+    <div class="mermaid">
+flowchart LR
+  CoreTask[core_tasks] --> Step1a[1a: Structure analysis]
+  Step1a --> StructureJSON[structure_analysis.json]
+  StructureJSON --> Step1b[1b: Claude + GPT debate]
+  Step1b --> Plan[execution_plan.json]
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Phase</th>
+          <th>Role(s)</th>
+          <th>Model(s)</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0</td>
+          <td>Classifier, Overseer</td>
+          <td>Claude Sonnet, GPT-5.1</td>
+          <td>Initial task analysis; identify core vs side tasks; optional side-task execution (skippable via manifest).</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Divider</td>
+          <td>Claude + GPT-5.1</td>
+          <td>Structure analysis (code execution), then collaborative debate to produce execution plan (<code>execution_plan.json</code>).</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Boss, Worker</td>
+          <td>GPT-5.1 (Boss), Claude Sonnet (Worker)</td>
+          <td>Boss delegates subtasks to Worker; Worker runs code, file edits, PDF extraction, RAG, TODOs; Boss verifies and can redelegate.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="phase2-sequence">
+    <h2>Phase 2 Boss–Worker Sequence</h2>
+    <p>For each task in the execution plan, the orchestrator runs this loop:</p>
+    <div class="mermaid">
+sequenceDiagram
+  participant Orch as Orchestrator
+  participant Boss as Boss (GPT-5.1)
+  participant Worker as Worker (Claude)
+
+  Orch->>Boss: TaskMessage with work_scope
+  Boss->>Worker: Delegate subtask
+  Worker->>Worker: Run tools: code, file edit, PDF, RAG
+  Worker->>Boss: TaskCompletionMessage + outputs
+  Boss->>Boss: Verify results
+  alt Accept
+    Boss->>Orch: Task complete; update catalog
+  else Redelegate
+    Boss->>Worker: Refined instructions
+    Worker->>Boss: Updated results
+  end
+  Orch->>Orch: Next task or finish
+    </div>
+  </section>
+
+  <section id="modules">
+    <h2>Key Modules</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Path</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><code>control_plane_v2/run_control_plane.py</code></td><td>Entry point; loads manifest and env, runs Phase 0 → 1 → 2 pipeline.</td></tr>
+        <tr><td><code>control_plane_v2/phase_0/task_classifier.py</code></td><td>TaskClassifier; coordinates Claude/GPT understanders and overseer.</td></tr>
+        <tr><td><code>control_plane_v2/phase_0/side_task_solver.py</code></td><td>Optional side-task execution (generator/executor/verifier agents).</td></tr>
+        <tr><td><code>control_plane_v2/phase_1/collaborative_divider_v2.py</code></td><td>CollaborativeTaskDivider; structure analysis and task division, writes <code>execution_plan.json</code>.</td></tr>
+        <tr><td><code>control_plane_v2/phase_2/orchestrator_boss_worker.py</code></td><td>BossWorkerOrchestrator; reads execution plan, runs Boss and Worker loop per task.</td></tr>
+        <tr><td><code>control_plane_v2/agent_generator/model_clients.py</code></td><td>Builds all LLM clients from env (Azure OpenAI, Azure Anthropic, Bedrock).</td></tr>
+        <tr><td><code>control_plane_v2/workspace_manager.py</code></td><td>Run/phase/task directory layout: <code>runs/run_YYYYMMDD_HHMMSS/phase0|phase1|phase2/</code>.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="component-overview">
+    <h2>Component Overview</h2>
+    <p>How the main entry point wires phases, workspace, and model clients:</p>
+    <div class="mermaid">
+flowchart TB
+  Entry[run_control_plane.py]
+  Entry --> LoadManifest[Load manifest + env_info]
+  Entry --> Workspace[workspace_manager]
+  Entry --> ModelClients[model_clients.py]
+  LoadManifest --> Phase0[phase_0: TaskClassifier]
+  LoadManifest --> Phase1[phase_1: CollaborativeTaskDivider]
+  LoadManifest --> Phase2[phase_2: BossWorkerOrchestrator]
+  Workspace --> Phase0
+  Workspace --> Phase1
+  Workspace --> Phase2
+  ModelClients --> Phase0
+  ModelClients --> Phase1
+  ModelClients --> Phase2
+  Phase0 --> Phase1
+  Phase1 --> Phase2
+    </div>
+  </section>
+
+  <section id="dataflow">
+    <h2>Data Flow</h2>
+    <div class="mermaid">
+flowchart LR
+  A[1. Manifest load] --> B[2. user_uploads copy]
+  B --> C[3. Phase 0 classify]
+  C --> D[4. Phase 1 plan]
+  D --> E[5. Phase 2 execute]
+  E --> F[6. outputs]
+    </div>
+    <ol>
+      <li><strong>Manifest load</strong> – Path from CLI <code>--manifest</code>; JSON loaded; paths resolved (e.g. <code>user_uploads</code>).</li>
+      <li><strong>User uploads</strong> – Files listed in <code>manifest["user_uploads"]</code> are copied to <code>runs/&lt;run_id&gt;/user_uploads/</code>.</li>
+      <li><strong>Phase 0</strong> – Cleaned manifest + context → TaskClassifier → TaskClassification (core_tasks, side_tasks). Optional: SideTaskSolver runs; output under <code>phase0/</code>.</li>
+      <li><strong>Phase 1</strong> – Core task + manifest → CollaborativeTaskDivider → <code>phase1/structure_analysis.json</code>, then <code>phase1/execution_plan.json</code>.</li>
+      <li><strong>Phase 2</strong> – Orchestrator reads <code>execution_plan.json</code>; for each task, Boss delegates to Worker; Worker uses tools, writes to task <code>outputs/</code> and <code>tool_results/</code>; Boss verifies; results and file catalog updated.</li>
+      <li><strong>Outputs</strong> – Run directory contains <code>file_catalog.json</code>, <code>vector_store.pkl</code>, <code>e2e_summary.json</code>; phase dirs contain phase-specific artifacts and logs.</li>
+    </ol>
+  </section>
+
+  <section id="run-structure">
+    <h2>Run Directory Structure</h2>
+    <p>After a run, outputs live under <code>runs/run_YYYYMMDD_HHMMSS/</code>:</p>
+    <div class="mermaid">
+flowchart TB
+  subgraph runDir [runs/run_YYYYMMDD_HHMMSS]
+    user_uploads[user_uploads/]
+    subgraph phase0Dir [phase0/]
+      p0out[classification, side-task outputs]
+    end
+    subgraph phase1Dir [phase1/]
+      structure[structure_analysis.json]
+      plan[execution_plan.json]
+    end
+    subgraph phase2Dir [phase2/]
+      logs[logs/]
+      taskWorkspaces[task workspaces]
+    end
+    fileCatalog[file_catalog.json]
+    vectorStore[vector_store.pkl]
+    e2e[e2e_summary.json]
+  end
+    </div>
+    <p>Text view:</p>
+    <div class="run-dir">runs/run_YYYYMMDD_HHMMSS/
+├── user_uploads/          # Copied manifest files
+├── phase0/                # Classification, optional side-task outputs
+├── phase1/
+│   ├── structure_analysis.json
+│   └── execution_plan.json
+├── phase2/
+│   ├── logs/              # phase2_execution.log, worker_detail.log
+│   └── task workspaces    # outputs/, tool_results/ per task
+├── file_catalog.json
+├── vector_store.pkl
+└── e2e_summary.json</div>
+  </section>
+
+  <section id="model-clients">
+    <h2>Model Clients and Config</h2>
+    <p><code>env_info.json</code> drives which LLM backends are used. Model clients are built once and passed into all phases:</p>
+    <div class="mermaid">
+flowchart TB
+  subgraph config [env_info.json]
+    Azure[azure: endpoint, api_key, deployments]
+    AnthropicAz[anthropic_azure: Claude Sonnet]
+    Bedrock[bedrock: optional]
+  end
+  subgraph clients [create_all_model_clients]
+    GPT[GPT-4o, 4.1, 5.1]
+    Claude[Claude Sonnet]
+  end
+  Azure --> GPT
+  AnthropicAz --> Claude
+  Bedrock -.->|fallback| Claude
+  GPT --> P0[Phase 0]
+  GPT --> P1[Phase 1]
+  GPT --> Boss[Phase 2 Boss]
+  Claude --> P0
+  Claude --> P1
+  Claude --> Worker[Phase 2 Worker]
+    </div>
+  </section>
+
+  <section id="manifest-config">
+    <h2>Manifest and Config</h2>
+    <h3>Manifest</h3>
+    <p>
+      The manifest is a JSON file that defines the task, inputs, and options. Key fields include:
+      <code>task_id</code>, <code>task_type</code>, <code>description</code>, <code>user_uploads</code> (array of
+      <code>source</code> and <code>filename</code>), <code>skip_side_tasks</code>, <code>transformation_config</code>,
+      <code>required_deliverables</code>, <code>worker_instructions</code>, and optional <code>execution_preferences</code>.
+      Paths are resolved relative to the project root; <code>user_uploads</code> entries are copied into
+      the run’s <code>user_uploads</code> folder. Example: <code>manifests/manifest_amazon_analysis.json</code>.
+    </p>
+    <h3>Environment</h3>
+    <p>
+      <code>env_info.json</code> at the project root (not committed; see <code>env_info.json.example</code>) holds:
+    </p>
+    <ul>
+      <li><strong>llm_config.azure</strong> – Azure OpenAI endpoint, api_key, deployment names (e.g. gpt5_model, gpt41_deployment); optional <code>chat_endpoint</code> / <code>chat_api_key</code> for a separate chat resource.</li>
+      <li><strong>llm_config.anthropic_azure</strong> – Azure Anthropic (Claude): endpoint, api_key, sonnet_deployment. Used when <code>use_azure_for_claude</code> is true.</li>
+      <li><strong>llm_config.bedrock</strong> – Optional; AWS Bedrock for Claude if not using Azure Anthropic.</li>
+      <li><strong>database_config</strong>, <strong>external_apis</strong> – For DB and external services (e.g. Tavily) when needed.</li>
+    </ul>
+  </section>
+
+  <section id="file-reference">
+    <h2>File Reference</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Purpose</th>
+          <th>Path</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Entry point</td><td><code>control_plane_v2/run_control_plane.py</code></td></tr>
+        <tr><td>Manifest load / parse / resolve</td><td><code>control_plane_v2/run_control_plane.py</code></td></tr>
+        <tr><td>Env config</td><td>Project root <code>env_info.json</code>; example <code>env_info.json.example</code></td></tr>
+        <tr><td>Model clients</td><td><code>control_plane_v2/agent_generator/model_clients.py</code></td></tr>
+        <tr><td>Phase 0 classifier</td><td><code>control_plane_v2/phase_0/task_classifier.py</code></td></tr>
+        <tr><td>Phase 1 divider</td><td><code>control_plane_v2/phase_1/collaborative_divider_v2.py</code></td></tr>
+        <tr><td>Phase 2 orchestrator</td><td><code>control_plane_v2/phase_2/orchestrator_boss_worker.py</code></td></tr>
+        <tr><td>Workspace layout</td><td><code>control_plane_v2/workspace_manager.py</code></td></tr>
+        <tr><td>Phase 1 to 2 messages</td><td><code>control_plane_v2/phase_1_to_2z_messages.py</code></td></tr>
+        <tr><td>Execution plan path</td><td><code>runs/&lt;run_id&gt;/phase1/execution_plan.json</code></td></tr>
+        <tr><td>E2E summary</td><td><code>runs/&lt;run_id&gt;/e2e_summary.json</code></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+  </script>
+</body>
+</html>
