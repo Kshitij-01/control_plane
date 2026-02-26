@@ -473,9 +473,9 @@ async def main():
         logger.info("\n[6/12] Running task classification (Claude + GPT-5 + Overseer)...")
         classifier = TaskClassifier(
             claude_client=clients['claude-4.5'],
-            gpt5_client=clients['gpt-5-low'],
+            gpt5_client=clients.get('gpt-5-low', clients.get('gpt-5', clients['claude-4.5'])),
             runtime=runtime,
-            overseer_client=clients['gpt-5-medium'],
+            overseer_client=clients.get('gpt-5-medium', clients.get('gpt-5', clients['claude-4.5'])),
             max_negotiation_iterations=3,
             max_overseer_iterations=5  # Increased from default 2 to give more chances
         )
@@ -564,7 +564,7 @@ async def main():
     
     divider = CollaborativeTaskDivider(
         claude_client=clients['claude-4.5'],
-        gpt5_client=clients['gpt-5-medium'],
+        gpt5_client=clients.get('gpt-5-medium', clients.get('gpt-5', clients['claude-4.5'])),
         claude_executor=claude_executor,
         gpt5_executor=gpt5_executor,
         workspace_manager=workspace_manager,

@@ -92,8 +92,8 @@ class BossWorkerOrchestrator:
         
         # Create model clients
         clients = create_all_model_clients(self.env_config)
-        # Boss uses GPT-5 High for complex planning and verification
-        self.gpt5_client = clients.get('gpt-5-high', clients.get('gpt-5', clients.get('gpt-4.1', clients.get('gpt-4o'))))
+        # Boss uses GPT-5.1 (gpt-5-medium / gpt-5-high from config; gpt5_model = enmapper-gpt-5.1)
+        self.gpt5_client = clients.get('gpt-5-high', clients.get('gpt-5-medium', clients.get('gpt-5', clients.get('gpt-4.1', clients.get('gpt-4o')))))
         self.claude_client = clients.get('claude-4.5', clients.get('claude-3.5'))
         
         if not self.gpt5_client or not self.claude_client:

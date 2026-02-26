@@ -1,0 +1,43 @@
+{
+  "task_id": "amazon_csv_analysis",
+  "skip_side_tasks": true,
+  "task_type": "exploratory_data_analysis",
+  "description": "Run exploratory data analysis on the Amazon dataset. The input is a ZIP file (amazon.csv.zip) containing a CSV. Extract the archive, load the CSV, perform comprehensive EDA with statistics and visualizations, and produce a clear analysis report.",
+  "user_uploads": [
+    {
+      "source": "data/raw/amazon.csv.zip",
+      "filename": "amazon.csv.zip"
+    }
+  ],
+  "transformation_config": {
+    "skip_side_tasks": true
+  },
+  "input_data": {
+    "source_type": "compressed_archive",
+    "source_path": "amazon.csv.zip",
+    "description": "ZIP archive containing Amazon dataset CSV - extract and analyze"
+  },
+  "execution_preferences": {
+    "task_organization": "sequential",
+    "prefer_simple_plan": true,
+    "max_tasks": 5
+  },
+  "required_deliverables": {
+    "extract_and_profile": [
+      "Extract amazon.csv.zip and identify the CSV file(s) inside",
+      "Load the CSV and report: row count, column names, dtypes, sample rows",
+      "Save a short data profile (e.g. outputs/data_profile.json or .csv)"
+    ],
+    "eda_and_report": [
+      "Perform exploratory data analysis: distributions, missing values, correlations where applicable",
+      "Generate visualizations (e.g. outputs/eda_plots/ or similar) - key charts only",
+      "Produce a final analysis report (outputs/amazon_analysis_report.md or .html) with findings and recommendations"
+    ]
+  },
+  "output_requirements": {
+    "format": "markdown or HTML",
+    "quality_level": "high",
+    "include_visualizations": true
+  },
+  "worker_instructions": "You are analyzing an Amazon dataset. (1) Extract the ZIP file from user_uploads (amazon.csv.zip), (2) Load the CSV and understand its structure and columns, (3) Perform EDA: summary stats, missing values, distributions, and a few meaningful visualizations, (4) Write a clear analysis report with main findings. Save outputs under an outputs/ folder. Be thorough but efficient."
+}
